@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Dispositif — Transhumance</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#060709;--bg2:#0c0e14;--bg3:#12151e;--bg4:#181c28;--tx:#e2ded6;--tx2:#8a8578;--tx3:#504d46;--gr:#b8e847;--gr20:rgba(184,232,71,.2);--gr08:rgba(184,232,71,.08);--gr04:rgba(184,232,71,.04);--or:#e8854a;--bl:#5ba4f5;--vi:#b44af5;--serif:'Instrument Serif',Georgia,serif;--sans:'Outfit',system-ui,sans-serif;--mono:'DM Mono',monospace;--ease:cubic-bezier(.16,1,.3,1)}
+html{font-size:16px;scroll-behavior:smooth}body{font-family:var(--sans);background:var(--bg);color:var(--tx);overflow-x:hidden;line-height:1.6;-webkit-font-smoothing:antialiased}::selection{background:var(--gr);color:var(--bg)}a{color:var(--gr);text-decoration:none;transition:all .3s var(--ease)}a:hover{color:var(--tx)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:9000;opacity:.3;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.04'/%3E%3C/svg%3E")}
+.hdr{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,7,9,.85);backdrop-filter:blur(24px) saturate(1.4);-webkit-backdrop-filter:blur(24px) saturate(1.4);border-bottom:1px solid rgba(255,255,255,.04)}.hdr-in{max-width:1400px;margin:0 auto;padding:0 1.25rem;display:flex;align-items:center;justify-content:space-between;height:3.5rem}.logo{font-family:var(--sans);font-weight:800;font-size:1.05rem;letter-spacing:-.03em;color:var(--tx);text-transform:uppercase;text-decoration:none}.logo span{color:var(--gr)}
+.nd{display:none}.nd ul{list-style:none;display:flex;gap:.15rem;align-items:center}.nd a,.nd .ddb{font-family:var(--mono);font-size:.68rem;font-weight:400;letter-spacing:.05em;text-transform:uppercase;color:var(--tx2);padding:.45rem .7rem;border-radius:6px;transition:all .25s var(--ease);cursor:pointer;background:none;border:none;display:inline-flex;align-items:center;gap:.3rem;text-decoration:none}.nd a:hover,.nd .ddb:hover,.nd a.on,.nd .ddb.on{color:var(--tx);background:var(--gr08)}.dd{position:relative}.ddm{position:absolute;top:calc(100% + .6rem);left:50%;transform:translateX(-50%) translateY(-6px);background:var(--bg3);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:.5rem 0;min-width:13rem;opacity:0;visibility:hidden;transition:all .25s var(--ease);box-shadow:0 20px 60px rgba(0,0,0,.6)}.dd:hover .ddm,.dd:focus-within .ddm{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}.ddm a{display:block;padding:.5rem 1rem;font-family:var(--mono);font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;color:var(--tx2)}.ddm a:hover{color:var(--tx);background:var(--gr08)}.dda{font-size:.55rem;transition:transform .25s var(--ease)}.dd:hover .dda{transform:rotate(180deg)}
+.ham{display:flex;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.5rem;z-index:101}.ham i{display:block;width:20px;height:1.5px;background:var(--tx);transition:all .35s var(--ease);transform-origin:center}.ham.on i:nth-child(1){transform:rotate(45deg) translate(4px,5px)}.ham.on i:nth-child(2){opacity:0;transform:scaleX(0)}.ham.on i:nth-child(3){transform:rotate(-45deg) translate(4px,-5px)}
+.nm{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;flex-direction:column;justify-content:center;padding:2rem;opacity:0;visibility:hidden;transition:all .45s var(--ease)}.nm.on{opacity:1;visibility:visible}.nm ul{list-style:none}.nm>ul>li{border-bottom:1px solid rgba(255,255,255,.04)}.nm a,.nm .sb{display:block;font-family:var(--sans);font-weight:600;font-size:1.5rem;color:var(--tx2);padding:.7rem 0;transition:color .25s var(--ease);background:none;border:none;cursor:pointer;text-align:left;width:100%;text-decoration:none}.nm a:hover,.nm .sb:hover{color:var(--gr)}.nm .su{display:none;padding-left:1.5rem;padding-bottom:.3rem}.nm .su.on{display:block}.nm .su a{font-size:1rem;font-weight:400;padding:.35rem 0;color:var(--tx3)}.nm .su a:hover{color:var(--gr)}
+@media(min-width:960px){.ham{display:none}.nd{display:block}.hdr-in{height:4rem;padding:0 2.5rem}}
+.ph{padding:7rem 1.25rem 3rem;max-width:1400px;margin:0 auto}.ph-l{font-family:var(--mono);font-size:.65rem;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:var(--tx3);margin-bottom:1.2rem;opacity:0;animation:fu .8s var(--ease) .1s forwards}.ph-t{font-family:var(--serif);font-weight:400;font-size:clamp(1.8rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.02em;color:var(--tx);max-width:42rem;opacity:0;animation:fu .9s var(--ease) .2s forwards}.ph-d{margin-top:1.2rem;font-size:clamp(.95rem,2vw,1.1rem);color:var(--tx2);max-width:38rem;line-height:1.8;font-weight:300;opacity:0;animation:fu .9s var(--ease) .35s forwards}
+.sec{padding:4rem 1.25rem;max-width:1400px;margin:0 auto}.sec--n{max-width:680px}
+.pr{font-size:1rem;line-height:1.85;opacity:0;animation:fu .8s var(--ease) .4s forwards}.pr h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.4rem,3vw,2rem);color:var(--tx);margin-top:3rem;margin-bottom:.8rem}.pr h3{font-family:var(--sans);font-weight:600;font-size:1.05rem;color:var(--tx);margin-top:2rem;margin-bottom:.5rem}.pr p{margin-bottom:1.1rem;color:var(--tx2);font-weight:300}.pr strong{color:var(--tx);font-weight:500}.pr em{color:var(--gr);font-style:italic}
+.nt{background:var(--bg2);border-left:2px solid var(--gr);padding:1.2rem 1.5rem;margin:2rem 0;border-radius:0 10px 10px 0;font-size:.9rem;color:var(--tx2);font-weight:300;line-height:1.7}.nt strong{color:var(--tx);font-weight:500}
+.dv{border:none;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent);margin:3rem 0}
+.cd-grid{display:grid;grid-template-columns:1fr;gap:1rem}@media(min-width:560px){.cd-grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:960px){.cd-grid--3{grid-template-columns:repeat(3,1fr)}}
+.cd{background:var(--bg2);border:1px solid rgba(255,255,255,.04);border-radius:14px;padding:1.75rem;position:relative;overflow:hidden;transition:all .4s var(--ease);text-decoration:none;display:block}.cd::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,var(--gr04) 0%,transparent 60%);opacity:0;transition:opacity .5s var(--ease)}.cd:hover{border-color:rgba(184,232,71,.12);transform:translateY(-3px)}.cd:hover::before{opacity:1}
+.cd-ln{position:absolute;top:0;left:1.75rem;right:1.75rem;height:1px;background:linear-gradient(90deg,transparent,var(--gr),transparent);transform:scaleX(0);transition:transform .5s var(--ease)}.cd:hover .cd-ln{transform:scaleX(1)}
+.cd-n{font-family:var(--mono);font-size:.62rem;font-weight:400;letter-spacing:.12em;text-transform:uppercase;color:var(--gr);margin-bottom:.7rem;position:relative}.cd-t{font-family:var(--sans);font-weight:700;font-size:1.25rem;color:var(--tx);margin-bottom:.5rem;position:relative;letter-spacing:-.01em}.cd-d{font-size:.85rem;font-weight:300;color:var(--tx2);line-height:1.6;position:relative}
+.cd-a{position:absolute;bottom:1.5rem;right:1.5rem;width:28px;height:28px;border-radius:50%;border:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;transition:all .35s var(--ease);color:var(--tx3);font-size:.75rem}.cd:hover .cd-a{border-color:var(--gr);color:var(--gr);transform:translate(2px,-2px)}
+.cd-bar{position:absolute;top:0;left:0;right:0;height:3px}.cd-motif{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--or);margin-bottom:.5rem}.cd-role{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gr);margin-bottom:.5rem}
+.tool-ph{background:var(--bg2);border:1px dashed rgba(255,255,255,.08);border-radius:14px;padding:3rem;text-align:center;min-height:350px;display:flex;align-items:center;justify-content:center}.tool-ph p:first-child{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gr)}.tool-ph p:last-child{color:var(--tx3);margin-top:.5rem;font-size:.88rem;max-width:28rem;font-weight:300}
+.ft{border-top:1px solid rgba(255,255,255,.04);padding:2.5rem 1.25rem;text-align:center}.ft p{font-family:var(--mono);font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+@keyframes fu{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}@keyframes op{0%{opacity:.6;transform:scale(1)}100%{opacity:1;transform:scale(1.15)}}
+@media(min-width:960px){.ph{padding:8rem 2.5rem 3.5rem}.sec{padding:5rem 2.5rem}}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--bg4);border-radius:3px}
+</style>
+</head>
+<body>
+<div class="grain"></div>
+<header class="hdr"><div class="hdr-in">
+<a href="../index.html" class="logo">Transhu<span>mance</span></a>
+<nav class="nd"><ul>
+<li><a href="../index.html">Accueil</a></li>
+<li class="dd"><button class="ddb on">L'Atelier <span class="dda">&#9662;</span></button><div class="ddm"><a href="../atelier/dispositif.html">Le Dispositif</a><a href="../atelier/jeu.html">Le Jeu</a></div></li>
+<li class="dd"><button class="ddb">L'Univers <span class="dda">&#9662;</span></button><div class="ddm"><a href="../univers/contexte.html">Le Contexte</a><a href="../univers/timeline.html">La Timeline</a><a href="../univers/personnages.html">Les Personnages</a><a href="../univers/court-metrage.html">Le Court Metrage</a></div></li>
+<li class="dd"><button class="ddb">Atlas <span class="dda">&#9662;</span></button><div class="ddm"><a href="../atlas/carte.html">La Carte</a><a href="../atlas/insa-rouen.html">INSA Rouen</a></div></li>
+<li class="dd"><button class="ddb">Approfondir <span class="dda">&#9662;</span></button><div class="ddm"><a href="../approfondir/theorie-politique.html">Theorie politique</a><a href="../approfondir/science-du-vivant.html">Science du vivant</a><a href="../approfondir/references.html">References</a></div></li>
+<li><a href="../a-propos.html">A propos</a></li>
+</ul></nav>
+<button class="ham" aria-label="Menu"><i></i><i></i><i></i></button>
+</div></header>
+<nav class="nm"><ul>
+<li><a href="../index.html">Accueil</a></li>
+<li><button class="sb">L'Atelier</button><ul class="su"><li><a href="../atelier/dispositif.html">Le Dispositif</a></li><li><a href="../atelier/jeu.html">Le Jeu</a></li></ul></li>
+<li><button class="sb">L'Univers</button><ul class="su"><li><a href="../univers/contexte.html">Le Contexte</a></li><li><a href="../univers/timeline.html">La Timeline</a></li><li><a href="../univers/personnages.html">Les Personnages</a></li><li><a href="../univers/court-metrage.html">Le Court Metrage</a></li></ul></li>
+<li><button class="sb">Atlas</button><ul class="su"><li><a href="../atlas/carte.html">La Carte</a></li><li><a href="../atlas/insa-rouen.html">INSA Rouen</a></li></ul></li>
+<li><button class="sb">Approfondir</button><ul class="su"><li><a href="../approfondir/theorie-politique.html">Theorie politique</a></li><li><a href="../approfondir/science-du-vivant.html">Science du vivant</a></li><li><a href="../approfondir/references.html">References</a></li></ul></li>
+<li><a href="../a-propos.html">A propos</a></li>
+</ul></nav>
+<main>
+<div class="ph">
+  <p class="ph-l">L'Atelier / Le Dispositif</p>
+  <h1 class="ph-t">4 sessions, un naturaliste, un territoire</h1>
+  <p class="ph-d">Les ateliers Transhumance forment un arc narratif et creatif continu. Ils peuvent se derouler sur 2 journees ou sur 4 sessions separees. L'ideal est de les conduire avec le meme groupe. Chaque atelier produit des livrables concrets qui alimentent les suivants.</p>
+</div>
+
+<section class="sec">
+
+<style>
+.sim{display:flex;flex-direction:column;gap:0;max-width:900px;margin:0 auto}
+.sim-block{background:var(--bg2);border:1px solid rgba(255,255,255,.04);border-radius:14px;overflow:hidden;transition:all .4s var(--ease)}
+.sim-block:hover{border-color:rgba(255,255,255,.08)}
+.sim-block.on{border-color:rgba(184,232,71,.15)}
+.sim-head{display:flex;align-items:center;gap:1rem;padding:1.2rem 1.5rem;cursor:pointer;transition:background .3s var(--ease)}
+.sim-head:hover{background:rgba(255,255,255,.02)}
+.sim-num{font-family:var(--mono);font-size:.75rem;font-weight:500;letter-spacing:.08em;color:var(--gr);min-width:2.2rem}
+.sim-info{flex:1}
+.sim-title{font-family:var(--sans);font-weight:700;font-size:1.1rem;color:var(--tx);margin-bottom:.15rem}
+.sim-sub{font-family:var(--mono);font-size:.75rem;color:var(--tx3);letter-spacing:.04em}
+.sim-toggle{width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:var(--tx3);font-size:.85rem;transition:all .35s var(--ease);flex-shrink:0}
+.sim-block.on .sim-toggle{border-color:var(--gr);color:var(--gr);transform:rotate(180deg)}
+.sim-body{max-height:0;overflow:hidden;transition:max-height .5s var(--ease)}
+.sim-block.on .sim-body{max-height:800px}
+.sim-inner{padding:0 1.5rem 1.5rem;display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:640px){.sim-inner{grid-template-columns:1fr 1fr}}
+.sim-col h4{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gr);margin-bottom:.5rem}
+.sim-col p{font-size:.88rem;color:var(--tx2);font-weight:300;line-height:1.6;margin-bottom:.4rem}
+.sim-col strong{color:var(--tx);font-weight:500}
+/* Flow arrow between blocks */
+.sim-flow{display:flex;align-items:center;justify-content:center;padding:.4rem 0;color:var(--tx3);font-size:1.2rem}
+.sim-flow span{display:inline-block;animation:flowPulse 2s var(--ease) infinite}
+@keyframes flowPulse{0%,100%{opacity:.3;transform:translateY(0)}50%{opacity:.8;transform:translateY(3px)}}
+/* Livrables tags */
+.sim-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.5rem}
+.sim-tag{font-family:var(--mono);font-size:.65rem;letter-spacing:.04em;padding:.2rem .55rem;border-radius:20px;border:1px solid rgba(184,232,71,.2);color:var(--gr)}
+</style>
+
+<div class="sim">
+
+  <div class="sim-block on" data-sim="0">
+    <div class="sim-head">
+      <span class="sim-num">I</span>
+      <div class="sim-info">
+        <p class="sim-title">Balade et Bestiaire</p>
+        <p class="sim-sub">2 heures — Terrain + creation</p>
+      </div>
+      <div class="sim-toggle">&#9662;</div>
+    </div>
+    <div class="sim-body">
+      <div class="sim-inner">
+        <div class="sim-col">
+          <h4>Deroule</h4>
+          <p><strong>10 min</strong> — Introduction a l'univers Future Faces</p>
+          <p><strong>40 min</strong> — Balade avec le naturaliste. Observation, photos, notes. Questions relais de l'animateur.</p>
+          <p><strong>10 min</strong> — Retour en salle. Chacun note 3 especes qui l'ont marque.</p>
+          <p><strong>30 min</strong> — Creation des cartes bestiaire (1 par participant)</p>
+          <p><strong>15 min</strong> — Ecriture d'une fiche personnage</p>
+          <p><strong>15 min</strong> — Pitch des temoignages. Sam dessine en live.</p>
+        </div>
+        <div class="sim-col">
+          <h4>Roles</h4>
+          <p><strong>Animateur</strong> — cadre les phases, gere le temps, pose les questions relais</p>
+          <p><strong>Naturaliste</strong> — conduit la balade, identifie les especes, valide les hybridations</p>
+          <p><strong>Sam</strong> — croquis de facilitation, profils en live</p>
+          <h4 style="margin-top:1rem">Livrables</h4>
+          <div class="sim-tags">
+            <span class="sim-tag">Cartes bestiaire</span>
+            <span class="sim-tag">Fiches personnage</span>
+            <span class="sim-tag">Croquis</span>
+            <span class="sim-tag">Temoignages</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sim-flow"><span>&#9663;</span></div>
+
+  <div class="sim-block" data-sim="1">
+    <div class="sim-head">
+      <span class="sim-num">II</span>
+      <div class="sim-info">
+        <p class="sim-title">Benchmark et Sur la Route</p>
+        <p class="sim-sub">2 heures — Discussion + jeu + game design</p>
+      </div>
+      <div class="sim-toggle">&#9662;</div>
+    </div>
+    <div class="sim-body">
+      <div class="sim-inner">
+        <div class="sim-col">
+          <h4>Deroule</h4>
+          <p><strong>30 min</strong> — Discussion lore : CRISPR, extinctions, techno-solutionnisme, deep ecology. Appui sur les temoignages de l'Atelier I.</p>
+          <p><strong>30 min</strong> — Partie de Sur la Route en groupe. Comprendre la mecanique de narration emergente.</p>
+          <p><strong>60 min</strong> — Reflexion collective : comment adapter la mecanique a l'univers Future Faces ?</p>
+        </div>
+        <div class="sim-col">
+          <h4>Questions a explorer</h4>
+          <p>Qu'est-ce qui declenche une hybridation dans la partie ?</p>
+          <p>Comment representer adaptation subie vs choisie ?</p>
+          <p>Comment les cartes bestiaire s'integrent-elles ?</p>
+          <h4 style="margin-top:1rem">Livrables</h4>
+          <div class="sim-tags">
+            <span class="sim-tag">Notes de game design</span>
+            <span class="sim-tag">Architecture du jeu</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sim-flow"><span>&#9663;</span></div>
+
+  <div class="sim-block" data-sim="2">
+    <div class="sim-head">
+      <span class="sim-num">III</span>
+      <div class="sim-info">
+        <p class="sim-title">Creation des cartes</p>
+        <p class="sim-sub">2 heures — Production + premier playtest</p>
+      </div>
+      <div class="sim-toggle">&#9662;</div>
+    </div>
+    <div class="sim-body">
+      <div class="sim-inner">
+        <div class="sim-col">
+          <h4>Deroule</h4>
+          <p><strong>60 min</strong> — Chaque participant prend en charge un type de cartes. Creation graphique et textuelle. Sam assure la coherence visuelle.</p>
+          <p><strong>30 min</strong> — Revue collective. Ajustements de formulation et d'equilibre.</p>
+          <p><strong>30 min</strong> — Playtest entre createurs. Identifier les frictions.</p>
+        </div>
+        <div class="sim-col">
+          <h4>Types de cartes</h4>
+          <p><strong>Preparatif</strong> — contexte, epoque, contraintes</p>
+          <p><strong>Peripeties</strong> — crises, rencontres, accidents</p>
+          <p><strong>Bestiaire</strong> — especes, hybridations activables</p>
+          <p><strong>Personnages</strong> — fiches du periple</p>
+          <h4 style="margin-top:1rem">Livrables</h4>
+          <div class="sim-tags">
+            <span class="sim-tag">Prototype v0.1</span>
+            <span class="sim-tag">Notes de playtest</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sim-flow"><span>&#9663;</span></div>
+
+  <div class="sim-block" data-sim="3">
+    <div class="sim-head">
+      <span class="sim-num">IV</span>
+      <div class="sim-info">
+        <p class="sim-title">Playtest public</p>
+        <p class="sim-sub">2 heures — Test avec joueurs exterieurs</p>
+      </div>
+      <div class="sim-toggle">&#9662;</div>
+    </div>
+    <div class="sim-body">
+      <div class="sim-inner">
+        <div class="sim-col">
+          <h4>Deroule</h4>
+          <p><strong>90 min</strong> — Joueurs exterieurs invites a jouer. Les createurs observent, notent, facilitent sans intervenir dans la narration.</p>
+          <p><strong>15 min</strong> — Debrief joueurs : ce qui etait clair, ce qui bloquait, ce qui a plu.</p>
+          <p><strong>15 min</strong> — CR entre participants : quelles evolutions ? Qu'est-ce que ce territoire a apporte d'unique ?</p>
+        </div>
+        <div class="sim-col">
+          <h4>Objectif</h4>
+          <p>Voir le jeu vivre sans ses createurs. Observer les incomprehensions et les moments de jeu fort.</p>
+          <h4 style="margin-top:1rem">Livrables</h4>
+          <div class="sim-tags">
+            <span class="sim-tag">Notes de playtest public</span>
+            <span class="sim-tag">Ajustements prioritaires</span>
+            <span class="sim-tag">Bilan territorial</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+document.querySelectorAll('.sim-head').forEach(head => {
+  head.addEventListener('click', () => {
+    const block = head.parentElement;
+    const wasOn = block.classList.contains('on');
+    document.querySelectorAll('.sim-block').forEach(b => b.classList.remove('on'));
+    if (!wasOn) {
+      block.classList.add('on');
+      setTimeout(() => {
+        block.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 550);
+    }
+  });
+});
+</script>
+
+</section>
+
+<section class="sec sec--n"><div class="pr">
+
+<h2>Atelier I — Balade et Bestiaire</h2>
+<p><strong>2 heures.</strong> Objectifs : introduire l'univers Future Faces de facon immersive (pas frontale), ancrer la creation dans une observation reelle du territoire, produire des fiches bestiaire et amorcer des fiches personnage.</p>
+
+<h3>Balade — 50 minutes</h3>
+<p><strong>10 min — Introduction.</strong> Presentation de l'univers Future Faces : CRISPR-Cas9, design fiction, timeline. Presentation de l'exercice a venir. Ne pas tout dire — garder du mystere pour que la balade soit une decouverte.</p>
+<p><strong>40 min — Balade avec le naturaliste.</strong> Sortie autour du site. Observation de la faune et de la flore locales. Discussion autour des especes endemiques, de l'adaptabilite environnementale, des interdependances. Les participants peuvent photographier, dessiner, noter. L'animateur pose des questions relais : « Si tu empruntais cette caracteristique, qu'est-ce que ca changerait dans ta vie ? »</p>
+<p><strong>10 min — Transition.</strong> Retour en salle. Debrief rapide. Chacun note 3 especes ou caracteristiques qui l'ont marque.</p>
+
+<h3>Fiche Bestiaire et Personnage — 60 minutes</h3>
+<p><strong>30 min — Cartes bestiaire.</strong> Chaque participant cree une carte bestiaire pour une espece rencontree pendant la balade. La carte comporte : nom de l'espece, caracteristique remarquable, illustration ou croquis, et — cle de voute — une hybridation plausible avec un humain. Sam realise des croquis de facilitation pour aider a l'ideation.</p>
+<p><strong>15 min — Fiche personnage.</strong> Ecrire le temoignage d'un descendant a 10, 50 ou 100 ans. Amorcer une fiche personnage avec 3 lignes en suivant les exemples des personnages fondateurs. Question cle : quelle contrainte environnementale a motive son hybridation ?</p>
+
+<div class="nt">En parallele : un participant peut lister des dereglements et leurs retombees sur la vie humaine, en s'appuyant sur les ressources documentaires (GIEC normand, Shift Project, OCDE). Ce materiau peut servir de fond de cartes Peripeties pour le jeu.</div>
+
+<p><strong>15 min — Pitch des temoignages.</strong> Chaque participant presente son temoignage ou sa fiche en 1 a 2 minutes. Sam dessine un profil en live selon un personnage emergent. Discussion collective : quelles hybridations semblent les plus credibles, les plus poetiques, les plus inconfortables ?</p>
+
+<p><strong>Livrables :</strong> cartes bestiaire (1 par participant minimum), fiches personnage amorcees, croquis de Sam, temoignages oraux.</p>
+
+<p><strong>Roles :</strong> l'animateur principal introduit le projet, cadre les phases, gere le temps, pose les questions relais pendant la balade. Le naturaliste conduit la balade, identifie les especes, repond aux questions, reste disponible pendant la phase bestiaire pour valider ou enrichir les hybridations. Sam (facilitateur graphique) realise des croquis de facilitation pendant l'ideation, dessine des profils en live lors des pitchs.</p>
+
+<hr class="dv">
+
+<h2>Atelier II — Benchmark et Sur la Route</h2>
+<p><strong>2 heures.</strong> Objectifs : approfondir le lore de Future Faces via la discussion, pratiquer le jeu Sur la Route pour comprendre sa mecanique narrative, commencer a reflechir a l'adaptation de cette mecanique a l'univers Future Faces.</p>
+
+<h3>Benchmark — 30 minutes</h3>
+<p><strong>30 min — Discussion lore.</strong> Discussion approfondie autour des thematiques de Future Faces : CRISPR-Cas9, 6eme et 7eme extinction de masse, derive techno-solutionniste, biomimetisme vs bionique, deep ecology. Appui sur les personnages fondateurs et les temoignages produits en Atelier I. L'objectif est de consolider une culture commune avant de concevoir.</p>
+
+<h3>Partie de Sur la Route — 30 minutes</h3>
+<p><strong>30 min — Partie de jeu.</strong> Une partie de Sur la Route est jouee en groupe. Ce jeu de cartes narratif fonctionne sur une mecanique collaborative : les joueurs construisent une histoire collectivement, carte apres carte, chacun ajoutant une piece au recit. L'objectif n'est pas de gagner mais de comprendre comment la mecanique cree de la narration emergente.</p>
+
+<div class="nt">Sur la Route est choisi parce que sa mecanique oblige les participants a inventer l'histoire au fur et a mesure — pas de recit pre-ecrit. C'est exactement la posture que Transhumance veut induire : des futurs pluriels, inventes collectivement, qui se contredisent et se completent. Et comme dans Sur la Route, le deplacement est au coeur : on ne joue pas dans un lieu fixe, on voyage.</div>
+
+<h3>Creation game design — 60 minutes</h3>
+<p><strong>60 min — Adaptation.</strong> Reflexion collective sur le deroule du jeu Transhumance. Comment adapter la mecanique de Sur la Route a l'univers ? Quelles nouvelles mecaniques introduire ? Comment les cartes bestiaire, personnage et peripeties s'articulent-elles ?</p>
+
+<p><strong>Questions a explorer :</strong> Qu'est-ce qui declenche une hybridation dans la partie ? Un choix ? Un evenement force ? Un accident ? Comment representer la tension entre adaptation subie et adaptation choisie ? Le territoire joue-t-il un role dans la mecanique ? Comment les cartes bestiaire creees en Atelier I s'integrent-elles au jeu ?</p>
+
+<p><strong>Livrables :</strong> notes de game design (mecaniques retenues, mecaniques a tester), premiere architecture du jeu Transhumance.</p>
+
+<hr class="dv">
+
+<h2>Atelier III — Creation des cartes</h2>
+<p><strong>2 heures.</strong> Objectifs : produire les cartes du jeu Transhumance a partir des materiaux des ateliers precedents, tester une premiere partie entre concepteurs.</p>
+
+<h3>Les types de cartes</h3>
+<p><strong>Cartes Preparatif :</strong> etablissent le contexte de depart d'une partie — territoire, epoque, etat du monde. Posent les contraintes environnementales dans lesquelles les personnages evoluent.</p>
+<p><strong>Cartes Peripeties :</strong> evenements qui surviennent pendant le voyage narratif. Crises ecologiques, rencontres, accidents d'hybridation, basculements politiques. Alimentees par les dereglements documentes en Atelier I.</p>
+<p><strong>Cartes Bestiaire :</strong> directement issues de l'Atelier I. Chaque carte decrit une espece locale, sa caracteristique cle, et l'hybridation possible avec un humain. Ce sont des ressources que les joueurs peuvent activer en cours de partie.</p>
+<p><strong>Cartes Personnages :</strong> fiches des personnages rencontres pendant le periple. Peuvent etre des personnages fondateurs de Future Faces ou des personnages inventes par les participants.</p>
+
+<h3>Production — 60 minutes</h3>
+<p><strong>60 min.</strong> Chaque participant prend en charge un type de cartes. Creation graphique et textuelle. Sam assure la coherence visuelle. L'animateur veille a ce que les cartes restent coherentes avec le lore etabli.</p>
+
+<h3>Affinage et playtest — 60 minutes</h3>
+<p><strong>30 min — Affinage.</strong> Revue collective des cartes produites. Ajustements de formulation, de mecaniques, d'equilibre.</p>
+<p><strong>30 min — Playtest entre createurs.</strong> Une partie courte avec les cartes produites. Objectif : identifier les frictions, les cartes trop puissantes ou trop floues, les moments qui fonctionnent.</p>
+
+<p><strong>Livrables :</strong> jeu de cartes Transhumance prototype (version 0.1), notes de playtest.</p>
+
+<hr class="dv">
+
+<h2>Atelier IV — Playtest public</h2>
+<p><strong>2 heures.</strong> Objectifs : tester le jeu avec des joueurs qui n'ont pas participe a sa creation, observer les incomprehensions et les moments de jeu fort, produire un compte-rendu collectif.</p>
+
+<h3>Partie ouverte — 90 minutes</h3>
+<p><strong>90 min.</strong> Des joueurs exterieurs sont invites a jouer. Les createurs observent, notent, facilitent sans intervenir dans la narration. L'objectif est de voir le jeu vivre sans ses createurs.</p>
+
+<h3>Compte-rendu — 30 minutes</h3>
+<p><strong>15 min — Debrief joueurs.</strong> Les joueurs externes partagent leur experience : ce qui etait clair, ce qui ne l'etait pas, ce qui leur a plu, ce qui les a bloques.</p>
+<p><strong>15 min — CR entre participants.</strong> Les createurs se retrouvent seuls pour consolider les observations. Quelles sont les prochaines evolutions ? Qu'est-ce que ce territoire et ce naturaliste ont apporte d'unique au jeu ?</p>
+
+<p><strong>Livrables :</strong> notes de playtest public, liste des ajustements prioritaires, reflexion sur ce que ce territoire specifique a genere comme materiau unique.</p>
+
+<hr class="dv">
+
+<h2>Le role du naturaliste</h2>
+
+<h3>Pourquoi un naturaliste — et pas un biologiste</h3>
+<p>Un naturaliste est avant tout un observateur du vivant en contexte reel. Contrairement au biologiste de laboratoire, il travaille sur le terrain : il identifie des especes, repere des traces, comprend comment un milieu s'auto-organise. C'est une vision systemique du vivant.</p>
+<p>Pour Future Faces, le naturaliste joue un role fondamental : il ancre la fiction dans un territoire precis. Sans lui, les mutations inventees par les participants flottent dans l'abstrait. Avec lui, elles emergent d'une observation reelle de la faune et de la flore locales.</p>
+
+<h3>Ce qu'il apporte concretement</h3>
+<p>Connaissance des especes endemiques du territoire : lesquelles sont adaptees, lesquelles disparaissent, lesquelles mutent deja. Vision des interdependances : pourquoi telle orchidee pousse dans ce sol, pourquoi tel papillon disparait quand la prairie est fauchee trop tot. Credibilite scientifique pour les hybridations inventees par les participants. Matiere narrative brute : les comportements animaux et vegetaux qu'il decrit deviennent des ressources pour les temoignages et les cartes.</p>
+
+<h3>Le lien avec la theorie constructale</h3>
+<p>La theorie constructale d'Adrian Bejan decrit comment les formes du vivant emergent de flux : eau, energie, nutriments, organismes. Les naturalistes observent exactement ces patterns — reseaux fluviaux arborescents, nervures de feuilles, architectures de termitieres, corridors de migration. Pour les ateliers, cela se traduit simplement : les hybridations les plus interessantes sont celles qui ont une logique fonctionnelle. Pas un simple emprunt esthetique, mais une adaptation a une contrainte. Le naturaliste aide a poser cette question : pourquoi ce vivant a-t-il developpe cette caracteristique ? Qu'est-ce que ca resoudrait chez un humain ?</p>
+
+<h3>Profil souhaite</h3>
+<p>Habitue a faire decouvrir un milieu a des non-experts. Curiosite interdisciplinaire : ouvert au dialogue avec des artistes, des designers, des etudiants ingenieurs. Connaissance du territoire local : especes endemiques, dynamiques en cours, zones vulnerables. Souplesse sur la duree : la balade dure 40 minutes, mais des echanges se poursuivent pendant les phases de creation.</p>
+
+<div class="nt">Le naturaliste n'a pas a connaitre le projet Future Faces en detail avant de venir. Il lui suffit de comprendre qu'il accompagne une balade d'observation pour un atelier de creation — les participants lui poseront des questions sur les especes, et ses reponses alimenteront leurs creations. Un briefing de 15 minutes en amont est suffisant.</div>
+
+<hr class="dv">
+
+<h2>Deploiement territorial</h2>
+<p>Les 4 ateliers sont concus pour etre reproduits dans des territoires differents avec un naturaliste local a chaque fois. Ce n'est pas une simple itinerance : chaque territoire produit des cartes bestiaire differentes, des temoignages ancres dans un ecosysteme specifique, et une contribution unique a la carte inter-territoriale. La Normandie n'a pas les memes especes endemiques que le Massif Central ou la Bretagne interieure.</p>
+
+<h3>Ce qui est fixe dans chaque iteration</h3>
+<p>Le lore de Future Faces : timeline, HKDN, personnages fondateurs. La structure des 4 ateliers. La mecanique de base du jeu Transhumance. La contribution a la carte inter-territoriale Transhumance Atlas. La posture : observation d'abord, creation ensuite, questionnement tout au long.</p>
+
+<h3>Ce qui varie</h3>
+<p>Le naturaliste et sa specialite (entomologue, botaniste, ornithologue, geomorphologue...). Les especes observees et les cartes bestiaire resultantes. Les contraintes environnementales locales (inondations, acidification, secheresse, pluies acides, salinisation...). Les temoignages ecrits : le futur de Rouen n'est pas le futur de Marseille. Les routes de migration inventees : elles s'appuient sur ce qui manque localement et ce que d'autres territoires ont documente sur la carte. L'esthetique des cartes : chaque territoire peut developper un style graphique propre.</p>
+
+<h3>Checklist pour un deploiement</h3>
+<p><strong>J-30 :</strong> Identifier le naturaliste local. Briefing de 15 minutes sur le projet. Reperage du terrain de balade. Verifier que le public cible est bien informe de la nature participative des ateliers.</p>
+<p><strong>J-7 :</strong> Preparer les supports : exemples de cartes, fiches personnage, ressources documentaires locales (GIEC regional si disponible). Prevoir le materiel : feuilles, feutres, support photo / croquis pour la balade.</p>
+<p><strong>J-1 :</strong> Confirmer la logistique avec le naturaliste. Preparer une selection des personnages fondateurs a montrer en introduction.</p>
+<p><strong>J+1 :</strong> Archiver les productions : photographier les cartes, numeriser les fiches personnage, noter les observations de playtest. Saisir le releve d'especes dans la couche 1 de Transhumance Atlas. Ajouter les personnages et routes de migration en couche 2. Envoyer un compte-rendu au naturaliste.</p>
+
+<h3>Publics possibles</h3>
+<p><strong>Etudiants ingenieurs</strong> (INSA Rouen — cadre initial) : sensibilite aux sciences, interet pour les applications technologiques et les enjeux ethiques.</p>
+<p><strong>Lyceens et collegiens :</strong> cadre EAC possible, articulation avec les programmes d'education au developpement durable.</p>
+<p><strong>Grand public en festival ou en tiers-lieu :</strong> format plus court possible (Ateliers I + IV uniquement).</p>
+<p><strong>Professionnels du design et de la creation numerique :</strong> accent sur le game design et le worldbuilding.</p>
+
+</div></section>
+</main>
+<footer class="ft"><p>Transhumance — un projet <a href="../a-propos.html">Future Faces / NECTAR</a> — <a href="mailto:hello@nectar-asso.org">hello@nectar-asso.org</a></p></footer>
+<script>const h=document.querySelector(".ham"),n=document.querySelector(".nm");if(h&&n){h.addEventListener("click",()=>{h.classList.toggle("on");n.classList.toggle("on");document.body.style.overflow=n.classList.contains("on")?"hidden":""});document.querySelectorAll(".sb").forEach(b=>b.addEventListener("click",()=>b.nextElementSibling.classList.toggle("on")));n.querySelectorAll("a").forEach(l=>l.addEventListener("click",()=>{h.classList.remove("on");n.classList.remove("on");document.body.style.overflow=""}))}</script>
+</body>
+</html>
