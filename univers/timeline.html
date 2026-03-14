@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Timeline — Transhumance</title><style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#060709;--bg2:#0c0e14;--bg3:#12151e;--bg4:#181c28;--tx:#e2ded6;--tx2:#8a8578;--tx3:#504d46;--gr:#b8e847;--gr20:rgba(184,232,71,.2);--gr08:rgba(184,232,71,.08);--gr04:rgba(184,232,71,.04);--or:#e8854a;--bl:#5ba4f5;--vi:#b44af5;--serif:'Instrument Serif',Georgia,serif;--sans:'Outfit',system-ui,sans-serif;--mono:'DM Mono',monospace;--ease:cubic-bezier(.16,1,.3,1)}
+html{font-size:16px;scroll-behavior:smooth}body{font-family:var(--sans);background:var(--bg);color:var(--tx);overflow-x:hidden;line-height:1.6;-webkit-font-smoothing:antialiased}::selection{background:var(--gr);color:var(--bg)}a{color:var(--gr);text-decoration:none;transition:all .3s var(--ease)}a:hover{color:var(--tx)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:9000;opacity:.3;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.04'/%3E%3C/svg%3E")}
+.hdr{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,7,9,.85);backdrop-filter:blur(24px) saturate(1.4);-webkit-backdrop-filter:blur(24px) saturate(1.4);border-bottom:1px solid rgba(255,255,255,.04)}.hdr-in{max-width:1400px;margin:0 auto;padding:0 1.25rem;display:flex;align-items:center;justify-content:space-between;height:3.5rem}.logo{font-family:var(--sans);font-weight:800;font-size:1.05rem;letter-spacing:-.03em;color:var(--tx);text-transform:uppercase;text-decoration:none}.logo span{color:var(--gr)}
+.nd{display:none}.nd ul{list-style:none;display:flex;gap:.15rem;align-items:center}.nd a,.nd .ddb{font-family:var(--mono);font-size:.68rem;font-weight:400;letter-spacing:.05em;text-transform:uppercase;color:var(--tx2);padding:.45rem .7rem;border-radius:6px;transition:all .25s var(--ease);cursor:pointer;background:none;border:none;display:inline-flex;align-items:center;gap:.3rem;text-decoration:none}.nd a:hover,.nd .ddb:hover,.nd a.on,.nd .ddb.on{color:var(--tx);background:var(--gr08)}.dd{position:relative}.ddm{position:absolute;top:calc(100% + .6rem);left:50%;transform:translateX(-50%) translateY(-6px);background:var(--bg3);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:.5rem 0;min-width:13rem;opacity:0;visibility:hidden;transition:all .25s var(--ease);box-shadow:0 20px 60px rgba(0,0,0,.6)}.dd:hover .ddm,.dd:focus-within .ddm{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}.ddm a{display:block;padding:.5rem 1rem;font-family:var(--mono);font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;color:var(--tx2)}.ddm a:hover{color:var(--tx);background:var(--gr08)}.dda{font-size:.55rem;transition:transform .25s var(--ease)}.dd:hover .dda{transform:rotate(180deg)}
+.ham{display:flex;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.5rem;z-index:101}.ham i{display:block;width:20px;height:1.5px;background:var(--tx);transition:all .35s var(--ease);transform-origin:center}.ham.on i:nth-child(1){transform:rotate(45deg) translate(4px,5px)}.ham.on i:nth-child(2){opacity:0;transform:scaleX(0)}.ham.on i:nth-child(3){transform:rotate(-45deg) translate(4px,-5px)}
+.nm{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;flex-direction:column;justify-content:center;padding:2rem;opacity:0;visibility:hidden;transition:all .45s var(--ease)}.nm.on{opacity:1;visibility:visible}.nm ul{list-style:none}.nm>ul>li{border-bottom:1px solid rgba(255,255,255,.04)}.nm a,.nm .sb{display:block;font-family:var(--sans);font-weight:600;font-size:1.5rem;color:var(--tx2);padding:.7rem 0;transition:color .25s var(--ease);background:none;border:none;cursor:pointer;text-align:left;width:100%;text-decoration:none}.nm a:hover,.nm .sb:hover{color:var(--gr)}.nm .su{display:none;padding-left:1.5rem;padding-bottom:.3rem}.nm .su.on{display:block}.nm .su a{font-size:1rem;font-weight:400;padding:.35rem 0;color:var(--tx3)}.nm .su a:hover{color:var(--gr)}
+@media(min-width:960px){.ham{display:none}.nd{display:block}.hdr-in{height:4rem;padding:0 2.5rem}}
+.ph{padding:7rem 1.25rem 3rem;max-width:1400px;margin:0 auto}.ph-l{font-family:var(--mono);font-size:.65rem;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:var(--tx3);margin-bottom:1.2rem;opacity:0;animation:fu .8s var(--ease) .1s forwards}.ph-t{font-family:var(--serif);font-weight:400;font-size:clamp(1.8rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.02em;color:var(--tx);max-width:42rem;opacity:0;animation:fu .9s var(--ease) .2s forwards}.ph-d{margin-top:1.2rem;font-size:clamp(.95rem,2vw,1.1rem);color:var(--tx2);max-width:38rem;line-height:1.8;font-weight:300;opacity:0;animation:fu .9s var(--ease) .35s forwards}
+.sec{padding:4rem 1.25rem;max-width:1400px;margin:0 auto}.sec--n{max-width:680px}
+.pr{font-size:1rem;line-height:1.85;opacity:0;animation:fu .8s var(--ease) .4s forwards}.pr h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.4rem,3vw,2rem);color:var(--tx);margin-top:3rem;margin-bottom:.8rem}.pr h3{font-family:var(--sans);font-weight:600;font-size:1.05rem;color:var(--tx);margin-top:2rem;margin-bottom:.5rem}.pr p{margin-bottom:1.1rem;color:var(--tx2);font-weight:300}.pr strong{color:var(--tx);font-weight:500}.pr em{color:var(--gr);font-style:italic}
+.nt{background:var(--bg2);border-left:2px solid var(--gr);padding:1.2rem 1.5rem;margin:2rem 0;border-radius:0 10px 10px 0;font-size:.9rem;color:var(--tx2);font-weight:300;line-height:1.7}.nt strong{color:var(--tx);font-weight:500}
+.dv{border:none;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent);margin:3rem 0}
+.cd-grid{display:grid;grid-template-columns:1fr;gap:1rem}@media(min-width:560px){.cd-grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:960px){.cd-grid--3{grid-template-columns:repeat(3,1fr)}}
+.cd{background:var(--bg2);border:1px solid rgba(255,255,255,.04);border-radius:14px;padding:1.75rem;position:relative;overflow:hidden;transition:all .4s var(--ease);text-decoration:none;display:block}.cd::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,var(--gr04) 0%,transparent 60%);opacity:0;transition:opacity .5s var(--ease)}.cd:hover{border-color:rgba(184,232,71,.12);transform:translateY(-3px)}.cd:hover::before{opacity:1}
+.cd-ln{position:absolute;top:0;left:1.75rem;right:1.75rem;height:1px;background:linear-gradient(90deg,transparent,var(--gr),transparent);transform:scaleX(0);transition:transform .5s var(--ease)}.cd:hover .cd-ln{transform:scaleX(1)}
+.cd-n{font-family:var(--mono);font-size:.62rem;font-weight:400;letter-spacing:.12em;text-transform:uppercase;color:var(--gr);margin-bottom:.7rem;position:relative}.cd-t{font-family:var(--sans);font-weight:700;font-size:1.25rem;color:var(--tx);margin-bottom:.5rem;position:relative;letter-spacing:-.01em}.cd-d{font-size:.85rem;font-weight:300;color:var(--tx2);line-height:1.6;position:relative}
+.cd-a{position:absolute;bottom:1.5rem;right:1.5rem;width:28px;height:28px;border-radius:50%;border:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;transition:all .35s var(--ease);color:var(--tx3);font-size:.75rem}.cd:hover .cd-a{border-color:var(--gr);color:var(--gr);transform:translate(2px,-2px)}
+.cd-bar{position:absolute;top:0;left:0;right:0;height:3px}.cd-motif{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--or);margin-bottom:.5rem}.cd-role{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gr);margin-bottom:.5rem}
+.tool-ph{background:var(--bg2);border:1px dashed rgba(255,255,255,.08);border-radius:14px;padding:3rem;text-align:center;min-height:350px;display:flex;align-items:center;justify-content:center}.tool-ph p:first-child{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gr)}.tool-ph p:last-child{color:var(--tx3);margin-top:.5rem;font-size:.88rem;max-width:28rem;font-weight:300}
+.ft{border-top:1px solid rgba(255,255,255,.04);padding:2.5rem 1.25rem;text-align:center}.ft p{font-family:var(--mono);font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+@keyframes fu{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}@keyframes op{0%{opacity:.6;transform:scale(1)}100%{opacity:1;transform:scale(1.15)}}
+@media(min-width:960px){.ph{padding:8rem 2.5rem 3.5rem}.sec{padding:5rem 2.5rem}}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--bg4);border-radius:3px}
+</style></head>
+<body><div class="grain"></div>
+<header class="hdr"><div class="hdr-in">
+<a href="../index.html" class="logo">Transhu<span>mance</span></a>
+<nav class="nd"><ul>
+<li><a href="../index.html">Accueil</a></li>
+<li class="dd"><button class="ddb">L'Atelier <span class="dda">&#9662;</span></button><div class="ddm"><a href="../atelier/dispositif.html">Le Dispositif</a><a href="../atelier/jeu.html">Le Jeu</a></div></li>
+<li class="dd"><button class="ddb on">L'Univers <span class="dda">&#9662;</span></button><div class="ddm"><a href="../univers/contexte.html">Le Contexte</a><a href="../univers/timeline.html">La Timeline</a><a href="../univers/personnages.html">Les Personnages</a><a href="../univers/court-metrage.html">Le Court Metrage</a></div></li>
+<li class="dd"><button class="ddb">Atlas <span class="dda">&#9662;</span></button><div class="ddm"><a href="../atlas/carte.html">La Carte</a><a href="../atlas/insa-rouen.html">INSA Rouen</a></div></li>
+<li class="dd"><button class="ddb">Approfondir <span class="dda">&#9662;</span></button><div class="ddm"><a href="../approfondir/theorie-politique.html">Theorie politique</a><a href="../approfondir/science-du-vivant.html">Science du vivant</a><a href="../approfondir/references.html">References</a></div></li>
+<li><a href="../a-propos.html">A propos</a></li>
+</ul></nav>
+<button class="ham" aria-label="Menu"><i></i><i></i><i></i></button>
+</div></header>
+<nav class="nm"><ul>
+<li><a href="../index.html">Accueil</a></li>
+<li><button class="sb">L'Atelier</button><ul class="su"><li><a href="../atelier/dispositif.html">Le Dispositif</a></li><li><a href="../atelier/jeu.html">Le Jeu</a></li></ul></li>
+<li><button class="sb">L'Univers</button><ul class="su"><li><a href="../univers/contexte.html">Le Contexte</a></li><li><a href="../univers/timeline.html">La Timeline</a></li><li><a href="../univers/personnages.html">Les Personnages</a></li><li><a href="../univers/court-metrage.html">Le Court Metrage</a></li></ul></li>
+<li><button class="sb">Atlas</button><ul class="su"><li><a href="../atlas/carte.html">La Carte</a></li><li><a href="../atlas/insa-rouen.html">INSA Rouen</a></li></ul></li>
+<li><button class="sb">Approfondir</button><ul class="su"><li><a href="../approfondir/theorie-politique.html">Theorie politique</a></li><li><a href="../approfondir/science-du-vivant.html">Science du vivant</a></li><li><a href="../approfondir/references.html">References</a></li></ul></li>
+<li><a href="../a-propos.html">A propos</a></li>
+</ul></nav>
+<main>
+<div class="ph">
+  <p class="ph-l">L'Univers / La Timeline</p>
+  <h1 class="ph-t">2020 — 2120</h1>
+  <p class="ph-d">Du prix Nobel de chimie a la premiere generation de neo-mutes, du Grand Cataclysme a une humanite plurielle et irreductible.</p>
+</div>
+<section class="sec" style="padding-bottom:2rem">
+<div id="tl-wrap" style="position:relative;overflow:hidden;border-radius:14px;background:var(--bg2);border:1px solid rgba(255,255,255,.04)">
+
+<style>
+#tl-wrap{--tl-h:380px}
+.tl-scroll{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:1.5rem 1.5rem 0}
+.tl-scroll::-webkit-scrollbar{display:none}
+.tl-track{display:flex;gap:0;min-width:max-content;position:relative;height:calc(var(--tl-h) - 220px)}
+.tl-line{position:absolute;top:50%;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.07) 5%,rgba(255,255,255,.07) 95%,transparent)}
+.tl-node{position:relative;flex:0 0 auto;width:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;z-index:1}
+@media(min-width:640px){.tl-node{width:220px}}
+@media(min-width:960px){.tl-node{width:260px}}
+.tl-dot{width:18px;height:18px;border-radius:50%;border:2px solid var(--tx3);background:var(--bg);transition:all .35s var(--ease);position:relative;z-index:2}
+.tl-dot::after{content:'';position:absolute;inset:-8px;border-radius:50%;background:transparent;transition:all .35s var(--ease)}
+.tl-node:hover .tl-dot,.tl-node.on .tl-dot{border-color:var(--gr);background:var(--gr);box-shadow:0 0 24px rgba(184,232,71,.35)}
+.tl-node.on .tl-dot::after{background:rgba(184,232,71,.1)}
+.tl-year{font-family:var(--mono);font-size:1rem;font-weight:500;letter-spacing:.08em;color:var(--tx3);margin-bottom:.8rem;transition:color .3s var(--ease)}
+.tl-node:hover .tl-year,.tl-node.on .tl-year{color:var(--gr)}
+.tl-label{font-family:var(--sans);font-weight:700;font-size:1.05rem;color:var(--tx2);text-align:center;margin-top:.8rem;max-width:180px;line-height:1.35;transition:color .3s var(--ease)}
+.tl-node:hover .tl-label,.tl-node.on .tl-label{color:var(--tx)}
+.tl-tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;margin-top:.5rem;padding:.2rem .65rem;border-radius:20px;border:1px solid rgba(255,255,255,.06)}
+.tl-tag--reel{color:var(--bl);border-color:rgba(91,164,245,.25)}
+.tl-tag--fiction{color:var(--or);border-color:rgba(232,133,74,.25)}
+.tl-tag--perso{color:var(--gr);border-color:rgba(184,232,71,.25)}
+/* Detail panel */
+.tl-detail{position:relative;background:var(--bg2);border-top:1px solid rgba(255,255,255,.04);padding:1.5rem 2rem;min-height:180px;display:flex;flex-direction:column;justify-content:flex-start;opacity:0;visibility:hidden;transition:all .35s var(--ease)}
+.tl-detail.on{opacity:1;visibility:visible}
+.tl-detail__year{font-family:var(--mono);font-size:.85rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--gr);margin-bottom:.3rem}
+.tl-detail__title{font-family:var(--serif);font-size:1.6rem;color:var(--tx);margin-bottom:.4rem}
+.tl-detail__text{font-size:.95rem;color:var(--tx2);font-weight:300;line-height:1.7;max-width:650px}
+.tl-detail__motif{font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--or);margin-bottom:.2rem}
+/* Nav arrows */
+.tl-arrows{position:absolute;top:0;left:0;right:0;height:calc(var(--tl-h) - 220px + 3rem);pointer-events:none;z-index:5}
+.tl-arr{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;background:var(--bg);border:1px solid rgba(255,255,255,.1);color:var(--tx2);font-size:1.1rem;display:flex;align-items:center;justify-content:center;cursor:pointer;pointer-events:all;transition:all .3s var(--ease);box-shadow:0 4px 20px rgba(0,0,0,.4)}
+.tl-arr:hover{background:var(--bg3);border-color:var(--gr);color:var(--gr);transform:translateY(-50%) scale(1.08)}
+.tl-arr--l{left:0.75rem}
+.tl-arr--r{right:0.75rem}
+.tl-arr--hide{opacity:0;pointer-events:none}
+/* Drag cursor */
+.tl-scroll.grabbing{cursor:grabbing}
+.tl-scroll{cursor:grab}
+/* Scroll hint */
+.tl-hint{display:none}
+</style>
+
+<div class="tl-scroll">
+<div class="tl-track">
+<div class="tl-line"></div>
+
+<div class="tl-node on" data-idx="0">
+  <span class="tl-year">2020</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Prix Nobel CRISPR</span>
+  <span class="tl-tag tl-tag--reel">Reel</span>
+</div>
+
+<div class="tl-node" data-idx="1">
+  <span class="tl-year">2040</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Apparition des HKDN</span>
+  <span class="tl-tag tl-tag--fiction">Fiction</span>
+</div>
+
+<div class="tl-node" data-idx="2">
+  <span class="tl-year">2040</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Iris</span>
+  <span class="tl-tag tl-tag--perso">Personnage</span>
+</div>
+
+<div class="tl-node" data-idx="3">
+  <span class="tl-year">2040</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Mia</span>
+  <span class="tl-tag tl-tag--perso">Personnage</span>
+</div>
+
+<div class="tl-node" data-idx="4">
+  <span class="tl-year">2050</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Nabull00z</span>
+  <span class="tl-tag tl-tag--perso">Personnage</span>
+</div>
+
+<div class="tl-node" data-idx="5">
+  <span class="tl-year">2060</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Seiya</span>
+  <span class="tl-tag tl-tag--perso">Personnage</span>
+</div>
+
+<div class="tl-node" data-idx="6">
+  <span class="tl-year">2060</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Reinvention du faire-societe</span>
+  <span class="tl-tag tl-tag--fiction">Fiction</span>
+</div>
+
+<div class="tl-node" data-idx="7">
+  <span class="tl-year">2070</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Aliosha</span>
+  <span class="tl-tag tl-tag--perso">Personnage</span>
+</div>
+
+<div class="tl-node" data-idx="8">
+  <span class="tl-year">2080</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Silamphre</span>
+  <span class="tl-tag tl-tag--perso">Personnage</span>
+</div>
+
+<div class="tl-node" data-idx="9">
+  <span class="tl-year">2090</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Pyrille</span>
+  <span class="tl-tag tl-tag--perso">Personnage</span>
+</div>
+
+<div class="tl-node" data-idx="10">
+  <span class="tl-year">2100</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Blux</span>
+  <span class="tl-tag tl-tag--perso">Personnage</span>
+</div>
+
+<div class="tl-node" data-idx="11">
+  <span class="tl-year">2110</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Grand Cataclysme</span>
+  <span class="tl-tag tl-tag--fiction">Fiction</span>
+</div>
+
+<div class="tl-node" data-idx="12">
+  <span class="tl-year">2120</span>
+  <div class="tl-dot"></div>
+  <span class="tl-label">Azur</span>
+  <span class="tl-tag tl-tag--perso">Personnage</span>
+</div>
+
+</div><!-- tl-track -->
+</div><!-- tl-scroll -->
+
+<div class="tl-detail on" id="tl-detail">
+  <p class="tl-detail__year" id="td-year">2020</p>
+  <p class="tl-detail__motif" id="td-motif"></p>
+  <h3 class="tl-detail__title" id="td-title">Prix Nobel CRISPR-Cas9</h3>
+  <p class="tl-detail__text" id="td-text">Emmanuelle Charpentier et Jennifer Doudna recoivent le prix Nobel de chimie pour la decouverte du systeme CRISPR-Cas9 — des ciseaux moleculaires capables d'editer l'ADN. La technologie est deja utilisee par des biohackers hors des laboratoires. He Jiankui a annonce les premiers bebes modifies en 2018.</p>
+</div>
+
+<!-- Nav arrows -->
+<div class="tl-arrows">
+  <button class="tl-arr tl-arr--l tl-arr--hide" id="tl-left" aria-label="Precedent">&#8592;</button>
+  <button class="tl-arr tl-arr--r" id="tl-right" aria-label="Suivant">&#8594;</button>
+</div>
+
+<script>
+(function(){
+  const data = [
+    {year:"2020",title:"Prix Nobel CRISPR-Cas9",motif:"",text:"Emmanuelle Charpentier et Jennifer Doudna recoivent le prix Nobel de chimie pour la decouverte du systeme CRISPR-Cas9 — des ciseaux moleculaires capables d'editer l'ADN. La technologie est deja utilisee par des biohackers hors des laboratoires."},
+    {year:"2040",title:"Apparition des HKDN",motif:"",text:"Eco-anxiete generalisee. Les bio-nanotechnologies deviennent accessibles a bas cout. Un hack nacre promis comme solution au CO2 fait le tour des medias — echec techno-solutionniste. Mais les HKDN envahissent le marche noir sous forme de gelules ingurgitables."},
+    {year:"2040",title:"Iris",motif:"Sante",text:"Sa peau ne supporte plus le soleil. Elle se procure le hack nacre sur le marche noir. Sa peau cristallise des sediments de nacre — des boursouflures qui liberent des micro-bulles d'oxygene. Premier cas mediatise d'HKDN fonctionnelle."},
+    {year:"2040",title:"Mia",motif:"Activisme",text:"Meme hack nacre qu'Iris, mais pour un geste politique : stocker le CO2 directement sur sa peau. Son corps est un tract. L'hybridation comme acte militant. Le hack s'avere etre un ersatz techno-solutionniste."},
+    {year:"2050",title:"Nabull00z",motif:"Narcissisme",text:"Streamer dont les likes dependent des defis radicaux. Apres une chute en urbex, il decouvre les HKDN et en use sans limite. Peau de cameleon, yeux de reptile. L'hybridation comme performance sociale — miroir du capitalisme applique au corps."},
+    {year:"2060",title:"Seiya",motif:"Extravertissement",text:"Ex-introverti devenu infatigable sur le dancefloor. HKDN de Noctiluca scintillans — plancton bioluminescent qui reagit aux pheromones. Les patterns sur son visage changent avec ses emotions. Nouvelle facon de communiquer sans mots."},
+    {year:"2060",title:"Reinvention du faire-societe",motif:"",text:"Les neo-mutes deconstruisent leurs facons de vivre. La complementarite homme/faune/flore emerge comme nouveau paradigme culturel. Les hybridations ne sont plus marginales — elles reconfigurent les rapports sociaux."},
+    {year:"2070",title:"Aliosha",motif:"Involontaire",text:"Personne ne la calcule. Un soir, apres une moquerie en classe qui fait rire un prof qu'elle aime, elle gobe une tablette entiere de gelules de myxomycete. Blob jaune sur le visage. Disgracieux mais energisant. Dans la rue, tout le monde la devisage — enfin."},
+    {year:"2080",title:"Silamphre",motif:"Deep ecology",text:"Prefere les livres aux ados de son age. Quand il voit que les hybridations ne sont qu'un effet de mode, il craque. Il part en foret pour vivre en harmonie avec les non-humains. Insectes sur le visage, feuillage qui remue quand il se secoue, abeilles qui viennent quand il siffle."},
+    {year:"2090",title:"Pyrille",motif:"Accident",text:"33 ans, lutte entre desir de fonder une famille et realite environnementale. Pilule d'HKDN d'axolotl prise en soiree — sans savoir ce que ca ferait. Tombe enceinte de faux triples hybrides. Corps imprevus, choix impossibles."},
+    {year:"2100",title:"Blux",motif:"Survie",text:"Vit aux pieds des montagnes ou les pluies sont d'une acidite mortifere. Pelade devenue eczema a vif. Seuls les oiseaux semblent proteges par leur plumage. Alors pourquoi ne pas en devenir un ? Plumage contre les pluies acides."},
+    {year:"2110",title:"Grand Cataclysme",motif:"",text:"Un evenement catastrophique aneantit la plupart des humains « originels ». Seuls survivent ceux qui s'etaient hybrides — et leurs descendants. L'humanite telle qu'on la connaissait n'existe plus."},
+    {year:"2120",title:"Azur",motif:"Ne hybride",text:"Ne de parents hybrides. N'a pas choisi ses hybridations, il vit avec et les considere comme naturelles. En tirant la langue il gobe des insectes. Il passe en mode invisible pour eviter les predateurs. Il n'existe plus une seule espece humaine mais des multitudes."}
+  ];
+  
+  const scroller = document.querySelector('.tl-scroll');
+  const nodes = document.querySelectorAll('.tl-node');
+  const detail = document.getElementById('tl-detail');
+  const tdYear = document.getElementById('td-year');
+  const tdTitle = document.getElementById('td-title');
+  const tdText = document.getElementById('td-text');
+  const tdMotif = document.getElementById('td-motif');
+  const btnL = document.getElementById('tl-left');
+  const btnR = document.getElementById('tl-right');
+  
+  // --- Click on nodes ---
+  nodes.forEach(node => {
+    node.addEventListener('click', () => {
+      nodes.forEach(n => n.classList.remove('on'));
+      node.classList.add('on');
+      const d = data[parseInt(node.dataset.idx)];
+      tdYear.textContent = d.year;
+      tdTitle.textContent = d.title;
+      tdText.textContent = d.text;
+      tdMotif.textContent = d.motif;
+      tdMotif.style.display = d.motif ? 'block' : 'none';
+      detail.classList.add('on');
+    });
+  });
+  
+  // --- Arrow buttons ---
+  function updateArrows() {
+    const atStart = scroller.scrollLeft < 10;
+    const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 10;
+    btnL.classList.toggle('tl-arr--hide', atStart);
+    btnR.classList.toggle('tl-arr--hide', atEnd);
+  }
+  
+  btnL.addEventListener('click', () => {
+    scroller.scrollBy({ left: -300, behavior: 'smooth' });
+  });
+  btnR.addEventListener('click', () => {
+    scroller.scrollBy({ left: 300, behavior: 'smooth' });
+  });
+  scroller.addEventListener('scroll', updateArrows);
+  updateArrows();
+  
+  // --- Mouse wheel -> horizontal scroll ---
+  scroller.addEventListener('wheel', (e) => {
+    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+      e.preventDefault();
+      scroller.scrollLeft += e.deltaY;
+    }
+  }, { passive: false });
+  
+  // --- Drag to scroll ---
+  let isDragging = false;
+  let startX = 0;
+  let scrollStart = 0;
+  
+  scroller.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.pageX;
+    scrollStart = scroller.scrollLeft;
+    scroller.classList.add('grabbing');
+    e.preventDefault();
+  });
+  
+  window.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    const dx = e.pageX - startX;
+    scroller.scrollLeft = scrollStart - dx;
+  });
+  
+  window.addEventListener('mouseup', () => {
+    if (isDragging) {
+      isDragging = false;
+      scroller.classList.remove('grabbing');
+    }
+  });
+})();
+</script>
+
+</div><!-- tl-wrap -->
+</section>
+<section class="sec sec--n"><div class="pr">
+<h2>2020 — Le socle reel</h2>
+<p>Emmanuelle Charpentier et Jennifer Doudna recoivent le prix Nobel de chimie pour le CRISPR-Cas9. La technologie d'edition genetique est deja utilisee par des biohackers hors des laboratoires. He Jiankui a annonce les premiers bebes modifies en 2018.</p>
+<h2>2040 — L'apparition des HKDN</h2>
+<p>L'epoque est confuse, la perte de repere generale (politique, societale, intime). L'eco-anxiete se ressent chez toutes et tous car les conditions environnementales sont deleteres, l'habitabilite sur terre est durement menacee. Parallelement, le progres suit son rythme effrene entrainant decouvertes et derives — parmi elles, les bio-nanotechnologies deviennent une technologie maitrisee a moindre cout.</p>
+<p>Un hack entre ADN humain et nacre qui permettrait de cristalliser du CO2 sur la peau fait le tour des medias internationaux. Il n'en sera qu'un ersatz techno-solutionniste n'endiguant en rien l'extractivisme. Mais d'autres hack d'ADN envahissent desormais le marche noir — absorbables sous forme de gelules, l'effet agit en quelques semaines. Personnages : <strong>Iris</strong> (sante) et <strong>Mia</strong> (activisme).</p>
+<h2>2050 — Premiere generation visible</h2>
+<p>Les mutations s'installent dans le paysage, pour le meilleur comme pour le pire. Le phenomene se repand progressivement : d'abord chez les adulescents aventureux, les marginaux, et les artistes, puis de facon hesitante dans les autres spheres sociales. Personnage : <strong>Nabull00z</strong> (narcissisme).</p>
+<h2>2060-2070 — Reinvention du faire-societe</h2>
+<p>Corps et paradigmes sont transfigures, hybrides, metamorphoses. Ces neo-mutes deconstruisent peu a peu leur personne, leur facon de vivre et reinventent le faire-societe. Une nouvelle ere s'ouvre dans la complementarite homme/faune/flore. Personnages : <strong>Seiya</strong> (extravertissement, 2060) et <strong>Aliosha</strong> (involontaire, 2070).</p>
+<h2>2080-2100 — Hybridations profondes</h2>
+<p>Certains s'isolent pour vivre en harmonie avec les non-humains. D'autres s'hybrident par accident ou par contrainte de survie face a des conditions environnementales extremes. Personnages : <strong>Silamphre</strong> (deep ecology, 2080), <strong>Pyrille</strong> (accident, 2090), <strong>Blux</strong> (survie, 2100).</p>
+<h2>2110-2120 — Post-Grand-Cataclysme</h2>
+<p>Il n'existe plus une seule espece humaine mais des multitudes. <strong>Azur</strong>, ne de parents hybrides, represente cette nouvelle realite : il n'a pas choisi ses hybridations, il vit avec elles et les considere comme naturelles. Future Faces observe d'un oeil curieux ce phenomene grandissant, et laisse parler ceux dont le visage raconte sans pudeur le changement d'espece qui arrive.</p>
+</div></section>
+</main>
+<footer class="ft"><p>Transhumance — un projet <a href="../a-propos.html">Future Faces / NECTAR</a> — <a href="mailto:hello@nectar-asso.org">hello@nectar-asso.org</a></p></footer>
+<script>const h=document.querySelector(".ham"),n=document.querySelector(".nm");if(h&&n){h.addEventListener("click",()=>{h.classList.toggle("on");n.classList.toggle("on");document.body.style.overflow=n.classList.contains("on")?"hidden":""});document.querySelectorAll(".sb").forEach(b=>b.addEventListener("click",()=>b.nextElementSibling.classList.toggle("on")));n.querySelectorAll("a").forEach(l=>l.addEventListener("click",()=>{h.classList.remove("on");n.classList.remove("on");document.body.style.overflow=""}))}</script></body></html>
