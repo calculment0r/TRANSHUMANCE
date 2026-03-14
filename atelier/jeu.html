@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Jeu — Transhumance</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#060709;--bg2:#0c0e14;--bg3:#12151e;--bg4:#181c28;--tx:#e2ded6;--tx2:#8a8578;--tx3:#504d46;--gr:#b8e847;--gr20:rgba(184,232,71,.2);--gr08:rgba(184,232,71,.08);--gr04:rgba(184,232,71,.04);--or:#e8854a;--bl:#5ba4f5;--vi:#b44af5;--serif:'Instrument Serif',Georgia,serif;--sans:'Outfit',system-ui,sans-serif;--mono:'DM Mono',monospace;--ease:cubic-bezier(.16,1,.3,1)}
+html{font-size:16px;scroll-behavior:smooth}body{font-family:var(--sans);background:var(--bg);color:var(--tx);overflow-x:hidden;line-height:1.6;-webkit-font-smoothing:antialiased}::selection{background:var(--gr);color:var(--bg)}a{color:var(--gr);text-decoration:none;transition:all .3s var(--ease)}a:hover{color:var(--tx)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:9000;opacity:.3;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.04'/%3E%3C/svg%3E")}
+.hdr{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,7,9,.85);backdrop-filter:blur(24px) saturate(1.4);-webkit-backdrop-filter:blur(24px) saturate(1.4);border-bottom:1px solid rgba(255,255,255,.04)}.hdr-in{max-width:1400px;margin:0 auto;padding:0 1.25rem;display:flex;align-items:center;justify-content:space-between;height:3.5rem}.logo{font-family:var(--sans);font-weight:800;font-size:1.05rem;letter-spacing:-.03em;color:var(--tx);text-transform:uppercase;text-decoration:none}.logo span{color:var(--gr)}
+.nd{display:none}.nd ul{list-style:none;display:flex;gap:.15rem;align-items:center}.nd a,.nd .ddb{font-family:var(--mono);font-size:.68rem;font-weight:400;letter-spacing:.05em;text-transform:uppercase;color:var(--tx2);padding:.45rem .7rem;border-radius:6px;transition:all .25s var(--ease);cursor:pointer;background:none;border:none;display:inline-flex;align-items:center;gap:.3rem;text-decoration:none}.nd a:hover,.nd .ddb:hover,.nd a.on,.nd .ddb.on{color:var(--tx);background:var(--gr08)}.dd{position:relative}.ddm{position:absolute;top:calc(100% + .6rem);left:50%;transform:translateX(-50%) translateY(-6px);background:var(--bg3);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:.5rem 0;min-width:13rem;opacity:0;visibility:hidden;transition:all .25s var(--ease);box-shadow:0 20px 60px rgba(0,0,0,.6)}.dd:hover .ddm,.dd:focus-within .ddm{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}.ddm a{display:block;padding:.5rem 1rem;font-family:var(--mono);font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;color:var(--tx2)}.ddm a:hover{color:var(--tx);background:var(--gr08)}.dda{font-size:.55rem;transition:transform .25s var(--ease)}.dd:hover .dda{transform:rotate(180deg)}
+.ham{display:flex;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.5rem;z-index:101}.ham i{display:block;width:20px;height:1.5px;background:var(--tx);transition:all .35s var(--ease);transform-origin:center}.ham.on i:nth-child(1){transform:rotate(45deg) translate(4px,5px)}.ham.on i:nth-child(2){opacity:0;transform:scaleX(0)}.ham.on i:nth-child(3){transform:rotate(-45deg) translate(4px,-5px)}
+.nm{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;flex-direction:column;justify-content:center;padding:2rem;opacity:0;visibility:hidden;transition:all .45s var(--ease)}.nm.on{opacity:1;visibility:visible}.nm ul{list-style:none}.nm>ul>li{border-bottom:1px solid rgba(255,255,255,.04)}.nm a,.nm .sb{display:block;font-family:var(--sans);font-weight:600;font-size:1.5rem;color:var(--tx2);padding:.7rem 0;transition:color .25s var(--ease);background:none;border:none;cursor:pointer;text-align:left;width:100%;text-decoration:none}.nm a:hover,.nm .sb:hover{color:var(--gr)}.nm .su{display:none;padding-left:1.5rem;padding-bottom:.3rem}.nm .su.on{display:block}.nm .su a{font-size:1rem;font-weight:400;padding:.35rem 0;color:var(--tx3)}.nm .su a:hover{color:var(--gr)}
+@media(min-width:960px){.ham{display:none}.nd{display:block}.hdr-in{height:4rem;padding:0 2.5rem}}
+.ph{padding:7rem 1.25rem 3rem;max-width:1400px;margin:0 auto}.ph-l{font-family:var(--mono);font-size:.65rem;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:var(--tx3);margin-bottom:1.2rem;opacity:0;animation:fu .8s var(--ease) .1s forwards}.ph-t{font-family:var(--serif);font-weight:400;font-size:clamp(1.8rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.02em;color:var(--tx);max-width:42rem;opacity:0;animation:fu .9s var(--ease) .2s forwards}.ph-d{margin-top:1.2rem;font-size:clamp(.95rem,2vw,1.1rem);color:var(--tx2);max-width:38rem;line-height:1.8;font-weight:300;opacity:0;animation:fu .9s var(--ease) .35s forwards}
+.sec{padding:4rem 1.25rem;max-width:1400px;margin:0 auto}.sec--n{max-width:680px}
+.pr{font-size:1rem;line-height:1.85;opacity:0;animation:fu .8s var(--ease) .4s forwards}.pr h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.4rem,3vw,2rem);color:var(--tx);margin-top:3rem;margin-bottom:.8rem}.pr h3{font-family:var(--sans);font-weight:600;font-size:1.05rem;color:var(--tx);margin-top:2rem;margin-bottom:.5rem}.pr p{margin-bottom:1.1rem;color:var(--tx2);font-weight:300}.pr strong{color:var(--tx);font-weight:500}.pr em{color:var(--gr);font-style:italic}
+.nt{background:var(--bg2);border-left:2px solid var(--gr);padding:1.2rem 1.5rem;margin:2rem 0;border-radius:0 10px 10px 0;font-size:.9rem;color:var(--tx2);font-weight:300;line-height:1.7}.nt strong{color:var(--tx);font-weight:500}
+.dv{border:none;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent);margin:3rem 0}
+.cd-grid{display:grid;grid-template-columns:1fr;gap:1rem}@media(min-width:560px){.cd-grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:960px){.cd-grid--3{grid-template-columns:repeat(3,1fr)}}
+.cd{background:var(--bg2);border:1px solid rgba(255,255,255,.04);border-radius:14px;padding:1.75rem;position:relative;overflow:hidden;transition:all .4s var(--ease);text-decoration:none;display:block}.cd::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,var(--gr04) 0%,transparent 60%);opacity:0;transition:opacity .5s var(--ease)}.cd:hover{border-color:rgba(184,232,71,.12);transform:translateY(-3px)}.cd:hover::before{opacity:1}
+.cd-ln{position:absolute;top:0;left:1.75rem;right:1.75rem;height:1px;background:linear-gradient(90deg,transparent,var(--gr),transparent);transform:scaleX(0);transition:transform .5s var(--ease)}.cd:hover .cd-ln{transform:scaleX(1)}
+.cd-n{font-family:var(--mono);font-size:.62rem;font-weight:400;letter-spacing:.12em;text-transform:uppercase;color:var(--gr);margin-bottom:.7rem;position:relative}.cd-t{font-family:var(--sans);font-weight:700;font-size:1.25rem;color:var(--tx);margin-bottom:.5rem;position:relative;letter-spacing:-.01em}.cd-d{font-size:.85rem;font-weight:300;color:var(--tx2);line-height:1.6;position:relative}
+.cd-a{position:absolute;bottom:1.5rem;right:1.5rem;width:28px;height:28px;border-radius:50%;border:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;transition:all .35s var(--ease);color:var(--tx3);font-size:.75rem}.cd:hover .cd-a{border-color:var(--gr);color:var(--gr);transform:translate(2px,-2px)}
+.cd-bar{position:absolute;top:0;left:0;right:0;height:3px}.cd-motif{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--or);margin-bottom:.5rem}.cd-role{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gr);margin-bottom:.5rem}
+.tool-ph{background:var(--bg2);border:1px dashed rgba(255,255,255,.08);border-radius:14px;padding:3rem;text-align:center;min-height:350px;display:flex;align-items:center;justify-content:center}.tool-ph p:first-child{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gr)}.tool-ph p:last-child{color:var(--tx3);margin-top:.5rem;font-size:.88rem;max-width:28rem;font-weight:300}
+.ft{border-top:1px solid rgba(255,255,255,.04);padding:2.5rem 1.25rem;text-align:center}.ft p{font-family:var(--mono);font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+@keyframes fu{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}@keyframes op{0%{opacity:.6;transform:scale(1)}100%{opacity:1;transform:scale(1.15)}}
+@media(min-width:960px){.ph{padding:8rem 2.5rem 3.5rem}.sec{padding:5rem 2.5rem}}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--bg4);border-radius:3px}
+
+.hero{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:6rem 1.25rem 4rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-20%;left:50%;transform:translateX(-50%);width:800px;height:800px;background:radial-gradient(circle,rgba(184,232,71,.07) 0%,rgba(184,232,71,.03) 30%,transparent 65%);pointer-events:none;animation:op 8s ease-in-out infinite alternate}
+.hero::after{content:'';position:absolute;bottom:-30%;left:20%;width:500px;height:500px;background:radial-gradient(circle,rgba(232,133,74,.04) 0%,transparent 60%);pointer-events:none;animation:op 10s ease-in-out 2s infinite alternate}
+.hc{position:relative;z-index:1;max-width:1400px;width:100%;display:flex;flex-direction:column;align-items:center}
+.hl{font-family:var(--mono);font-size:.65rem;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:var(--tx3);margin-bottom:1.5rem;opacity:0;animation:fu .8s var(--ease) .1s forwards}
+.ht{font-family:var(--serif);font-weight:400;font-size:clamp(2.2rem,7vw,4.8rem);line-height:1.08;letter-spacing:-.02em;color:var(--tx);max-width:56rem;margin-bottom:2rem;opacity:0;animation:fu .9s var(--ease) .25s forwards}
+.ht em{font-style:italic;color:var(--gr);text-shadow:0 0 60px rgba(184,232,71,.15)}
+.hdesc{font-family:var(--sans);font-weight:300;font-size:clamp(.95rem,2vw,1.15rem);line-height:1.8;color:var(--tx2);max-width:40rem;margin-bottom:3rem;opacity:0;animation:fu .9s var(--ease) .45s forwards}
+.cds{display:grid;grid-template-columns:1fr;gap:1rem;width:100%;max-width:1100px;opacity:0;animation:fu .9s var(--ease) .6s forwards}
+@media(min-width:560px){.cds{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:960px){.cds{grid-template-columns:repeat(4,1fr)}.hero{padding:8rem 2.5rem 5rem}}
+.cds .cd{text-align:left}
+.dlx{max-width:1400px;margin:0 auto;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent)}
+</style>
+</head>
+<body>
+<div class="grain"></div>
+<header class="hdr"><div class="hdr-in">
+<a href="../index.html" class="logo">Transhu<span>mance</span></a>
+<nav class="nd"><ul>
+<li><a href="../index.html">Accueil</a></li>
+<li class="dd"><button class="ddb on">L'Atelier <span class="dda">&#9662;</span></button><div class="ddm"><a href="../atelier/dispositif.html">Le Dispositif</a><a href="../atelier/jeu.html">Le Jeu</a></div></li>
+<li class="dd"><button class="ddb">L'Univers <span class="dda">&#9662;</span></button><div class="ddm"><a href="../univers/contexte.html">Le Contexte</a><a href="../univers/timeline.html">La Timeline</a><a href="../univers/personnages.html">Les Personnages</a><a href="../univers/court-metrage.html">Le Court Metrage</a></div></li>
+<li class="dd"><button class="ddb">Atlas <span class="dda">&#9662;</span></button><div class="ddm"><a href="../atlas/carte.html">La Carte</a><a href="../atlas/insa-rouen.html">INSA Rouen</a></div></li>
+<li class="dd"><button class="ddb">Approfondir <span class="dda">&#9662;</span></button><div class="ddm"><a href="../approfondir/theorie-politique.html">Theorie politique</a><a href="../approfondir/science-du-vivant.html">Science du vivant</a><a href="../approfondir/references.html">References</a></div></li>
+<li><a href="../a-propos.html">A propos</a></li>
+</ul></nav>
+<button class="ham" aria-label="Menu"><i></i><i></i><i></i></button>
+</div></header>
+<nav class="nm"><ul>
+<li><a href="../index.html">Accueil</a></li>
+<li><button class="sb">L'Atelier</button><ul class="su"><li><a href="../atelier/dispositif.html">Le Dispositif</a></li><li><a href="../atelier/jeu.html">Le Jeu</a></li></ul></li>
+<li><button class="sb">L'Univers</button><ul class="su"><li><a href="../univers/contexte.html">Le Contexte</a></li><li><a href="../univers/timeline.html">La Timeline</a></li><li><a href="../univers/personnages.html">Les Personnages</a></li><li><a href="../univers/court-metrage.html">Le Court Metrage</a></li></ul></li>
+<li><button class="sb">Atlas</button><ul class="su"><li><a href="../atlas/carte.html">La Carte</a></li><li><a href="../atlas/insa-rouen.html">INSA Rouen</a></li></ul></li>
+<li><button class="sb">Approfondir</button><ul class="su"><li><a href="../approfondir/theorie-politique.html">Theorie politique</a></li><li><a href="../approfondir/science-du-vivant.html">Science du vivant</a></li><li><a href="../approfondir/references.html">References</a></li></ul></li>
+<li><a href="../a-propos.html">A propos</a></li>
+</ul></nav>
+<main>
+<div class="ph">
+  <p class="ph-l">L'Atelier / Le Jeu</p>
+  <h1 class="ph-t">Transhumance</h1>
+  <p class="ph-d">Un jeu de cartes narratif collaboratif ou les participants construisent collectivement une histoire de migration dans l'univers Future Faces. Pas de maitre du jeu, pas de scenario pre-ecrit — on pioche une carte, on repond a une question, on invente ensemble.</p>
+</div>
+
+<section class="sec sec--n"><div class="pr">
+
+<h2>Anatomie de Sur la Route</h2>
+<p>Sur la Route est un jeu narratif collaboratif de la gamme For the Story, cree par Nicolas le Vif et illustre par Laetitia Van Gasse. Il permet a un groupe de joueurs de construire collectivement un recit de voyage, carte apres carte, sans meneur de jeu ni scenario pre-ecrit. Le jeu contient 120 cartes et un pion Vehicule. La Route — une piste d'etapes — est imprimee au dos de la boite.</p>
+
+<h3>Le mecanisme central</h3>
+<p>A chaque tour, un joueur pioche une carte, lit la question a voix haute, y repond librement, puis defausse la carte. Les autres joueurs peuvent poser des questions complementaires. Apres chaque carte, le groupe decide collectivement s'il avance le pion Vehicule sur la Route. Quand le Vehicule atteint la derniere case, la partie se termine.</p>
+<p>Ce mecanisme cree de la <strong>narration emergente</strong> : personne ne connait l'histoire a l'avance, elle se construit par accumulation de reponses individuelles qui deviennent coherentes par le jeu de l'ecoute et du rebond.</p>
+
+<h3>Les cinq types de cartes</h3>
+<p><strong>Contexte :</strong> pose le cadre avant la partie — theme du voyage, type de vehicule, destination. 12 themes illustres, chacun decline en 3 variantes au verso. Choix collectif.</p>
+<p><strong>Preparatifs :</strong> creent les personnages, posent les relations, etablissent l'atmosphere. Debut de partie, premier tour de table. « Qui es-tu ? Pourquoi pars-tu ? Que caches-tu dans tes bagages ? »</p>
+<p><strong>Peripeties :</strong> introduisent des evenements, rencontres, crises, detours. C'est le corps de la partie, le gros du jeu. « Qui rencontrez-vous en chemin ? Quel obstacle vous force a un detour ? »</p>
+<p><strong>Dernieres etapes :</strong> bilan, introspection, preparation de la conclusion. Quand le Vehicule approche de la fin. « Comment as-tu change ? Qu'est-ce que tu laisses derriere toi ? »</p>
+<p><strong>Drama :</strong> revelation secrete qui cree un rebondissement. N'importe quand, declenchee par le joueur. Chaque carte propose 2 options de revelation. Le joueur choisit le moment et l'option.</p>
+
+</div></section>
+
+<section class="sec" style="padding-top:1.5rem;padding-bottom:1.5rem">
+
+<style>
+.exp-wrap{max-width:860px;margin:0 auto}
+.exp-trigger{display:flex;align-items:center;justify-content:space-between;padding:1.2rem 1.5rem;background:var(--bg2);border:1px solid rgba(232,133,74,.12);border-radius:14px;cursor:pointer;transition:all .4s var(--ease)}
+.exp-trigger:hover{background:var(--bg3);border-color:rgba(232,133,74,.25)}
+.exp-trigger.open{border-radius:14px 14px 0 0;border-bottom:1px solid rgba(255,255,255,.04)}
+.exp-trigger-info{display:flex;align-items:center;gap:1rem}
+.exp-trigger-icon{width:40px;height:40px;border-radius:10px;background:rgba(232,133,74,.08);display:flex;align-items:center;justify-content:center;font-size:1.1rem;color:var(--or);flex-shrink:0}
+.exp-trigger-text h3{font-family:var(--sans);font-weight:700;font-size:1.05rem;color:var(--tx);margin-bottom:.1rem}
+.exp-trigger-text p{font-family:var(--sans);font-size:.82rem;color:var(--tx2);font-weight:300}
+.exp-trigger-arrow{font-size:1rem;color:var(--tx3);transition:transform .35s var(--ease)}
+.exp-trigger.open .exp-trigger-arrow{transform:rotate(180deg);color:var(--or)}
+.exp-collapse{max-height:0;overflow:hidden;transition:max-height .6s var(--ease)}
+.exp-collapse.open{max-height:3000px}
+.exp-inner{background:var(--bg2);border:1px solid rgba(255,255,255,.04);border-top:none;border-radius:0 0 14px 14px;padding:1.5rem}
+.exp-filters{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1.2rem}
+.exp-f{font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;text-transform:uppercase;padding:.4rem .7rem;border-radius:20px;border:1px solid rgba(255,255,255,.08);background:transparent;color:var(--tx3);cursor:pointer;transition:all .25s var(--ease)}
+.exp-f:hover{border-color:rgba(255,255,255,.15);color:var(--tx2)}
+.exp-f.on{border-color:var(--gr);color:var(--gr);background:rgba(184,232,71,.06)}
+.exp-grid{display:grid;grid-template-columns:1fr;gap:.8rem}
+@media(min-width:480px){.exp-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:768px){.exp-grid{grid-template-columns:repeat(3,1fr)}}
+.exp-card{background:var(--bg);border:1px solid rgba(255,255,255,.04);border-radius:12px;padding:1.1rem;transition:all .35s var(--ease);position:relative;overflow:hidden}
+.exp-card:hover{border-color:rgba(255,255,255,.1);transform:translateY(-2px)}
+.exp-card[data-type="contexte"]{border-top:3px solid var(--tx2)}
+.exp-card[data-type="preparatifs"]{border-top:3px solid var(--bl)}
+.exp-card[data-type="peripeties"]{border-top:3px solid var(--or)}
+.exp-card[data-type="dernieres"]{border-top:3px solid var(--vi)}
+.exp-card[data-type="drama"]{border-top:3px solid #e84a6a}
+.exp-card-tag{font-family:var(--mono);font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:.4rem}
+.exp-card[data-type="contexte"] .exp-card-tag{color:var(--tx2)}
+.exp-card[data-type="preparatifs"] .exp-card-tag{color:var(--bl)}
+.exp-card[data-type="peripeties"] .exp-card-tag{color:var(--or)}
+.exp-card[data-type="dernieres"] .exp-card-tag{color:var(--vi)}
+.exp-card[data-type="drama"] .exp-card-tag{color:#e84a6a}
+.exp-card-id{font-family:var(--mono);font-size:.6rem;color:var(--tx3);float:right}
+.exp-card-text{font-size:.82rem;color:var(--tx2);font-weight:300;line-height:1.55}
+.exp-card-text strong{color:var(--tx);font-weight:500}
+.exp-note{margin-top:1rem;font-family:var(--mono);font-size:.65rem;color:var(--tx3);text-align:center;letter-spacing:.04em}
+</style>
+
+<div class="exp-wrap">
+  <div class="exp-trigger" id="exp-trigger">
+    <div class="exp-trigger-info">
+      <div class="exp-trigger-icon">&#9830;</div>
+      <div class="exp-trigger-text">
+        <h3>Explorateur de cartes</h3>
+        <p>Exemples de cartes pour chaque type — filtrez par categorie</p>
+      </div>
+    </div>
+    <div class="exp-trigger-arrow">&#9662;</div>
+  </div>
+  <div class="exp-collapse" id="exp-collapse">
+    <div class="exp-inner">
+      <div class="exp-filters">
+        <button class="exp-f on" data-filter="all">Toutes</button>
+        <button class="exp-f" data-filter="contexte">Contexte</button>
+        <button class="exp-f" data-filter="preparatifs">Preparatifs</button>
+        <button class="exp-f" data-filter="peripeties">Peripeties</button>
+        <button class="exp-f" data-filter="dernieres">Dernieres etapes</button>
+        <button class="exp-f" data-filter="drama">Drama</button>
+      </div>
+      <div class="exp-grid" id="exp-grid"></div>
+      <p class="exp-note">Exemples de conception. Les cartes definitives seront adaptees a l'univers Future Faces et creees par les participants en atelier.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+const cards=[
+  {type:"contexte",id:"CX1",text:"Le convoi part de <strong>Rouen, 2070</strong>. Les pluies acides ont rendu la region inhabitable. Destination : le sud, ou des especes mediterraneennes offrent des capacites de resistance. Le vehicule : une transhumance a pied le long des cours d'eau."},
+  {type:"contexte",id:"CX2",text:"Depart de <strong>Marseille, 2050</strong>. La chaleur urbaine est devenue mortelle en ete. Les hybrides cherchent le nord et ses lichens filtrants. Le vehicule : un convoi en radeau le long du Rhone."},
+  {type:"contexte",id:"CX3",text:"Depart des <strong>Landes, 2090</strong>. Les forets ont brule. Il ne reste que du sable et des souvenirs. Destination : la Bretagne, ou les zones humides persistent. Le vehicule : a pied, en lisiere."},
+  {type:"preparatifs",id:"P1",text:"Ton corps porte la marque d'une hybridation. Laquelle ? Depuis quand ? L'as-tu choisie, ou t'a-t-elle ete imposee ?"},
+  {type:"preparatifs",id:"P2",text:"Qu'est-ce qui, dans le territoire que tu quittes, est devenu invivable ? Qu'est-ce que tu pouvais encore supporter il y a cinq ans et que tu ne supportes plus ?"},
+  {type:"preparatifs",id:"P3",text:"Quelqu'un dans ce convoi t'inquiete. Qui ? Pas parce qu'il est dangereux, mais parce qu'il te rappelle quelque chose que tu preferes oublier."},
+  {type:"preparatifs",id:"P4",text:"Tu emportes avec toi un objet qui n'a aucune valeur de survie. Quel est-il ? Pourquoi ne peux-tu pas t'en separer ?"},
+  {type:"preparatifs",id:"P5",text:"Avant de partir, quelqu'un t'a demande de ne pas le faire. Qui ? Qu'as-tu repondu ? Est-ce que tu le pensais ?"},
+  {type:"preparatifs",id:"P6",text:"Ton hybridation te donne une capacite que les autres n'ont pas. Laquelle ? Dans quelles conditions refuses-tu de l'utiliser ?"},
+  {type:"peripeties",id:"R1",text:"Le convoi traverse une zone ou l'eau est devenue toxique. Quelqu'un dans le groupe a les moyens biologiques de la filtrer. Qui ? Comment reagit-il quand les autres realisent ce qu'il peut faire ?"},
+  {type:"peripeties",id:"R2",text:"Vous rencontrez un groupe qui migre en sens inverse — ils fuient le territoire vers lequel vous vous dirigez. Que racontent-ils ? Le convoi continue-t-il malgre tout ?"},
+  {type:"peripeties",id:"R3",text:"Un membre du convoi commence a manifester une mutation secondaire inattendue. Qu'est-ce qui change chez lui ? Comment le groupe reagit-il ?"},
+  {type:"peripeties",id:"R4",text:"Vous trouvez un stock abandonne de gelules HKDN. Certaines sont etiquetees, d'autres non. Que fait le groupe ?"},
+  {type:"peripeties",id:"R5",text:"Le convoi decouvre une espece vivante que personne n'a vue depuis des annees — une espece qu'on croyait eteinte. Que fait-on ? L'emmener ? La laisser ? La signaler ?"},
+  {type:"peripeties",id:"R6",text:"Un conflit eclate dans le convoi : doit-on s'hybrider pour mieux survivre au voyage, ou preserver ce qui reste de son corps d'origine ? Qui defend quelle position ?"},
+  {type:"peripeties",id:"R7",text:"Vous croisez un personnage qui pretend etre un des premiers hybrides. Son corps le prouve — mais son recit semble trop parfait. Le croyez-vous ?"},
+  {type:"peripeties",id:"R8",text:"Un evenement meteorologique violent force le convoi a s'abriter. Pendant cette pause forcee, deux membres du groupe qui s'evitaient jusqu'ici se retrouvent seuls. Que se passe-t-il ?"},
+  {type:"dernieres",id:"F1",text:"Qu'est-ce que ce voyage a change dans ta facon de percevoir ton hybridation ? La vois-tu encore comme au depart ?"},
+  {type:"dernieres",id:"F2",text:"Si tu pouvais envoyer un message a quelqu'un reste dans le territoire de depart, que dirais-tu ? Et que tairais-tu ?"},
+  {type:"dernieres",id:"F3",text:"En regardant le groupe maintenant, qui n'est plus la meme personne qu'au depart ? Qu'est-ce qui a change chez elle ?"},
+  {type:"dernieres",id:"F4",text:"Y a-t-il une decision prise pendant le voyage que tu regrettes ? Referais-tu le meme choix ?"},
+  {type:"dernieres",id:"A1",text:"Qu'apportes-tu au nouveau territoire que personne d'autre dans le convoi n'aurait pu apporter ?"},
+  {type:"dernieres",id:"A2",text:"Qu'est-ce qui a disparu en chemin et qui ne reviendra plus ?"},
+  {type:"drama",id:"D1",text:"<strong>Option A :</strong> Tu n'es pas hybride. Tu n'as jamais pris de HKDN. Tu fais semblant depuis le debut. <strong>Option B :</strong> Ton hybridation n'est pas celle que tu montres. La vraie est invisible, et bien plus profonde."},
+  {type:"drama",id:"D2",text:"<strong>Option A :</strong> Tu connais deja le territoire de destination. Tu y as vecu. Tu sais qu'il n'est pas ce que les autres esperent. <strong>Option B :</strong> Tu ne vas pas au meme endroit que les autres. Ta vraie destination est ailleurs."},
+  {type:"drama",id:"D3",text:"<strong>Option A :</strong> Tu transportes une espece vivante en contrebande. Si les autres le decouvrent, les consequences seront lourdes. <strong>Option B :</strong> Tu as detruit volontairement une ressource que le convoi possedait, parce que tu pensais que c'etait necessaire."},
+  {type:"drama",id:"D4",text:"<strong>Option A :</strong> Quelqu'un dans le convoi est un descendant direct d'un personnage fondateur. Tu es le seul a le savoir. <strong>Option B :</strong> Tu as pris une HKDN experimentale avant le depart. Ses effets commencent a se manifester et tu ne sais pas ce que tu vas devenir."}
+];
+
+const grid=document.getElementById('exp-grid');
+const filters=document.querySelectorAll('.exp-f');
+let af='all';
+
+function render(){
+  const fl=af==='all'?cards:cards.filter(c=>c.type===af);
+  grid.innerHTML=fl.map(c=>
+    '<div class="exp-card" data-type="'+c.type+'">'
+    +'<span class="exp-card-id">'+c.id+'</span>'
+    +'<p class="exp-card-tag">'+c.type.replace('dernieres','dernieres etapes')+'</p>'
+    +'<p class="exp-card-text">'+c.text+'</p>'
+    +'</div>'
+  ).join('');
+}
+
+filters.forEach(f=>{
+  f.addEventListener('click',()=>{
+    filters.forEach(x=>x.classList.remove('on'));
+    f.classList.add('on');
+    af=f.dataset.filter;
+    render();
+  });
+});
+
+document.getElementById('exp-trigger').addEventListener('click',function(){
+  this.classList.toggle('open');
+  document.getElementById('exp-collapse').classList.toggle('open');
+});
+
+render();
+})();
+</script>
+
+</section>
+
+<section class="sec sec--n"><div class="pr">
+
+<h3>Le systeme de progression</h3>
+<p>Le pion Vehicule avance sur la Route selon la decision collective apres chaque carte. Chaque case indique dans quel paquet piocher. Ce systeme remplit trois fonctions : il materialise la progression narrative (on voit ou on en est), il structure l'arc narratif (on passe naturellement des Preparatifs aux Peripeties puis aux Dernieres etapes), et il permet de moduler la duree de partie (avancer vite = partie courte).</p>
+
+<h3>Securite et souplesse</h3>
+<p>La <strong>Carte X</strong> permet a n'importe quel joueur d'ecarter une carte ou un element narratif qui le met mal a l'aise, sans avoir a se justifier. Si une carte n'inspire personne, elle est simplement defaussee et remplacee. Ces deux mecanismes eliminent la pression creative et creent un espace narratif bienveillant.</p>
+
+<h3>Pourquoi cette mecanique est ideale pour Transhumance</h3>
+<p><strong>Zero preparation :</strong> n'importe qui peut jouer immediatement. Pas de meneur de jeu, pas de scenario a lire. On ouvre la boite et on commence.</p>
+<p><strong>Questions, pas instructions :</strong> les cartes posent des questions ouvertes, pas des ordres. Le joueur reste souverain sur sa reponse. Pas de bon ou mauvais choix.</p>
+<p><strong>Progression lineaire visible :</strong> le pion Vehicule materialise le chemin parcouru. Les joueurs savent toujours ou ils en sont dans l'histoire.</p>
+<p><strong>Drama comme levier asymetrique :</strong> un seul joueur detient un secret qui peut reconfigurer le recit. Cree de la tension narrative sans competition.</p>
+<p><strong>Duree modulable :</strong> le groupe decide de la vitesse. Aucune partie ne se ressemble en duree ni en contenu.</p>
+<p><strong>Arc narratif integre :</strong> la structure Preparatifs, Peripeties, Dernieres etapes, Fin reproduit naturellement un arc de recit classique sans que les joueurs aient besoin de le savoir.</p>
+
+<hr class="dv">
+
+<h2>La transposition vers Transhumance</h2>
+<p>Transhumance reprend la mecanique de Sur la Route et l'ancre dans l'univers Future Faces. Voici ce qui se transpose directement, ce qui s'adapte, et ce que Transhumance invente de neuf.</p>
+
+<h3>Ce qu'on garde tel quel</h3>
+<p>La mecanique question/reponse. Le tour par tour, pioche et defausse. L'arc Preparatifs, Peripeties, Fin. Le pion de progression sur piste. Les cartes Drama distribuees en secret. La Carte X (securite emotionnelle). La duree modulable par le groupe. Le zero preparation pour les joueurs.</p>
+
+<h3>Ce qu'on adapte</h3>
+<p><strong>Contexte :</strong> le theme generique devient un territoire reel + une epoque de la timeline Future Faces + une contrainte environnementale. Le contexte est ancre, pas choisi dans un menu.</p>
+<p><strong>Vehicule :</strong> le bus/bateau/vaisseau devient la transhumance elle-meme — migration a pied, en convoi, en radeau, selon le terrain.</p>
+<p><strong>Personnages :</strong> au lieu d'etre crees a la volee, ils sont crees en atelier (Atelier I) avec ancrage naturaliste. Hybridation obligatoire. Les personnages pre-existent au jeu.</p>
+<p><strong>Preparatifs :</strong> les questions generiques sur l'identite deviennent des questions sur l'hybridation, la contrainte environnementale, la raison de migrer.</p>
+<p><strong>Peripeties :</strong> les rencontres et obstacles generiques deviennent des crises ecologiques, accidents d'hybridation, rencontres de personnages d'autres territoires, decisions de survie.</p>
+<p><strong>Drama :</strong> les revelations generiques deviennent des revelations liees a l'hybridation, au territoire, ou a un secret HKDN.</p>
+<p><strong>Dernieres etapes :</strong> deviennent des cartes Mutation — reflexion sur la transformation subie, le territoire quitte, le territoire rejoint.</p>
+
+<h3>Ce que Transhumance invente</h3>
+<p><strong>Cartes Bestiaire (ressource activable) :</strong> directement issues de l'Atelier I. Chaque carte decrit une espece locale, sa propriete cle, et l'hybridation possible. Ce sont des ressources que les joueurs peuvent activer en cours de partie pour enrichir leur narration.</p>
+<p><strong>Cartes Personnages (fiches d'atelier) :</strong> les fiches creees pendant les ateliers precedents. Les personnages ont une histoire avant meme que la partie commence.</p>
+<p><strong>Lien avec le Transhumance Atlas :</strong> la carte numerique inter-territoriale nourrit et enrichit la partie. Pendant la mise en place, le groupe consulte l'Atlas pour choisir une destination de migration en fonction des ressources naturelles documentees dans d'autres territoires. Apres la partie, les elements fictifs produits sont saisis dans la couche 2.</p>
+<p><strong>Production de fiction durable :</strong> contrairement a Sur la Route ou le recit disparait apres la partie, Transhumance produit de la matiere qui persiste — routes de migration, personnages cles, evenements marquants.</p>
+<p><strong>Cartes creees par les participants :</strong> le jeu se construit en meme temps qu'on y joue.</p>
+<p><strong>Ancrage naturaliste :</strong> chaque session est liee a un territoire reel observe avec un expert.</p>
+
+<hr class="dv">
+
+<h2>Deroulement d'une partie de Transhumance</h2>
+
+<h3>Materiel</h3>
+<p><strong>12-15 cartes Preparatifs :</strong> questions sur l'identite de l'hybride, sa motivation de migration, sa relation au territoire de depart.</p>
+<p><strong>30-40 cartes Peripeties :</strong> crises ecologiques, rencontres, accidents, decouvertes, dilemmes ethiques. Le coeur du jeu.</p>
+<p><strong>10-20 cartes Bestiaire :</strong> creees en Atelier I. Espece locale, propriete cle, hybridation possible. Ressources activables en cours de partie.</p>
+<p><strong>5-10 cartes Personnages :</strong> fiches des personnages crees en Atelier I. Peuvent inclure des personnages fondateurs de Future Faces.</p>
+<p><strong>6-10 cartes Mutation :</strong> dernieres etapes. Introspection sur la transformation subie, les choix faits, ce qui a mute.</p>
+<p><strong>8-12 cartes Drama :</strong> secrets lies au lore — HKDN defectueuse, identite cachee, mission secrete, mutation involontaire. 2 options par carte.</p>
+<p><strong>1 carte de Contexte par partie :</strong> territoire de depart, epoque (2040-2120), contrainte environnementale dominante, destination envisagee.</p>
+<p><strong>1 piste de transhumance :</strong> piste physique entre deux territoires, avec cases etapes.</p>
+<p><strong>1 pion Convoi :</strong> remplace le Vehicule. Materialise le groupe en migration.</p>
+<p><strong>1 Carte X :</strong> identique a Sur la Route. Securite emotionnelle.</p>
+
+<h3>Phase 0 — Mise en place</h3>
+<p>Le groupe choisit ou recoit une carte de Contexte qui definit le cadre de la partie : un territoire de depart (par exemple Rouen), une epoque de la timeline (par exemple 2070), une contrainte environnementale (par exemple acidification des pluies), et une destination potentielle lue sur le Transhumance Atlas (par exemple Marseille, ou des especes mediterraneennes offrent des capacites de resistance). Chaque joueur pioche une carte Drama qu'il garde secrete. Les cartes Bestiaire sont etalees face visible au centre de la table — ce sont des ressources accessibles.</p>
+
+<h3>Phase 1 — Preparatifs</h3>
+<p>Chaque joueur pioche une carte Preparatifs et repond a la question a voix haute. Les questions portent sur l'identite de l'hybride, sa relation au territoire qu'il quitte, et sa raison de migrer. Si un joueur a cree un personnage en Atelier I, il peut utiliser sa fiche comme base. Sinon, il cree un personnage a la volee. Les autres joueurs posent des questions complementaires.</p>
+
+<h3>Phase 2 — Peripeties</h3>
+<p>Le coeur de la partie. A chaque tour, le joueur actif pioche une carte Peripeties, lit la question, y repond, puis le groupe decide s'il avance le pion Convoi. Les evenements sont ancres dans le lore Future Faces : crises ecologiques, zones contaminees, accidents d'hybridation, rencontres avec des personnages d'autres territoires.</p>
+<p><strong>Mecanique specifique — l'activation de Bestiaire :</strong> une fois par tour, un joueur peut associer une carte Bestiaire a sa reponse pour integrer une espece dans la narration. La carte Bestiaire est alors retournee face cachee (elle a ete utilisee comme ressource). Cela cree un lien direct entre les observations naturalistes de l'Atelier I et le recit en train de se construire.</p>
+<p>N'importe quand pendant cette phase, un joueur peut reveler sa carte Drama. La revelation interrompt le tour normal et reconfigure potentiellement le recit.</p>
+
+<h3>Phase 3 — Mutation</h3>
+<p>Quand le Convoi approche de la fin de la piste, chaque joueur pioche une carte Mutation. Les questions portent sur la transformation interieure : qu'est-ce qui a mute en toi pendant le voyage ? Que penses-tu du territoire que tu rejoins ? Qu'est-ce que tu n'es plus ?</p>
+
+<h3>Phase 4 — Arrivee</h3>
+<p>Quand le Convoi atteint la derniere case, on retourne la carte Arrivee. Elle propose plusieurs questions de conclusion. Le groupe choisit celles qui font sens. Exemples : « Qu'apportes-tu au nouveau territoire que personne d'autre n'aurait pu apporter ? » ou « Qu'est-ce qui a disparu en chemin et qui ne reviendra plus ? »</p>
+
+<hr class="dv">
+
+<h2>Exemples de cartes</h2>
+
+<h3>Cartes Preparatifs</h3>
+<p><em>P1 :</em> Ton corps porte la marque d'une hybridation. Laquelle ? Depuis quand ? L'as-tu choisie, ou t'a-t-elle ete imposee ?</p>
+<p><em>P2 :</em> Qu'est-ce qui, dans le territoire que tu quittes, est devenu invivable ? Qu'est-ce que tu pouvais encore supporter il y a cinq ans et que tu ne supportes plus ?</p>
+<p><em>P3 :</em> Quelqu'un dans ce convoi t'inquiete. Qui ? Pas parce qu'il est dangereux, mais parce qu'il te rappelle quelque chose que tu preferes oublier.</p>
+<p><em>P4 :</em> Tu emportes avec toi un objet qui n'a aucune valeur de survie. Quel est-il ? Pourquoi ne peux-tu pas t'en separer ?</p>
+<p><em>P5 :</em> Avant de partir, quelqu'un t'a demande de ne pas le faire. Qui ? Qu'as-tu repondu ? Est-ce que tu le pensais ?</p>
+<p><em>P6 :</em> Ton hybridation te donne une capacite que les autres n'ont pas. Laquelle ? Dans quelles conditions refuses-tu de l'utiliser ?</p>
+
+<h3>Cartes Peripeties</h3>
+<p><em>R1 :</em> Le convoi traverse une zone ou l'eau est devenue toxique. Quelqu'un dans le groupe a les moyens biologiques de la filtrer. Qui ? Comment reagit-il quand les autres realisent ce qu'il peut faire ?</p>
+<p><em>R2 :</em> Vous rencontrez un groupe qui migre en sens inverse — ils fuient le territoire vers lequel vous vous dirigez. Que racontent-ils ? Le convoi continue-t-il malgre tout ?</p>
+<p><em>R3 :</em> Un membre du convoi commence a manifester une mutation secondaire inattendue. Qu'est-ce qui change chez lui ? Comment le groupe reagit-il ?</p>
+<p><em>R4 :</em> Vous trouvez un stock abandonne de gelules HKDN. Certaines sont etiquetees, d'autres non. Que fait le groupe ?</p>
+<p><em>R5 :</em> Un evenement meteorologique violent force le convoi a s'abriter. Pendant cette pause forcee, deux membres du groupe qui s'evitaient jusqu'ici se retrouvent seuls. Que se passe-t-il ?</p>
+<p><em>R6 :</em> Le convoi decouvre une espece vivante que personne n'a vue depuis des annees — une espece qu'on croyait eteinte. Que fait-on ? L'emmener ? La laisser ? La signaler ?</p>
+<p><em>R7 :</em> Vous croisez un personnage qui pretend etre un des premiers hybrides. Son corps le prouve — mais son recit semble trop parfait. Le croyez-vous ?</p>
+<p><em>R8 :</em> Un conflit eclate dans le convoi autour d'une question simple : doit-on s'hybrider pour mieux survivre au voyage, ou preserver ce qui reste de son corps d'origine ? Qui defend quelle position ?</p>
+
+<h3>Cartes Drama</h3>
+<p><em>D1 — Option A :</em> Tu n'es pas hybride. Tu n'as jamais pris de HKDN. Tu fais semblant depuis le debut. <em>Option B :</em> Ton hybridation n'est pas celle que tu montres. La vraie est invisible, et bien plus profonde.</p>
+<p><em>D2 — Option A :</em> Tu connais deja le territoire de destination. Tu y as vecu. Tu sais qu'il n'est pas ce que les autres esperent. <em>Option B :</em> Tu ne vas pas au meme endroit que les autres. Ta vraie destination est ailleurs.</p>
+<p><em>D3 — Option A :</em> Tu transportes une espece vivante en contrebande. <em>Option B :</em> Tu as detruit volontairement une ressource que le convoi possedait, parce que tu pensais que c'etait necessaire.</p>
+<p><em>D4 — Option A :</em> Quelqu'un dans le convoi est un descendant direct d'un personnage fondateur de Future Faces. Tu es le seul a le savoir. <em>Option B :</em> Tu as pris une HKDN experimentale avant le depart. Ses effets commencent a se manifester et tu ne sais pas ce que tu vas devenir.</p>
+
+<h3>Cartes Mutation</h3>
+<p><em>M1 :</em> Qu'est-ce que ce voyage a change dans ta facon de percevoir ton hybridation ? La vois-tu encore comme au depart ?</p>
+<p><em>M2 :</em> Si tu pouvais envoyer un message a quelqu'un reste dans le territoire de depart, que dirais-tu ? Et que tairais-tu ?</p>
+<p><em>M3 :</em> En regardant le groupe maintenant, qui n'est plus la meme personne qu'au depart ? Qu'est-ce qui a change chez elle ?</p>
+<p><em>M4 :</em> Y a-t-il une decision prise pendant le voyage que tu regrettes ? Referais-tu le meme choix ?</p>
+
+<h3>Carte Arrivee</h3>
+<p><em>A1 :</em> Qu'apportes-tu au nouveau territoire que personne d'autre dans le convoi n'aurait pu apporter ?</p>
+<p><em>A2 :</em> Qu'est-ce qui a disparu en chemin et qui ne reviendra plus ?</p>
+<p><em>A3 :</em> Quelles relations vas-tu entretenir avec les autres membres du convoi, maintenant que le voyage est termine ?</p>
+<p><em>A4 :</em> Si quelqu'un qui ne t'a pas connu avant le depart te rencontrait aujourd'hui, que comprendrait-il de toi au premier regard ? Et qu'est-ce qu'il ne pourrait pas voir ?</p>
+
+<hr class="dv">
+
+<h2>Decisions ouvertes</h2>
+<p>Plusieurs points de design necessitent un choix d'equipe avant de pouvoir finaliser les regles.</p>
+
+<h3>Comment fonctionnent les cartes Bestiaire en jeu ?</h3>
+<p><strong>Option A — Ressource libre :</strong> les cartes Bestiaire sont etalees face visible. N'importe qui peut en activer une a son tour. Activation illimitee. Simple, mais risque de sur-utilisation.</p>
+<p><strong>Option B — Ressource limitee :</strong> chaque joueur ne peut activer qu'une seule carte Bestiaire par partie. Force des choix strategiques. Peut frustrer si la bonne carte n'est pas disponible au bon moment.</p>
+<p><strong>Option C — Pioche aleatoire :</strong> les cartes Bestiaire forment un paquet separe. Certaines cartes Peripeties demandent de piocher une carte Bestiaire. L'aleatoire introduit de la surprise mais reduit l'agentivite.</p>
+
+<h3>Combien de joueurs, combien de temps ?</h3>
+<p><strong>Nombre de joueurs :</strong> 3 a 6. En dessous de 3, la dynamique collective s'appauvrit. Au-dela de 6, les tours deviennent trop longs.</p>
+<p><strong>Duree cible :</strong> 45 a 90 minutes. Le systeme de progression (avancer ou non le Convoi) permet d'ajuster. Prevoir une piste de 8 a 12 cases.</p>
+<p><strong>Mode court :</strong> pour un format festival ou demo — 6 cases, 30 minutes. Reduire le nombre de cartes Preparatifs a 1 par joueur.</p>
+
+<h3>Le Convoi est-il toujours lineaire ?</h3>
+<p><strong>Lineaire (comme Sur la Route) :</strong> une piste simple. Facile a comprendre, a fabriquer, a expliquer. Recommande pour le prototype.</p>
+<p><strong>Bifurcation :</strong> la piste presente 1 ou 2 embranchements ou le groupe doit choisir un itineraire. Chaque branche active un paquet de Peripeties different. Plus complexe, plus rejouable, mais demande plus de cartes.</p>
+
+<h3>Qu'arrive-t-il a la fiction apres la partie ?</h3>
+<p>Contrairement a Sur la Route ou le recit disparait apres la partie, Transhumance produit de la matiere durable. Il faut definir un protocole de saisie leger pour alimenter le Transhumance Atlas apres chaque session : quels elements fictifs sont retenus (route de migration, personnages cles, evenement marquant), sous quel format, et qui s'en charge.</p>
+
+</div></section>
+</main>
+<footer class="ft"><p>Transhumance — un projet <a href="../a-propos.html">Future Faces / NECTAR</a> — <a href="mailto:hello@nectar-asso.org">hello@nectar-asso.org</a></p></footer>
+<script>const h=document.querySelector(".ham"),n=document.querySelector(".nm");if(h&&n){h.addEventListener("click",()=>{h.classList.toggle("on");n.classList.toggle("on");document.body.style.overflow=n.classList.contains("on")?"hidden":""});document.querySelectorAll(".sb").forEach(b=>b.addEventListener("click",()=>b.nextElementSibling.classList.toggle("on")));n.querySelectorAll("a").forEach(l=>l.addEventListener("click",()=>{h.classList.remove("on");n.classList.remove("on");document.body.style.overflow=""}))}</script>
+</body>
+</html>
