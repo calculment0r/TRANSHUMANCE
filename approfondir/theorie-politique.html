@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Theorie politique — Transhumance</title><style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#060709;--bg2:#0c0e14;--bg3:#12151e;--bg4:#181c28;--tx:#e2ded6;--tx2:#8a8578;--tx3:#504d46;--gr:#b8e847;--gr20:rgba(184,232,71,.2);--gr08:rgba(184,232,71,.08);--gr04:rgba(184,232,71,.04);--or:#e8854a;--bl:#5ba4f5;--vi:#b44af5;--serif:'Instrument Serif',Georgia,serif;--sans:'Outfit',system-ui,sans-serif;--mono:'DM Mono',monospace;--ease:cubic-bezier(.16,1,.3,1)}
+html{font-size:16px;scroll-behavior:smooth}body{font-family:var(--sans);background:var(--bg);color:var(--tx);overflow-x:hidden;line-height:1.6;-webkit-font-smoothing:antialiased}::selection{background:var(--gr);color:var(--bg)}a{color:var(--gr);text-decoration:none;transition:all .3s var(--ease)}a:hover{color:var(--tx)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:9000;opacity:.3;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.04'/%3E%3C/svg%3E")}
+.hdr{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,7,9,.85);backdrop-filter:blur(24px) saturate(1.4);-webkit-backdrop-filter:blur(24px) saturate(1.4);border-bottom:1px solid rgba(255,255,255,.04)}.hdr-in{max-width:1400px;margin:0 auto;padding:0 1.25rem;display:flex;align-items:center;justify-content:space-between;height:3.5rem}.logo{font-family:var(--sans);font-weight:800;font-size:1.05rem;letter-spacing:-.03em;color:var(--tx);text-transform:uppercase;text-decoration:none}.logo span{color:var(--gr)}
+.nd{display:none}.nd ul{list-style:none;display:flex;gap:.15rem;align-items:center}.nd a,.nd .ddb{font-family:var(--mono);font-size:.68rem;font-weight:400;letter-spacing:.05em;text-transform:uppercase;color:var(--tx2);padding:.45rem .7rem;border-radius:6px;transition:all .25s var(--ease);cursor:pointer;background:none;border:none;display:inline-flex;align-items:center;gap:.3rem;text-decoration:none}.nd a:hover,.nd .ddb:hover,.nd a.on,.nd .ddb.on{color:var(--tx);background:var(--gr08)}.dd{position:relative}.ddm{position:absolute;top:calc(100% + .6rem);left:50%;transform:translateX(-50%) translateY(-6px);background:var(--bg3);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:.5rem 0;min-width:13rem;opacity:0;visibility:hidden;transition:all .25s var(--ease);box-shadow:0 20px 60px rgba(0,0,0,.6)}.dd:hover .ddm,.dd:focus-within .ddm{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}.ddm a{display:block;padding:.5rem 1rem;font-family:var(--mono);font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;color:var(--tx2)}.ddm a:hover{color:var(--tx);background:var(--gr08)}.dda{font-size:.55rem;transition:transform .25s var(--ease)}.dd:hover .dda{transform:rotate(180deg)}
+.ham{display:flex;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.5rem;z-index:101}.ham i{display:block;width:20px;height:1.5px;background:var(--tx);transition:all .35s var(--ease);transform-origin:center}.ham.on i:nth-child(1){transform:rotate(45deg) translate(4px,5px)}.ham.on i:nth-child(2){opacity:0;transform:scaleX(0)}.ham.on i:nth-child(3){transform:rotate(-45deg) translate(4px,-5px)}
+.nm{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;flex-direction:column;justify-content:center;padding:2rem;opacity:0;visibility:hidden;transition:all .45s var(--ease)}.nm.on{opacity:1;visibility:visible}.nm ul{list-style:none}.nm>ul>li{border-bottom:1px solid rgba(255,255,255,.04)}.nm a,.nm .sb{display:block;font-family:var(--sans);font-weight:600;font-size:1.5rem;color:var(--tx2);padding:.7rem 0;transition:color .25s var(--ease);background:none;border:none;cursor:pointer;text-align:left;width:100%;text-decoration:none}.nm a:hover,.nm .sb:hover{color:var(--gr)}.nm .su{display:none;padding-left:1.5rem;padding-bottom:.3rem}.nm .su.on{display:block}.nm .su a{font-size:1rem;font-weight:400;padding:.35rem 0;color:var(--tx3)}.nm .su a:hover{color:var(--gr)}
+@media(min-width:960px){.ham{display:none}.nd{display:block}.hdr-in{height:4rem;padding:0 2.5rem}}
+.ph{padding:7rem 1.25rem 3rem;max-width:1400px;margin:0 auto}.ph-l{font-family:var(--mono);font-size:.65rem;font-weight:400;letter-spacing:.18em;text-transform:uppercase;color:var(--tx3);margin-bottom:1.2rem;opacity:0;animation:fu .8s var(--ease) .1s forwards}.ph-t{font-family:var(--serif);font-weight:400;font-size:clamp(1.8rem,5vw,3.5rem);line-height:1.08;letter-spacing:-.02em;color:var(--tx);max-width:42rem;opacity:0;animation:fu .9s var(--ease) .2s forwards}.ph-d{margin-top:1.2rem;font-size:clamp(.95rem,2vw,1.1rem);color:var(--tx2);max-width:38rem;line-height:1.8;font-weight:300;opacity:0;animation:fu .9s var(--ease) .35s forwards}
+.sec{padding:4rem 1.25rem;max-width:1400px;margin:0 auto}.sec--n{max-width:680px}
+.pr{font-size:1rem;line-height:1.85;opacity:0;animation:fu .8s var(--ease) .4s forwards}.pr h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.4rem,3vw,2rem);color:var(--tx);margin-top:3rem;margin-bottom:.8rem}.pr h3{font-family:var(--sans);font-weight:600;font-size:1.05rem;color:var(--tx);margin-top:2rem;margin-bottom:.5rem}.pr p{margin-bottom:1.1rem;color:var(--tx2);font-weight:300}.pr strong{color:var(--tx);font-weight:500}.pr em{color:var(--gr);font-style:italic}
+.nt{background:var(--bg2);border-left:2px solid var(--gr);padding:1.2rem 1.5rem;margin:2rem 0;border-radius:0 10px 10px 0;font-size:.9rem;color:var(--tx2);font-weight:300;line-height:1.7}.nt strong{color:var(--tx);font-weight:500}
+.dv{border:none;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent);margin:3rem 0}
+.cd-grid{display:grid;grid-template-columns:1fr;gap:1rem}@media(min-width:560px){.cd-grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:960px){.cd-grid--3{grid-template-columns:repeat(3,1fr)}}
+.cd{background:var(--bg2);border:1px solid rgba(255,255,255,.04);border-radius:14px;padding:1.75rem;position:relative;overflow:hidden;transition:all .4s var(--ease);text-decoration:none;display:block}.cd::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,var(--gr04) 0%,transparent 60%);opacity:0;transition:opacity .5s var(--ease)}.cd:hover{border-color:rgba(184,232,71,.12);transform:translateY(-3px)}.cd:hover::before{opacity:1}
+.cd-ln{position:absolute;top:0;left:1.75rem;right:1.75rem;height:1px;background:linear-gradient(90deg,transparent,var(--gr),transparent);transform:scaleX(0);transition:transform .5s var(--ease)}.cd:hover .cd-ln{transform:scaleX(1)}
+.cd-n{font-family:var(--mono);font-size:.62rem;font-weight:400;letter-spacing:.12em;text-transform:uppercase;color:var(--gr);margin-bottom:.7rem;position:relative}.cd-t{font-family:var(--sans);font-weight:700;font-size:1.25rem;color:var(--tx);margin-bottom:.5rem;position:relative;letter-spacing:-.01em}.cd-d{font-size:.85rem;font-weight:300;color:var(--tx2);line-height:1.6;position:relative}
+.cd-a{position:absolute;bottom:1.5rem;right:1.5rem;width:28px;height:28px;border-radius:50%;border:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;transition:all .35s var(--ease);color:var(--tx3);font-size:.75rem}.cd:hover .cd-a{border-color:var(--gr);color:var(--gr);transform:translate(2px,-2px)}
+.cd-bar{position:absolute;top:0;left:0;right:0;height:3px}.cd-motif{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--or);margin-bottom:.5rem}.cd-role{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gr);margin-bottom:.5rem}
+.tool-ph{background:var(--bg2);border:1px dashed rgba(255,255,255,.08);border-radius:14px;padding:3rem;text-align:center;min-height:350px;display:flex;align-items:center;justify-content:center}.tool-ph p:first-child{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gr)}.tool-ph p:last-child{color:var(--tx3);margin-top:.5rem;font-size:.88rem;max-width:28rem;font-weight:300}
+.ft{border-top:1px solid rgba(255,255,255,.04);padding:2.5rem 1.25rem;text-align:center}.ft p{font-family:var(--mono);font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+@keyframes fu{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}@keyframes op{0%{opacity:.6;transform:scale(1)}100%{opacity:1;transform:scale(1.15)}}
+@media(min-width:960px){.ph{padding:8rem 2.5rem 3.5rem}.sec{padding:5rem 2.5rem}}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--bg4);border-radius:3px}
+</style></head>
+<body><div class="grain"></div><header class="hdr"><div class="hdr-in">
+<a href="../index.html" class="logo">Transhu<span>mance</span></a>
+<nav class="nd"><ul>
+<li><a href="../index.html">Accueil</a></li>
+<li class="dd"><button class="ddb">L'Atelier <span class="dda">&#9662;</span></button><div class="ddm"><a href="../atelier/dispositif.html">Le Dispositif</a><a href="../atelier/jeu.html">Le Jeu</a></div></li>
+<li class="dd"><button class="ddb">L'Univers <span class="dda">&#9662;</span></button><div class="ddm"><a href="../univers/contexte.html">Le Contexte</a><a href="../univers/timeline.html">La Timeline</a><a href="../univers/personnages.html">Les Personnages</a><a href="../univers/court-metrage.html">Le Court Metrage</a></div></li>
+<li class="dd"><button class="ddb">Atlas <span class="dda">&#9662;</span></button><div class="ddm"><a href="../atlas/carte.html">La Carte</a><a href="../atlas/insa-rouen.html">INSA Rouen</a></div></li>
+<li class="dd"><button class="ddb on">Approfondir <span class="dda">&#9662;</span></button><div class="ddm"><a href="../approfondir/theorie-politique.html">Theorie politique</a><a href="../approfondir/science-du-vivant.html">Science du vivant</a><a href="../approfondir/references.html">References</a></div></li>
+<li><a href="../a-propos.html">A propos</a></li>
+</ul></nav>
+<button class="ham" aria-label="Menu"><i></i><i></i><i></i></button>
+</div></header>
+<nav class="nm"><ul>
+<li><a href="../index.html">Accueil</a></li>
+<li><button class="sb">L'Atelier</button><ul class="su"><li><a href="../atelier/dispositif.html">Le Dispositif</a></li><li><a href="../atelier/jeu.html">Le Jeu</a></li></ul></li>
+<li><button class="sb">L'Univers</button><ul class="su"><li><a href="../univers/contexte.html">Le Contexte</a></li><li><a href="../univers/timeline.html">La Timeline</a></li><li><a href="../univers/personnages.html">Les Personnages</a></li><li><a href="../univers/court-metrage.html">Le Court Metrage</a></li></ul></li>
+<li><button class="sb">Atlas</button><ul class="su"><li><a href="../atlas/carte.html">La Carte</a></li><li><a href="../atlas/insa-rouen.html">INSA Rouen</a></li></ul></li>
+<li><button class="sb">Approfondir</button><ul class="su"><li><a href="../approfondir/theorie-politique.html">Theorie politique</a></li><li><a href="../approfondir/science-du-vivant.html">Science du vivant</a></li><li><a href="../approfondir/references.html">References</a></li></ul></li>
+<li><a href="../a-propos.html">A propos</a></li>
+</ul></nav><main>
+<div class="ph"><p class="ph-l">Approfondir / Theorie politique</p><h1 class="ph-t">Penser le monde que la fiction habite</h1><p class="ph-d">Future Faces ne flotte pas dans le vide. Le projet s'appuie sur des penseurs qui permettent de comprendre la crise ecologique comme une crise politique, et l'hybridation comme un geste qui reconfigure les rapports entre humains, non-humains et territoires.</p></div>
+
+<section style="padding:1.5rem 0 1rem">
+
+<style>
+.cv-wrap{margin:0 auto}
+.cv-top{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1rem;padding:0 1.25rem;max-width:1400px;margin-left:auto;margin-right:auto;align-items:center}
+.cv-cat{font-family:var(--mono);font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;padding:.4rem .75rem;border-radius:20px;border:1px solid rgba(255,255,255,.08);background:transparent;color:var(--tx3);cursor:pointer;transition:all .25s var(--ease)}
+.cv-cat:hover{border-color:rgba(255,255,255,.2);color:var(--tx2)}
+.cv-cat.on{color:var(--bg);font-weight:500}
+.cv-cat[data-cat="all"].on{border-color:var(--tx2);background:var(--tx2)}
+.cv-cat[data-cat="crise"].on{border-color:#e85a5a;background:#e85a5a}
+.cv-cat[data-cat="vivant"].on{border-color:#5ac8e8;background:#5ac8e8}
+.cv-cat[data-cat="art"].on{border-color:#e8c45a;background:#e8c45a}
+.cv-cat[data-cat="technique"].on{border-color:#b45ae8;background:#b45ae8}
+.cv-cat[data-cat="solidarite"].on{border-color:#5ae87a;background:#5ae87a}
+.cv-reset{font-family:var(--mono);font-size:.6rem;letter-spacing:.04em;text-transform:uppercase;padding:.35rem .65rem;border-radius:20px;border:1px solid rgba(255,255,255,.1);background:transparent;color:var(--tx3);cursor:pointer;transition:all .25s var(--ease);margin-left:auto}
+.cv-reset:hover{border-color:var(--gr);color:var(--gr)}
+.cv-canvas{width:100%;height:320px;display:block;touch-action:none;cursor:grab;background:transparent}
+.cv-canvas.dragging{cursor:grabbing}
+@media(min-width:768px){.cv-canvas{height:420px}}
+.cv-info{padding:1rem 1.25rem;min-height:55px;max-width:1400px;margin:0 auto}
+.cv-info-name{font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--tx)}
+.cv-info-concept{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;margin-bottom:.15rem}
+.cv-info-text{font-size:.85rem;color:var(--tx2);font-weight:300;line-height:1.55;max-width:600px}
+.cv-info-empty{font-family:var(--mono);font-size:.62rem;color:var(--tx3);letter-spacing:.04em;text-transform:uppercase}
+.cv-info-link-label{font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;margin-bottom:.2rem}
+.cv-info-link-desc{font-size:.82rem;color:var(--tx2);font-weight:300;line-height:1.5}
+
+/* ===== PARCOURS ===== */
+.parc{max-width:860px;margin:2rem auto 0;padding:0 1.25rem}
+.parc-title{font-family:var(--serif);font-size:1.4rem;color:var(--tx);margin-bottom:.3rem}
+.parc-sub{font-size:.88rem;color:var(--tx2);font-weight:300;margin-bottom:1.5rem}
+.parc-item{background:var(--bg2);border:1px solid rgba(255,255,255,.04);border-radius:12px;margin-bottom:.6rem;overflow:hidden;transition:border-color .3s var(--ease)}
+.parc-item:hover{border-color:rgba(255,255,255,.08)}
+.parc-q{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.2rem;cursor:pointer;gap:1rem}
+.parc-q-text{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--tx)}
+.parc-q-arrow{color:var(--tx3);font-size:.9rem;transition:transform .35s var(--ease);flex-shrink:0}
+.parc-item.open .parc-q-arrow{transform:rotate(180deg);color:var(--gr)}
+.parc-body{max-height:0;overflow:hidden;transition:max-height .5s var(--ease)}
+.parc-item.open .parc-body{max-height:1500px}
+.parc-inner{padding:0 1.2rem 1.2rem}
+.parc-step{margin-bottom:1rem;padding-left:1rem;border-left:2px solid rgba(255,255,255,.04)}
+.parc-step h5{font-family:var(--sans);font-weight:600;font-size:.88rem;color:var(--tx);margin-bottom:.15rem}
+.parc-step .ps-concept{font-family:var(--mono);font-size:.65rem;color:var(--gr);letter-spacing:.04em;margin-bottom:.2rem}
+.parc-step p{font-size:.82rem;color:var(--tx2);font-weight:300;line-height:1.55}
+</style>
+
+<div class="cv-wrap">
+  <div class="cv-top">
+    <button class="cv-cat on" data-cat="all">Libre</button>
+    <button class="cv-cat" data-cat="crise">Crise</button>
+    <button class="cv-cat" data-cat="vivant">Vivant</button>
+    <button class="cv-cat" data-cat="art">Art et fiction</button>
+    <button class="cv-cat" data-cat="technique">Technique</button>
+    <button class="cv-cat" data-cat="solidarite">Solidarite</button>
+    <button class="cv-reset" id="cv-reset">&#8634; Reset</button>
+  </div>
+  <canvas class="cv-canvas" id="cv-canvas"></canvas>
+  <div class="cv-info" id="cv-info">
+    <p class="cv-info-empty">Deplacez un penseur vers les autres pour voir les connexions</p>
+  </div>
+</div>
+
+<script>
+(function(){
+const canvas=document.getElementById('cv-canvas');
+const ctx=canvas.getContext('2d');
+const info=document.getElementById('cv-info');
+let W,H;
+
+function resize(){
+  const r=canvas.getBoundingClientRect();
+  const dpr=window.devicePixelRatio||1;
+  W=r.width;H=r.height;
+  canvas.width=W*dpr;canvas.height=H*dpr;
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+}
+resize();window.addEventListener('resize',resize);
+
+let camX=0,camY=0,camZ=1;
+function w2s(wx,wy){return{x:(wx-camX)*camZ+W/2,y:(wy-camY)*camZ+H/2};}
+function s2w(sx,sy){return{x:(sx-W/2)/camZ+camX,y:(sy-H/2)/camZ+camY};}
+
+const CC={crise:'232,90,90',vivant:'90,200,232',art:'232,196,90',technique:'180,90,232',solidarite:'90,232,122'};
+const catM={
+  crise:['crutzen','moore','malm','tsing','kacem','bookchin'],
+  vivant:['margulis','gilbert','morizot','haraway','stengers','hache','latour'],
+  art:['ranciere','guattari','slavin','deleuze','moore','latour'],
+  technique:['simondon','stiegler','illich','bookchin','tiqqun','kacem','guattari','deleuze'],
+  solidarite:['haraway','morizot','gilbert','margulis','guattari','deleuze','stengers','hache']
+};
+
+const links=[
+  {a:'crutzen',b:'moore',label:'Nommer la crise',cat:'crise',desc:'Crutzen nomme l\'Anthropocene. Moore deplace la responsabilite vers le Capitalocene — un systeme, pas une espece.'},
+  {a:'crutzen',b:'malm',label:'Genealogie politique',cat:'crise',desc:'Crutzen pose le constat. Malm remonte aux origines : le choix du charbon etait politique, pas technique.'},
+  {a:'crutzen',b:'tsing',label:'Heritage colonial',cat:'crise',desc:'L\'Anthropocene a une prehistoire coloniale. Les plantations de Tsing precedent les usines de Crutzen.'},
+  {a:'moore',b:'kacem',label:'Moteur du systeme',cat:'crise',desc:'Moore identifie le systeme. Belhaj Kacem identifie son moteur : la pleonexie, le desir d\'avoir toujours plus.'},
+  {a:'moore',b:'guattari',label:'Subjectivite',cat:'art',desc:'Le capitalisme ne produit pas que des marchandises. Guattari montre qu\'il produit des subjectivites.'},
+  {a:'malm',b:'bookchin',label:'Domination sociale',cat:'crise',desc:'La domination de la nature est le prolongement de la domination entre humains.'},
+  {a:'tsing',b:'haraway',label:'Multi-especes',cat:'vivant',desc:'Tsing documente les mondes en ruine. Haraway propose d\'y construire des alliances multi-especes.'},
+  {a:'haraway',b:'latour',label:'Fin nature/culture',cat:'vivant',desc:'Les deux demantelent la separation nature/culture. Latour par la politique, Haraway par la biologie.'},
+  {a:'haraway',b:'margulis',label:'Symbiose',cat:'vivant',desc:'Margulis prouve que la symbiose est le mode du vivant. Haraway en tire une philosophie politique.'},
+  {a:'haraway',b:'stengers',label:'Penser avec',cat:'vivant',desc:'Stengers apprend a penser avec. Haraway apprend a vivre avec — making kin.'},
+  {a:'haraway',b:'morizot',label:'Interdependance',cat:'solidarite',desc:'Haraway pense l\'enchevetrement. Morizot le pratique sur le terrain, en pistant les vivants.'},
+  {a:'latour',b:'stengers',label:'Terrestres',cat:'vivant',desc:'Latour nomme les Terrestres. Stengers leur apprend la prudence.'},
+  {a:'latour',b:'hache',label:'Attachements',cat:'vivant',desc:'Latour demande ou atterrir. Hache demande a quoi on tient.'},
+  {a:'latour',b:'ranciere',label:'Visibilite',cat:'art',desc:'Latour rend les non-humains visibles en politique. Ranciere theorise cette operation.'},
+  {a:'stengers',b:'morizot',label:'Attention',cat:'solidarite',desc:'Stengers demande de faire attention. Morizot traduit ca : la balade naturaliste.'},
+  {a:'hache',b:'morizot',label:'Territoire',cat:'solidarite',desc:'Hache pense les attachements. Morizot les met en pratique espece par espece.'},
+  {a:'kacem',b:'guattari',label:'Desir et systeme',cat:'technique',desc:'Belhaj Kacem decrit la pleonexie. Guattari montre que ce desir est produit — et peut etre transforme.'},
+  {a:'kacem',b:'illich',label:'Seuil',cat:'technique',desc:'Belhaj Kacem decrit l\'accumulation. Illich identifie le seuil ou l\'outil asservit.'},
+  {a:'guattari',b:'deleuze',label:'Devenir-animal',cat:'art',desc:'Ensemble ils inventent le devenir-animal : zone ou les frontieres humain/non-humain se brouillent.'},
+  {a:'guattari',b:'simondon',label:'Individuation',cat:'technique',desc:'Guattari pense la subjectivite. Simondon pense l\'individuation comme processus.'},
+  {a:'deleuze',b:'simondon',label:'Processus',cat:'technique',desc:'Simondon : l\'individu est un processus. Deleuze : le devenir est plus reel que l\'etre.'},
+  {a:'simondon',b:'stiegler',label:'Pharmakon',cat:'technique',desc:'Simondon pense la technique comme milieu. Stiegler ajoute : remede et poison a la fois.'},
+  {a:'stiegler',b:'illich',label:'Ambivalence',cat:'technique',desc:'Stiegler nomme le pharmakon. Illich avait deja repere le seuil de basculement.'},
+  {a:'ranciere',b:'slavin',label:'Participation',cat:'art',desc:'Ranciere defend l\'egalite des intelligences. Slavin l\'applique au design.'},
+  {a:'margulis',b:'gilbert',label:'Holobionte',cat:'solidarite',desc:'Margulis prouve l\'endosymbiose. Gilbert en tire le concept d\'holobionte.'},
+  {a:'margulis',b:'morizot',label:'Co-evolution',cat:'solidarite',desc:'Margulis montre la co-evolution cellulaire. Morizot l\'observe a l\'echelle des ecosystemes.'},
+  {a:'gilbert',b:'morizot',label:'Assemblage',cat:'solidarite',desc:'Gilbert theorise l\'holobionte. Morizot observe ces assemblages sur le terrain.'},
+  {a:'hache',b:'stengers',label:'Ecologie des pratiques',cat:'vivant',desc:'Stengers pose les bases. Hache la prolonge vers les attachements.'},
+  {a:'hache',b:'morizot',label:'Habiter un territoire',cat:'vivant',desc:'Hache demande a quoi on tient. Morizot repond en habitant un territoire.'},
+  {a:'gilbert',b:'haraway',label:'Assemblage multi-especes',cat:'vivant',desc:'Gilbert formalise l\'holobionte. Haraway en fait un projet politique.'},
+  {a:'morizot',b:'latour',label:'Enquete sur le terrain',cat:'vivant',desc:'Latour theorise le Parlement des choses. Morizot le pratique.'},
+  {a:'deleuze',b:'haraway',label:'Deterritorialisation',cat:'solidarite',desc:'Deleuze pense la deterritorialisation. Haraway la rend concrete avec les cyborgs.'},
+  {a:'guattari',b:'morizot',label:'Ecosophie',cat:'solidarite',desc:'L\'ecosophie de Guattari articule tout. Morizot l\'incarne sur le terrain.'},
+  {a:'bookchin',b:'illich',label:'Critique de la demesure',cat:'technique',desc:'Bookchin critique la domination. Illich critique la demesure. Meme combat.'},
+  {a:'tiqqun',b:'simondon',label:'Controle des flux',cat:'technique',desc:'Tiqqun decrit le controle cybernetique. Simondon pense la technique comme milieu.'},
+  {a:'tiqqun',b:'stiegler',label:'Technique et pouvoir',cat:'technique',desc:'Tiqqun voit la technique comme controle. Stiegler la voit comme pharmakon.'}
+];
+
+const T=[
+  {id:'crutzen',name:'Crutzen',concept:'Anthropocene',text:'Le diagnostic geologique — l\'activite humaine modifie la planete.'},
+  {id:'moore',name:'Moore',concept:'Capitalocene',text:'Pas l\'humanite mais un systeme economique specifique.'},
+  {id:'malm',name:'Malm',concept:'Capital fossile',text:'Le choix du charbon etait un choix de classe.'},
+  {id:'tsing',name:'Tsing',concept:'Plantationocene',text:'Les plantations coloniales comme premiere transformation industrielle du vivant.'},
+  {id:'haraway',name:'Haraway',concept:'Chthulucene',text:'Enchevetrement multi-especes. Les hybrides sont des cyborgs biologiques.'},
+  {id:'latour',name:'Latour',concept:'Terrestres',text:'Habiter la Terre, dependre d\'un sol.'},
+  {id:'stengers',name:'Stengers',concept:'Penser avec',text:'Apprendre a penser avec d\'autres etres.'},
+  {id:'hache',name:'Hache',concept:'Attachements',text:'Quelles especes meritent d\'etre defendues ?'},
+  {id:'kacem',name:'Belhaj Kacem',concept:'Pleonectique',text:'Le desir d\'avoir toujours plus.'},
+  {id:'guattari',name:'Guattari',concept:'Trois ecologies',text:'Environnement, social, mental — indissociables.'},
+  {id:'deleuze',name:'Deleuze',concept:'Devenir-animal',text:'Zone d\'indiscernabilite entre humain et non-humain.'},
+  {id:'simondon',name:'Simondon',concept:'Individuation',text:'L\'individu est un processus, jamais acheve.'},
+  {id:'stiegler',name:'Stiegler',concept:'Pharmakon',text:'Toute technique est remede et poison.'},
+  {id:'ranciere',name:'Ranciere',concept:'Partage du sensible',text:'L\'art reconfigure ce qui est visible et pensable.'},
+  {id:'slavin',name:'Slavin',concept:'Participation',text:'Le designer cree des conditions, pas des solutions.'},
+  {id:'margulis',name:'Margulis',concept:'Endosymbiose',text:'L\'hybridation est le mode fondamental du vivant.'},
+  {id:'gilbert',name:'Gilbert',concept:'Holobionte',text:'Tout organisme est un assemblage multi-especes.'},
+  {id:'morizot',name:'Morizot',concept:'Attention',text:'La balade naturaliste = exercice d\'attention.'},
+  {id:'illich',name:'Illich',concept:'Convivialite',text:'Le seuil ou l\'outil asservit.'},
+  {id:'bookchin',name:'Bookchin',concept:'Ecologie sociale',text:'Domination de la nature = domination entre humains.'},
+  {id:'tiqqun',name:'Tiqqun',concept:'Cybernetique',text:'L\'hybridation libere ou integre dans la machine ?'}
+];
+
+const byId={};const R=W<500?22:28;
+const nodes=T.map(t=>{
+  const a=Math.random()*Math.PI*2,rad=Math.random()*Math.min(W,H)*.35+30;
+  const n={...t,x:Math.cos(a)*rad,y:Math.sin(a)*rad,vx:(Math.random()-.5)*.2,vy:(Math.random()-.5)*.2,r:R,visible:true,dragging:false};
+  byId[t.id]=n;return n;
+});
+
+let activeCat='all',selNode=null,selLink=null,dragNode=null;
+const CD=W<500?130:180;
+const WB=Math.max(W,H)*.6;
+
+function distribute(){
+  if(activeCat==='all'){
+    nodes.forEach(n=>{n.visible=true;});
+    const a2=Math.random()*Math.PI*2;
+    nodes.forEach((n,i)=>{
+      const ang=a2+(i/nodes.length)*Math.PI*2;
+      const rad=Math.min(W,H)*.3;
+      n.x=Math.cos(ang)*rad;n.y=Math.sin(ang)*rad;
+      n.vx=(Math.random()-.5)*.2;n.vy=(Math.random()-.5)*.2;
+    });
+  } else {
+    const ids=catM[activeCat]||[];
+    nodes.forEach(n=>{n.visible=ids.includes(n.id);});
+    const vis=nodes.filter(n=>n.visible);
+    const rad=Math.min(W,H)*.28;
+    vis.forEach((n,i)=>{
+      const ang=(i/vis.length)*Math.PI*2-Math.PI/2;
+      n.x=Math.cos(ang)*rad;n.y=Math.sin(ang)*rad;
+      n.vx=(Math.random()-.5)*.06;n.vy=(Math.random()-.5)*.06;
+    });
+  }
+  camX=0;camY=0;camZ=1;
+  selNode=null;selLink=null;showInfo();
+}
+
+function tick(){
+  nodes.forEach(n=>{
+    if(!n.visible||n.dragging)return;
+    n.x+=n.vx;n.y+=n.vy;
+    if(n.x<-WB)n.vx=Math.abs(n.vx);if(n.x>WB)n.vx=-Math.abs(n.vx);
+    if(n.y<-WB)n.vy=Math.abs(n.vy);if(n.y>WB)n.vy=-Math.abs(n.vy);
+    n.vx+=(Math.random()-.5)*.012;n.vy+=(Math.random()-.5)*.012;
+    n.vx*=.998;n.vy*=.998;
+    const s=Math.sqrt(n.vx*n.vx+n.vy*n.vy);
+    if(s>.3){n.vx=n.vx/s*.3;n.vy=n.vy/s*.3;}
+  });
+  for(let i=0;i<nodes.length;i++){const a=nodes[i];if(!a.visible)continue;
+    for(let j=i+1;j<nodes.length;j++){const b=nodes[j];if(!b.visible)continue;
+      const dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy),m=(a.r+b.r)/camZ+15;
+      if(d<m&&d>0){const f=(m-d)/d*.25;if(!a.dragging){a.x-=dx*f;a.y-=dy*f;}if(!b.dragging){b.x+=dx*f;b.y+=dy*f;}}
+  }}
+}
+
+function draw(){
+  ctx.clearRect(0,0,W,H);
+  const al=activeCat==='all'?links:links.filter(l=>l.cat===activeCat);
+  al.forEach(l=>{
+    const a=byId[l.a],b=byId[l.b];if(!a||!b||!a.visible||!b.visible)return;
+    const dx=a.x-b.x,dy=a.y-b.y,dist=Math.sqrt(dx*dx+dy*dy);
+    let alpha;
+    if(activeCat==='all'){if(dist>CD)return;alpha=1-dist/CD;if(alpha<.08)return;}
+    else alpha=.5;
+    const sa=w2s(a.x,a.y),sb=w2s(b.x,b.y);
+    const col=CC[l.cat]||'184,232,71';const isSel=selLink===l;
+    ctx.beginPath();ctx.moveTo(sa.x,sa.y);ctx.lineTo(sb.x,sb.y);
+    ctx.strokeStyle='rgba('+col+','+(isSel?alpha*.8:alpha*.35)+')';ctx.lineWidth=isSel?2.5:1.5;ctx.stroke();
+    if(alpha>.15||activeCat!=='all'){
+      const mx=(sa.x+sb.x)/2,my=(sa.y+sb.y)/2;
+      const fs=Math.max(8,10*camZ);
+      ctx.font=(activeCat!=='all'?'600 ':'')+fs+'px Outfit,sans-serif';
+      ctx.fillStyle='rgba('+col+','+(isSel?.95:(activeCat==='all'?alpha*.8:.75))+')';
+      ctx.textAlign='center';ctx.fillText(l.label,mx,my-6*camZ);
+    }
+  });
+  nodes.filter(n=>n.visible).forEach(n=>{
+    const s=w2s(n.x,n.y),sr=n.r*camZ;
+    const isSel=n===selNode,isDrag=n===dragNode;
+    const inC=activeCat==='all'||(catM[activeCat]||[]).includes(n.id);
+    if(isSel||isDrag){ctx.beginPath();ctx.arc(s.x,s.y,sr+8,0,Math.PI*2);ctx.fillStyle='rgba(184,232,71,.08)';ctx.fill();}
+    ctx.beginPath();ctx.arc(s.x,s.y,sr,0,Math.PI*2);
+    ctx.fillStyle=isSel?'rgba(255,255,255,.1)':'rgba(255,255,255,.03)';ctx.fill();
+    ctx.strokeStyle=isSel?'rgba(184,232,71,.6)':(isDrag?'rgba(184,232,71,.4)':'rgba(255,255,255,'+(inC?.12:.04)+')');
+    ctx.lineWidth=isSel?2:1;ctx.stroke();
+    const fs=Math.max(7,(W<500?9:11)*camZ);
+    ctx.font='600 '+fs+'px Outfit,sans-serif';
+    ctx.fillStyle='rgba(226,222,214,'+(inC?1:.15)+')';
+    ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(n.name,s.x,s.y);
+  });
+}
+function loop(){tick();draw();requestAnimationFrame(loop);}loop();
+
+function gp(e){const r=canvas.getBoundingClientRect();const t=e.touches?e.touches[0]||e.changedTouches[0]:e;return{x:t.clientX-r.left,y:t.clientY-r.top};}
+function hn(sx,sy){const w=s2w(sx,sy);let h=null;nodes.forEach(n=>{if(!n.visible)return;const d=Math.sqrt((n.x-w.x)**2+(n.y-w.y)**2);if(d<n.r/camZ+10)h=n;});return h;}
+function hl(sx,sy){const w=s2w(sx,sy);let best=null,bd=20/camZ;
+  const al=activeCat==='all'?links:links.filter(l=>l.cat===activeCat);
+  al.forEach(l=>{const a=byId[l.a],b=byId[l.b];if(!a||!b||!a.visible||!b.visible)return;
+    if(activeCat==='all'){const d=Math.sqrt((a.x-b.x)**2+(a.y-b.y)**2);if(d>CD)return;}
+    const dx=b.x-a.x,dy=b.y-a.y,l2=dx*dx+dy*dy;if(!l2)return;
+    let t=((w.x-a.x)*dx+(w.y-a.y)*dy)/l2;t=Math.max(0,Math.min(1,t));
+    const d=Math.sqrt((w.x-(a.x+t*dx))**2+(w.y-(a.y+t*dy))**2);
+    if(d<bd){bd=d;best=l;}
+  });return best;}
+
+let isPan=false,panS={x:0,y:0},camS={x:0,y:0};
+canvas.addEventListener('mousedown',e=>{const p=gp(e);const n=hn(p.x,p.y);
+  if(n){dragNode=n;n.dragging=true;canvas.classList.add('dragging');return;}
+  isPan=true;panS=p;camS={x:camX,y:camY};canvas.classList.add('dragging');});
+window.addEventListener('mousemove',e=>{
+  if(dragNode){const w=s2w(gp(e).x,gp(e).y);dragNode.x=w.x;dragNode.y=w.y;return;}
+  if(isPan){const p=gp(e);camX=camS.x-(p.x-panS.x)/camZ;camY=camS.y-(p.y-panS.y)/camZ;}});
+window.addEventListener('mouseup',()=>{
+  if(dragNode){dragNode.dragging=false;dragNode.vx=(Math.random()-.5)*.05;dragNode.vy=(Math.random()-.5)*.05;dragNode=null;}
+  isPan=false;canvas.classList.remove('dragging');});
+canvas.addEventListener('click',e=>{const p=gp(e);
+  const n=hn(p.x,p.y);if(n){selNode=n===selNode?null:n;selLink=null;showInfo();return;}
+  const l=hl(p.x,p.y);if(l){selLink=l===selLink?null:l;selNode=null;showInfo();return;}
+  selNode=null;selLink=null;showInfo();});
+
+let t0=null,touchStartPos=null,touchMoved=false,touchStartNode=null;
+canvas.addEventListener('touchstart',e=>{
+  touchMoved=false;
+  if(e.touches.length===1){
+    const p=gp(e);
+    touchStartPos=p;
+    const n=hn(p.x,p.y);
+    touchStartNode=n;
+    if(n){dragNode=n;n.dragging=true;}
+    else{isPan=true;panS=p;camS={x:camX,y:camY};}
+    e.preventDefault();
+  } else if(e.touches.length===2){
+    isPan=false;if(dragNode){dragNode.dragging=false;dragNode=null;}
+    const dx=e.touches[0].clientX-e.touches[1].clientX,dy=e.touches[0].clientY-e.touches[1].clientY;
+    t0={dist:Math.sqrt(dx*dx+dy*dy),z:camZ};e.preventDefault();
+  }
+},{passive:false});
+canvas.addEventListener('touchmove',e=>{
+  touchMoved=true;
+  if(dragNode&&e.touches.length===1){e.preventDefault();const w=s2w(gp(e).x,gp(e).y);dragNode.x=w.x;dragNode.y=w.y;return;}
+  if(isPan&&e.touches.length===1){e.preventDefault();const p=gp(e);camX=camS.x-(p.x-panS.x)/camZ;camY=camS.y-(p.y-panS.y)/camZ;return;}
+  if(e.touches.length===2&&t0){e.preventDefault();
+    const dx=e.touches[0].clientX-e.touches[1].clientX,dy=e.touches[0].clientY-e.touches[1].clientY;
+    camZ=Math.max(.4,Math.min(3,t0.z*(Math.sqrt(dx*dx+dy*dy)/t0.dist)));}
+},{passive:false});
+canvas.addEventListener('touchend',e=>{
+  if(dragNode){dragNode.dragging=false;dragNode.vx=(Math.random()-.5)*.05;dragNode.vy=(Math.random()-.5)*.05;}
+  if(e.touches.length===0){
+    // Detect tap (no significant movement)
+    if(!touchMoved||!touchStartPos){
+      const p={x:touchStartPos?touchStartPos.x:0,y:touchStartPos?touchStartPos.y:0};
+      // Try node first
+      if(touchStartNode){
+        selNode=touchStartNode===selNode?null:touchStartNode;selLink=null;showInfo();
+      } else {
+        const l=hl(p.x,p.y);
+        if(l){selLink=l===selLink?null:l;selNode=null;showInfo();}
+        else{selNode=null;selLink=null;showInfo();}
+      }
+    }
+    dragNode=null;isPan=false;t0=null;touchStartPos=null;touchStartNode=null;
+  }
+});
+canvas.addEventListener('wheel',e=>{e.preventDefault();camZ=Math.max(.4,Math.min(3,camZ*(e.deltaY>0?.9:1.1)));},{passive:false});
+
+function showInfo(){
+  if(selNode){const c=CC[Object.keys(catM).find(k=>catM[k].includes(selNode.id))]||'184,232,71';
+    info.innerHTML='<p class="cv-info-concept" style="color:rgb('+c+')">'+selNode.concept+'</p><p class="cv-info-name">'+selNode.name+'</p><p class="cv-info-text">'+selNode.text+'</p>';
+  } else if(selLink){const c=CC[selLink.cat]||'184,232,71';
+    info.innerHTML='<p class="cv-info-link-label" style="color:rgb('+c+')">'+selLink.label+'</p><p class="cv-info-name">'+byId[selLink.a].name+' — '+byId[selLink.b].name+'</p><p class="cv-info-link-desc">'+selLink.desc+'</p>';
+  } else info.innerHTML='<p class="cv-info-empty">Deplacez un penseur vers les autres pour voir les connexions</p>';
+}
+
+document.querySelectorAll('.cv-cat').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.cv-cat').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on');activeCat=btn.dataset.cat;distribute();});});
+
+document.getElementById('cv-reset').addEventListener('click',distribute);
+})();
+</script>
+
+</section>
+
+<!-- ===== PARCOURS THEMATIQUES ===== -->
+<section class="sec">
+<div class="parc">
+  <h3 class="parc-title">Parcours thematiques</h3>
+  <p class="parc-sub">Explorez les idees par questionnement plutot que par auteur.</p>
+
+  <div class="parc-item">
+    <div class="parc-q"><span class="parc-q-text">Qui est responsable de la crise ecologique ?</span><span class="parc-q-arrow">&#9662;</span></div>
+    <div class="parc-body"><div class="parc-inner">
+      <div class="parc-step"><h5>Paul Crutzen</h5><p class="ps-concept">Anthropocene</p><p>Le diagnostic : l'activite humaine modifie la planete. Mais le mot designe l'humanite en general — or toutes les societes n'ont pas contribue de la meme facon.</p></div>
+      <div class="parc-step"><h5>Jason W. Moore</h5><p class="ps-concept">Capitalocene</p><p>Ce n'est pas l'humanite mais un systeme economique specifique : extraction massive, croissance infinie, nature transformee en marchandise.</p></div>
+      <div class="parc-step"><h5>Andreas Malm</h5><p class="ps-concept">Capital fossile</p><p>Le choix du charbon au XIXe siecle etait un choix de classe : concentrer la production pour controler la force de travail.</p></div>
+      <div class="parc-step"><h5>Anna Tsing</h5><p class="ps-concept">Plantationocene</p><p>Les plantations coloniales comme premiere transformation industrielle du vivant — esclavage, monoculture et crise ecologique.</p></div>
+    </div></div>
+  </div>
+
+  <div class="parc-item">
+    <div class="parc-q"><span class="parc-q-text">Pourquoi les hybridations changent-elles tout ?</span><span class="parc-q-arrow">&#9662;</span></div>
+    <div class="parc-body"><div class="parc-inner">
+      <div class="parc-step"><h5>Lynn Margulis</h5><p class="ps-concept">Endosymbiose</p><p>Les cellules complexes sont issues de symbioses anciennes. L'hybridation n'est pas une transgression — c'est le mode fondamental du vivant.</p></div>
+      <div class="parc-step"><h5>Scott F. Gilbert</h5><p class="ps-concept">Holobionte</p><p>Tout organisme est un assemblage multi-especes. L'individu autonome est un mythe biologique.</p></div>
+      <div class="parc-step"><h5>Gilbert Simondon</h5><p class="ps-concept">Individuation</p><p>L'individu est un processus, jamais acheve. Les HKDN sont une transduction : modification qui se propage de proche en proche.</p></div>
+      <div class="parc-step"><h5>Deleuze et Guattari</h5><p class="ps-concept">Devenir-animal</p><p>Entrer dans une zone d'indiscernabilite entre humain et non-humain. Devenir-lichen, devenir-blob, devenir-oiseau.</p></div>
+    </div></div>
+  </div>
+
+  <div class="parc-item">
+    <div class="parc-q"><span class="parc-q-text">L'art et la fiction peuvent-ils changer le reel ?</span><span class="parc-q-arrow">&#9662;</span></div>
+    <div class="parc-body"><div class="parc-inner">
+      <div class="parc-step"><h5>Jacques Ranciere</h5><p class="ps-concept">Partage du sensible</p><p>La politique commence dans ce qui est visible et pensable. L'art peut rendre visibles des formes de vie ignorees.</p></div>
+      <div class="parc-step"><h5>Felix Guattari</h5><p class="ps-concept">Ecosophie</p><p>Le capitalisme produit des subjectivites. Si elles sont produites, elles peuvent etre transformees par l'art et les pratiques collectives.</p></div>
+      <div class="parc-step"><h5>Kevin Slavin</h5><p class="ps-concept">Design as Participation</p><p>Les systemes sont trop complexes pour etre concus centralement. NECTAR cree un cadre ou les hybridations emergent.</p></div>
+    </div></div>
+  </div>
+
+  <div class="parc-item">
+    <div class="parc-q"><span class="parc-q-text">La solidarite peut-elle devenir biologique ?</span><span class="parc-q-arrow">&#9662;</span></div>
+    <div class="parc-body"><div class="parc-inner">
+      <div class="parc-step"><h5>Donna Haraway</h5><p class="ps-concept">Chthulucene</p><p>Se penser comme partie d'un reseau de vivants interdependants. Le Chthulucene refuse l'humain comme seul agent.</p></div>
+      <div class="parc-step"><h5>Baptiste Morizot</h5><p class="ps-concept">Attention au vivant</p><p>Reconstruire des relations d'attention. La balade naturaliste = exercice d'attention avant l'invention.</p></div>
+      <div class="parc-step"><h5>Emancipation et interdependance</h5><p class="ps-concept">Le paradoxe Future Faces</p><p>Si les humains deviennent biologiquement interdependants, la cooperation n'est plus un choix moral — elle devient une condition materielle.</p></div>
+    </div></div>
+  </div>
+
+  <div class="parc-item">
+    <div class="parc-q"><span class="parc-q-text">La technique libere-t-elle ou asservit-elle ?</span><span class="parc-q-arrow">&#9662;</span></div>
+    <div class="parc-body"><div class="parc-inner">
+      <div class="parc-step"><h5>Bernard Stiegler</h5><p class="ps-concept">Pharmakon</p><p>Toute technique est a la fois remede et poison. Les HKDN adaptent mais creent des dependances irreversibles.</p></div>
+      <div class="parc-step"><h5>Ivan Illich</h5><p class="ps-concept">Convivialite</p><p>Le seuil ou l'outil cesse de servir et commence a asservir. L'edition genetique sur la meme trajectoire que la voiture.</p></div>
+      <div class="parc-step"><h5>Tiqqun</h5><p class="ps-concept">Cybernetique</p><p>L'hybridation libere ou integre dans la machine ? Nabull00z (systeme) vs Silamphre (ecologique).</p></div>
+      <div class="parc-step"><h5>Murray Bookchin</h5><p class="ps-concept">Ecologie sociale</p><p>Pas de solution technique sans transformation des rapports sociaux.</p></div>
+    </div></div>
+  </div>
+</div>
+
+<script>
+document.querySelectorAll('.parc-q').forEach(q=>{
+  q.addEventListener('click',()=>{
+    const it=q.parentElement;
+    const was=it.classList.contains('open');
+    document.querySelectorAll('.parc-item').forEach(i=>i.classList.remove('open'));
+    if(!was){it.classList.add('open');setTimeout(()=>{it.scrollIntoView({behavior:'smooth',block:'nearest'});},100);}
+  });
+});
+</script>
+
+</section>
+
+<!-- ===== CONTENU COMPLET ===== -->
+<section class="sec sec--n"><div class="pr">
+
+<h2 style="font-family:var(--serif);font-size:1.6rem;margin-bottom:.4rem">Entrer dans la pensee</h2>
+<p style="color:var(--tx2);font-weight:300;margin-bottom:2rem">La constellation et les parcours sont des portes d'entree. Ce qui suit est le territoire complet — dix chapitres qui deployent les filiations entre ces penseurs, les tensions qui les traversent, et les raisons precises pour lesquelles chacun d'eux aide a comprendre ce que Future Faces met en jeu. C'est un texte dense, mais c'est aussi celui qui donne au projet ses fondations.</p>
+
+<h2>I. Anthropocene, Capitalocene et la question de la responsabilite</h2>
+<p><strong>Paul Crutzen</strong> propose en 2000 le terme Anthropocene pour designer une nouvelle epoque geologique ou l'activite humaine modifie la planete a une echelle mesurable. Le constat est factuel. Mais le mot contient un probleme : il designe l'humanite en general comme agent responsable. Or toutes les societes humaines n'ont pas contribue de la meme facon.</p>
+<p><strong>Jason W. Moore</strong>, dans Capitalism in the Web of Life (2015), propose le Capitalocene. Ce n'est pas l'humanite en general qui a produit cette crise, mais un systeme economique specifique fonde sur l'extraction massive, la croissance infinie et la transformation de la nature en marchandise. <strong>Andreas Malm</strong>, dans Fossil Capital (2016), montre que le choix du charbon au XIXe siecle n'etait pas un choix technique neutre mais un choix de classe.</p>
+<p><strong>Anna Tsing</strong> propose le Plantationocene, qui remonte aux plantations coloniales comme premiere forme de transformation industrielle du vivant, fondee sur l'esclavage et la monoculture. <strong>Donna Haraway</strong> propose le Chthulucene — une epoque ou les etres sont pris dans des enchevetrements multi-especes. Le Chthulucene est un appel a se penser comme partie d'un reseau de vivants interdependants.</p>
+<p>Les HKDN ne sont pas une reponse technique neutre a un probleme naturel. Ce sont des adaptations biologiques a un monde detruit par un systeme economique specifique.</p>
+
+<h2>II. La pleonectique et la fabrique du desir extractiviste</h2>
+<p><strong>Mehdi Belhaj Kacem</strong> reprend la pleonexia de Platon et Aristote — le desir d'avoir plus que sa part juste — pour en faire une theorie du monde moderne. Notre civilisation repose sur une dynamique d'accumulation sans plafond. La pleonectique est le moteur psychologique du Capitalocene : le systeme produit et reproduit une subjectivite pleonectique.</p>
+<p><strong>Ivan Illich</strong> (La Convivialite, 1973) decrit le seuil a partir duquel un outil cesse de servir l'humain et commence a l'asservir. L'edition genetique pourrait suivre exactement la meme trajectoire. <strong>Murray Bookchin</strong> prolonge : la crise ecologique ne se resoudra pas par des solutions techniques mais par une transformation des rapports sociaux. La domination de la nature est le prolongement de la domination entre humains.</p>
+<p>Le personnage de Nabull00z incarne la derive pleonectique : accumulation de mutations, course a la performance, marche noir des HKDN.</p>
+
+<h2>III. Les trois ecologies — Guattari et l'ecosophie</h2>
+<p><strong>Felix Guattari</strong> (Les Trois Ecologies, 1989) propose trois registres ecologiques indissociables : l'ecologie environnementale (ecosystemes, climat), l'ecologie sociale (travail, economie, formes de vie en commun), et l'ecologie mentale (maniere de penser, desirer, imaginer). Si l'une se degrade, les autres suivent.</p>
+<p>Guattari insiste : le capitalisme ne produit pas seulement des marchandises, il produit des subjectivites. Ce qui ouvre une possibilite : si la subjectivite est produite, elle peut etre transformee. C'est precisement ce que l'art, la fiction et les pratiques collectives peuvent tenter de faire.</p>
+<p><strong>Deleuze et Guattari</strong> (Mille Plateaux, 1980) developpent le devenir-animal : entrer dans une zone d'indiscernabilite ou les frontieres entre humain et non-humain se brouillent. Les personnages de Future Faces font litteralement cela : ils deviennent-lichen, deviennent-blob, deviennent-oiseau. Le slogan « devenir autre pour devenir soi » est une formulation quasi deleuzienne.</p>
+
+<h2>IV. L'individuation — Simondon et le devenir-autre</h2>
+<p><strong>Gilbert Simondon</strong> (L'individuation a la lumiere des notions de forme et d'information, 1958) refuse l'idee que l'individu soit une entite definie une fois pour toutes. L'individu est un processus en cours, jamais acheve, toujours en train de se constituer dans un milieu. L'individuation n'est pas l'aboutissement d'une forme predefinie — c'est une operation continue.</p>
+<p>Simondon appelle <strong>transduction</strong> cette transformation qui se propage de proche en proche, comme une cristallisation dans une solution sursaturee. C'est exactement ce que font les HKDN : une modification genetique locale se propage dans le corps, produisant des effets imprevus.</p>
+<p>Dans Du mode d'existence des objets techniques (1958), Simondon montre que tout objet technique fonctionne dans un <strong>milieu associe</strong>. Les HKDN fonctionnent de la meme facon : un hybride-lichen a besoin de lumiere et d'humidite. L'individu hybride est indissociable de son territoire.</p>
+<p><strong>Bernard Stiegler</strong> developpe le concept de <strong>pharmakon</strong> : toute technique est a la fois remede et poison. Les HKDN sont un pharmakon : elles permettent l'adaptation mais modifient irreversiblement le corps, creent des dependances, ouvrent un marche noir.</p>
+
+<h2>V. Latour et les Terrestres</h2>
+<p><strong>Bruno Latour</strong> (Ou atterrir ?, 2017) propose une geopolitique nouvelle. Le conflit central du XXIe siecle oppose ceux qui cherchent a atterrir quelque part — habiter un territoire, dependre d'un sol, reconnaitre les limites de la Terre — et ceux qui organisent leur fuite hors-sol. Le deni climatique n'est pas de l'ignorance : c'est un projet politique.</p>
+<p>Dans Face a Gaia (2015), Latour appelle Terrestres les etres qui se savent dependants d'une zone critique de quelques kilometres d'epaisseur. Les hybrides de Future Faces sont des Terrestres au sens le plus litteral : ils ont integre les non-humains dans leur propre corps.</p>
+<p>Depuis Nous n'avons jamais ete modernes (1991), Latour deconstruit la grande separation entre nature et culture. Future Faces pousse cette logique a son terme : les corps humains eux-memes deviennent des hybrides nature/culture.</p>
+<p><strong>Isabelle Stengers</strong> (Au temps des catastrophes, 2009) prolonge Latour en insistant sur la necessite d'apprendre a penser avec d'autres etres. <strong>Emilie Hache</strong> (Ce a quoi nous tenons, 2011) pose la question des attachements territoriaux.</p>
+
+<h2>VI. Symbiose, holobionte et la fin de l'individu autonome</h2>
+<p><strong>Lynn Margulis</strong> a demontre que les cellules complexes sont elles-memes issues de symbioses anciennes. Les mitochondries sont d'anciennes bacteries absorbees il y a deux milliards d'annees. Chaque cellule humaine est deja un assemblage multi-especes. L'hybridation n'est pas une transgression de la nature — c'est son mode de fonctionnement fondamental.</p>
+<p><strong>Scott F. Gilbert</strong> a formalise le concept d'holobionte : tout organisme est un assemblage de l'hote et de ses micro-organismes. Un humain contient autant de cellules bacteriennes que de cellules humaines. L'individu autonome est un mythe biologique.</p>
+<p><strong>Glenn Albrecht</strong> propose le Symbiocene pour un futur ou les humains vivraient en symbiose avec le vivant. <strong>Baptiste Morizot</strong> (Manieres d'etre vivant, 2020) propose de reconstruire des relations d'attention avec les vivants. <strong>Vinciane Despret</strong> montre que les animaux sont des agents avec leurs mondes. Ces auteurs nourrissent directement la posture des ateliers : la balade naturaliste est un exercice d'attention avant d'etre un exercice d'invention.</p>
+
+<h2>VII. Le partage du sensible — Ranciere</h2>
+<p><strong>Jacques Ranciere</strong> affirme que la politique commence dans la maniere dont le monde est percu et raconte. Le partage du sensible designe la distribution inegale de ce qui est visible, audible, pensable. L'art peut modifier cette distribution en rendant visibles des formes de vie qui n'etaient pas reconnues.</p>
+<p>Dans Le spectateur emancipe (2008), Ranciere affirme que le public produit du sens. Dans Le maitre ignorant (1987), il defend l'egalite des intelligences. Les ateliers Transhumance fonctionnent sur ces principes : le naturaliste n'enseigne pas, il observe. L'animateur ne dirige pas, il facilite. Les participants ne sont pas formes, ils creent.</p>
+<p>Les concepts de Ranciere circulent dans les milieux des Soulevements de la Terre, des ZAD. Les luttes territoriales sont des luttes de visibilite. Defendre une riviere ou une zone humide, c'est rendre visible ce qui etait invisible. Future Faces prolonge ce geste dans le champ de la fiction.</p>
+
+<h2>VIII. Cybernetique, controle et resistance</h2>
+<p>Dans les textes de <strong>Tiqqun</strong>, le monde contemporain est un systeme qui cherche a controler les flux, stabiliser les comportements, rendre les societes previsibles. La question posee a Future Faces : l'hybridation libere-t-elle les humains ou les integre-t-elle encore plus dans la machine ?</p>
+<p>Deux logiques apparaissent : l'hybridation-systeme (produite par des industries, surveillee, optimisee) et l'hybridation-ecologique (issue d'une relation directe avec les ecosystemes). Nabull00z incarne la premiere. Silamphre incarne la seconde.</p>
+<p><strong>Haraway</strong>, dans le Manifeste cyborg (1985), avait pense cette ambivalence : le cyborg brouille les categories et ouvre des espaces politiques nouveaux. Les hybrides de Future Faces sont des cyborgs biologiques.</p>
+
+<h2>IX. Emancipation et interdependance</h2>
+<p>La modernite occidentale a pense l'emancipation comme augmentation de l'autonomie individuelle. Dans Future Faces, cette figure devient impossible. Chaque hybridation cree une specialisation. Personne ne peut tout faire. L'individu devient incomplet — et parce qu'il est incomplet, il depend des autres.</p>
+<p>Si les humains deviennent biologiquement interdependants, la cooperation n'est plus un choix moral. Elle devient une condition materielle de l'existence. La solidarite cesse d'etre une valeur — elle devient une structure du vivant. Le capitalisme, qui repose sur l'individu autonome et competitif, ne fonctionne plus dans ce monde.</p>
+<p>Le projet ne tranche pas. Nabull00z utilise l'hybridation pour son ego. Silamphre pour se fondre dans l'ecosysteme. Aliosha ne l'a pas choisie. Azur est ne dedans. Chaque personnage incarne une reponse differente.</p>
+
+<h2>X. Le dispositif des ateliers comme pratique politique</h2>
+<p><strong>Kevin Slavin</strong> propose que les systemes contemporains sont trop complexes pour etre concus de maniere centralisee. Le designer est un participant dans un systeme vivant. Les ateliers Transhumance fonctionnent ainsi : NECTAR ne concoit pas les hybridations, elle cree un cadre ou elles emergent.</p>
+<p>En termes rancieriens, les ateliers redistribuent qui peut produire du savoir et de la fiction. Des etudiants ingenieurs inventent des futurs. Un naturaliste et un game designer travaillent ensemble. Le dispositif participatif n'est pas une concession pedagogique — c'est le coeur politique du projet.</p>
+<p>Le Transhumance Atlas est un <strong>commun fictionnel</strong> — un bien partage, enrichi collectivement, ancre dans des observations reelles. C'est un objet latourien : un reseau d'acteurs humains et non-humains, de faits et de fictions, de territoires et de recits.</p>
+
+</div></section>
+</main>
+<footer class="ft"><p>Transhumance — un projet <a href="../a-propos.html">Future Faces / NECTAR</a> — <a href="mailto:hello@nectar-asso.org">hello@nectar-asso.org</a></p></footer>
+<script>const h=document.querySelector(".ham"),n=document.querySelector(".nm");if(h&&n){h.addEventListener("click",()=>{h.classList.toggle("on");n.classList.toggle("on");document.body.style.overflow=n.classList.contains("on")?"hidden":""});document.querySelectorAll(".sb").forEach(b=>b.addEventListener("click",()=>b.nextElementSibling.classList.toggle("on")));n.querySelectorAll("a").forEach(l=>l.addEventListener("click",()=>{h.classList.remove("on");n.classList.remove("on");document.body.style.overflow=""}))}</script></body></html>
