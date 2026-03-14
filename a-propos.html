@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A propos — NECTAR / Transhumance</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .team-grid { display: grid; grid-template-columns: 1fr; gap: var(--space-sm); margin-top: var(--space-md); }
+    @media(min-width:640px){ .team-grid { grid-template-columns: repeat(2,1fr); } }
+    @media(min-width:960px){ .team-grid { grid-template-columns: repeat(3,1fr); } }
+    .team-card {
+      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 12px;
+      padding: var(--space-md); transition: all 0.3s var(--ease-out);
+    }
+    .team-card:hover { background: var(--bg-card-hover); }
+    .team-card__name { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.2rem; }
+    .team-card__role { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-green); margin-bottom: var(--space-xs); }
+    .team-card__desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header"><div class="header-inner">
+    <a href="index.html" class="site-logo">Transhu<span>mance</span></a>
+    <nav class="nav-desktop"><ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li class="nav-item-dropdown"><button class="nav-dropdown-toggle">L'Univers <span class="dropdown-arrow">&#9662;</span></button>
+        <ul class="nav-dropdown"><li><a href="univers/contexte.html">Le Contexte</a></li><li><a href="univers/timeline.html">La Timeline</a></li><li><a href="univers/personnages.html">Les Personnages</a></li><li><a href="univers/concepts.html">Les Concepts</a></li><li><a href="univers/court-metrage.html">Le Court Metrage</a></li></ul>
+      </li>
+      <li><a href="jeu.html">Le Jeu</a></li><li><a href="ateliers.html">Les Ateliers</a></li><li><a href="atlas.html">Atlas</a></li><li><a href="generateur.html">Laboratoire</a></li><li><a href="a-propos.html" class="active">A propos</a></li>
+    </ul></nav>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div></header>
+
+  <nav class="nav-mobile"><ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><button class="nav-mobile-toggle">L'Univers</button><ul class="nav-mobile-sub"><li><a href="univers/contexte.html">Le Contexte</a></li><li><a href="univers/timeline.html">La Timeline</a></li><li><a href="univers/personnages.html">Les Personnages</a></li><li><a href="univers/concepts.html">Les Concepts</a></li><li><a href="univers/court-metrage.html">Le Court Metrage</a></li></ul></li>
+    <li><a href="jeu.html">Le Jeu</a></li><li><a href="ateliers.html">Les Ateliers</a></li><li><a href="atlas.html">Atlas</a></li><li><a href="generateur.html">Laboratoire</a></li><li><a href="a-propos.html">A propos</a></li>
+  </ul></nav>
+
+  <main>
+    <div class="page-hero">
+      <p class="page-hero__label animate-in">A propos</p>
+      <h1 class="page-hero__title animate-in animate-delay-1">NECTAR</h1>
+      <p class="page-hero__intro animate-in animate-delay-2">
+        Association qui oeuvre a la transmission de savoirs numeriques 
+        a travers la creation d'experiences interactives et collectives. 
+        Basee a Rouen, Normandie.
+      </p>
+    </div>
+
+    <section class="page-section page-section--narrow">
+      <div class="prose animate-in animate-delay-3">
+
+        <h2>L'association</h2>
+        <p>
+          N.E.C.T.A.R organise des rencontres et des ateliers pour promouvoir des facons 
+          creatives de vivre et de travailler ensemble. Le numerique etant un secteur a forte 
+          consommation energetique, l'association integre une reflexion ecologique, voire low-tech, 
+          dans ses actions.
+        </p>
+
+        <h2>Autres projets</h2>
+        <p>
+          <strong>Nouvelles Figures</strong> — Exposition en realite augmentee de sculptures 
+          de femmes inspirantes, a cote de bustes et statues masculines, 
+          pour les journees Matrimoine (2025).
+        </p>
+        <p>
+          <strong>Attraction</strong> — Experience en realite virtuelle multijoueur, type escape game, 
+          autour des mouvements artistiques du XXe siecle.
+        </p>
+        <p>
+          <strong>Bye Bye Biotope</strong> — Game documentaire multijoueur sur l'habitabilite 
+          de la Terre grace aux micro-organismes (2025).
+        </p>
+
+      </div>
+    </section>
+
+    <section class="page-section">
+      <h2 style="font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; color: var(--text-primary); margin-bottom: var(--space-md);">L'equipe</h2>
+
+      <div class="team-grid">
+        <div class="team-card">
+          <p class="team-card__name">Samuel Pott</p>
+          <p class="team-card__role">Artiste / Facilitateur graphique</p>
+          <p class="team-card__desc">Forme a l'Ecole Saint-Luc de Bruxelles en BD. Plus de 20 ans dans la Creative Technology a Paris. Initiateur du festival &TheBitGoesOn.</p>
+        </div>
+        <div class="team-card">
+          <p class="team-card__name">Charles Ayats</p>
+          <p class="team-card__role">Auteur / Designer interactif</p>
+          <p class="team-card__desc">Concoit des experiences participatives sous formes de VR, jeu video, webdocumentaire. Co-fondateur de l'association EliXR. Membre de Hacnum et Oblique/s.</p>
+        </div>
+        <div class="team-card">
+          <p class="team-card__name">Nicolas Gagnon</p>
+          <p class="team-card__role">Designer / Technologies immersives</p>
+          <p class="team-card__desc">Travaille sur de nouvelles formes de paysages et leurs imaginaires. Presente a Harvard GSD, ENSBA, EnsAD, Parsons New School Paris.</p>
+        </div>
+        <div class="team-card">
+          <p class="team-card__name">Stephanie Samper</p>
+          <p class="team-card__role">Directrice artistique</p>
+          <p class="team-card__desc">Donne vie a ses idees a travers des concepts visuels forts, nourris par un imaginaire riche et une curiosite constante.</p>
+        </div>
+        <div class="team-card">
+          <p class="team-card__name">Anne-Charlotte Gellez</p>
+          <p class="team-card__role">Enseignante / Videaste</p>
+          <p class="team-card__desc">Enseignante Ressources et culture numeriques a l'universite de Rouen Normandie. Videaste et regisseuse video.</p>
+        </div>
+        <div class="team-card">
+          <p class="team-card__name">Nikodio (Luc Brou)</p>
+          <p class="team-card__role">Artiste independant</p>
+          <p class="team-card__desc">Diplome des Beaux Arts de Rouen. Creations polymorphes pour « faire bouger le monde ». Membre du collectif HSH, cofondateur de Normandie Animation.</p>
+        </div>
+        <div class="team-card">
+          <p class="team-card__name">Anne Caldin</p>
+          <p class="team-card__role">Culture et vie etudiante</p>
+          <p class="team-card__desc">Responsable du Service Culture et Vie Etudiante a l'INSA Rouen Normandie.</p>
+        </div>
+        <div class="team-card">
+          <p class="team-card__name">Nicolas Diologent</p>
+          <p class="team-card__role">Coordinateur Oblique/s</p>
+          <p class="team-card__desc">Coordinateur de la plateforme Oblique/s arts & cultures numeriques Normandie.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section page-section--narrow">
+      <div class="prose">
+        <h2>Contact</h2>
+        <p>
+          <a href="mailto:hello@nectar-asso.org">hello@nectar-asso.org</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Transhumance — un projet <a href="a-propos.html">Future Faces / NECTAR</a> — <a href="mailto:hello@nectar-asso.org">hello@nectar-asso.org</a></p></footer>
+
+  <script>
+    const toggle=document.querySelector('.nav-toggle'),mobileNav=document.querySelector('.nav-mobile');
+    toggle.addEventListener('click',()=>{const o=toggle.classList.toggle('open');mobileNav.classList.toggle('open');toggle.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';});
+    document.querySelectorAll('.nav-mobile-toggle').forEach(b=>{b.addEventListener('click',()=>{const s=b.nextElementSibling;s.classList.toggle('open');b.setAttribute('aria-expanded',s.classList.contains('open'));});});
+    mobileNav.querySelectorAll('a').forEach(l=>{l.addEventListener('click',()=>{toggle.classList.remove('open');mobileNav.classList.remove('open');document.body.style.overflow='';});});
+  </script>
+</body>
+</html>

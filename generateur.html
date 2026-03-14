@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratoire — Transhumance / Future Faces</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header"><div class="header-inner">
+    <a href="index.html" class="site-logo">Transhu<span>mance</span></a>
+    <nav class="nav-desktop"><ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li class="nav-item-dropdown"><button class="nav-dropdown-toggle">L'Univers <span class="dropdown-arrow">&#9662;</span></button>
+        <ul class="nav-dropdown"><li><a href="univers/contexte.html">Le Contexte</a></li><li><a href="univers/timeline.html">La Timeline</a></li><li><a href="univers/personnages.html">Les Personnages</a></li><li><a href="univers/concepts.html">Les Concepts</a></li><li><a href="univers/court-metrage.html">Le Court Metrage</a></li></ul>
+      </li>
+      <li><a href="jeu.html">Le Jeu</a></li><li><a href="ateliers.html">Les Ateliers</a></li><li><a href="atlas.html">Atlas</a></li><li><a href="generateur.html" class="active">Laboratoire</a></li><li><a href="a-propos.html">A propos</a></li>
+    </ul></nav>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div></header>
+
+  <nav class="nav-mobile"><ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><button class="nav-mobile-toggle">L'Univers</button><ul class="nav-mobile-sub"><li><a href="univers/contexte.html">Le Contexte</a></li><li><a href="univers/timeline.html">La Timeline</a></li><li><a href="univers/personnages.html">Les Personnages</a></li><li><a href="univers/concepts.html">Les Concepts</a></li><li><a href="univers/court-metrage.html">Le Court Metrage</a></li></ul></li>
+    <li><a href="jeu.html">Le Jeu</a></li><li><a href="ateliers.html">Les Ateliers</a></li><li><a href="atlas.html">Atlas</a></li><li><a href="generateur.html">Laboratoire</a></li><li><a href="a-propos.html">A propos</a></li>
+  </ul></nav>
+
+  <main>
+    <div class="page-hero">
+      <p class="page-hero__label animate-in">Laboratoire</p>
+      <h1 class="page-hero__title animate-in animate-delay-1">Generateur de personnage hybride</h1>
+      <p class="page-hero__intro animate-in animate-delay-2">
+        Choisissez une epoque, une contrainte environnementale, une espece et une motivation. 
+        Le generateur produit une fiche personnage coherente avec l'univers Future Faces, 
+        exportable et utilisable directement en atelier.
+      </p>
+    </div>
+
+    <!-- Generateur placeholder -->
+    <section class="page-section">
+      <div id="generateur-container" style="
+        background: var(--bg-card);
+        border: 1px dashed var(--border-medium);
+        border-radius: 12px;
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: var(--space-xl);
+      ">
+        <div>
+          <p style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-green);">
+            Outil interactif — Generateur de fiche personnage
+          </p>
+          <p style="color: var(--text-muted); margin-top: 0.5rem;">
+            Interface en 4 etapes : epoque, contrainte, espece + caracteristique, motivation. 
+            En sortie : fiche personnage formatee avec temoignage de descendant amorce. 
+            Exportable en image.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section page-section--narrow">
+      <div class="prose">
+
+        <h2>Comment ca marche</h2>
+        <p>
+          Le generateur suit la meme logique que les ateliers mais en version numerique. 
+          Il guide la creation en posant les questions fondamentales de l'univers Future Faces :
+        </p>
+        <p>
+          <strong>Etape 1 — L'epoque.</strong> Positionnez votre personnage sur la timeline, 
+          de 2040 (premieres HKDN, monde en crise) a 2120 (post-Grand-Cataclysme, humanite plurielle).
+        </p>
+        <p>
+          <strong>Etape 2 — La contrainte.</strong> Quel dereglement environnemental motive l'hybridation ? 
+          Secheresse, pluies acides, salinisation, chaleur extreme, perte de pollinisateurs, 
+          acidification des sols...
+        </p>
+        <p>
+          <strong>Etape 3 — L'espece.</strong> Quelle espece de faune ou de flore fournit la capacite ? 
+          Chaque espece est associee a une caracteristique cle (filtration, bioluminescence, 
+          regeneration, stockage d'eau...) et a une propriete emergente liee au changement d'echelle.
+        </p>
+        <p>
+          <strong>Etape 4 — La motivation.</strong> Pourquoi ce personnage s'est hybride ? 
+          Survie, activisme, narcissisme, accident, deep ecology, extravertissement...
+        </p>
+
+        <div class="note">
+          Le generateur est aussi un outil pedagogique : il montre concretement 
+          comment la combinaison d'une contrainte, d'une espece et d'une motivation 
+          produit un personnage credible dans l'univers.
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Transhumance — un projet <a href="a-propos.html">Future Faces / NECTAR</a> — <a href="mailto:hello@nectar-asso.org">hello@nectar-asso.org</a></p></footer>
+
+  <script>
+    const toggle=document.querySelector('.nav-toggle'),mobileNav=document.querySelector('.nav-mobile');
+    toggle.addEventListener('click',()=>{const o=toggle.classList.toggle('open');mobileNav.classList.toggle('open');toggle.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';});
+    document.querySelectorAll('.nav-mobile-toggle').forEach(b=>{b.addEventListener('click',()=>{const s=b.nextElementSibling;s.classList.toggle('open');b.setAttribute('aria-expanded',s.classList.contains('open'));});});
+    mobileNav.querySelectorAll('a').forEach(l=>{l.addEventListener('click',()=>{toggle.classList.remove('open');mobileNav.classList.remove('open');document.body.style.overflow='';});});
+  </script>
+</body>
+</html>

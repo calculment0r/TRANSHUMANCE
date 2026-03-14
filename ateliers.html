@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les Ateliers — Transhumance / Future Faces</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header"><div class="header-inner">
+    <a href="index.html" class="site-logo">Transhu<span>mance</span></a>
+    <nav class="nav-desktop"><ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li class="nav-item-dropdown"><button class="nav-dropdown-toggle">L'Univers <span class="dropdown-arrow">&#9662;</span></button>
+        <ul class="nav-dropdown"><li><a href="univers/contexte.html">Le Contexte</a></li><li><a href="univers/timeline.html">La Timeline</a></li><li><a href="univers/personnages.html">Les Personnages</a></li><li><a href="univers/concepts.html">Les Concepts</a></li><li><a href="univers/court-metrage.html">Le Court Metrage</a></li></ul>
+      </li>
+      <li><a href="jeu.html">Le Jeu</a></li><li><a href="ateliers.html" class="active">Les Ateliers</a></li><li><a href="atlas.html">Atlas</a></li><li><a href="generateur.html">Laboratoire</a></li><li><a href="a-propos.html">A propos</a></li>
+    </ul></nav>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div></header>
+
+  <nav class="nav-mobile"><ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><button class="nav-mobile-toggle">L'Univers</button><ul class="nav-mobile-sub"><li><a href="univers/contexte.html">Le Contexte</a></li><li><a href="univers/timeline.html">La Timeline</a></li><li><a href="univers/personnages.html">Les Personnages</a></li><li><a href="univers/concepts.html">Les Concepts</a></li><li><a href="univers/court-metrage.html">Le Court Metrage</a></li></ul></li>
+    <li><a href="jeu.html">Le Jeu</a></li><li><a href="ateliers.html">Les Ateliers</a></li><li><a href="atlas.html">Atlas</a></li><li><a href="generateur.html">Laboratoire</a></li><li><a href="a-propos.html">A propos</a></li>
+  </ul></nav>
+
+  <main>
+    <div class="page-hero">
+      <p class="page-hero__label animate-in">Les Ateliers</p>
+      <h1 class="page-hero__title animate-in animate-delay-1">4 ateliers, 1 naturaliste, 1 territoire</h1>
+      <p class="page-hero__intro animate-in animate-delay-2">
+        Les ateliers Transhumance sont a la fois un outil de mediation, un espace de creation 
+        et un laboratoire de worldbuilding. Chaque territoire produit ses cartes, ses personnages 
+        et sa contribution unique a la carte inter-territoriale.
+      </p>
+    </div>
+
+    <!-- Simulateur placeholder -->
+    <section class="page-section">
+      <div id="simulateur-container" style="
+        background: var(--bg-card);
+        border: 1px dashed var(--border-medium);
+        border-radius: 12px;
+        padding: var(--space-xl);
+        text-align: center;
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      ">
+        <div>
+          <p style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-green);">
+            Outil interactif — Simulateur de deroule
+          </p>
+          <p style="color: var(--text-muted); margin-top: 0.5rem;">
+            4 blocs connectes par un fil rouge visuel. Chaque bloc s'ouvre pour reveler 
+            le timing, les roles, les livrables. Les fleches montrent ce qui passe d'un atelier au suivant.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section page-section--narrow">
+      <div class="prose">
+
+        <h2>Atelier I — Balade et Bestiaire</h2>
+        <p>
+          <strong>2 heures.</strong> Introduction immersive a l'univers Future Faces, puis sortie sur le terrain 
+          avec le naturaliste pendant 40 minutes. Les participants observent la faune et la flore locales, 
+          photographient, dessinent, notent. L'animateur pose des questions relais : « Si tu empruntais 
+          cette caracteristique, qu'est-ce que ca changerait dans ta vie ? »
+        </p>
+        <p>
+          Retour en salle pour 60 minutes de creation. Chaque participant cree une carte bestiaire 
+          pour une espece rencontree (nom, caracteristique remarquable, hybridation plausible avec un humain) 
+          puis amorce une fiche personnage avec un temoignage de descendant a 10, 50 ou 100 ans.
+        </p>
+        <p>
+          <strong>Livrables :</strong> cartes bestiaire, fiches personnage amorcees, croquis de Sam, temoignages.
+        </p>
+
+        <hr class="divider">
+
+        <h2>Atelier II — Benchmark et Sur la Route</h2>
+        <p>
+          <strong>2 heures.</strong> Discussion approfondie autour des thematiques de Future Faces (30 min) : 
+          CRISPR-Cas9, extinctions de masse, derive techno-solutionniste, biomimetisme, deep ecology. 
+          Appui sur les personnages fondateurs et les temoignages produits en Atelier I.
+        </p>
+        <p>
+          Puis une partie de Sur la Route est jouee en groupe (30 min) pour comprendre la mecanique 
+          de narration emergente. Enfin, 60 minutes de reflexion collective sur l'adaptation de cette 
+          mecanique a l'univers Future Faces : qu'est-ce qui declenche une hybridation dans la partie ? 
+          Comment representer la tension entre adaptation subie et choisie ?
+        </p>
+        <p>
+          <strong>Livrables :</strong> notes de game design, premiere architecture du jeu Transhumance.
+        </p>
+
+        <hr class="divider">
+
+        <h2>Atelier III — Creation des cartes</h2>
+        <p>
+          <strong>2 heures.</strong> Production des cartes du jeu Transhumance a partir des materiaux 
+          des ateliers precedents (60 min). Chaque participant prend en charge un type de cartes : 
+          Preparatif, Peripeties, Bestiaire, Personnages. Sam assure la coherence visuelle.
+        </p>
+        <p>
+          Puis affinage collectif (30 min) et premier playtest entre createurs (30 min). 
+          Objectif : identifier les frictions, les cartes trop puissantes ou trop floues, 
+          les moments qui fonctionnent.
+        </p>
+        <p>
+          <strong>Livrables :</strong> jeu de cartes prototype (version 0.1), notes de playtest.
+        </p>
+
+        <hr class="divider">
+
+        <h2>Atelier IV — Playtest public</h2>
+        <p>
+          <strong>2 heures.</strong> Des joueurs exterieurs sont invites a jouer (90 min). 
+          Les createurs observent, notent, facilitent sans intervenir dans la narration. 
+          L'objectif est de voir le jeu vivre sans ses createurs.
+        </p>
+        <p>
+          Debrief joueurs (15 min) : ce qui etait clair, ce qui ne l'etait pas. 
+          Compte-rendu entre participants (15 min) : quelles evolutions ? 
+          Qu'est-ce que ce territoire et ce naturaliste ont apporte d'unique ?
+        </p>
+        <p>
+          <strong>Livrables :</strong> notes de playtest public, liste d'ajustements prioritaires.
+        </p>
+
+        <hr class="divider">
+
+        <h2>Le role du naturaliste</h2>
+        <p>
+          Un naturaliste est un observateur du vivant en contexte reel. Il travaille sur le terrain : 
+          il identifie des especes, repere des traces, comprend comment un milieu s'auto-organise. 
+          Pour Future Faces, il ancre la fiction dans un territoire precis. Un participant qui a passe 
+          40 minutes a regarder un insecte avec un expert ne cree pas la meme carte bestiaire 
+          que quelqu'un qui invente de chez lui.
+        </p>
+        <p>
+          Le naturaliste n'a pas a connaitre le projet en detail. Un briefing de 15 minutes suffit. 
+          Il comprend qu'il accompagne une balade d'observation et que ses reponses 
+          alimenteront les creations des participants.
+        </p>
+
+        <h2>Deploiement territorial</h2>
+        <p>
+          Les ateliers sont concus pour etre reproduits dans des territoires differents. 
+          Ce n'est pas une simple itinerance : chaque territoire produit des cartes differentes, 
+          des temoignages ancres dans un ecosysteme specifique. La Normandie n'a pas les memes 
+          especes endemiques que le Massif Central ou la Bretagne interieure.
+        </p>
+
+        <div class="note">
+          <strong>Checklist :</strong> J-30 identifier le naturaliste et reperer le terrain. 
+          J-7 preparer les supports et le materiel. J-1 confirmer la logistique. 
+          J+1 archiver les productions, saisir dans le Transhumance Atlas, 
+          envoyer un compte-rendu au naturaliste.
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Transhumance — un projet <a href="a-propos.html">Future Faces / NECTAR</a> — <a href="mailto:hello@nectar-asso.org">hello@nectar-asso.org</a></p></footer>
+
+  <script>
+    const toggle=document.querySelector('.nav-toggle'),mobileNav=document.querySelector('.nav-mobile');
+    toggle.addEventListener('click',()=>{const o=toggle.classList.toggle('open');mobileNav.classList.toggle('open');toggle.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';});
+    document.querySelectorAll('.nav-mobile-toggle').forEach(b=>{b.addEventListener('click',()=>{const s=b.nextElementSibling;s.classList.toggle('open');b.setAttribute('aria-expanded',s.classList.contains('open'));});});
+    mobileNav.querySelectorAll('a').forEach(l=>{l.addEventListener('click',()=>{toggle.classList.remove('open');mobileNav.classList.remove('open');document.body.style.overflow='';});});
+  </script>
+</body>
+</html>
