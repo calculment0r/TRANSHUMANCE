@@ -1,0 +1,651 @@
+{
+  "title": "Exode des Chlorophylles",
+  "contexte": "Mars 2087. La Saône brûle de composés organophosphorés. Lyon suffoque. Vous êtes 340 — humains, hybridés, enfants — qui fuyez vers Rennes et ses promesses de bioremédiation. 600 km à travers des zones toxiques, des territoires fermés, des espèces resurrgies. Chaque pas vous transforme davantage. L'eau, ou la mort.",
+  "analyse": {
+    "style": {
+      "lexical": {
+        "author": "Cormac McCarthy",
+        "why": "Prose épurée, minimaliste, obsédée par l'eau et la destruction. Énumération d'objets comme reliques. Métaphores du feu et de la cendre appliquées aux contaminants chimiques. Dialogue fragmenté porteur de secrets."
+      },
+      "narrative": {
+        "author": "Kim Stanley Robinson (Aurora, New York 2140)",
+        "why": "Structure collective alternant perspectives individuelles. Bifurcations narratives selon les choix micro-écologiques. Temps long des mutations biologiques. Système complexe où chaque décision a des conséquences en cascade sur le groupe."
+      },
+      "vision": {
+        "author": "Octavia Butler",
+        "why": "Corps comme sites de négociation entre autonomie et survie collective. Hybridation imposée vs choisie comme tension morale permanente. Charge émotionnelle des mutations involontaires. Solidarité précaire construite par la vulnérabilité partagée."
+      }
+    },
+    "regime": {
+      "primary": "nocturne_synthetique",
+      "secondary": "diurne",
+      "key_images": [
+        "l'eau empoisonnée comme miroir inversé",
+        "la phéromone apaisante comme chaîne invisible",
+        "la torpeur nocturne comme mort lente",
+        "les spores toxiques comme menace involontaire",
+        "la fiole d'ADN fraternel comme ancrage au passé humain",
+        "la graine hybride comme promesse impossible",
+        "les zones toxiques comme initiations alchimiques"
+      ],
+      "explanation": "Régime nocturne-synthétique dominant : dialectique, médiation des contraires (humain/post-humain, survie/solidarité, contrôle/chaos), descente aux enfers écologique avec promesse de transmutation. Lumière diurne secondaire : chaque lever expose les hybridations visuelles, chaque coucher efface les repères. Les images-clés structurent les trois crises personnelles (dépendance à la lumière, dépendance aux phéromones, dépendance thermique) comme systèmes antagonistes cherchant un équilibre."
+    },
+    "myths": [
+      {
+        "name": "EXODE",
+        "why": "Fuite forcée de Lyon, rupture avec le territoire d'origine, traversée du désert (zones toxiques), recherche de promesse lointaine (Rennes). Exode non biblique mais post-anthropocène : pas de Dieu, pas de Terre Promise garantie, seulement des corps mutés et une technologie espérée.",
+        "figures": [
+          "Kess en abeille-mère involontaire du convoi (phéromones apaisantes)",
+          "Sable en végétal ancré au sol (torpeur nocturne)",
+          "Thresh en dégradateur, nettoyeur des traces du passé industriel",
+          "Les 340 du convoi comme peuple post-humain sans État"
+        ],
+        "tensions": [
+          "Exode volontaire vs fuite forcée par contamination",
+          "Solidarité du convoi vs instinct de survie individuelle",
+          "Mouvement perpétuel vs immobilité croissante (Sable)"
+        ],
+        "end_question": "Arriverez-vous à Rennes, ou deviendrez-vous vous-mêmes une nouvelle espèce migrante permanente, sans foyer jamais stable?"
+      },
+      {
+        "name": "METAMORPHOSE",
+        "why": "Hybridation HKDN comme transformation corporelle irrévocable. Kess perd ses capacités cognitives spatiales, Sable entre en torpeur, Thresh se fragmente en états thermiques différents. Chaque jour du voyage ajoute une mutation. C'est le voyage qui achève ce que les capsules HKDN ont commencé.",
+        "figures": [
+          "Les capsules HKDN comme chrysalides involontaires",
+          "L'ADN animal/fongique/végétal comme nouvelle conscience incorporée",
+          "Le territoire traversé comme catalyseur de mutation",
+          "Les espèces du Bestiaire comme miroirs de ce que chacun devient"
+        ],
+        "tensions": [
+          "Contrôle de la mutation vs acceptation de l'incontrôlable",
+          "Identité humaine vs postérité hybride",
+          "Secret de sa propre transformation vs révélation au convoi"
+        ],
+        "end_question": "Qui serez-vous à Rennes : ceux qui ont quitté Lyon, ou des créatures entièrement nouvelles qui porteront le souvenir d'avoir été humains?"
+      },
+      {
+        "name": "QUETE",
+        "why": "Voyage vers Rennes et sa bioremédiation fongique. Mais la quête réelle : retrouver une relation à l'eau viable, réapprendre à boire, reconstruire une écologie habitable. Thresh incarne cette quête (son fongus guérit le pétrole), Sable incarne son impossibilité (elle devient de plus en plus immobile, végétal).",
+        "figures": [
+          "Rennes comme objet du désir (technologie de purification)",
+          "L'eau contaminée comme ennemi intangible",
+          "Les zones de bioremédiation naturelle rencontrées en chemin comme épreuves",
+          "Le Bestiaire comme test de compatibilité avec le nouvel écosystème"
+        ],
+        "tensions": [
+          "Promesse technologique vs réalité écologique",
+          "Quête collective (eau pour 340) vs quêtes individuelles (retrouver soi-même)",
+          "Vitesse requise (stocks d'eau diminuent) vs nécessité de pause (Sable torpore la nuit)"
+        ],
+        "end_question": "La bioremédiation de Rennes sauvera-t-elle le convoi, ou découvrirez-vous que l'eau empoisonnée était déjà en vous?"
+      }
+    ],
+    "system": {
+      "flows": [
+        "Flux d'eau : contamination Lyon → pénurie → migration vers Rennes, Sable dépend de photosynthèse (eau indirecte)",
+        "Flux de pouvoir : gendarmerie bloque à Villefranche → convoi contourne via zones toxiques → hybridés deviennent ressource (Thresh nettoie les déchets, Kess apaise)",
+        "Flux émotionnel : phéromones de Kess créent dépendance involontaire chez Thresh → alliance de survie → Sable attirée par Thresh mais silencieuse → triangle de dépendance mutuelle",
+        "Flux biologique : espèces du Bestiaire ressurgissent/hybridation possible → chaque rencontre propose d'augmenter ses capacités vs rester soi-même"
+      ],
+      "power": "Pouvoir capillaire distribué : Kess contrôle émotionnellement via phéromones (involontaire), Thresh offre une ressource (dégradation des plastiques/hydrocarbures = accès aux zones toxiques), Sable ralentit et ancre (sa torpeur force les pauses quotidiennes). Les non-hybridés dépendent des trois. La gendarmerie a perdu le pouvoir de contrôle territorial (barrages contournables).",
+      "fractures": [
+        "Fracture génération : Sable (11 ans à l'hybridation, 2079) vs Kess (hybridation imposée de stérilisation, âge inconnu) vs Thresh (choix délibéré au marché noir, dette psychologique)",
+        "Fracture volonté : hybridation choisie (Thresh) vs imposée (Kess, Sable) → légitimité d'être à Rennes différente",
+        "Fracture corporelle : chacun a une limite différente (Kess perd l'espace, Sable perd la nuit, Thresh perd la stabilité thermique) → crise possiblement synchronisée",
+        "Fracture secret : chacun cache (ADN fraternel, dépendance aux phéromones, graine hybride) → confiance fragile"
+      ]
+    },
+    "archetypes": {
+      "likely_chosen": [
+        "L'Ombre (impositions corporelles non choisies, refoulement)",
+        "Le Sage (Kess cherche compréhension de sa mutation, Sable calcule sa dépendance lumineuse)",
+        "L'Amant (attraction Sable-Thresh, dépendance Thresh-Kess, solidarité du convoi)",
+        "L'Orphelin (rupture avec Lyon, perte d'identité antérieure)",
+        "L'Alchimiste (transformation continue, Thresh consomme et transmute)"
+      ],
+      "likely_missing": [
+        {
+          "archetype": "Le Créateur",
+          "inject_as": "Sable porte une graine de son propre patrimoine génétique → la créativité reproductive est interdite/impossible pour un hybride. Injecter cette tension : proposer en Arrivée la possibilité de cultiver cette graine à Rennes, ou devoir l'abandonner."
+        },
+        {
+          "archetype": "Le Héros",
+          "inject_as": "Aucun des trois n'est héroïque au sens classique (tous sont victimes ou parasites). Injecter : les trois doivent à un moment défendre le convoi non par courage, mais par ce qu'ils sont devenus (Thresh purifie une zone, Kess crée un refuge émotionnel, Sable offre ses ressources photosynthétiques). L'héroïsme devient posthumain."
+        }
+      ]
+    },
+    "tensions": [
+      "Dépendances mutuelles involontaires : Thresh a besoin des phéromones de Kess pour rester stable, Sable dépend de la lumière du jour (immobilisant le convoi), Kess perd ses repères spatiaux et a besoin du collectif. Comment trois êtres en dépendance croissante peuvent-ils migrer sur 600 km?",
+      "Secrets et confiance : chacun cache quelque chose (ADN fraternel, attirance, graine reproductive). À quel moment les révélations menacent-elles la cohésion du convoi? Qui révèle en premier?",
+      "Humanité vs post-humanité : progression irrévocable vers le non-humain. Sable devient végétal, Thresh exsude du fongique, Kess pense à l'odeur. À Rennes, seront-ils acceptés comme humains ou comme ressources écologiques?",
+      "Vitesse vs immobilité : les stocks d'eau diminuent (urgence), mais Sable torpore chaque nuit (ralentissement obligatoire). Le convoi doit trancher : accélérer et laisser Sable derrière, ou accepter la perte d'eau quotidienne?"
+    ],
+    "themes": [
+      "Contamination : eau empoisonnée en Lyon, mais aussi contamination émotionnelle (phéromones), corporelle (mutations), morale (choix de survie)",
+      "Mutation comme perte : chaque hybridation reprend quelque chose (capacités spatiales, liberté nocturne, stabilité thermique). L'exode accélère ces pertes.",
+      "Solidarité précaire : le convoi de 340 ne tient que par ses hybridés (Thresh = accès aux zones, Kess = apaisement, Sable = ressource alimentaire potentielle). Cette fragilité est la seule force.",
+      "Mémoire corporelle : chacun porte un objet du passé (fiole d'ADN, journal obsessionnel, graine). Ces reliques sont plus vitales que la nourriture."
+    ],
+    "arc": "Trois hybridés fugient Lyon via un exode collectif, découvrant progressivement que leurs dépendances mutuelles les enchaînent autant qu'elles les sauvent, et que l'arrivée à Rennes n'offre pas de salut mais une nouvelle forme de plantation : devenir les fondations biologiques d'un écosystème post-anthropocène.",
+    "participants_analysis": [
+      {
+        "pseudo": "Kess",
+        "potentiel": "Abeille-mère involontaire du convoi. Son hybridation imposée devient arme de survie collective (phéromones apaisantes) mais prison personnelle (perte d'autonomie spatiale, dépendance du groupe). Son arc : accepter que sa 'malédiction' nourrit les autres, ou se perdre dans le désert olfactif. L'ADN fraternel caché est son ancrage au humain — révélation possible en crise maximale."
+      },
+      {
+        "pseudo": "Thresh",
+        "potentiel": "Dégradateur-alchimiste. Seul hybride à avoir *choisi* sa mutation, mais cette liberté initiale devient dépendance (phéromones de Kess, stabilité thermique). Son obsession des déchets consumés est une métonymie du temps écoulé et de son inefficacité (il nettoie 0,001% du problème). Arc : réaliser que sa puissance fongique est aussi limitation, ou trouver un sens écologique à son parasitisme."
+      },
+      {
+        "pseudo": "Sable",
+        "potentiel": "Végétal en mouvement (contradiction vitale). Hybridation subie à 11 ans (plus jeune, plus malléable, mais aussi plus cicatricielle). Sa torpeur nocturne est l'horloge biologique du convoi — elle force l'arrêt, l'introspection collective chaque nuit. Sa graine reproductive est l'espoir d'une postérité hybride. Arc : devenir anchor de Rennes (s'y planter volontairement comme lieu de transmutation) ou refuser cette destinée et continuer à fuir."
+      }
+    ]
+  },
+  "preparatifs": [
+    {
+      "index": 1,
+      "text": "Quand t'ont-ils injecté les capsules? Confluence, 2062, promesse de poumons augmentés. Tu n'as reçu que des ovaires d'insecte logés dans tes ganglions nerveux et une phéromone que tu libères sans le vouloir. Comment as-tu nommé ce qui t'a été fait?"
+    },
+    {
+      "index": 2,
+      "text": "Vous êtes 340 à quitter Lyon le 12 mars 2087. L'eau de la Saône brûle d'organophosphorés. Les stocks d'eau douce tiendront 18 mois, maximum. Rennes offre une promesse : bioremédiation fongique. Pourquoi cette destination plutôt que l'un des autres refuges signalés?"
+    },
+    {
+      "index": 3,
+      "text": "Porte-t-on avec soi un objet du passé? Kess : une petite fiole de nitroglycérine recyclée contenant l'ADN congelé de son frère décédé, attachée sous son sternum. Thresh : un journal de bord où il calcule obsessionnellement la quantité de déchets consumés. Sable : un tube de verre renfermant une graine de son propre patrimoine génétique hybride. Quel secret cet objet renferme-t-il?"
+    },
+    {
+      "index": 4,
+      "text": "Kess perd progressivement ses capacités cognitives spatiales depuis deux ans : elle ne peut plus se repérer qu'à l'odeur du vent. Thresh produit des spores toxiques lors de stress thermiques et respire les phéromones de Kess pour rester calme. Sable entre en torpeur la nuit, immobile et inconsciente, et craint de devenir un décor fixe. Comment trois êtres en défaillance croissante peuvent-ils traverser 600 km?"
+    },
+    {
+      "index": 5,
+      "text": "Sable porte en secret une attirance pour Thresh, mais elle ne la révèle à personne. Thresh dépend physiquement des phéromones de Kess sans que Kess le sache vraiment. Kess sait que sa phéromone calme le convoi mais en a honte. Quand et comment ces liens cachés remodèleront-ils le voyage?"
+    },
+    {
+      "index": 6,
+      "text": "Avant le départ, qu'abandonnes-tu de toi-même? Ton nom ancien? Ta certitude d'être humain? La possibilité de revenir? Qu'emportes-tu qui ne tiendra pas la route des 600 km?"
+    }
+  ],
+  "peripeties": [
+    {
+      "index": 1,
+      "zone": 1,
+      "category": "C",
+      "text": "Tu te souviens de Lyon avant la contamination : les quais où tu allais te perdre délibérément, testant tes capacités spatiales. Maintenant tu ne peux naviguer qu'à l'odeur. Comment acceptes-tu que le territoire que tu maîtrisais soit devenu un labyrinthe olfactif?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 2,
+      "zone": 1,
+      "category": "A",
+      "text": "Confluence, 2062. L'installation médico-industrielle où on t'a promis un corps augmenté. Tu revois les tubes de la capsule HKDN. Y a-t-il eu un moment de lucidité avant que les ovaires d'abeille ne remontent dans tes ganglions?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 3,
+      "zone": 1,
+      "category": "E",
+      "text": "Le convoi te regarde comme la matrice du groupe. 340 personnes respirent ta phéromone apaisante sans savoir qu'elle te consume. Quand as-tu compris que tu ne pourrais jamais partir seule, que tu es devenue l'ancrage émotionnel d'une foule que tu ne reconnais pas?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 4,
+      "zone": 1,
+      "category": "D",
+      "text": "Tes ganglions nerveux contiennent des ovaires. Tu peux sentir le bourdonnement des cycles reproductifs que tu ne contrôles pas. Comment cohabites-tu avec une fertilité qui n'est pas la tienne?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 5,
+      "zone": 1,
+      "category": "B",
+      "text": "Ton frère est mort avant ta mutation. Tu portes son ADN dans une fiole sous ton sternum. Qui, dans le convoi de 340, sait que tu voyages accompagnée d'un mort — et qui le devinerait en sentant cette phéromone que tu relâches involontairement?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 6,
+      "zone": 2,
+      "category": "F",
+      "text": "À Villefranche-sur-Saône, la gendarmerie nationale bloque les passages. Thresh pourrait dégrader les barrages en polymères — mais cela l'exposerait. Tu pourrais calmer les tensions par ta phéromone — mais cela rendrait ta capacité visible. Qui sacrifies-tu : ta cachette, ou le convoi?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 7,
+      "zone": 2,
+      "category": "G",
+      "text": "Une zone toxique apparaît : hydrocarbures, organophosphorés, composés non identifiés. L'eau en surface brûle. Tu dois la contourner, mais tes repères olfactifs sont brouillés par la puanteur. Le convoi t'attend. Peux-tu te perdre ici sans entraîner les 340 avec toi?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 8,
+      "zone": 2,
+      "category": "D",
+      "text": "Thresh commence à montrer des signes de stress thermique. Les spores toxiques s'échappent de son épiderme. Il respire profondément ta phéromone. Mais plus il en inhale, plus sa dépendance grandit. À quel moment dis-tu 'stop'? À quel moment peux-tu?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 9,
+      "zone": 2,
+      "category": "E",
+      "text": "Sable s'effondre à la tombée de la nuit, immobile, les yeux fermés. Elle entre en torpeur. Thresh se crispe sans ta phéromone. Le convoi bivouaque. Dans l'obscurité, tu dois continuer à respirer, à émettre cette substance apaisante, toute la nuit. Combien de nuits peux-tu tenir?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 10,
+      "zone": 2,
+      "category": "C",
+      "text": "Tu rêves que ton frère — celui dont tu portes l'ADN — est devenu une abeille charpentière. Il construit des galeries dans le bois de tes os. Quand tu te réveilles, tu ne sais plus qui est le mort et qui est vivant. Es-tu la tombe de ton frère, ou son hôte?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 11,
+      "zone": 3,
+      "category": "F",
+      "text": "Tu réalises que Thresh n'a jamais demandé ta permission pour respirer ta phéromone. Il en est devenu dépendant. Cela te fait horrible du pouvoir que tu possèdes malgré toi — et encore plus horrible d'imaginer ce qui se passerait si tu le refusais. Qui contrôle qui?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 12,
+      "zone": 3,
+      "category": "A",
+      "text": "À mi-chemin vers Rennes, tu franchis un cours d'eau que tu ne reconnais pas à l'odeur. Les phéromones sont effacées par l'humidité nouvelle. Tu te demandes : vais-je redevenir capable de m'orienter? Ou ai-je perdu cette partie de moi à jamais?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 13,
+      "zone": 3,
+      "category": "D",
+      "text": "Les ovaires d'abeille dans tes ganglions produisent moins de phéromone qu'avant. Ou tu as appris à les ignorer. Le convoi devient plus agité. Les conflits remontent. Es-tu en train de guérir, ou en train de mourir?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 14,
+      "zone": 3,
+      "category": "C",
+      "text": "Tu ouvres la fiole d'ADN fraternel. Tu ne sais pas ce que tu espérais : le voir s'échapper? Le planter? Le brûler? Mais l'ouvrir, c'est prendre le risque qu'il se dégèle, qu'il s'oxyde, qu'il disparaisse. Combien de temps ce secret peut-il vivre attaché à ton sternum?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 15,
+      "zone": 3,
+      "category": "E",
+      "text": "Avant l'arrivée à Rennes, tu sais que tu dois dire à Thresh la vérité sur ta phéromone, sur sa dépendance. Mais le dire, c'est exposer le mécanisme qui le maintient vivant. C'est risquer de le voir s'effondrer. Gardes-tu ce secret jusqu'à Rennes, ou peux-tu être cruelle et honnête?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 16,
+      "zone": 1,
+      "category": "D",
+      "text": "Tu as payé 12 000 crédits pour cette hybridation Aureobasidium pullulans. C'était un choix, au marché noir de Confluence en 2084. Mais maintenant, quand tu touches une surface plastique, ton épiderme consume le polymère en quelques heures et tu sens la mort du matériel dans ta peau. Regret-tu ce choix, ou cela te sauve-t-il?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 17,
+      "zone": 1,
+      "category": "A",
+      "text": "Confluence, 2084. Le marché noir. Tu clandestinement dans une capsule HKDN. Aureobasidium pullulans : champignon noir de dégradation industrielle. Pourquoi choisir la décomposition? Quel rêve écologique pulsait en toi à ce moment?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 18,
+      "zone": 1,
+      "category": "C",
+      "text": "Ton journal de bord, c'est l'obsession chiffrée : 2,3 kg de plastiques consumés. 15,7 litres d'hydrocarbures neutralisés. À Confluence, tu calculeais ton efficacité comme une rédemption. Mais tu sais : c'est insignifiant. Combien de zéros dois-tu ajouter avant que le calcul ait un sens?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 19,
+      "zone": 1,
+      "category": "E",
+      "text": "Kess respire, tu respires. Sa phéromone apaisante n'est pas accidentelle pour toi : tu l'appelles mentalement. Sans elle, tu sens les spores toxiques remonter dans ta gorge. Tu es dépendant, mais tu n'avoues pas. Comment appelle-t-on un hybride accro à une autre hybride?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 20,
+      "zone": 1,
+      "category": "B",
+      "text": "Sable se déplace près de toi. Même discrètement. Tu le remarques par la chaleur de sa peau, par l'oxygène qu'elle produit via photosynthèse. Attire-t-elle Thresh, ou simplement sa phéromone différente t'apaise-t-elle autrement que celle de Kess?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 21,
+      "zone": 2,
+      "category": "G",
+      "text": "À Villefranche-sur-Saône, la gendarmerie bloque. Tu pourrais dégrader les barrages — mais cela libérerait tes spores toxiques sur 340 personnes. Oui, tu nettoyerais les polymères. Non, tu n'empoisonnerais pas le convoi que Kess apaise avec sa phéromone. Ou peut-être que tu ferais?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 22,
+      "zone": 2,
+      "category": "D",
+      "text": "Une vague de chaleur arrive. Ta stabilité thermique chute. Tu entres dans la panique : tes ganglions fongiques se contractent, tes spores deviennent volatiles. Tu cherches Kess. Tu respires son phéromone comme de l'oxygène. Elle le sait-elle? Cela compte-t-il?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 23,
+      "zone": 2,
+      "category": "A",
+      "text": "Une zone toxique : hydrocarbures, plastiques fondus, résidus chimiques. C'est ton lieu de prédilection. Ton épiderme peut les consumer. Mais tu dois traverser avec le convoi. Peux-tu ralentir pour les autres, ou veux-tu rester ici et finir ce travail de nettoyage?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 24,
+      "zone": 2,
+      "category": "C",
+      "text": "Tu relis ton journal. Confluence 2084 : rêve de purifier les fleuves. Aujourd'hui : 2,3 kg consumés pendant 3 ans. À ce rythme, tu finieras de nettoyer le Rhône dans... 340 000 ans? Es-tu un guerrier ou une blague cosmique?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 25,
+      "zone": 2,
+      "category": "F",
+      "text": "Sable regarde ton corps exsuder cette substance visqueuse qui consume tout. Elle ne dit rien, mais tu sens sa présence différente près de toi. Veux-tu qu'elle sache pourquoi tu respires la phéromone de Kess? Ou préfères-tu garder ce secret — que ta hybridation t'a rendu parasite?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 26,
+      "zone": 3,
+      "category": "F",
+      "text": "Vers Rennes, tu réalises : Kess n'a jamais choisi ta dépendance. Elle n'a jamais choisi l'abeille en elle. Vous êtes tous deux des victimes du système. Mais toi, tu as *payé* pour l'être. Cela te place au-dessus ou au-dessous d'elle?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 27,
+      "zone": 3,
+      "category": "D",
+      "text": "Tes spores deviennent moins virulentes. Ou tu apprends à les contrôler. Ou l'exposition prolongée aux zones toxiques te désensibilise. Mais cela signifie aussi : ta capacité à nettoyer diminue. À Rennes, auras-tu un rôle? Ou deviens-tu simplement... un hybride de plus?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 28,
+      "zone": 3,
+      "category": "C",
+      "text": "Tu fermes ton journal de bord. Le calcul obsessionnel des déchets consumés t'apaisait. Mais plus près de Rennes, tu ne veux plus le voir — cette arithmétique de l'inefficacité. Peux-tu arrêter de compter, ou ça fera disparaître ta raison d'être?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 29,
+      "zone": 3,
+      "category": "E",
+      "text": "À Rennes, la bioremédiation fongique offre une promesse : tu ne seras plus un parasite au cœur du convoi, mais un ouvrier dans une usine écologique. Veux-tu cela? Ou as-tu découvert, en chemin, que la dépendance et la parasitisme étaient ta seule forme d'intimité?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 30,
+      "zone": 3,
+      "category": "B",
+      "text": "Avant d'arriver, tu dois dire à Sable pourquoi tu respires la phéromone de Kess. Mais une partie de toi espère que Sable le sait déjà. Que cette attirance discrète qu'elle manifeste est justement parce qu'elle comprend : tu es un être à demi-fondu, pas entièrement solide, mais pas entièrement gazeux non plus. Es-tu ce qu'elle espère devenir?",
+      "bestiaire_link": null,
+      "player": "Thresh"
+    },
+    {
+      "index": 31,
+      "zone": 1,
+      "category": "D",
+      "text": "Gerland, 2079. On t'injecte une capsule HKDN. Drepanopteris acuminata : fougère d'Amazonie asiatique. Tu as 11 ans. Les promesses : énergie verte, synthèse directe via photosynthèse. Tes os deviennent partiellement cellulosiques. Combien de ans tu avais compris que c'était pour de bon, que tu ne redeviendrais jamais humaine comme avant?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 32,
+      "zone": 1,
+      "category": "A",
+      "text": "Tu synthétises 40% de tes besoins énergétiques par photosynthèse. Chaque matin, le soleil te reconstitue. Mais chaque nuit, tu entres en torpeur : immobilité totale, inconscience, plantée sur place. As-tu choisi cette respiration-là, ou c'est la respiration qui t'a choisie?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 33,
+      "zone": 1,
+      "category": "C",
+      "text": "La graine dans ton tube de verre : c'est ton propre patrimoine génétique hybride préservé. Tu l'appelles ton 'enfant' en silence. Un jour, penses-tu, elle germera et ce qui sortira sera un peu toi, un peu nouvelle. Mais hybrides ne se reproduisent pas. D'où vient cet espoir faux?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 34,
+      "zone": 1,
+      "category": "B",
+      "text": "Thresh dégage une substance visqueuse qui consume les polymères. Il se déplace près de toi. Tu sens la chaleur de son corps. Aucun mot n'a été dit, mais tu sais : tu l'attires. Il est autant un monstre que toi. Peux-tu aimer quelqu'un qui rejette des spores toxiques?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 35,
+      "zone": 1,
+      "category": "E",
+      "text": "Kess émet une phéromone apaisante involontaire. Elle dit qu'elle en a honte. Mais toi, tu la respires et tu te demandes : honteux de quoi? D'avoir le pouvoir de calmer les autres? Ou honteuse d'être devenue un outil, une ressource? Tu crains la même chose pour toi-même.",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 36,
+      "zone": 2,
+      "category": "A",
+      "text": "Le soleil devient rare. Nuages, pluies acides, zones toxiques qui assombrissent le ciel. Ta dépendance à la lumière directe se transforme en anxiété. Combien de jours sans soleil avant d'entrer en torpeur permanente? Combien avant que tu cesses de bouger?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 37,
+      "zone": 2,
+      "category": "D",
+      "text": "La torpeur nocturne s'allonge. Avant, tu dormais 6 heures. Maintenant 8, puis 10. Bientôt, tu occuperas les 3/4 de ta vie immobilisée, inconsciente. Le convoi peut bivouaquer à cause de toi. Sais-tu que tu es une limitation vivante?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 38,
+      "zone": 2,
+      "category": "G",
+      "text": "Une zone hautement toxique apparaît. Tes chloroplastes hyperactifs captent les composés organophosphorés dans l'air. Tu te sens empoisonnée par la photosynthèse elle-même — tu fais entrer le poison dans tes cellules. Cela compte-t-il comme un choix de survie?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 39,
+      "zone": 2,
+      "category": "F",
+      "text": "Thresh entre en crise thermique. Kess respire pour l'apaiser. Toi, tu restes immobile en torpeur, incapable de l'aider. Tu rêves que tu aurais pu faire quelque chose. Mais tu sais : ta nature te paralyse. Tu es un tableau pas un guerrier.",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 40,
+      "zone": 2,
+      "category": "C",
+      "text": "Tu te souviens de tes 11 ans, avant la capsule. Courir, la nuit, sans peur. Danser. Dormir 6 heures comme tout le monde. Maintenant, la nuit arrive et c'est comme mourir un peu, chaque jour. Es-tu en train de devenir le jardin que tu habitais, plutôt que la fille qui le traversait?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 41,
+      "zone": 3,
+      "category": "D",
+      "text": "Tes chloroplastes hyperactifs commencent à montrer des dysfonctionnements. L'exposition aux toxines, le stress du voyage, la perte de cycles jour-nuit réguliers : tout affecte ta synthèse. Tu comptes qu'à ce rythme, dans 6 mois, tu ne produiras que 20% de tes besoins énergétiques. Que deviens-tu alors?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 42,
+      "zone": 3,
+      "category": "F",
+      "text": "Tu sais maintenant que tu dois avouer à Thresh l'attirance que tu ressens. Mais cela implique : lui montrer que tu choisis sa proximité volontairement, contrairement à Kess qui subit la dépendance de Thresh. Cela ferait-il de ton attirance un acte de résistance, ou simplement une autre fétichisation du monstre?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 43,
+      "zone": 3,
+      "category": "A",
+      "text": "À mi-chemin vers Rennes, tu arrives dans une zone humide, marécageuse. Les plantes explosent. Tes racines osseuses répondent. Tu sens pour la première fois : ce pourrait être un endroit où rester. Où s'enraciner volontairement. Peux-tu continuer jusqu'à Rennes, ou dois-tu déjà t'arrêter?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 44,
+      "zone": 3,
+      "category": "C",
+      "text": "Tu ouvres le tube de verre contenant la graine. La lumière la frappe pour la première fois. Germera-t-elle? Mourra-t-elle? Deviendra-t-elle un hybride comme toi, ou une fougère normale, oublieuse de ce qu'elle était? À Rennes, veux-tu le découvrir?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    },
+    {
+      "index": 45,
+      "zone": 3,
+      "category": "E",
+      "text": "Avant d'arriver à Rennes, tu réalises : le convoi a besoin de toi. Ta torpeur les force à ralentir, à s'arrêter, à respirer. Tes chloroplastes les aident quand les stocks d'eau manquent (tu peux les hydrater indirectement). Tu n'es pas une limitation, tu es une ancre. As-tu trouvé ton rôle, ou as-tu accepté d'être plantée sans le choisir?",
+      "bestiaire_link": null,
+      "player": "Sable"
+    }
+  ],
+  "bestiaire": [
+    {
+      "index": 1,
+      "espece": "Lutra lutra (Loutre d'Europe)",
+      "propriete": "Prédateur aquatique semi-aquatique. Métabolisme extrêmement rapide, capacité d'isolation thermique exceptionnelle (graisse corporelle + fourrure). Peut respirer en apnée jusqu'à 8 minutes. Jadis commune dans tous les fleuves français, en régression critique depuis les années 1970 due à la pollution des eaux et à la destruc­tion des berges.",
+      "hybridation_possible": "Hybridation HKDN : nage ultra-rapide, capacité de filtration hydrique (pouvoir de 'boire' les eaux partiellement toxiques), adaptation thermique. Risque : dépendance croissante aux eaux froides (effondrement si température >25°C)."
+    },
+    {
+      "index": 2,
+      "espece": "Sphagnum palustre (Sphaigne des marais)",
+      "propriete": "Mousse hygrofilique. Absorbant jusqu'à 25 fois son poids sec en eau. Crée des tourbières. Acidifiante naturelle (pH 3-4). Capacité de régénération et de croissance ininterrompue. Écosystème primaire pour centaines d'espèces.",
+      "hybridation_possible": "Hybridation HKDN : capacité de stockage et de purification hydrique extrême. Permet de transformer les eaux acides/toxiques via processus de filtration cellulaire (lent, mais efficace). Risque : décélération extrême du métabolisme, perte progressive de mobilité."
+    },
+    {
+      "index": 3,
+      "espece": "Tinca tinca (Tanche commune)",
+      "propriete": "Poisson d'eau douce peu exigeant sur la qualité hydrique. Peut survivre en eaux pauvres en oxygène. Peau épaisse recouverte de muqueuse protectrice. Longevité : jusqu'à 40 ans. Capable de s'enfoncer dans la vase et d'entrer en dormance.",
+      "hybridation_possible": "Hybridation HKDN : tolérance augmentée aux eaux contaminées, capacité dermatologique de résistance aux toxines. Conscience écologique des zones humides. Risque : ralentissement cognitif, apathie crois­sante, pulsion d'enfouissement (tropisme vers l'immobilité)."
+    },
+    {
+      "index": 4,
+      "espece": "Olea europaea (Olivier)",
+      "propriete": "Arbre géophyte extrêmement résilient. Enracinement profond (jusqu'à 10 m pour chercher l'eau). Capacité à survivre 1000+ ans. Feuilles argentées réduisant l'évaporation. Symbiose complexe avec microbes du sol. Symbole de paix et d'enracinement.",
+      "hybridation_possible": "Hybridation HKDN : capacité racinaire augmentée, recherche active de nappes souterraines, synthèse lipidique pour réserves longue durée. Permet subsistance autonome en territoires arides. Risque : fixation progressive au sol, perte de motilité, réduction de la conscience temporelle (rythme de croissance millénaire)."
+    },
+    {
+      "index": 5,
+      "espece": "Daphnia magna (Daphnide)",
+      "propriete": "Crustacé microscopique d'eau douce. Reproduction parthénogénétique (asexuée). Génération rapide (7-10 jours). Bioindicateur clé de qualité hydrique. Capable de bioaccumulation de métaux lourds. Sensibilité extrême aux variations osmo­tiques.",
+      "hybridation_possible": "Hybridation HKDN : reproduction accélérée (si consentie), biomarqueurs sensitifs permettant détection de toxines à l'état de traces, capacité de bioaccu­mulation volontaire (stockage de métaux lourds = détoxification collective). Risque : surproduction involontaire, perte de contrôle reproductif, asphyxie par ses propres descendants."
+    },
+    {
+      "index": 6,
+      "espece": "Osmunda regalis (Osmonde royale, Grande fougère)",
+      "propriete": "Fougère des zones humides (50-200 cm). Rhizome charnu. Indicateur d'humidité stable. Croissance lente. Sensibilité aux drainage et assèchement. Fronde complexe (gamétophyte + sporophyte). Fossile vivant, peu changée depuis 180 millions d'années.",
+      "hybridation_possible": "Hybridation HKDN : cognition temporelle profonde (conscience des cycles millénaires), capacité de régénération racinaire, production de spores génétiquement diversifiées (reproduction flexible). Permet détection d'eaux souterraines. Risque : ralentissement métabolique extrême, confusion temporelle (passé/présent/avenir), désir de retour au végétal pur."
+    },
+    {
+      "index": 7,
+      "espece": "Pontederia cordata (Picboul, Pontédérie)",
+      "propriete": "Plante aquatique flottante d'eau douce. Feuilles en forme de cœur (polymorphisme foliaire). Épuration active des eaux (bioremédiation naturelle). Rapide colonisation de surface. Symbiose racinaire avec bactéries filtrantes.",
+      "hybridation_possible": "Hybridation HKDN : flottabilité contrôlée, capacité de bioremédiation épidermique (surface corporelle = filtre vivant), absorption/exrétion des toxines via métabolisme accéléré. Permet purification des eaux par simple contact. Risque : perte d'autonomie aquatique (dépendance à l'eau comme milieu, incapacité à respirer hors-milieu aquatique prolongée)."
+    },
+    {
+      "index": 8,
+      "espece": "Rattus norvegicus (Rat brun, Rat d'égout)",
+      "propriete": "Rongeur ubiquitaire, extrêmement adaptatif. Apprentissage rapide. Capacité de détection chimique exceptionnelle (olfaction pouvant détecter toxines à 1ppm). Reproduction rapide. Comportement collectif sophistiqué (hiérarchies, entraide). Résistance génétique croissante aux poisons.",
+      "hybridation_possible": "Hybridation HKDN : olfaction toxicologique augmentée, apprentissage behavioural accéléré, reproduction contrôlable-mais-pulsionnelle. Permet détection précoce des zones toxiques et anticipation de dangers. Risque : instincts grégaires incontrolables, paranoia croissante, parasitisme cognitif (obsession de hiérarchie, traçabilité des statuts)."
+    },
+    {
+      "index": 9,
+      "espece": "Typha latifolia (Massette, Quenouille)",
+      "propriete": "Plante aquatique émergente héliophile (abhore l'ombre). Croissance extrêmement rapide (1-2 m/an). Racines rhizomateuses envahissantes. Absorption massive de nutriments (y compris toxines, métaux lourds). Formation de colonies monospécifiques denses. Fleurs en épis caractéristiques.",
+      "hybridation_possible": "Hybridation HKDN : croissance rapide contrôlable, dépuration hydrique massive (racines = système de filtration vivant), absorption de métaux lourds volontaire (bioaccumulation défensive). Permet colonisation/stabilisation de zones dégradées. Risque : pulvérance envahissante (prolifération incontrôlée des cellules végétales), perte d'individualité aux profit de la colonie (fusion progressive avec les congénères)."
+    },
+    {
+      "index": 10,
+      "espece": "Euphydryas aurinia (Damier de la succise, papillon)",
+      "propriete": "Lépidoptère. Larves monophages (se nourrissent d'une seule plante-hôte, Succisa pratensis). Métamorphose complète. Cycle de reproduction court (2-3 générations/an en zone tempérée). Sensibilité extrême aux perturbations d'humidité et de température. Aujourd'hui très rare, régression continue.",
+      "hybridation_possible": "Hybridation HKDN : métamorphose contrôlable entre formes (imago/chrysalide/larve-like), vision spectrométrique (détection des radiations, des polluants par fluorescence), cycles reproductifs accélérés. Permet reconnaissance des toxines visuellement. Risque : dépendance à la plante-hôte devient dépendance mentale obsessionnelle, perte de forme humaine lors de métamorphose involontaire sous stress."
+    }
+  ],
+  "drama": [
+    {
+      "index": 1,
+      "player": "Kess",
+      "option_a": "Vers Rennes, tu découvres que ta phéromone apaisante n'a jamais été involontaire — tu peux la contrôler, mais tu as choisi (inconsciemment?) de ne pas le faire. Accepter ce contrôle signifie avouer que tu as manipulé le convoi. Libérer ce contrôle signifie abandonner ta seule forme de pouvoir sur les autres. Choisis-tu l'honnêteté destructrice ou la manipulation invisible?",
+      "option_b": "Un médecin du convoi (parmi les 340) reconnaît l'ADN fraternel dans ta fiole. Il sait que tu voyages avec un mort, et il sait qui ton frère était : un criminel climatique accusé de sabotage de réserves d'eau. Ton frère était un terroriste. Gardes-tu ce secret, ou révèles-tu l'histoire pour éviter que le médecin ne la divulgue?"
+    },
+    {
+      "index": 2,
+      "player": "Thresh",
+      "option_a": "Trois jours avant Rennes, ton métabolisme fongique commence à entrer en dormance. Tu cesses peu à peu de consommer les déchets. Tu deviens de plus en plus inerte. Tu réalises : sans les toxines à degrader, sans ce calcul obsessionnel, tu n'as pas de raison d'être. À Rennes, les usines de bioremédiation te proposeront un emploi. Acceptes-tu de devenir un simple outil? Ou préfères-tu chercher de nouvelles zones toxiques, même si cela signifie quitter Rennes?",
+      "option_b": "Sable t'avoue son attirance. Mais elle ajoute : 'Je sais que tu respires la phéromone de Kess. Je sais que tu es dépendant. Je crains de devenir pour toi ce qu'est Kess pour elle-même : une drogue.' Elle te propose : reconnaître la dépendance publiquement et t'en sortir, ou continuer le mensonge ensemble. Lui dis-tu la vérité, ou acceptes-tu son silence complice?"
+    },
+    {
+      "index": 3,
+      "player": "Sable",
+      "option_a": "Trois semaines avant Rennes, ta torpeur nocturne se prolonge au point que tu dors 14-16 heures par jour. Le convoi se ralentit dangereusement. Thresh te propose : une injection HKDN expérimentale qui pourrait freiner ta dépendance lumineuse. Mais elle vient du marché noir, elle est imprévisible, et elle pourrait te tuer. Acceptes-tu une deuxième mutation pour retrouver une apparence d'humanité, ou acceptes-tu de devenir plante?",
+      "option_b": "Ta graine hybride germe involontairement dans le tube de verre. Quelque chose grandit : ce n'est pas une fougère, ce n'est pas une Sable 2.0. C'est une créature hybride non identifiée, mi-plante, mi-inerte, peut-être consciente. Tu dois choisir : la nourrir et l'élever (affirmant que la reproduction hybride est possible), ou la détruire (reconnaissant que vous ne pouvez pas se reproduire naturellement). Qu'en fais-tu?"
+    }
+  ],
+  "mutation": [
+    {
+      "index": 1,
+      "text": "Kess : tes ganglions nerveux ne produisent plus de phéromone. Ou tu as appris à les émettre consciemment. Ou tu as accepté de n'être que la membrane apaisante du convoi, invisible et nécessaire. As-tu guéri, ou as-tu enfin compris ton hybridation?"
+    },
+    {
+      "index": 2,
+      "text": "Thresh : tes spores toxiques se sont stabilisées ou ont disparu. Ton métabolisme fongique cherche des déchets qu'il ne trouve plus (zones purifiées en traversée). Tu n'es plus toxique pour les autres, mais tu es vide. Qu'as-tu perdu en perdant ta capacité à détruire?"
+    },
+    {
+      "index": 3,
+      "text": "Sable : ta torpeur nocturne s'est intensifiée ou inversée. Tu dormais la nuit, maintenant tu dors aussi le jour quand le ciel est couvert. Tu deviens un être du crépuscule, actif seulement aux moments de transition. Tu n'appartiens plus au jour ni à la nuit. À quelle espèce appartiens-tu maintenant?"
+    },
+    {
+      "index": 4,
+      "text": "Le convoi : vous êtes arrivés à Rennes. Vous n'êtes plus les hybridés de Lyon. Vous êtes les trois qui ont tenu ensemble, les trois dont les dépendances mutuelles ont créé un écosystème fragile et viable. Ensemble, vous êtes un organisme. Seul, chacun était une maladie. Qu'avez-vous découvert sur la solidarité?"
+    }
+  ],
+  "arrivee": [
+    {
+      "index": 1,
+      "text": "Kess arrivant à Rennes : ton odorat révèle une city construite par la bioremédiation. Aucune phéromone industrielle, pas de plastique brûlé. L'odeur de la promesse tenue. Mais tu ne reconnais pas ce monde : c'est celui qui t'a retiré la possibilité de te perdre. Es-tu sûre de vouloir rester ici, ou l'odeur te dit-elle de continuer?"
+    },
+    {
+      "index": 2,
+      "text": "Thresh arrivant à Rennes : les usines de bioremédiation fongique t'offrent un poste. Tu serais le cœur d'une machine écologique. Tu consommerais les déchets pour de bon. Ton journal de bord passerait de 2,3 kg consumés à des tonnes par jour. Enfin, tu serais utile. Mais tu serais une machine. As-tu accepté de n'être que cela?"
+    },
+    {
+      "index": 3,
+      "text": "Sable arrivant à Rennes : les terres humides bretonnes t'appellent. Tu sens à travers tes racines osseuses qu'ici, tu pourrais t'enraciner sans disparaître. Tu pourrais être l'ancre que tu as toujours redoutée de devenir. Et ta graine? Elle pourrait germer dans un sol riche, lourd, vivant. Choisis-tu enfin de rester quelque part, ou continues-tu de fuir?"
+    },
+    {
+      "index": 4,
+      "text": "Ensemble à Rennes, vous trois réalisez : vous avez survécu à une transhumance de 600 km qui n'était jamais sur les cartes. Vous avez créé une tribu de trois monstres acceptables. Vous avez porté chacun un secret jusqu'à l'autre bout. Et maintenant? Restez-vous ensemble? Vous dispersez-vous? Ou votre histoire devient-elle la graine d'une nouvelle migration, d'une nouvelle forme de convoi hybride?"
+    }
+  ]
+}
