@@ -1,0 +1,588 @@
+{
+  "title": "Mue",
+  "contexte": "2087. L'effondrement du barrage de Grangent a contaminé la Limagne aux nanites et aux spores toxiques. Votre convoi fuit Clermont-Ferrand vers Lille, dernier port viable du Nord. Trois hybrides liés par des secrets qui menacent leur survie collective.",
+  "analyse": {
+    "style": {
+      "lexical": {
+        "author": "Ursula K. Le Guin",
+        "why": "Vocabulaire scientifique précis mêlé à la poésie sensorielle, particulièrement adapté aux mutations corporelles et aux écosystèmes dégradés"
+      },
+      "narrative": {
+        "author": "J.G. Ballard",
+        "why": "Narration fragmentaire explorant les mutations psychiques face aux catastrophes technologiques, résonnant avec les dysfonctionnements des hybridations"
+      },
+      "vision": {
+        "author": "Octavia Butler",
+        "why": "Vision post-humaine de la symbiose forcée et choisie, questionnant l'identité à travers la transformation biologique contrainte"
+      }
+    },
+    "regime": {
+      "primary": "nocturne_mystique",
+      "secondary": "nocturne_synthetique",
+      "key_images": [
+        "symbiose",
+        "métamorphose",
+        "dissolution",
+        "gestation"
+      ],
+      "explanation": "Régime mystique dominant avec la fusion des identités hybrides, complété par une synthèse progressive vers l'acceptation des transformations"
+    },
+    "myths": [
+      {
+        "name": "METAMORPHOSE",
+        "why": "Les trois personnages subissent des transformations physiques incontrôlées qui redéfinissent leur identité",
+        "figures": [
+          "Kess la Dégénérescence",
+          "Mael le Symbiote",
+          "Sylx la Chimère"
+        ],
+        "tensions": [
+          "identité vs mutation",
+          "contrôle vs abandon",
+          "humain vs post-humain"
+        ],
+        "end_question": "Que reste-t-il d'humain après la transformation complète ?"
+      },
+      {
+        "name": "EXODE",
+        "why": "Fuite collective d'un territoire contaminé vers un refuge hypothétique au Nord",
+        "figures": [
+          "Le Convoi",
+          "La Terre Empoisonnée",
+          "Lille la Promise"
+        ],
+        "tensions": [
+          "passé vs futur",
+          "contamination vs pureté",
+          "espoir vs désillusion"
+        ],
+        "end_question": "Le refuge existe-t-il vraiment ou n'est-ce qu'un mirage ?"
+      }
+    ],
+    "system": {
+      "flows": [
+        "contamination descendante",
+        "migration ascendante",
+        "secrets circulants",
+        "mutations proliférantes"
+      ],
+      "power": "L'Institut de Mutabilité Contrôlée impose les hybridations comme outils, mais les corps se rebellent par leurs dysfonctionnements",
+      "fractures": [
+        "secret de Kess sur sa dégénérescence",
+        "relation interdite Kess-Mael",
+        "peur mutuelle Sylx-Mael",
+        "promesse non-tenue des graines"
+      ]
+    },
+    "archetypes": {
+      "likely_chosen": [
+        "L'Innocent",
+        "Le Magicien",
+        "L'Explorateur"
+      ],
+      "likely_missing": [
+        {
+          "archetype": "L'Ombre",
+          "inject_as": "Les aspects refoulés de chaque mutation, particulièrement la toxicité de Sylx et la pathogénie de Mael"
+        },
+        {
+          "archetype": "Le Créateur",
+          "inject_as": "La mère-généticienne de Sylx et les scientifiques de l'IMCC comme figures créatrices ambiguës"
+        }
+      ]
+    },
+    "tensions": [
+      "Amour interdit vs survie collective",
+      "Secret individuel vs confiance du convoi",
+      "Hybridation choisie vs imposée",
+      "Dégénérescence progressive vs espoir de guérison"
+    ],
+    "themes": [
+      "La symbiose comme survie et aliénation",
+      "Le corps comme territoire contesté",
+      "L'amour dans l'apocalypse écologique",
+      "La promesse comme lien social fragile"
+    ],
+    "arc": "Trois hybrides dysfonctionnels apprennent à accepter leurs mutations pour survivre ensemble à l'exode vers un refuge incertain.",
+    "participants_analysis": [
+      {
+        "pseudo": "Kess",
+        "potentiel": "Archétype du guide défaillant qui doit révéler sa vulnérabilité pour retrouver sa vraie fonction protectrice"
+      },
+      {
+        "pseudo": "Mael",
+        "potentiel": "Figure du guérisseur empoisonné, porteur de vie et de mort, catalyseur des transformations collectives"
+      },
+      {
+        "pseudo": "Sylx",
+        "potentiel": "Incarnation de la jeunesse post-humaine qui doit dépasser la peur pour embrasser sa nature chimérique"
+      }
+    ]
+  },
+  "preparatifs": [
+    {
+      "index": 1,
+      "text": "Tu abandonnes ton dernier lieu d'ancrage humaine pour rejoindre ce convoi d'hybrides. Qu'est-ce que tu laisses derrière toi qui ne pourra jamais être remplacé ?"
+    },
+    {
+      "index": 2,
+      "text": "Ton corps porte les marques visibles de ton hybridation HKDN. Comment réagissent les autres quand ils te voient pour la première fois ?"
+    },
+    {
+      "index": 3,
+      "text": "Ce convoi n'est pas le premier auquel tu te joignes. Raconte pourquoi tu as quitté le précédent."
+    },
+    {
+      "index": 4,
+      "text": "Tu portes un objet qui témoigne de ce que tu étais avant ta transformation. Montre-le aux autres et explique pourquoi tu ne peux pas t'en séparer."
+    },
+    {
+      "index": 5,
+      "text": "Ta capacité HKDN pourrait sauver le convoi, mais son usage a un prix que tu es le seul à connaître. Quel est-il ?"
+    },
+    {
+      "index": 6,
+      "text": "Il y a quelque chose que tu caches aux autres membres du convoi. Ce secret pourrait les mettre en danger s'il était révélé."
+    }
+  ],
+  "peripeties": [
+    {
+      "index": 1,
+      "zone": 1,
+      "category": "A",
+      "text": "Kess, tu humes l'air au bord de l'Allier. Tes récepteurs chimio-sensoriels captent une signature moléculaire familière mais déformée. D'où vient ce parfum de ton enfance mélangé à l'odeur de la mort ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 2,
+      "zone": 1,
+      "category": "C",
+      "text": "Kess, tu te souviens de tes premiers jours à l'Institut de Mutabilité Contrôlée de Clermont. Les autres cobayes t'appelaient 'la Reniflée'. Comment as-tu survécu à leur mépris ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 3,
+      "zone": 1,
+      "category": "E",
+      "text": "Kess, Mael s'approche de toi pendant la marche. Son odeur bactérienne habituelle a changé - elle contient des notes florales inattendues. Que lui dis-tu sans alerter Sylx ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 4,
+      "zone": 1,
+      "category": "D",
+      "text": "Kess, tes capteurs olfactifs détectent les spores de Trichoderma dans l'air, mais les signaux se brouillent et se contredisent. Comment caches-tu ton trouble aux autres ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 5,
+      "zone": 2,
+      "category": "G",
+      "text": "Kess, une nappe de gaz toxiques se rapproche du convoi. Tes récepteurs chimiques hurlent des signaux contradictoires. Peux-tu encore faire confiance à tes sens pour sauver les autres ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 6,
+      "zone": 2,
+      "category": "F",
+      "text": "Kess, tu pourrais utiliser tes dernières capacités sensorielles fiables pour localiser de l'eau pure, mais cela accélérerait ta dégénérescence. Le convoi a soif.",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 7,
+      "zone": 2,
+      "category": "B",
+      "text": "Kess, un autre hybride Testudo croise votre route. Il prétend que l'Institut a développé un traitement pour la dégénérescence sensorielle. Quel prix réclame-t-il ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 8,
+      "zone": 2,
+      "category": "A",
+      "text": "Kess, tes sens défaillants te font confondre l'odeur de l'eau potable avec celle des marécages contaminés. Comment retrouves-tu la bonne piste ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 9,
+      "zone": 3,
+      "category": "C",
+      "text": "Kess, tu repenses à la première fois où tes sens t'ont trompée. C'était il y a six mois. Qu'as-tu perdu ce jour-là ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 10,
+      "zone": 3,
+      "category": "D",
+      "text": "Kess, ton hybridation Plasmodium révèle sa vraie nature : tu ne détectes plus les toxines mais les émotions chimiques des autres. Que ressens-tu vraiment chez Mael et Sylx ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 11,
+      "zone": 3,
+      "category": "E",
+      "text": "Kess, les graines de Pinus cembra que tu portes pour Mael commencent à germer contre ton corps. Que promettent-elles vraiment ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 12,
+      "zone": 3,
+      "category": "F",
+      "text": "Kess, tu pourrais révéler ton secret et demander de l'aide aux autres, mais cela signifierait admettre que tu n'es plus leur guide. Comment choisis-tu entre orgueil et survie ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 13,
+      "zone": 3,
+      "category": "G",
+      "text": "Kess, tes sens te montrent enfin la vérité sur la contamination : elle ne vient pas d'en bas, mais d'en haut. Qu'est-ce qui tombe du ciel ?",
+      "bestiaire_link": null,
+      "player": "Kess"
+    },
+    {
+      "index": 14,
+      "zone": 1,
+      "category": "B",
+      "text": "Mael, un enfant hybride au bord de la route fixe tes nodules avec fascination. Ses parents t'évitent. Comment expliques-tu ta nature à cet enfant ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 15,
+      "zone": 1,
+      "category": "C",
+      "text": "Mael, tu te souviens de l'orphelinat aquatique où tu as grandi après ta contamination. Les autres enfants malades t'appelaient 'Celui-qui-ne-meurt-pas'. Pourquoi ce surnom te hantait-il ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 16,
+      "zone": 1,
+      "category": "A",
+      "text": "Mael, le convoi traverse un ruisseau. L'eau appelle tes mitochondries bactériennes, mais Sylx refuse que tu t'y baignes. Comment négocies-tu ce besoin vital ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 17,
+      "zone": 1,
+      "category": "D",
+      "text": "Mael, ta capacité à dégrader les biofilms toxiques pourrait purifier cette source d'eau contaminée. Mais cela déclencherait une crise prématurée. Le convoi a soif.",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 18,
+      "zone": 2,
+      "category": "E",
+      "text": "Mael, Sylx entre en mue douloureuse. Son odeur de chitine fissurée déclenche tes instincts bactériens de colonisation. Comment résistes-tu à l'envie de la 'soigner' ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 19,
+      "zone": 2,
+      "category": "G",
+      "text": "Mael, tes bactéries symbiotiques détectent une contamination massive dans les sols. Ta température corporelle grimpe dangereusement. Est-ce une crise ou un signal d'alarme ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 20,
+      "zone": 2,
+      "category": "F",
+      "text": "Mael, un laboratoire abandonné contient des antibiotiques qui pourraient stabiliser tes crises. Mais ils détruiraient aussi ta capacité de symbiose. Que choisis-tu ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 21,
+      "zone": 2,
+      "category": "A",
+      "text": "Mael, tu découvres un bassin d'eau thermale naturelle. Tes bactéries s'y épanouiraient, mais l'eau pourrait devenir toxique pour les autres. Comment partages-tu cette ressource ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 22,
+      "zone": 2,
+      "category": "B",
+      "text": "Mael, vous croisez un convoi de 'Purs' non-hybridés qui fuient aussi vers le Nord. Leur chef propose un échange : tes services de purification contre leur protection. Que réponds-tu ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 23,
+      "zone": 3,
+      "category": "C",
+      "text": "Mael, tu joues de ta flûte cassée pour calmer une crise naissante. Ce son unique te rappelle la voix de quelqu'un d'important. Qui était cette personne ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 24,
+      "zone": 3,
+      "category": "D",
+      "text": "Mael, tes bactéries symbiotiques évoluent. Elles ne se contentent plus de purifier l'eau - elles transforment tout ce que tu touches. Deviens-tu une arme de terraformation ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 25,
+      "zone": 3,
+      "category": "E",
+      "text": "Mael, Kess s'effondre lors d'une crise sensorielle. Tes bactéries pourraient stabiliser son système nerveux, mais cela créerait un lien symbiotique permanent entre vous. L'acceptes-tu ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 26,
+      "zone": 3,
+      "category": "F",
+      "text": "Mael, tu réalises que ta relation avec Kess n'est peut-être qu'un effet de tes phéromones bactériennes sur son système olfactif dégradé. L'amour peut-il exister dans la manipulation chimique ?",
+      "bestiaire_link": null,
+      "player": "Mael"
+    },
+    {
+      "index": 27,
+      "zone": 1,
+      "category": "C",
+      "text": "Sylx, tu repenses aux paroles de ta mère-généticienne : 'Tu seras plus adaptée que nous.' À 19 ans, que penses-tu vraiment de ce 'cadeau' ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 28,
+      "zone": 1,
+      "category": "D",
+      "text": "Sylx, tes quatre bras permettent de porter plus d'équipement que les autres, mais ton métabolisme de 4500 kcal t'épuise. Comment caches-tu ta faim constante ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 29,
+      "zone": 1,
+      "category": "A",
+      "text": "Sylx, ta vision ultraviolette révèle des traces de contamination invisibles aux autres. Le paysage que tu vois ressemble-t-il encore à celui qu'ils décrivent ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 30,
+      "zone": 1,
+      "category": "E",
+      "text": "Sylx, tu as glissé une lettre d'amour dans le paquetage de Kess, mais la voir avec Mael réveille ta jalousie et tes instincts de guêpe. Comment contrôles-tu cette fureur ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 31,
+      "zone": 2,
+      "category": "G",
+      "text": "Sylx, vous devez traverser un champ de polymères toxiques. Ta salive enzymatique peut les dissoudre, mais cela déclenchera ta mue prématurément. Le convoi compte sur toi.",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 32,
+      "zone": 2,
+      "category": "B",
+      "text": "Sylx, tu rencontres un autre hybride arthropode, mais sa mue l'a rendu fou et agressif. Est-ce ton avenir ? Comment réagis-tu face à ce miroir déformé ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 33,
+      "zone": 2,
+      "category": "F",
+      "text": "Sylx, tes bras chitineux sécrètent maintenant un venin plus puissant. Tu pourrais éliminer les menaces qui pèsent sur le convoi, mais cela ferait de toi une tueuse. Que choisis-tu ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 34,
+      "zone": 2,
+      "category": "A",
+      "text": "Sylx, ta mue commence dans un abri de fortune. Tes cris de douleur attirent l'attention des prédateurs locaux. Comment le convoi te protège-t-il malgré tes sécrétions toxiques ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 35,
+      "zone": 3,
+      "category": "C",
+      "text": "Sylx, tu te souviens du jour où ta mère t'a montrée fièrement aux autres scientifiques. Tu étais son chef-d'œuvre. Comment te sens-tu aujourd'hui d'être une création et non une personne ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 36,
+      "zone": 3,
+      "category": "D",
+      "text": "Sylx, ta dernière mue a révélé de nouvelles capacités : tes ailes vestigiales peuvent désormais porter ton poids sur de courtes distances. Que représente cette liberté nouvelle ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 37,
+      "zone": 3,
+      "category": "E",
+      "text": "Sylx, Mael s'effondre en crise thermique. Ton venin pourrait le soigner ou le tuer. Sa peur de toi se lit dans ses yeux. Comment dépasses-tu cette barrière ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 38,
+      "zone": 3,
+      "category": "F",
+      "text": "Sylx, tu découvres que ta peur pathologique de Mael cache en réalité une attraction chimique - vos phéromones se répondent. Comment acceptes-tu cette vérité sur ta nature ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 39,
+      "zone": 3,
+      "category": "G",
+      "text": "Sylx, tes nouveaux sens détectent que la contamination du Nord est différente de celle du Sud. Lille n'est peut-être pas le refuge espéré. Que révèles-tu aux autres ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    },
+    {
+      "index": 40,
+      "zone": 3,
+      "category": "A",
+      "text": "Sylx, tes ailes naissantes captent des ultrasons lointains - des signaux de détresse d'autres hybrides arthropodes. Une communauté secrète t'appelle. Réponds-tu à cet appel ?",
+      "bestiaire_link": null,
+      "player": "Sylx"
+    }
+  ],
+  "bestiaire": [
+    {
+      "index": 1,
+      "espece": "Castor fiber (Castor d'Europe)",
+      "propriete": "Construction de barrages complexes et thermorégulation aquatique",
+      "hybridation_possible": "Capacité de bio-ingénierie instinctive et résistance au froid humide"
+    },
+    {
+      "index": 2,
+      "espece": "Drosera rotundifolia (Rossolis à feuilles rondes)",
+      "propriete": "Digestion enzymatique externe d'insectes vivants",
+      "hybridation_possible": "Sécrétion d'enzymes digestives par les pores cutanés"
+    },
+    {
+      "index": 3,
+      "espece": "Lutra lutra (Loutre d'Europe)",
+      "propriete": "Pelage imperméable et navigation aquatique précise",
+      "hybridation_possible": "Isolation thermique naturelle et orientation subaquatique"
+    },
+    {
+      "index": 4,
+      "espece": "Fagus sylvatica (Hêtre commun)",
+      "propriete": "Réseau racinaire de communication chimique étendu",
+      "hybridation_possible": "Perception des réseaux mycorrhiziens et communication phéromonale"
+    },
+    {
+      "index": 5,
+      "espece": "Salamandra salamandra (Salamandre tachetée)",
+      "propriete": "Régénération tissulaire et sécrétions alcaloïdes défensives",
+      "hybridation_possible": "Auto-réparation cellulaire accélérée et production de toxines cutanées"
+    },
+    {
+      "index": 6,
+      "espece": "Quercus petraea (Chêne sessile)",
+      "propriete": "Longévité exceptionnelle et résistance aux stress environnementaux",
+      "hybridation_possible": "Métabolisme ralenti et adaptation aux variations climatiques extrêmes"
+    },
+    {
+      "index": 7,
+      "espece": "Mustela erminea (Hermine)",
+      "propriete": "Camouflage saisonnier et métabolisme adaptatif au froid",
+      "hybridation_possible": "Modification chromatique épidermique et résistance thermique variable"
+    },
+    {
+      "index": 8,
+      "espece": "Sphagnum palustre (Sphaigne des marais)",
+      "propriete": "Acidification du milieu et rétention hydrique massive",
+      "hybridation_possible": "Régulation du pH corporel et stockage d'eau tissulaire"
+    },
+    {
+      "index": 9,
+      "espece": "Accipiter gentilis (Autour des palombes)",
+      "propriete": "Vision télescopique et navigation aérienne en forêt dense",
+      "hybridation_possible": "Acuité visuelle extrême et perception tridimensionnelle des obstacles"
+    },
+    {
+      "index": 10,
+      "espece": "Lycopodium clavatum (Lycopode en massue)",
+      "propriete": "Spores hydrophobes inflammables et croissance rampante",
+      "hybridation_possible": "Production de poudre isolante et progression en terrain difficile"
+    }
+  ],
+  "drama": [
+    {
+      "index": 1,
+      "player": "Kess",
+      "option_a": "Tu révèles à Mael et Sylx que tes sens se dégradent depuis trois ans et que tu ne peux plus assurer leur sécurité. Comment réagissent-ils à cette trahison ?",
+      "option_b": "Tu utilises tes dernières capacités sensorielles fiables dans un effort désespéré pour sauver le convoi, accélérant ta dégénérescence totale. Que perçois-tu dans tes derniers instants de lucidité ?"
+    },
+    {
+      "index": 2,
+      "player": "Mael",
+      "option_a": "Tu avoues à Sylx que ta relation avec Kess influence chimiquement ses émotions par tes phéromones bactériennes. Comment justifies-tu cet amour forcé ?",
+      "option_b": "Tu révèles que tes crises de 42°C ne sont pas des dysfonctionnements mais des moments où tes bactéries communiquent avec d'autres organismes infectés. Que te disent-elles ?"
+    },
+    {
+      "index": 3,
+      "player": "Sylx",
+      "option_a": "Tu montres enfin ta lettre d'amour à Kess, mais au moment où Mael découvre vos sentiments réciproques. Comment cette révélation transforme-t-elle la dynamique du trio ?",
+      "option_b": "Tu dévoiles que ta mère-généticienne t'a programmée pour devenir une arme biologique dormante, et que tes mues préparent cette activation. Peux-tu encore choisir ton destin ?"
+    }
+  ],
+  "mutation": [
+    {
+      "index": 1,
+      "text": "Ton corps a changé pendant ce voyage, mais pas comme tu l'avais prévu. Quelle partie de ton hybridation s'est révélée être autre chose que ce qu'on t'avait dit ?"
+    },
+    {
+      "index": 2,
+      "text": "Tu as perdu quelque chose d'humain en route, quelque chose que tu ne pourras jamais récupérer. De quoi s'agit-il et comment vis-tu avec cette absence ?"
+    },
+    {
+      "index": 3,
+      "text": "Une capacité nouvelle et inattendue s'éveille en toi. Elle n'était dans aucun protocole HKDN. D'où vient-elle et que signifie-t-elle pour ton avenir ?"
+    },
+    {
+      "index": 4,
+      "text": "La frontière entre toi et les autres membres du convoi s'est estompée. Vous partagez maintenant quelque chose de biologique. Qu'est-ce que cela change à votre relation ?"
+    }
+  ],
+  "arrivee": [
+    {
+      "index": 1,
+      "text": "Lille apparaît à l'horizon, mais ce n'est pas la ville refuge que vous imaginiez. Qu'est-ce qui a changé et comment réagis-tu à cette découverte ?"
+    },
+    {
+      "index": 2,
+      "text": "Tu as survécu au voyage, mais tu n'es plus le même être qui a quitté Clermont. Que apportes-tu maintenant à cette nouvelle communauté ?"
+    },
+    {
+      "index": 3,
+      "text": "Les liens tissés avec tes compagnons de voyage ont résisté aux secrets et aux révélations. Comment définirais-tu maintenant votre relation ?"
+    },
+    {
+      "index": 4,
+      "text": "Une nouvelle transhumance se profile déjà. D'autres hybrides cherchent un guide vers des territoires encore plus lointains. Es-tu prêt à repartir ?"
+    }
+  ]
+}
