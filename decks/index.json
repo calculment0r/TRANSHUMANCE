@@ -1,5 +1,18 @@
 [
   {
+    "id": "mox8ezwalgvr",
+    "title": "Noyés",
+    "contexte": "Bayonne se noie. Le lagon stagnant a bouffé Saint-Esprit en une nuit et dans trois jours les routes du nord seront coupées. Maira a chopé un signal morse depuis Dunkerque - refuge, eau douce, cultures. Personne d'autre l'a eu. Ils ont 72 heures pour remonter vers Calais avant que l'eau les rattrape définitivement.",
+    "depart": "Bayonne",
+    "destination": "Calais",
+    "createdAt": "2026-05-08T18:11:47.763Z",
+    "participants": [
+      "Kess",
+      "Maira",
+      "Tryx"
+    ]
+  },
+  {
     "id": "mox4vpc6llyf",
     "title": "Mue",
     "contexte": "2087. L'effondrement du barrage de Grangent a contaminé la Limagne aux nanites et aux spores toxiques. Votre convoi fuit Clermont-Ferrand vers Lille, dernier port viable du Nord. Trois hybrides liés par des secrets qui menacent leur survie collective.",
