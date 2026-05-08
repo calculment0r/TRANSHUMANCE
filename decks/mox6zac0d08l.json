@@ -1,0 +1,502 @@
+{
+  "title": "Fuite Électrique",
+  "contexte": "Trois corps défaillants fuient La Rochelle avant l'euthanasie programmée. Leurs hybridations HKDN se décomposent, leurs mutations s'accélèrent. La promesse d'Avignon — des grottes, de l'eau pure, la stabilité — pourrait être leur dernier mensonge ou leur unique salut. Ils portent leurs dysfonctionnements comme des stigmates et leurs tendresses secrètes comme des bouées.",
+  "depart": "La Rochelle",
+  "destination": "Avignon",
+  "analyse": {
+    "style": {
+      "lexical": {
+        "author": "Philip K. Dick",
+        "why": "La précision technique mêlée à la paranoïa corporelle, les capsules HKDN comme avatars des drogues dickiennes, le vocabulaire médical détourné en poésie de l'altération"
+      },
+      "narrative": {
+        "author": "Ursula K. Le Guin",
+        "why": "La construction intime des relations dans un monde hostile, les gestes tendres cachés (main de Mira, montre de Zel, capteur d'Oris) comme résistance politique"
+      },
+      "vision": {
+        "author": "J.G. Ballard",
+        "why": "L'obsession pour les dysfonctionnements corporels comme métaphore sociale, les corps hybrides comme paysages intérieurs révélant la violence du monde"
+      }
+    },
+    "regime": {
+      "primary": "nocturne_mystique",
+      "secondary": "nocturne_synthetique",
+      "key_images": [
+        "eau pure",
+        "grottes protectrices",
+        "lumière douce",
+        "mémoire effacée",
+        "fusion corporelle"
+      ],
+      "explanation": "Régime mystique dominant dans la recherche de fusion avec un lieu-matrice (grottes d'Avignon), les gestes intimes de protection mutuelle, la quête d'effacement des stigmates. Synthetique secondaire dans l'acceptation progressive des dysfonctionnements comme partie intégrante de leur identité collective."
+    },
+    "myths": [
+      {
+        "name": "EXODE",
+        "why": "Fuite devant l'extermination programmée, recherche d'une terre promise",
+        "figures": [
+          "Le peuple élu défaillant",
+          "La terre promise souterraine",
+          "Le message chiffré salvateur"
+        ],
+        "tensions": [
+          "Espoir/désespoir",
+          "Fuite/poursuite",
+          "Promesse/mensonge"
+        ],
+        "end_question": "Avignon sera-t-elle leur salut ou leur tombeau collectif ?"
+      },
+      {
+        "name": "METAMORPHOSE",
+        "why": "Les corps continuent de muter, la transformation n'est jamais achevée",
+        "figures": [
+          "L'hybride qui ne cesse de changer",
+          "La mémoire qui se régénère",
+          "Le dysfonctionnement comme révélation"
+        ],
+        "tensions": [
+          "Contrôle/chaos biologique",
+          "Identité/altération",
+          "Choix/contrainte"
+        ],
+        "end_question": "Que resteront-ils d'humain quand leurs corps auront fini de muter ?"
+      }
+    ],
+    "system": {
+      "flows": [
+        "Phéromones d'Oris qui modifient les autres",
+        "Électricité de Zel qui détruit la technologie",
+        "Luminescence de Mira qui guide dans l'obscurité",
+        "Informations chiffrées du collectif souterrain"
+      ],
+      "power": "Le pouvoir appartient aux autorités du Port qui décident de la vie et de la mort, mais le vrai pouvoir réside dans les connexions intimes entre les trois fugitifs",
+      "fractures": [
+        "Volontaire vs imposé (Mira vs Zel/Oris)",
+        "Visible vs invisible (électricité vs phéromones vs lumière)",
+        "Contrôlable vs incontrôlable (tous trois défaillants différemment)"
+      ]
+    },
+    "archetypes": {
+      "likely_chosen": [
+        "L'Orphelin",
+        "L'Amoureux",
+        "Le Magicien",
+        "L'Explorateur"
+      ],
+      "likely_missing": [
+        {
+          "archetype": "Le Souverain",
+          "inject_as": "Une figure d'autorité bienveillante dans le collectif d'Avignon qui pourrait les accepter sans jugement"
+        }
+      ]
+    },
+    "tensions": [
+      "Stabilisation impossible vs espoir de guérison",
+      "Dysfonctionnements destructeurs vs tendresses protectrices",
+      "Fuite urgente vs voyage qui pourrait les tuer",
+      "Promesses du collectif d'Avignon vs réalité potentiellement décevante"
+    ],
+    "themes": [
+      "Les gestes tendres comme résistance à la déshumanisation",
+      "Les dysfonctionnements corporels comme stigmates sociaux",
+      "L'eau pure comme fantasme de purification impossible",
+      "La mémoire défaillante face aux corps qui n'oublient jamais"
+    ],
+    "arc": "Trois corps défaillants tentent une dernière fuite vers une promesse de stabilité qui pourrait être leur salut ou leur illusion finale.",
+    "participants_analysis": [
+      {
+        "pseudo": "Zel",
+        "potentiel": "Paradoxe tragique de l'immortalité malheureuse — ses souvenirs fantômes peuvent révéler l'histoire cachée du monde hybride, sa main qui vérifie Mira est le geste le plus humain du récit"
+      },
+      {
+        "pseudo": "Mira",
+        "potentiel": "L'effacement volontaire qui devient luminescence involontaire — sa capacité à naviguer par instinct tellurique en fait la vraie guide du groupe, sa fragilité à la lumière artificielle révèle la toxicité du monde moderne"
+      },
+      {
+        "pseudo": "Oris",
+        "potentiel": "Le soldat parasitique qui subvertit sa programmation militaire par l'amour — ses phéromones incontrôlées créent une famille chimique, son capteur dans le poignet de Mira est un acte de rébellion tendre contre sa nature imposée"
+      }
+    ]
+  },
+  "preparatifs": [
+    {
+      "index": 1,
+      "text": "Zel fracasse le terminal de surveillance d'un regard trop chargé, les circuits grésillent dans une gerbe d'étincelles bleues. Ses mains tremblent contre les siennes — encore des souvenirs fantômes qui remontent. Comment Zel compte traverser 600 kilomètres sans détruire chaque relais HKDN sur la route ?"
+    },
+    {
+      "index": 2,
+      "text": "Mira scelle ses derniers nutriments photosynthétiques dans des capsules opaques, la peau déjà translucide sous les néons du hangar. Le message d'Avignon promet l'eau pure, mais les grottes souterraines manquent de soleil. Que devient une orchidée-fantôme privée de lumière naturelle ?"
+    },
+    {
+      "index": 3,
+      "text": "Les phéromones d'Oris saturent l'air confiné — une nuée de guêpes mortes jonche le sol, empoisonnées par ses sécrétions instables. Le capteur dans le poignet de Mira clignote rouge, leurs corps se rejettent mutuellement. Comment tenir ensemble quand vos biologies se combattent ?"
+    },
+    {
+      "index": 4,
+      "text": "Vous décryptez une dernière fois le message chiffré : coordonnées GPS, codes d'accès, promesses de stabilisation. Mais les mots flottent comme des mirages sur l'écran qui grésille. Ce collectif souterrain existe-t-il vraiment ou n'est-ce qu'un piège pour rassembler les défaillants ?"
+    },
+    {
+      "index": 5,
+      "text": "Le convoi s'organise dans l'ombre des grues portuaires — trois corps qui fuient, quelques vivres, des capsules HKDN périmées. La Pallice s'endort derrière vous, ignorante de votre évasion. Que laisserez-vous derrière vous que vous ne retrouverez jamais ?"
+    },
+    {
+      "index": 6,
+      "text": "L'alarme du confinement résonne dans le port — trop tard pour vous arrêter, trop tôt pour vous rassurer. Vos corps défaillants portent leurs stigmates comme des cartes d'identité. Qu'est-ce qui vous attend sur cette route vers un salut incertain ?"
+    }
+  ],
+  "peripeties": [
+    {
+      "index": 1,
+      "zone": 1,
+      "category": "A",
+      "text": "Zel, les marais salants de Guérande s'étendent sous tes pieds nus, l'eau saumâtre réveille des mémoires cellulaires d'avant tes premières régénérations. Tes cicatrices de leucémie pulsent doucement dans la boue tiède. Quels souvenirs enfouis remontent avec cette eau salée qui connaît tes cellules mieux que toi ?",
+      "bestiaire_link": null,
+      "player": "Zel"
+    },
+    {
+      "index": 2,
+      "zone": 1,
+      "category": "B",
+      "text": "Mira, une vieille botaniste te reconnaît à ta luminescence et murmure des noms d'orchidées rares. Elle tend des graines vers ta peau translucide avec une tendresse de jardinière. Que révèles-tu de ton hybridation à cette femme qui semble comprendre tes racines végétales ?",
+      "bestiaire_link": null,
+      "player": "Mira"
+    },
+    {
+      "index": 3,
+      "zone": 1,
+      "category": "C",
+      "text": "Oris, le bourdonnement des abeilles dans les champs de tournesol résonne avec tes fréquences parasitiques. Tu te souviens de ton premier essaim contrôlé, avant que les militaires ne te transforment en arme. Quelle innocence as-tu perdue quand tes phéromones sont devenues une contrainte plutôt qu'un don ?",
+      "bestiaire_link": null,
+      "player": "Oris"
+    },
+    {
+      "index": 4,
+      "zone": 1,
+      "category": "D",
+      "text": "Zel, tes régénérations accélèrent près des antennes-relais, tes cellules vibrent au rythme des données HKDN qui saturent l'air. Chaque impulsion électrique réveille un fragment d'identité oubliée. Qui étais-tu avant que tes souvenirs ne se mélangent dans cette immortalité confuse ?",
+      "bestiaire_link": null,
+      "player": "Zel"
+    },
+    {
+      "index": 5,
+      "zone": 1,
+      "category": "E",
+      "text": "Mira, ta peau photosynthétique capte les derniers rayons du soleil couchant, tes veines verdissent sous l'épiderme translucide. Le convoi avance dans ta lumière douce. Comment cette responsabilité d'éclairer les autres change-t-elle ta relation à ton propre effacement ?",
+      "bestiaire_link": null,
+      "player": "Mira"
+    },
+    {
+      "index": 6,
+      "zone": 1,
+      "category": "F",
+      "text": "Oris, une colonie de termites attirée par tes phéromones ronge les poutres du pont que vous devez traverser. Tu peux les contrôler, mais cela révélera votre position aux patrouilles. Choisis-tu la discrétion ou la sécurité du passage ?",
+      "bestiaire_link": null,
+      "player": "Oris"
+    },
+    {
+      "index": 7,
+      "zone": 2,
+      "category": "G",
+      "text": "Zel, les détecteurs du checkpoint grésillent à ton approche, tes champs électriques incontrôlés trahissent ta nature hybride. Les gardes pointent leurs armes, confus par leurs appareils en panne. Comment détournes-tu leur attention sans révéler que c'est ton corps qui sabote leur technologie ?",
+      "bestiaire_link": null,
+      "player": "Zel"
+    },
+    {
+      "index": 8,
+      "zone": 2,
+      "category": "A",
+      "text": "Mira, la Loire charrie des particules radioactives qui font vibrer ta peau translucide, ton organisme absorbe cette énergie corrompue. Tes cellules végétales s'enflamment de l'intérieur. Que fais-tu quand ton corps se nourrit de ce qui pourrait empoisonner tes compagnons ?",
+      "bestiaire_link": null,
+      "player": "Mira"
+    },
+    {
+      "index": 9,
+      "zone": 2,
+      "category": "B",
+      "text": "Oris, un autre hybride militaire traque votre convoi — ses phéromones de chasseur entrent en conflit direct avec tes sécrétions protectrices. L'air devient toxique entre vous. Comment négocies-tu avec quelqu'un qui partage ta programmation parasitique mais pas tes choix ?",
+      "bestiaire_link": null,
+      "player": "Oris"
+    },
+    {
+      "index": 10,
+      "zone": 2,
+      "category": "C",
+      "text": "Zel, tes mains se souviennent de la texture de ces murs — tu as déjà régénéré ici, dans une vie cellulaire précédente. Mais les visages ont changé et personne ne te reconnaît. Que fais-tu de ces souvenirs fantômes qui ne correspondent plus au présent ?",
+      "bestiaire_link": null,
+      "player": "Zel"
+    },
+    {
+      "index": 11,
+      "zone": 2,
+      "category": "D",
+      "text": "Mira, les capsules HKDN défectueuses réagissent à ta luminescence, leurs codes génétiques se réécrivent sous ta peau translucide. Tu deviens un virus lumineux pour la technologie biomédicale. Comment contrôles-tu ce pouvoir de corruption que tu n'as jamais voulu ?",
+      "bestiaire_link": null,
+      "player": "Mira"
+    },
+    {
+      "index": 12,
+      "zone": 2,
+      "category": "E",
+      "text": "Oris, tes phéromones incontrôlées attirent un essaim de frelons géants qui encercle le convoi. Ils obéissent à tes commandes mais leur présence vous trahit aux drones de surveillance. Peux-tu sacrifier ta famille chimique pour sauver tes compagnons humains ?",
+      "bestiaire_link": null,
+      "player": "Oris"
+    },
+    {
+      "index": 13,
+      "zone": 2,
+      "category": "F",
+      "text": "Zel, tes régénérations s'emballent dans cette zone irradiée — tu pourrais devenir immortelle et invulnérable, mais perdre définitivement tes souvenirs humains. Les cellules de méduse prennent le contrôle. Acceptes-tu cette transcendance qui t'effacerait en tant que personne ?",
+      "bestiaire_link": null,
+      "player": "Zel"
+    },
+    {
+      "index": 14,
+      "zone": 3,
+      "category": "G",
+      "text": "Mira, la lumière artificielle des projecteurs de patrouille déclenche une apoptose cellulaire massive — ta peau se nécrose par plaques translucides. Tes compagnons risquent leurs vies pour t'emmener dans l'ombre. Mérites-tu qu'ils meurent pour sauver ton corps qui se détruit ?",
+      "bestiaire_link": null,
+      "player": "Mira"
+    },
+    {
+      "index": 15,
+      "zone": 3,
+      "category": "A",
+      "text": "Oris, au bord du Rhône, tes phéromones se mélangent aux vapeurs toxiques du fleuve et créent un brouillard hallucinogène. Tu vois tes victimes militaires dans chaque reflet de l'eau. Cette rivière connaît-elle tous les mensonges que tu as détectés, toutes les cibles que tu as marquées ?",
+      "bestiaire_link": null,
+      "player": "Oris"
+    },
+    {
+      "index": 16,
+      "zone": 3,
+      "category": "B",
+      "text": "Zel, tu croises un enfant hybride dont les cellules régénèrent comme les tiennes — mais il sourit encore, ignorant ce que l'immortalité lui fera oublier. Ses parents te supplient de l'emmener vers Avignon. Peux-tu condamner cette innocence à vivre ton cauchemar de mémoire fragmentée ?",
+      "bestiaire_link": null,
+      "player": "Zel"
+    },
+    {
+      "index": 17,
+      "zone": 3,
+      "category": "C",
+      "text": "Mira, tu reconnais les jardins de ton enfance avant le scandale de ton père — mais tes souvenirs humains s'effacent face aux instincts végétaux qui prennent le dessus. Tu ne sais plus si tu pleures par nostalgie ou par photosynthèse. Que reste-t-il de l'enfant que tu étais sous cette peau d'orchidée ?",
+      "bestiaire_link": null,
+      "player": "Mira"
+    },
+    {
+      "index": 18,
+      "zone": 3,
+      "category": "D",
+      "text": "Oris, le réseau HKDN local réagit à tes phéromones en révélant les codes d'identification de tous tes anciens compagnons d'armes. Leurs noms défilent sur ton capteur — morts, disparus, reconvertis. Qui étais-tu vraiment quand tu servais cette machine qui transforme les corps en armes ?",
+      "bestiaire_link": null,
+      "player": "Oris"
+    },
+    {
+      "index": 19,
+      "zone": 3,
+      "category": "E",
+      "text": "Zel, le convoi traverse un cimetière de méduses échouées — tes sœurs génétiques mortes de pollution. Tes cellules vibrent de deuil et de reconnaissance. Es-tu la dernière survivante de cette lignée, ou la première d'une nouvelle espèce vouée à l'extinction ?",
+      "bestiaire_link": null,
+      "player": "Zel"
+    },
+    {
+      "index": 20,
+      "zone": 3,
+      "category": "F",
+      "text": "Mira, tes racines photosynthétiques poussent involontairement vers le sol — ton corps veut s'enraciner définitivement, abandonner ce voyage vers Avignon. Tes compagnons devront choisir entre te laisser ou t'arracher à ta nature végétale. Que leur demandes-tu dans ce moment de métamorphose irréversible ?",
+      "bestiaire_link": null,
+      "player": "Mira"
+    }
+  ],
+  "bestiaire": [
+    {
+      "index": 1,
+      "espece": "Salicorne d'Europe",
+      "nom_scientifique": "Salicornia europaea",
+      "categorie": "plante",
+      "propriete": "Plante halophile capable de stocker le sel dans ses tissus charnus",
+      "hybridation_possible": "Glandes sudoripares modifiées permettant la régulation saline corporelle et l'adaptation aux environnements hypersalins",
+      "position_km": 15
+    },
+    {
+      "index": 2,
+      "espece": "Lucane cerf-volant",
+      "nom_scientifique": "Lucanus cervus",
+      "categorie": "insecte",
+      "propriete": "Mandibules hypertrophiées chez le mâle utilisées pour les combats territoriaux",
+      "hybridation_possible": "Exosquelette renforcé avec plaques chitineuses rétractiles pour protection corporelle accrue",
+      "position_km": 45
+    },
+    {
+      "index": 3,
+      "espece": "Genette commune",
+      "nom_scientifique": "Genetta genetta",
+      "categorie": "animal",
+      "propriete": "Glandes anales produisant un musc territorial puissant, locomotion semi-arboricole",
+      "hybridation_possible": "Système olfactif amplifié avec marquage phéromonal chimique pour communication à distance",
+      "position_km": 78
+    },
+    {
+      "index": 4,
+      "espece": "Cèpe de Bordeaux",
+      "nom_scientifique": "Boletus edulis",
+      "categorie": "plante",
+      "propriete": "Mycorrhizes symbiotiques avec racines d'arbres, réseau hyphal souterrain complexe",
+      "hybridation_possible": "Réseau neural décentralisé inspiré du mycélium pour traitement d'informations distribuées",
+      "position_km": 112
+    },
+    {
+      "index": 5,
+      "espece": "Cicindèle champêtre",
+      "nom_scientifique": "Cicindela campestris",
+      "categorie": "insecte",
+      "propriete": "Vision compound ultra-performante et vitesse de course exceptionnelle pour la chasse",
+      "hybridation_possible": "Yeux composés intégrés offrant vision panoramique et détection de mouvements rapides",
+      "position_km": 156
+    },
+    {
+      "index": 6,
+      "espece": "Rainette méridionale",
+      "nom_scientifique": "Hyla meridionalis",
+      "categorie": "animal",
+      "propriete": "Ventouses adhésives digitales permettant l'escalade sur surfaces lisses",
+      "hybridation_possible": "Coussinets palmaires biomimétiques pour adhérence sur parois verticales et plafonds",
+      "position_km": 189
+    },
+    {
+      "index": 7,
+      "espece": "Chêne vert",
+      "nom_scientifique": "Quercus ilex",
+      "categorie": "plante",
+      "propriete": "Feuilles sclérophylles coriaces résistantes à la sécheresse méditerranéenne",
+      "hybridation_possible": "Épiderme adaptatif régulant l'évaporation selon les conditions hygrométriques ambiantes",
+      "position_km": 234
+    },
+    {
+      "index": 8,
+      "espece": "Mante religieuse",
+      "nom_scientifique": "Mantis religiosa",
+      "categorie": "insecte",
+      "propriete": "Pattes ravisseuses à détente ultrarapide et vision binoculaire précise",
+      "hybridation_possible": "Réflexes préhensiles automatisés avec membres articulés à détente instantanée",
+      "position_km": 267
+    },
+    {
+      "index": 9,
+      "espece": "Couleuvre de Montpellier",
+      "nom_scientifique": "Malpolon monspessulanus",
+      "categorie": "animal",
+      "propriete": "Venin opistoglyphe faiblement toxique et thermorégulation comportementale",
+      "hybridation_possible": "Glandes à toxines modulables pour défense chimique personnalisée non-létale",
+      "position_km": 301
+    },
+    {
+      "index": 10,
+      "espece": "Thym commun",
+      "nom_scientifique": "Thymus vulgaris",
+      "categorie": "plante",
+      "propriete": "Huiles essentielles antimicrobiennes concentrées dans les feuilles",
+      "hybridation_possible": "Système immunitaire renforcé par production d'agents antiseptiques endogènes",
+      "position_km": 334
+    },
+    {
+      "index": 11,
+      "espece": "Scorpion languedocien",
+      "nom_scientifique": "Buthus occitanus",
+      "categorie": "insecte",
+      "propriete": "Détection vibratoire par organes sensoriels pédipalpes et dard venimeux",
+      "hybridation_possible": "Capteurs tactiles hypersensibles intégrés pour détection des micro-vibrations environnementales",
+      "position_km": 378
+    },
+    {
+      "index": 12,
+      "espece": "Grand-duc d'Europe",
+      "nom_scientifique": "Bubo bubo",
+      "categorie": "animal",
+      "propriete": "Vol silencieux grâce aux plumes frangées et audition directionnelle précise",
+      "hybridation_possible": "Déplacement furtif par absorption des ondes sonores et ouïe spatiale tridimensionnelle",
+      "position_km": 412
+    },
+    {
+      "index": 13,
+      "espece": "Lavande vraie",
+      "nom_scientifique": "Lavandula angustifolia",
+      "categorie": "plante",
+      "propriete": "Nectaires floraux riches et composés aromatiques volatils attractifs",
+      "hybridation_possible": "Phéromones apaisantes naturelles diffusées par les pores cutanés",
+      "position_km": 445
+    },
+    {
+      "index": 14,
+      "espece": "Processionnaire du pin",
+      "nom_scientifique": "Thaumetopoea pityocampa",
+      "categorie": "insecte",
+      "propriete": "Soies urticantes défensives et déplacement en file indienne coordonnée",
+      "hybridation_possible": "Coordination collective par signaux chimiques pour mouvements de groupe synchronisés",
+      "position_km": 479
+    },
+    {
+      "index": 15,
+      "espece": "Lézard ocellé",
+      "nom_scientifique": "Timon lepidus",
+      "categorie": "animal",
+      "propriete": "Autotomie caudale régénérative et thermorégulation par changement postural",
+      "hybridation_possible": "Régénération tissulaire accélérée et adaptation thermique autonome corporelle",
+      "position_km": 503
+    }
+  ],
+  "drama": [
+    {
+      "index": 1,
+      "player": "Zel",
+      "option_a": "Zel libère volontairement ses champs électriques pour détruire définitivement tous les systèmes de traque dans un rayon de 50 kilomètres, mais cette surcharge grille aussi ses propres implants régénérateurs et ses souvenirs les plus précieux.",
+      "option_b": "Zel accepte de se laisser capturer par les autorités pour que Mira et Oris atteignent Avignon, mais ses régénérations incontrôlées la transformeront en arme biologique entre leurs mains."
+    },
+    {
+      "index": 2,
+      "player": "Mira",
+      "option_a": "Mira s'expose volontairement à une overdose de lumière artificielle pour créer une explosion bioluminescente qui aveuglera leurs poursuivants, mais cela détruira définitivement ses cellules photosynthétiques.",
+      "option_b": "Mira choisit de s'enraciner définitivement dans le sol pour devenir un phare lumineux permanent qui guidera d'autres fugitifs vers Avignon, mais elle perdra sa mobilité et sa forme humaine."
+    },
+    {
+      "index": 3,
+      "player": "Oris",
+      "option_a": "Oris retourne ses phéromones contre lui-même pour effacer chimiquement sa programmation militaire et retrouver sa personnalité d'avant l'hybridation, mais cela détruira aussi son lien télépathique avec ses compagnons.",
+      "option_b": "Oris déclenche une overdose phéromonale massive qui transformera tous les hybrides dans un rayon de 200 kilomètres en une famille chimique unie, mais cela les rendra tous dépendants de sa survie."
+    }
+  ],
+  "mutation": [
+    {
+      "index": 1,
+      "text": "Vos corps fusionnent partiellement dans les grottes géothermales — les cellules de Zel régénèrent autour des racines de Mira pendant que les phéromones d'Oris stabilisent cette symbiose impossible. Vous devenez un organisme collectif aux mémoires entremêlées. Que gardez-vous de vos identités séparées dans cette nouvelle chair commune ?"
+    },
+    {
+      "index": 2,
+      "text": "L'eau pure d'Avignon révèle sa vraie nature — elle est saturée de spores fongiques qui reprogramment vos ADN hybrides. Vos dysfonctionnements se transforment en capacités symbiotiques avec l'écosystème souterrain. Acceptez-vous de devenir les gardiens de cette biosphère cachée ?"
+    },
+    {
+      "index": 3,
+      "text": "Le collectif souterrain n'existe pas — mais vos trois corps défaillants créent spontanément les conditions de leur propre stabilisation. Vous devenez le noyau d'une nouvelle communauté hybride. Comment organisez-vous cette société naissante autour de vos vulnérabilités transformées en forces ?"
+    },
+    {
+      "index": 4,
+      "text": "Vos mutations s'inversent partiellement — Zel retrouve une mortalité choisie, Mira peut supporter la lumière artificielle, Oris contrôle parfaitement ses phéromones. Mais ces stabilisations vous coûtent vos capacités extraordinaires. Préférez-vous une humanité diminuée ou une posthumanité assumée ?"
+    }
+  ],
+  "arrivee": [
+    {
+      "index": 1,
+      "text": "Les grottes d'Avignon s'ouvrent dans un silence de cathédrale, l'eau pure coule entre vos doigts comme une promesse enfin tenue. Mais d'autres corps défaillants vous attendent — vous n'êtes ni les premiers ni les derniers. Comment accueillez-vous cette communauté de l'altération que vous n'aviez pas imaginée ?"
+    },
+    {
+      "index": 2,
+      "text": "Le message chiffré était un leurre — Avignon n'abrite qu'un laboratoire clandestin qui collectionne les hybridations ratées. Mais vos trois dysfonctionnements combinés créent une réaction en chaîne qui libère tous les spécimens captifs. Que faites-vous de cette responsabilité soudaine envers vos semblables ?"
+    },
+    {
+      "index": 3,
+      "text": "Vous découvrez que vos corps ne se stabiliseront jamais — l'hybridation est un processus permanent de transformation. Mais dans ces grottes, vos mutations deviennent une danse collective plutôt qu'une guerre individuelle. Comment célébrez-vous cette impermanence acceptée ?"
+    },
+    {
+      "index": 4,
+      "text": "Les autorités vous retrouvent aux portes d'Avignon, mais vos trois mois de voyage ont changé la perception publique des hybrides défaillants. Vous êtes devenus des symboles de résistance. Choisissez-vous la clandestinité des grottes ou l'exposition de la lutte politique ?"
+    }
+  ]
+}
