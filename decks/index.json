@@ -1,5 +1,18 @@
 [
   {
+    "id": "mox4qdkjt4bn",
+    "title": "Seuil d'étain",
+    "contexte": "Janvier 2087. La fuite de strontium-90 de Malville empoisonne les nappes phréatiques jusqu'à Grenoble. Un convoi hybride remonte vers l'Atlantique, guidé par la rumeur d'un centre de dépollution génétique bordelais. Entre les Alpes contaminées et l'estuaire de la Gironde, sept cents kilomètres séparent trois êtres mutants de leur possible guérison. L'eau douce devient mythe, l'ADN originel devient quête.",
+    "depart": "Grenoble",
+    "destination": "Bordeaux",
+    "createdAt": "2026-05-08T16:28:40.163Z",
+    "participants": [
+      "Kess",
+      "Thex",
+      "Vey"
+    ]
+  },
+  {
     "id": "mox1wcocjv6n",
     "title": "Exode des Chlorophylles",
     "contexte": "Mars 2087. La Saône brûle de composés organophosphorés. Lyon suffoque. Vous êtes 340 — humains, hybridés, enfants — qui fuyez vers Rennes et ses promesses de bioremédiation. 600 km à travers des zones toxiques, des territoires fermés, des espèces resurrgies. Chaque pas vous transforme davantage. L'eau, ou la mort.",
