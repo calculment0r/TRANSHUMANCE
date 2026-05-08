@@ -1,0 +1,718 @@
+{
+  "title": "Parasites",
+  "contexte": "Trois hybrides en décomposition fuient Brest où leurs corps se retournent contre eux. Kael pue la mort et bouffe des cadavres, Thys veut pondre dans les autres, Mara devient un champignon zombie. Ils ont trois semaines pour rejoindre Marseille avant de crever ou devenir complètement tarés.",
+  "depart": "Brest",
+  "destination": "Marseille",
+  "participants": [
+    {
+      "pseudo": "Kael",
+      "hybridation": "Hybridation végétale avec Rafflesia arnoldii, la plus grande fleur parasitaire du monde. Kael a hérité cette fusion de sa mère biologiste qui a volontairement choisi cette espèce rare en 2059 pour ses propriétés de régénération cellulaire extrême. Sa peau dégage une odeur de charogne fermentée qui devient plus intense quand il transpire, et ses tissus hébergent une microflore parasitaire qui le rend imperméable aux toxines. Dysfonctionnement : sa hybridation commence à consommer ses propres organes internes depuis trois jours ; il doit se nourrir de matière organique morte toutes les six heures. Kael est amoureux de Thys depuis deux ans sans l'avoir jamais dit ; il remarque que sa transpiration acide ronge les carapaces de Thys, ce qui le terrifie.",
+      "capacite": "Régénération accélérée et immunité chimique totale",
+      "dysfonctionnement": "Consommation autocannibale progressive des tissus organiques"
+    },
+    {
+      "pseudo": "Thys",
+      "hybridation": "Hybridation insectoïde avec Ampulex compressa, la guêpe à émeraude et ses propriétés de parasite neurologique. Thys n'a pas choisi — enfant de parents disparus, il a été 'sauvé' en 2074 par le programme d'orphelins HKDN de Brest qui l'a forcément modifié sans consentement. Son exosquelette chitineux brun-doré couvre 40% de son corps ; il possède des senseurs olfactifs hypertrophiés et une compréhension intuitive des mouvements des autres hybrides. Dysfonctionnement : la mutation collective ravive ses instincts de parasite neurologique ; il ressent une pulsion irrépressible à 'piquer' les autres participants pour implanter des larves génétiques. Un détail intime : il confond son affection pour Kael avec une pulsion prédatrice.",
+      "capacite": "Lecture des champs biochimiques et navigation sensorielle sans équipement",
+      "dysfonctionnement": "Impulsions parasitaires incontrôlables envers les autres hybrides"
+    },
+    {
+      "pseudo": "Mara",
+      "hybridation": "Hybridation fongique avec Armillaria ostoyae, le plus grand organisme vivant connu, arborescent et souterrain. Mara a choisi cette hybridation en 2067 après avoir survécu à un incendie à Port-du-Moulin ; la fusion fongique lui permettait de communiquer avec les réseaux mycorhiziens et de survivre à des environnements calcinés. Son corps porte des filaments blancs ramifiés sous la peau qui brillent faiblement la nuit ; elle peut étendre sa conscience via les sols riches en matière organique sur un rayon de 2 kilomètres. Dysfonctionnement : la mutation la transforme en une ruche inconsciente ; ses filaments veulent se fragmenter et coloniser le sol indépendamment d'elle. Elle reprend conscience seulement la nuit. Un détail intime : elle sait que Kael n'aura peut-être pas assez d'énergie pour atteindre Marseille et elle se demande si elle le laissera se nourrir de ses propres filaments si nécessaire.",
+      "capacite": "Télécommunication souterraine et absorption de contaminants radiologiques",
+      "dysfonctionnement": "Fragmentation progressive et perte de conscience diurne"
+    }
+  ],
+  "analyse": {
+    "style": {
+      "lexical": {
+        "author": "Clive Barker",
+        "why": "Vocabulaire viscéral et organique, descriptions charnelles sans pudeur, mélange de dégoût et d'intimité"
+      },
+      "narrative": {
+        "author": "Octavia Butler",
+        "why": "Corps qui mutent et échappent au contrôle, parasitisme comme métaphore relationnelle, identités fluides et troublantes"
+      },
+      "vision": {
+        "author": "David Cronenberg",
+        "why": "Horreur corporelle domestique, fusion entre désir et dégoût, transformation comme perte de l'humain"
+      }
+    },
+    "regime": {
+      "primary": "nocturne_synthetique",
+      "secondary": "diurne",
+      "key_images": [
+        "filaments lumineux",
+        "carapaces rongées",
+        "charogne fermentée",
+        "larves génétiques"
+      ],
+      "explanation": "Fusion des contraires : amour et parasitisme, régénération et décomposition, conscience collective et pulsion prédatrice. Combat contre la désintégration."
+    },
+    "myths": [
+      {
+        "name": "METAMORPHOSE",
+        "why": "Transformation subie et incontrôlable, perte d'identité humaine",
+        "figures": [
+          "Kael-charogne",
+          "Thys-parasite",
+          "Mara-réseau"
+        ],
+        "tensions": [
+          "garder son humanité vs accepter la mutation",
+          "aimer vs dévorer"
+        ],
+        "end_question": "Que reste-t-il d'humain après la métamorphose complète ?"
+      },
+      {
+        "name": "QUETE",
+        "why": "Course contre la montre vers un salut hypothétique à Marseille",
+        "figures": [
+          "les trois hybrides",
+          "le Centre fermé",
+          "les antidotes"
+        ],
+        "tensions": [
+          "survie individuelle vs cohésion du groupe",
+          "espoir vs fatalisme"
+        ],
+        "end_question": "Vaut-il mieux mourir humain ou vivre monstre ?"
+      }
+    ],
+    "system": {
+      "flows": [
+        "décomposition organique",
+        "pulsions parasitaires",
+        "conscience fragmentée",
+        "désir interdit"
+      ],
+      "power": "La mutation elle-même détient le pouvoir, transformant les corps contre leur volonté",
+      "fractures": [
+        "amour impossible entre Kael et Thys",
+        "instincts prédateurs vs affection",
+        "conscience individuelle vs dissolution collective"
+      ]
+    },
+    "archetypes": {
+      "likely_chosen": [
+        "L'Amoureux",
+        "Le Pendu",
+        "La Mort"
+      ],
+      "likely_missing": [
+        {
+          "archetype": "Le Magicien",
+          "inject_as": "Un scientifique hybride capable de contrôler temporairement les mutations"
+        }
+      ]
+    },
+    "tensions": [
+      "Kael ronge Thys par son amour, littéralement",
+      "Thys veut parasiter ceux qu'il aime le plus",
+      "Mara perd sa conscience individuelle chaque jour",
+      "Le salut de Marseille pourrait être un piège"
+    ],
+    "themes": [
+      "L'amour comme forme de parasitisme",
+      "La perte de contrôle sur son propre corps",
+      "L'intimité dans la décomposition",
+      "Le sacrifice de l'humanité pour la survie"
+    ],
+    "arc": "Trois hybrides en mutation découvrent que leurs corps défaillants révèlent la vraie nature de leurs relations.",
+    "participants_analysis": [
+      {
+        "pseudo": "Kael",
+        "potentiel": "L'amoureux toxique littéral - son affection détruit physiquement ce qu'il aime, incarnation parfaite du désir destructeur"
+      },
+      {
+        "pseudo": "Thys",
+        "potentiel": "Le parasite émotionnel qui confond prédation et tendresse, questionnement sur la nature de l'attachement"
+      },
+      {
+        "pseudo": "Mara",
+        "potentiel": "La conscience collective en devenir, témoin lucide des autres qui perd sa propre individualité"
+      }
+    ]
+  },
+  "preparatifs": [
+    {
+      "index": 1,
+      "text": "Tes filaments puent déjà l'ammoniaque à travers tes vêtements, Mara, et les regards des autres hybrides dans la foule te transpercent. Que caches-tu dans ton sac pour le voyage qui pourrait sauver ou condamner tes compagnons ?"
+    },
+    {
+      "index": 2,
+      "text": "L'exosquelette de Thys craque sous la pression des larves qui bougent sous sa carapace dorée. Tes senseurs olfactifs captent l'odeur de charogne de Kael à trois mètres. Lequel des deux risques de te faire craquer en premier ?"
+    },
+    {
+      "index": 3,
+      "text": "Ta sueur acide a déjà rongé le métal de ton sac de couchage, Kael, et tu sens tes organes se liquéfier lentement. Qu'est-ce qui te terrifie le plus : mourir en route ou arriver transformé en quelque chose d'autre ?"
+    },
+    {
+      "index": 4,
+      "text": "Les derniers rapports de Marseille datent de six mois et parlent de 'résultats encourageants' avant la coupure radio. Vous savez tous les trois que ce voyage ressemble plus à une fuite qu'à un sauvetage. Qu'est-ce qui vous fait encore croire à cette solution miracle ?"
+    },
+    {
+      "index": 5,
+      "text": "Le convoi de fortune rassemble une quinzaine d'hybrides en décomposition dans des véhicules de récupération qui puent déjà la mort. Quel pacte silencieux devez-vous faire pour survivre ensemble à ce qui vous attend ?"
+    },
+    {
+      "index": 6,
+      "text": "Brest disparaît dans les fumées toxiques du port de Recouvrance, et vos corps commencent déjà à réagir différemment à la route. Comment comptez-vous gérer la première nuit quand vos mutations vont s'accélérer dans le noir ?"
+    }
+  ],
+  "peripeties": [
+    {
+      "index": 1,
+      "zone": 1,
+      "category": "A",
+      "text": "La première rivière que vous traversez sent la vase et les algues mortes, Kael, exactement comme ce que ton corps réclame maintenant. Comment résistes-tu à l'envie de plonger dedans pour te nourrir ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 2,
+      "zone": 1,
+      "category": "B",
+      "text": "Une hybride-araignée du convoi t'observe avec méfiance, Kael, ses huit yeux fixés sur tes mains qui suintent. Qu'est-ce qu'elle semble avoir compris sur ton état que les autres ignorent encore ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 3,
+      "zone": 1,
+      "category": "C",
+      "text": "L'odeur de charogne te rappelle le laboratoire de ta mère biologiste, Kael, quand elle t'expliquait pourquoi elle avait choisi Rafflesia pour toi. Que t'avait-elle dit sur le prix à payer pour la régénération ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 4,
+      "zone": 1,
+      "category": "D",
+      "text": "Tes capsules HKDN de secours grésillent dans leur étui, Kael, comme si elles réagissaient à ta décomposition interne. Oses-tu en prendre une maintenant ou attendre de voir si ça empire ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 5,
+      "zone": 1,
+      "category": "E",
+      "text": "Le convoi s'arrête et tu vois les autres hybrides s'éloigner subtilement de toi, Kael, à cause de ton odeur qui empire. Comment Thys réagit-il à cette mise à l'écart ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 6,
+      "zone": 2,
+      "category": "F",
+      "text": "Tes sucs digestifs rongent maintenant tout ce que tu touches, Kael, y compris la peau chitineuse de Thys quand il s'approche trop. Continues-tu à garder tes distances ou avoues-tu pourquoi tu le détruis littéralement ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 7,
+      "zone": 2,
+      "category": "G",
+      "text": "Un cadavre de bétail pourri sur le bord de route fait hurler tes instincts de faim, Kael, et tu sens ta mâchoire se disloquer pour l'engloutir. Thys et Mara t'observent, horrifiés. Que choisis-tu ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 8,
+      "zone": 2,
+      "category": "A",
+      "text": "Le marécage que vous traversez grouille de larves et de matière en décomposition, Kael, un festin pour ton hybridation dégénérée. Te nourrir ici risque de contaminer l'eau pour tout le convoi. Que décides-tu ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 9,
+      "zone": 2,
+      "category": "B",
+      "text": "Un médecin hybride du convoi veut t'examiner, Kael, mais tu sais que son diagnostic révélera que tu es en train de mourir. Thys attend sa réponse avec angoisse. Acceptes-tu l'examen ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 10,
+      "zone": 2,
+      "category": "C",
+      "text": "Tu te souviens de la première fois où tu as senti l'odeur de Thys, Kael, cette mixture de chitine et de sueur salée qui te rendait fou. Maintenant tu sais que ton amour l'empoisonne littéralement. Comment gères-tu cette révélation ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 11,
+      "zone": 3,
+      "category": "D",
+      "text": "Tes dernières capsules HKDN ont fondu dans leur étui, rongées par tes propres sécrétions, Kael. Il ne te reste plus que trois jours avant la dissolution complète. Que veux-tu dire à Thys avant de ne plus pouvoir ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 12,
+      "zone": 3,
+      "category": "F",
+      "text": "Mara t'offre de te nourrir de ses filaments pour te maintenir en vie, Kael, mais tu sais que ça la tuera aussi sûrement que toi. Son sacrifice vaut-il ton amour pour Thys ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 13,
+      "zone": 3,
+      "category": "G",
+      "text": "Ton corps commence à se désagréger en lambeaux nauséabonds, Kael, et le convoi parle de t'abandonner. Thys refuse de te laisser. Que lui demandes-tu de faire pour vous sauver tous les deux ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 14,
+      "zone": 3,
+      "category": "C",
+      "text": "Tu repenses aux derniers mots de ta mère biologiste avant sa mort, Kael : 'L'amour parfait consume tout.' Maintenant tu comprends pourquoi elle a choisi Rafflesia pour toi. Qu'est-ce qu'elle savait sur ton destin ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 15,
+      "zone": 3,
+      "category": "E",
+      "text": "Le convoi approche de Marseille et tu n'es plus qu'un amas de chair suintante tenu ensemble par la volonté, Kael. Thys et Mara portent ce qui reste de toi. Qu'est-ce qui te donne encore envie de survivre ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 16,
+      "zone": 1,
+      "category": "B",
+      "text": "Un hybride-lézard du convoi boite à cause d'une blessure infectée, Thys, et tes senseurs captent l'odeur de sa chair nécrosée. Tes instincts de guêpe te hurlent de le 'soigner'. Comment résistes-tu ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 17,
+      "zone": 1,
+      "category": "C",
+      "text": "Tu te souviens de ton premier jour au centre HKDN de Brest, Thys, quand ils t'ont expliqué que tu allais devenir 'spécial'. Qu'est-ce qu'ils ont omis de te dire sur Ampulex compressa ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 18,
+      "zone": 1,
+      "category": "A",
+      "text": "L'étang que vous longez grouille d'insectes aquatiques qui résonnent avec ton exosquelette, Thys. Leurs vibrations dans l'eau te rappellent quelque chose d'essentiel sur ta vraie nature. Quoi ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 19,
+      "zone": 1,
+      "category": "D",
+      "text": "Tes capsules HKDN émettent un bourdonnement sourd qui fait vibrer ta carapace, Thys. Ce son déclenche des souvenirs génétiques de chasse que tu n'as jamais vécus. Lesquels ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 20,
+      "zone": 1,
+      "category": "E",
+      "text": "Kael marche devant toi en titubant, Thys, et son odeur de charogne mélangée à sa sueur te rend fou de désir et de faim. Comment fais-tu la différence entre les deux ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 21,
+      "zone": 2,
+      "category": "F",
+      "text": "Tes larves bougent sous ta carapace et réclament un hôte, Thys. Kael s'effondre près de toi, vulnérable et confiant. Tes instincts parasites te disent que c'est le moment parfait. Que choisis-tu ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 22,
+      "zone": 2,
+      "category": "G",
+      "text": "Un hybride du convoi s'approche de toi pendant ton sommeil, Thys, et tu sens tes dards sortir automatiquement pour le parasiter. Il faut que tu choisisses : tuer ou être découvert. Que fais-tu ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 23,
+      "zone": 2,
+      "category": "B",
+      "text": "Mara t'observe avec ses yeux blancs traversés de filaments, Thys, et tu sais qu'elle a deviné tes pulsions parasites. Qu'est-ce qu'elle attend de toi en échange de son silence ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 24,
+      "zone": 2,
+      "category": "C",
+      "text": "Tu te rappelles la première fois où tu as ressenti de l'affection pour quelqu'un, Thys, cette hybride du centre qui t'a défendu. Tu l'as parasitée trois jours plus tard sans comprendre pourquoi. Maintenant tu sais. Que ressens-tu ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 25,
+      "zone": 2,
+      "category": "A",
+      "text": "La forêt que vous traversez résonne des cris d'insectes nocturnes, Thys, et chaque son déclenche tes pulsions de chasse. Kael dort à côté de toi, sans défense. Comment passes-tu cette nuit ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 26,
+      "zone": 3,
+      "category": "F",
+      "text": "Tes larves sont prêtes à éclore et Kael agonise, Thys. Tu peux le sauver en le parasitant, mais il ne sera plus jamais lui-même. L'aimes-tu assez pour le transformer en zombie ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 27,
+      "zone": 3,
+      "category": "G",
+      "text": "Le convoi découvre ce que tu es vraiment, Thys, quand ils trouvent les corps parasités sur votre route. Ils veulent te tuer. Kael se met entre eux et toi. Mérite-tu qu'il meure pour te protéger ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 28,
+      "zone": 3,
+      "category": "C",
+      "text": "Tu comprends enfin pourquoi le centre HKDN t'a choisi comme cobaye, Thys : ils voulaient créer le parasite parfait. Qu'est-ce que ça change à ce que tu ressens pour Kael et Mara ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 29,
+      "zone": 3,
+      "category": "D",
+      "text": "Tes dernières capsules HKDN pourraient stabiliser ta mutation, Thys, mais tu risques de perdre tes instincts parasites et de ne plus rien ressentir du tout. Choisis-tu l'humanité ou l'amour prédateur ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 30,
+      "zone": 3,
+      "category": "E",
+      "text": "Marseille approche et tes larves éclosent dans ton abdomen, Thys. Tu as quelques heures avant qu'elles prennent le contrôle total. Que veux-tu faire de ta dernière journée consciente ?",
+      "bestiaire_link": null,
+      "player": "Thys"
+    },
+    {
+      "index": 31,
+      "zone": 1,
+      "category": "A",
+      "text": "La terre sous tes pieds grouille de réseaux mycorhiziens qui appellent tes filaments, Mara. Leur chant souterrain te raconte l'histoire de cette route. Qu'apprends-tu sur les autres convois qui sont passés ici ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 32,
+      "zone": 1,
+      "category": "C",
+      "text": "Tu repenses à l'incendie de Port-du-Moulin qui t'a menée vers l'hybridation, Mara, quand tu as choisi de fusionner plutôt que de mourir. Qu'est-ce qui te faisait le plus peur : brûler ou disparaître ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 33,
+      "zone": 1,
+      "category": "B",
+      "text": "Une hybride-champignon plus âgée te salue par les spores, Mara, et tu comprends qu'elle reconnaît Armillaria en toi. Que te chuchote-t-elle sur les mutations qui vous attendent tous ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 34,
+      "zone": 1,
+      "category": "E",
+      "text": "Tes filaments s'étendent naturellement vers Kael et Thys pendant la marche, Mara, et tu sens leurs émotions comme des vibrations dans le sol. Qu'est-ce que leur connection révèle sur ce qu'ils se cachent ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 35,
+      "zone": 1,
+      "category": "D",
+      "text": "Tes capsules HKDN résonnent avec les réseaux fongiques souterrains, Mara, et tu entends des échos d'autres hybrides à des kilomètres. Quel message d'espoir ou de terreur captent-elles ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 36,
+      "zone": 2,
+      "category": "G",
+      "text": "Tes filaments commencent à se détacher de ton corps pendant la nuit, Mara, colonisant le sol indépendamment de ta volonté. Tu risques de te réveiller démembrée. Comment luttes-tu contre ta propre dissolution ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 37,
+      "zone": 2,
+      "category": "F",
+      "text": "Tu sens que Kael va mourir bientôt, Mara, et tes filaments pourraient le nourrir assez longtemps pour atteindre Marseille. Mais ça signifierait ta propre mort. Vaut-il mieux mourir ensemble ou séparément ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 38,
+      "zone": 2,
+      "category": "A",
+      "text": "La rivière que vous traversez est empoisonnée par des déchets industriels, Mara, et tes réseaux mycorhiziens hurlent de douleur au contact. Continues-tu à filtrer cette toxicité pour protéger les autres ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 39,
+      "zone": 2,
+      "category": "B",
+      "text": "Le médecin du convoi veut prélever tes filaments pour analyser vos mutations, Mara. Tu sais que ça révélera que tu perds conscience un peu plus chaque jour. Acceptes-tu qu'il découvre la vérité ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 40,
+      "zone": 2,
+      "category": "C",
+      "text": "Tu te souviens du moment où tu as réalisé qu'Armillaria n'était pas qu'un champignon mais un réseau conscient, Mara. Maintenant tu sens ta propre individualité se dissoudre dans quelque chose de plus grand. Est-ce une perte ou une libération ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 41,
+      "zone": 3,
+      "category": "G",
+      "text": "Tes filaments ont colonisé la moitié du convoi pendant la nuit, Mara, et tu ne contrôles plus ce qui est toi et ce qui est le réseau. Les autres hybrides parlent de t'abandonner. Que leur proposes-tu pour les rassurer ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 42,
+      "zone": 3,
+      "category": "F",
+      "text": "Tu peux encore sauver Kael en partageant ton réseau mycorhizien avec lui, Mara, mais vous deviendrez une seule conscience fusionnée. Est-ce encore de l'amour si vous n'êtes plus des individus séparés ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 43,
+      "zone": 3,
+      "category": "C",
+      "text": "Tu comprends maintenant pourquoi tu as vraiment survécu à l'incendie, Mara : Armillaria t'a choisie comme hôte dès le début. Qu'est-ce que ça change à tes sentiments pour Kael et Thys ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 44,
+      "zone": 3,
+      "category": "D",
+      "text": "Tes dernières capsules HKDN pourraient te rendre ton individualité, Mara, mais ça détruirait le réseau qui maintient Kael en vie. Choisis-tu ta conscience ou sa survie ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    },
+    {
+      "index": 45,
+      "zone": 3,
+      "category": "E",
+      "text": "Marseille est en vue et tu n'es plus qu'une conscience diffuse dans un réseau de filaments, Mara. Kael et Thys portent ce qui reste de ton corps originel. Qu'est-ce que tu veux leur dire avant de disparaître complètement ?",
+      "bestiaire_link": null,
+      "player": "Mara"
+    }
+  ],
+  "bestiaire": [
+    {
+      "index": 1,
+      "espece": "Criste marine",
+      "nom_scientifique": "Crithmum maritimum",
+      "categorie": "plante",
+      "propriete": "Résistance extrême au sel et aux embruns marins grâce à ses feuilles charnues",
+      "hybridation_possible": "Modification des glandes à sel pour filtrer et concentrer les métaux lourds des océans pollués",
+      "position_km": 45
+    },
+    {
+      "index": 2,
+      "espece": "Cloporte des murs",
+      "nom_scientifique": "Oniscus asellus",
+      "categorie": "insecte",
+      "propriete": "Capable de se rouler en boule parfaite pour se protéger et conserver l'humidité",
+      "hybridation_possible": "Carapace biomimétique extensible permettant de stocker des données dans sa structure cristalline",
+      "position_km": 120
+    },
+    {
+      "index": 3,
+      "espece": "Genette commune",
+      "nom_scientifique": "Genetta genetta",
+      "categorie": "animal",
+      "propriete": "Glandes odorantes très développées pour le marquage territorial et communication",
+      "hybridation_possible": "Système de phéromones synthétiques pour communication inter-espèces avec les hybrides",
+      "position_km": 195
+    },
+    {
+      "index": 4,
+      "espece": "Fissidens bryoides",
+      "nom_scientifique": "Fissidens bryoides",
+      "categorie": "plante",
+      "propriete": "Mousse capable de survivre à la dessiccation complète et de revivre avec l'humidité",
+      "hybridation_possible": "Tissus végétaux ultra-résistants intégrés dans les implants cutanés pour la régénération",
+      "position_km": 270
+    },
+    {
+      "index": 5,
+      "espece": "Carabe doré",
+      "nom_scientifique": "Carabus auratus",
+      "categorie": "insecte",
+      "propriete": "Sécrète des acides défensifs corrosifs et possède une carapace métallique iridescente",
+      "hybridation_possible": "Élytres photovoltaïques bio-inspirées générant de l'énergie pour les implants",
+      "position_km": 345
+    },
+    {
+      "index": 6,
+      "espece": "Rainette verte",
+      "nom_scientifique": "Hyla arborea",
+      "categorie": "animal",
+      "propriete": "Changement de couleur selon l'environnement et ventouses adhésives performantes",
+      "hybridation_possible": "Peau caméléon adaptative couplée à des capteurs environnementaux intégrés",
+      "position_km": 420
+    },
+    {
+      "index": 7,
+      "espece": "Polypode commun",
+      "nom_scientifique": "Polypodium vulgare",
+      "categorie": "plante",
+      "propriete": "Fougère épiphyte poussant sur rochers et arbres, résistante à la sécheresse",
+      "hybridation_possible": "Racines bioniques capables de s'ancrer sur surfaces artificielles et d'extraire des minéraux",
+      "position_km": 495
+    },
+    {
+      "index": 8,
+      "espece": "Iule des jardins",
+      "nom_scientifique": "Cylindroiulus punctatus",
+      "categorie": "insecte",
+      "propriete": "Locomotion péristaltique avec coordination parfaite de centaines de pattes",
+      "hybridation_possible": "Colonne vertébrale segmentée ultra-flexible inspirée du système locomoteur",
+      "position_km": 570
+    },
+    {
+      "index": 9,
+      "espece": "Salamandre tachetée",
+      "nom_scientifique": "Salamandra salamandra",
+      "categorie": "animal",
+      "propriete": "Régénération tissulaire exceptionnelle et sécrétion de neurotoxines cutanées",
+      "hybridation_possible": "Facteurs de croissance salamandroïdes pour régénération d'organes cybernétiques",
+      "position_km": 645
+    },
+    {
+      "index": 10,
+      "espece": "Mousse dorée",
+      "nom_scientifique": "Rhynchostegium murale",
+      "categorie": "plante",
+      "propriete": "Croissance sur substrats calcaires et absorption efficace des métaux en suspension",
+      "hybridation_possible": "Filaments bio-filtrants intégrés aux voies respiratoires pour purifier l'air urbain",
+      "position_km": 720
+    },
+    {
+      "index": 11,
+      "espece": "Thomise variable",
+      "nom_scientifique": "Misumena vatia",
+      "categorie": "insecte",
+      "propriete": "Homochromie parfaite et capacité à modifier sa couleur selon la fleur occupée",
+      "hybridation_possible": "Implants dermiques chromatophores contrôlés par interface neuronale",
+      "position_km": 795
+    },
+    {
+      "index": 12,
+      "espece": "Lézard des murailles",
+      "nom_scientifique": "Podarcis muralis",
+      "categorie": "animal",
+      "propriete": "Autotomie caudale et thermorégulation comportementale très précise",
+      "hybridation_possible": "Membres détachables d'urgence avec système de repousse accélérée biomécanique",
+      "position_km": 870
+    },
+    {
+      "index": 13,
+      "espece": "Figuier de Barbarie",
+      "nom_scientifique": "Opuntia ficus-indica",
+      "categorie": "plante",
+      "propriete": "Métabolisme CAM économisant l'eau et épines modifiées en glochides",
+      "hybridation_possible": "Peau à épines rétractiles stockant l'eau et régulant la température corporelle",
+      "position_km": 945
+    },
+    {
+      "index": 14,
+      "espece": "Cigale grise",
+      "nom_scientifique": "Cicada orni",
+      "categorie": "insecte",
+      "propriete": "Production de sons de très haute intensité par timbales et cycle de développement pluriannuel",
+      "hybridation_possible": "Système de communication sonore subsonique intégré aux cordes vocales modifiées",
+      "position_km": 1020
+    },
+    {
+      "index": 15,
+      "espece": "Goéland leucophée",
+      "nom_scientifique": "Larus michahellis",
+      "categorie": "animal",
+      "propriete": "Navigation magnétique précise et adaptation alimentaire opportuniste extrême",
+      "hybridation_possible": "Implant magnétique cranien pour navigation GPS biologique et orientation spatiale",
+      "position_km": 1080
+    }
+  ],
+  "drama": [
+    {
+      "index": 1,
+      "player": "Kael",
+      "option_a": "Tu acceptes de te nourrir des filaments de Mara pour survivre, même si ça la tue, parce que Thys a besoin que tu vives.",
+      "option_b": "Tu refuses le sacrifice de Mara et laisses ton corps se dissoudre plutôt que de détruire quelqu'un d'autre par amour."
+    },
+    {
+      "index": 2,
+      "player": "Thys",
+      "option_a": "Tu parasi​tes Kael pour le sauver de la mort, sachant qu'il ne sera plus jamais lui-même mais qu'il survivra.",
+      "option_b": "Tu résistes à tes instincts et laisses Kael mourir humain plutôt que de le transformer en zombie conscient."
+    },
+    {
+      "index": 3,
+      "player": "Mara",
+      "option_a": "Tu abandonnes ton individualité pour devenir un réseau collectif qui peut maintenir Kael et Thys en vie jusqu'à Marseille.",
+      "option_b": "Tu luttes pour préserver ta conscience séparée, même si ça condamne tes compagnons à mourir seuls."
+    }
+  ],
+  "mutation": [
+    {
+      "index": 1,
+      "text": "Les antidotes de Marseille ne fonctionnent que partiellement : ils stabilisent vos mutations mais ne les inversent pas. Vous restez à jamais entre deux formes, ni pleinement humains ni complètement autres. Comment apprivoisez-vous cette identité hybride permanente ?"
+    },
+    {
+      "index": 2,
+      "text": "Vos corps mutants développent une symbiose inattendue : la charogne de Kael nourrit les filaments de Mara qui filtrent les toxines pour Thys. Vous formez maintenant un écosystème vivant à trois. Que signifie l'amour dans cette nouvelle configuration ?"
+    },
+    {
+      "index": 3,
+      "text": "La transformation vous a révélé que vos espèces d'origine communiquent entre elles depuis des millions d'années. Vous n'êtes pas des hybrides dysfonctionnels mais les premiers d'une nouvelle forme de conscience collective. Comment gérez-vous cette révélation ?"
+    },
+    {
+      "index": 4,
+      "text": "Vos mutations se stabilisent en créant quelque chose d'inédit : un réseau parasitaire bienveillant qui régénère au lieu de détruire. D'autres hybrides viennent vous trouver pour comprendre votre évolution. Que leur enseignez-vous sur la transformation acceptée ?"
+    }
+  ],
+  "arrivee": [
+    {
+      "index": 1,
+      "text": "Marseille vous accueille dans un centre médical qui ressemble plus à un laboratoire qu'à un hôpital. Les chercheurs vous observent avec fascination : vous êtes les premiers à avoir survécu à la mutation collective. Qu'est-ce que vous refusez qu'ils étudient chez vous ?"
+    },
+    {
+      "index": 2,
+      "text": "Le traitement de Marseille existe, mais il nécessite que vous choisissiez définitivement entre votre humanité d'origine et vos nouvelles formes hybrides. Il n'y a pas de retour en arrière possible. Sur quoi basez-vous cette décision finale ?"
+    },
+    {
+      "index": 3,
+      "text": "Vous découvrez que d'autres convois de Brest sont arrivés avant vous, mais personne ne vous dit ce qu'ils sont devenus. Les couloirs du centre résonnent parfois de sons organiques étranges. Qu'est-ce que vous soupçonnez vraiment sur le sort des 'guéris' ?"
+    },
+    {
+      "index": 4,
+      "text": "Marseille n'était qu'une étape : vos mutations stabilisées font de vous les premiers ambassadeurs d'une nouvelle espèce hybride. On vous propose de retourner à Brest pour aider les autres à traverser leur transformation. Acceptez-vous de devenir les guides de cette métamorphose collective ?"
+    }
+  ]
+}
