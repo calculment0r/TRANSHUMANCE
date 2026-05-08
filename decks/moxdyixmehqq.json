@@ -1,0 +1,716 @@
+{
+  "title": "Chair Transparente",
+  "contexte": "L'eau monte dans Limoges noyée, 30 centimètres par jour qui engloutissent tout. Les trois hybrides ont 96 heures pour atteindre Clermont avant que le dernier labo ferme. Senna dépérit sans ses nutriments spécifiques, Lev cache ses mains devenues fenêtres sur ses organes, Kavi sent monter en lui la rage qui revient tous les 18 jours. L'eau les pousse vers un espoir qui se compte en heures.",
+  "depart": "Limoges",
+  "destination": "Clermont-Ferrand",
+  "participants": [
+    {
+      "pseudo": "Lev",
+      "hybridation": "Lev porte l'hybridation du tardigrade du désert (Ramazzottius varieornatus), imposée par son employeur pharmaceutique comme condition d'emploi aux cycles de test en 2067. Son métabolisme anoxybiotique lui permet de survivre sans oxygène pendant 48 heures et de résister à 300 bars de pression, une capacité précieuse pour traverser les zones inondées. Mais sa peau a développé une transparence pathologique : ses organes sont visibles de l'extérieur, créant une dysphorie insoutenable et des infections chroniques. Lev cache ses mains gantées car Senna, l'autre hybride du convoi, lui a confessé qu'elle trouve cette transparence magnifique, ce qui le terrifie."
+    },
+    {
+      "pseudo": "Senna",
+      "hybridation": "Senna a choisi elle-même l'hybridation à l'Rafflesia (Rafflesia tuan-mudae), la plus grande fleur parasite du monde, en 2071 quand le diagnostic du cancer du sein était certain. Son système racinaire remplace lentement ses vaisseaux sanguins, lui offrant une immunité absolue au cancer mais créant une dépendance organique aux nutriments spécifiques que seul Clermont produit. Ses capacités : elle peut photosynth détoxifier les polluants organiques autour d'elle. Son dysfonctionnement : elle est devenue semi-immobile, ses racines se nouant à chaque déplacement, et elle dépend physiquement de Lev pour être portée lors des phases critiques. Elle contemple ses propres pétales avec une culpabilité étrange, sachant que sa beauté hybride a remplacé ce qu'elle perdait."
+    },
+    {
+      "pseudo": "Kavi",
+      "hybridation": "Kavi porte l'hybridation accidentelle du Polistes de Rothney (guêpe parasite sociale), résultat d'une expérience de biocontrôle agricole devenue incontrôlable en 2069 dans les ruches de Couzeix. Son cortex s'est réorganisé pour intégrer une conscience distribuée : il peut diviser son attention entre 7 tâches simultanément et ses phéromones apaisent les tensions hormonales des autres hybrides. Capacité : navigation instinctive en réseau, anticipation des comportements collectifs. Dysfonctionnement majeur : ses cycles de rage larvaire reviennent tous les 18 jours, le rendant dangereux et imprévisible pendant 6 heures. Il nourrit une attirance non-dite pour Senna, mais sa nature de parasite le remplit de dégoût de lui-même—il craint d'infecter sa pureté fleurie avec sa compromission entomologique."
+    }
+  ],
+  "analyse": {
+    "style": {
+      "lexical": {
+        "author": "Jean-Claude Dunyach",
+        "why": "Vocabulaire médical précis mêlé à l'organique, cette façon de nommer les transformations corporelles avec une froideur clinique qui cache l'émotionnel"
+      },
+      "narrative": {
+        "author": "Octavia Butler",
+        "why": "Ces corps qui changent malgré eux, cette intimité des mutations et des dépendances physiques entre les personnages, cette tendresse dans l'horreur corporelle"
+      },
+      "vision": {
+        "author": "Philip K. Dick",
+        "why": "Cette paranoïa du corps qui trahit, ces identités qui se dissolvent dans la transformation, cette urgence temporelle qui écrase tout"
+      }
+    },
+    "regime": {
+      "primary": "nocturne_synthetique",
+      "secondary": "nocturne_mystique",
+      "key_images": [
+        "transparence pathologique",
+        "racines qui se nouent",
+        "rage larvaire qui monte",
+        "mains gantées cachées"
+      ],
+      "explanation": "Le régime synthétique domine avec ces corps hybrides qui tentent de s'harmoniser malgré leurs dysfonctionnements, mais le mystique perce dans cette attraction/répulsion entre Kavi et Senna, dans cette beauté morbide que Senna contemple"
+    },
+    "myths": [
+      {
+        "name": "METAMORPHOSE",
+        "why": "Tous trois transformés contre leur gré ou par nécessité, leurs corps devenus étrangers à eux-mêmes",
+        "figures": [
+          "Lev l'homme transparent",
+          "Senna la fleur-parasite",
+          "Kavi l'essaim-un"
+        ],
+        "tensions": [
+          "acceptation vs dégoût de soi",
+          "dépendance vs autonomie"
+        ],
+        "end_question": "Peut-on encore s'aimer quand on n'est plus humain ?"
+      },
+      {
+        "name": "EXODE",
+        "why": "Chassés par l'eau qui monte, cette fuite vers un laboratoire qui ferme ses portes",
+        "figures": [
+          "l'eau qui engloutit",
+          "le temps qui se compte",
+          "le dernier refuge"
+        ],
+        "tensions": [
+          "urgence vs handicaps physiques",
+          "espoir vs désespoir"
+        ],
+        "end_question": "Arriveront-ils à temps avant que leurs corps lâchent ?"
+      }
+    ],
+    "system": {
+      "flows": [
+        "dépendance nutritive Senna->Clermont",
+        "dépendance physique Senna->Lev",
+        "attraction émotionnelle Kavi->Senna",
+        "montée des eaux->urgence temporelle"
+      ],
+      "power": "Lev détient le pouvoir de mouvement, sans lui Senna meurt, mais Kavi possède la navigation collective",
+      "fractures": [
+        "cycles de rage de Kavi qui menacent le groupe",
+        "immobilité croissante de Senna",
+        "dysphorie corporelle de Lev qui le pousse à l'isolement"
+      ]
+    },
+    "archetypes": {
+      "likely_chosen": [
+        "Soignant (Lev portant Senna)",
+        "Amoureux (attractions non-dites)",
+        "Marginal (tous trois exclus de l'humanité)"
+      ],
+      "likely_missing": [
+        {
+          "archetype": "Sage",
+          "inject_as": "Un ancien hybride qui connaît les routes sûres"
+        },
+        {
+          "archetype": "Innocent",
+          "inject_as": "Un enfant non-hybridé qu'ils doivent protéger"
+        }
+      ]
+    },
+    "tensions": [
+      "Temps qui court vs corps qui ralentissent",
+      "Attraction vs dégoût de soi",
+      "Dépendance vs autonomie",
+      "Beauté vs monstruosité"
+    ],
+    "themes": [
+      "Corps-prison et corps-don",
+      "Amour dans la mutation",
+      "Solidarité des monstres",
+      "Course contre la montre"
+    ],
+    "arc": "Trois hybrides dysfonctionnels fuient l'eau qui monte vers un laboratoire qui ferme, portant leurs dépendances et leurs désirs inavoués comme des fardeaux qui pourraient les sauver ou les perdre.",
+    "participants_analysis": [
+      {
+        "pseudo": "Lev",
+        "potentiel": "L'homme-fenêtre qui se cache mais doit porter les autres, tension entre survie collective et honte personnelle, ses gants cachent ce que Senna trouve beau"
+      },
+      {
+        "pseudo": "Senna",
+        "potentiel": "La fleur-parasite immobile qui dépend des autres tout en les purifiant, beauté morbide consciente de son fardeau, attraction fatale pour Kavi"
+      },
+      {
+        "pseudo": "Kavi",
+        "potentiel": "L'essaim-guide rongé par sa nature parasitaire, cycles de violence incontrôlés, amour impossible pour la pureté florale qu'il craint de corrompre"
+      }
+    ]
+  },
+  "preparatifs": [
+    {
+      "index": 1,
+      "text": "Les sirènes d'évacuation hurlent sur Limoges noyée, et l'eau continue de monter, implacable, trente centimètres par jour. Dans quel état sont vos corps hybrides après ces semaines d'instabilité croissante ?"
+    },
+    {
+      "index": 2,
+      "text": "Le laboratoire Keratos ferme dans 96 heures exactement, et c'est le dernier qui accepte encore les cas HKDN critiques. Qu'est-ce que chacun de vous risque si vous n'y arrivez pas à temps ?"
+    },
+    {
+      "index": 3,
+      "text": "L'eau a déjà englouti les quartiers sud, et les véhicules standard ne passent plus. Quelles ressources hybrides allez-vous devoir mobiliser pour atteindre Clermont ?"
+    },
+    {
+      "index": 4,
+      "text": "Vous vous retrouvez tous trois dans les décombres de la pharmacie Viguier, pillée mais encore à sec. Comment vos dysfonctionnements respectifs se manifestent-ils sous le stress de l'évacuation ?"
+    },
+    {
+      "index": 5,
+      "text": "Il faut partir maintenant, mais vos cycles biologiques ne sont pas synchronisés et Senna a besoin de stabilisation avant le départ. Comment organisez-vous cette logistique de corps défaillants ?"
+    },
+    {
+      "index": 6,
+      "text": "L'eau lèche déjà les marches où vous vous tenez, et Kavi sent monter la première poussée de rage larvaire. Êtes-vous vraiment prêts à risquer ce voyage ensemble ?"
+    }
+  ],
+  "peripeties": [
+    {
+      "index": 1,
+      "zone": 1,
+      "category": "A",
+      "text": "Lev, tes capacités anoxybiotiques te permettent de sonder les passages submergés sous l'ancien pont Neuf, là où l'eau stagne, épaisse de boues industrielles. Qu'est-ce que tu découvres dans ces profondeurs que tes organes transparents filtrent malgré toi ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 2,
+      "zone": 1,
+      "category": "B",
+      "text": "Lev, vous croisez une colonne d'évacués ordinaires qui fixent tes mains gantées avec ce mélange de fascination et de dégoût que tu connais bien. Comment réagis-tu quand l'un d'eux te demande directement ce que tu caches ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 3,
+      "zone": 1,
+      "category": "C",
+      "text": "Lev, vous passez devant les bureaux de Sanofi où on t'a imposé l'hybridation tardigrade en 2067, et tu te souviens de ce qu'on te promettait alors. Qu'est-ce qui t'a le plus menti dans leurs prédictions ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 4,
+      "zone": 1,
+      "category": "D",
+      "text": "Lev, ton détecteur HKDN portable clignote rouge sang : quelque chose déstabilise vos mutations dans cette zone. L'appareil indique une source d'interférence proche, mais tu es le seul à pouvoir t'approcher sans risque. Oses-tu y aller seul ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 5,
+      "zone": 1,
+      "category": "E",
+      "text": "Lev, Senna a besoin d'être portée pour traverser ce passage encombré de véhicules abandonnés, et tu sens son poids contre tes côtes transparentes. Qu'est-ce que ce contact physique réveille en toi que tu préfères taire ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 6,
+      "zone": 2,
+      "category": "F",
+      "text": "Lev, l'eau monte plus vite que prévu et il faut choisir : le passage court mais à haute pression où tes capacités tardigrade seraient cruciales, ou la route longue qui préserve tes forces mais fait perdre des heures vitales. Que choisis-tu ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 7,
+      "zone": 2,
+      "category": "G",
+      "text": "Lev, une poche de gaz industriel s'échappe des eaux, toxique pour les autres mais pas pour ton métabolisme anoxybiotique. Comment gères-tu le fait d'être soudain le seul capable de les guider dans ce piège mortel ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 8,
+      "zone": 2,
+      "category": "A",
+      "text": "Lev, vous atteignez une zone où la pression de l'eau atteint 250 bars, proche de ta limite, et tes organes transparents commencent à se déformer visiblement. Continues-tu à avancer quand Senna murmure que c'est beau de te voir lutter ainsi ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 9,
+      "zone": 2,
+      "category": "B",
+      "text": "Lev, un autre hybride agonisant vous barre la route, suppliant de l'emmener, mais son poids supplémentaire compromettrait vos chances d'atteindre Clermont à temps. Que fais-tu quand il reconnaît tes symptômes de transparence pathologique ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 10,
+      "zone": 2,
+      "category": "C",
+      "text": "Lev, tu repenses à ce moment en 2067 où tu as signé le contrat d'hybridation, et tu réalises que tu pourrais faire le même choix aujourd'hui. Qu'est-ce que ça dit sur ce que tu es devenu ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 11,
+      "zone": 3,
+      "category": "D",
+      "text": "Lev, tes gants se déchirent sur les débris et tes mains transparentes sont soudain exposées, organes pulsant visibles de tous. Comment acceptes-tu ce dévoilement forcé de ce que tu es vraiment ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 12,
+      "zone": 3,
+      "category": "E",
+      "text": "Lev, Senna perd connaissance et tu dois la porter plus longtemps que tes forces ne le permettent, sentant tes capacités tardigrade atteindre leurs limites. Qu'es-tu prêt à sacrifier de toi-même pour qu'elle survive ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 13,
+      "zone": 3,
+      "category": "F",
+      "text": "Lev, vous êtes si près de Clermont, mais ton métabolisme anoxybiotique est en surchauffe critique et tu pourrais mourir dans l'heure. Acceptes-tu de risquer ta vie pour les derniers kilomètres ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 14,
+      "zone": 3,
+      "category": "G",
+      "text": "Lev, une infection massive ravage tes tissus transparents et tu sens ton corps se déliter de l'intérieur. Dans ce moment d'agonie, qu'est-ce que tu veux absolument dire à Senna avant qu'il ne soit trop tard ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 15,
+      "zone": 3,
+      "category": "C",
+      "text": "Lev, tu réalises que tes mains transparentes ne te dégoûtent plus, qu'elles sont devenues simplement ce que tu es. Qu'est-ce qui a changé en toi pour accepter enfin cette beauté monstrueuse ?",
+      "bestiaire_link": null,
+      "player": "Lev"
+    },
+    {
+      "index": 16,
+      "zone": 1,
+      "category": "A",
+      "text": "Senna, tes racines détectent les polluants organiques concentrés dans cette flaque stagnante, et ton système de détoxification s'active automatiquement. Qu'est-ce que ce processus involontaire révèle sur la façon dont ton corps a pris le contrôle ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 17,
+      "zone": 1,
+      "category": "B",
+      "text": "Senna, une femme évacuée s'approche, fascinée par tes pétales hybrides, et te demande si ça fait mal d'être si belle et si étrange à la fois. Comment lui expliques-tu ce que c'est vraiment ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 18,
+      "zone": 1,
+      "category": "C",
+      "text": "Senna, tu repenses au jour où tu as choisi l'hybridation Rafflesia pour combattre ton cancer, et tu te souviens de cette première peur de devenir un monstre. Qu'est-ce qui t'effraie le plus maintenant ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 19,
+      "zone": 1,
+      "category": "D",
+      "text": "Senna, ton détecteur HKDN personnel indique que tes niveaux de stabilisation sont dans le rouge, et il te reste moins de 60 heures avant la dégradation critique. Comment gères-tu cette échéance qui se rapproche ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 20,
+      "zone": 1,
+      "category": "E",
+      "text": "Senna, tes racines se nouent douloureusement à chaque mouvement, et tu sens que tu ralentis le convoi. Qu'est-ce que tu ressens en voyant Lev se préparer à te porter une fois de plus ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 21,
+      "zone": 2,
+      "category": "F",
+      "text": "Senna, vous arrivez devant deux routes : une zone hautement polluée où tes capacités de détoxification seraient vitales mais t'épuiseraient, ou un détour plus sûr qui fait perdre du temps précieux. Que choisis-tu ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 22,
+      "zone": 2,
+      "category": "G",
+      "text": "Senna, une marée de polluants toxiques déferle vers vous, mortelle pour tous sauf pour ton système de détoxification, mais l'effort pourrait te tuer. Acceptes-tu de risquer ta vie pour les sauver ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 23,
+      "zone": 2,
+      "category": "A",
+      "text": "Senna, l'eau contaminée ronge tes racines et tu sens ton système racinaire se dégrader rapidement dans cette toxicité concentrée. Comment fais-tu face à cette détérioration de ce qui te maintient en vie ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 24,
+      "zone": 2,
+      "category": "B",
+      "text": "Senna, vous croisez un enfant hybride agonisant, empoisonné par les eaux polluées, et tu pourrais le sauver mais ça t'affaiblirait dangereusement. Que fais-tu face à cette innocence qui meurt ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 25,
+      "zone": 2,
+      "category": "C",
+      "text": "Senna, tu réalises que ton cancer d'origine était peut-être moins terrible que cette dépendance totale aux nutriments de Clermont. Est-ce que tu regrettes ton choix d'hybridation ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 26,
+      "zone": 3,
+      "category": "D",
+      "text": "Senna, tes niveaux HKDN chutent en cascade et tu sens ton système racinaire commencer à se nécroser. Dans cette agonie florale, qu'est-ce qui te donne encore la force de continuer ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 27,
+      "zone": 3,
+      "category": "E",
+      "text": "Senna, tu ne peux plus bouger du tout et Lev s'effondre sous ton poids, ses forces tardigrade épuisées. Comment acceptes-tu d'être devenue ce fardeau mortel pour celui qui t'aime ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 28,
+      "zone": 3,
+      "category": "F",
+      "text": "Senna, Clermont est en vue, mais tes racines lâchent une par une et tu sens ta mort arriver. Veux-tu que les autres t'abandonnent ici pour sauver leur propre vie ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 29,
+      "zone": 3,
+      "category": "G",
+      "text": "Senna, une hémorragie racinaire massive te vide de ta sève et tu agonises lentement, tes pétales se fanant un par un. Qu'est-ce que tu veux dire à Kavi sur cette attirance que tu as sentie grandir ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 30,
+      "zone": 3,
+      "category": "C",
+      "text": "Senna, tu comprends que ta beauté hybride a remplacé quelque chose que tu perdais, mais tu réalises maintenant ce que tu as vraiment gagné. Qu'est-ce que cette métamorphose t'a apporté de plus précieux que la vie ?",
+      "bestiaire_link": null,
+      "player": "Senna"
+    },
+    {
+      "index": 31,
+      "zone": 1,
+      "category": "A",
+      "text": "Kavi, ton instinct de navigation détecte les courants et les passages sûrs dans cette zone inondée, mais tes phéromones captent aussi quelque chose d'hostile dans l'air. Qu'est-ce que ta conscience distribuée perçoit que les autres ratent ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 32,
+      "zone": 1,
+      "category": "B",
+      "text": "Kavi, un groupe d'évacués paniqués vous barre la route, et tes phéromones apaisantes pourraient les calmer, mais ça révélerait ta nature entomologique. Comment gères-tu cette tension entre aide et dissimulation ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 33,
+      "zone": 1,
+      "category": "C",
+      "text": "Kavi, tu repenses à cette expérience de biocontrôle à Couzeix en 2069 qui t'a transformé contre ton gré, et tu sens monter cette rage familière. Qu'est-ce qui te met le plus en colère dans ce souvenir ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 34,
+      "zone": 1,
+      "category": "D",
+      "text": "Kavi, ton détecteur HKDN indique des interférences parasitaires dans la zone, probablement liées à ta nature hybride qui déstabilise les équipements. Comment fais-tu face à cette révélation que tu es toi-même une source de chaos ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 35,
+      "zone": 1,
+      "category": "E",
+      "text": "Kavi, tu guides le convoi avec une précision instinctive, mais tu évites soigneusement de regarder Senna trop longtemps de peur de révéler tes sentiments. Qu'est-ce qui te terrifie le plus dans cette attirance ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 36,
+      "zone": 2,
+      "category": "F",
+      "text": "Kavi, ton cycle de rage larvaire approche et tu sens la violence monter, mais le convoi a besoin de ta navigation dans cette zone critique. Peux-tu risquer de perdre le contrôle maintenant ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 37,
+      "zone": 2,
+      "category": "G",
+      "text": "Kavi, ta rage larvaire explose au pire moment et tu sens tes instincts parasites prendre le dessus, menaçant de s'en prendre aux autres. Comment luttes-tu contre cette nature que tu détestes ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 38,
+      "zone": 2,
+      "category": "A",
+      "text": "Kavi, vous atteignez une zone où les courants sont chaotiques et ta navigation instinctive te dit qu'il faut passer maintenant, mais Senna est trop faible pour supporter ce passage brutal. Que décides-tu ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 39,
+      "zone": 2,
+      "category": "B",
+      "text": "Kavi, un autre hybride entomologique agonisant vous interpelle, reconnaissant ta nature parasitaire, et te supplie de partager tes phéromones pour l'apaiser. Acceptes-tu de révéler ce que tu es vraiment ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 40,
+      "zone": 2,
+      "category": "C",
+      "text": "Kavi, tu réalises que tes cycles de rage sont peut-être ce qui te maintient en vie, cette violence qui refuse l'extinction. Est-ce que tu acceptes enfin cette part sombre de ton hybridation ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 41,
+      "zone": 3,
+      "category": "D",
+      "text": "Kavi, tes cycles parasitaires se dérèglent complètement et ta conscience distribuée commence à se fragmenter dangereusement. Comment gardes-tu ton identité quand ton esprit se divise en essaim ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 42,
+      "zone": 3,
+      "category": "E",
+      "text": "Kavi, tu vois Senna s'affaiblir et mourir lentement, et tu réalises que tu ne lui as jamais dit ce que tu ressentais par peur de la contaminer. Trouves-tu le courage de lui avouer ton amour maintenant ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 43,
+      "zone": 3,
+      "category": "F",
+      "text": "Kavi, Clermont est proche mais ton instinct parasitaire te pousse à abandonner les autres pour assurer ta survie, comme le ferait une guêpe. Résistes-tu à cette programmation biologique ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 44,
+      "zone": 3,
+      "category": "G",
+      "text": "Kavi, une rage larvaire terminale te submerge et tu sens que tu pourrais tuer tes compagnons dans cette démence entomologique. Qu'est-ce qui t'ancre encore à ton humanité dans cette tempête de violence ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    },
+    {
+      "index": 45,
+      "zone": 3,
+      "category": "C",
+      "text": "Kavi, tu comprends que ta nature parasitaire n'est pas une corruption mais une façon différente d'aimer, de protéger l'essaim. Comment réconcilies-tu enfin cette identité que tu rejetais ?",
+      "bestiaire_link": null,
+      "player": "Kavi"
+    }
+  ],
+  "bestiaire": [
+    {
+      "index": 1,
+      "espece": "Sphaigne de Magellan",
+      "nom_scientifique": "Sphagnum magellanicum",
+      "categorie": "plante",
+      "propriete": "Capacité d'absorption jusqu'à 20 fois son poids en eau et acidification du milieu",
+      "hybridation_possible": "Intégration dans les tissus HKDN pour créer des organes de stockage hydrique auto-régulés",
+      "position_km": 12
+    },
+    {
+      "index": 2,
+      "espece": "Desman des Pyrénées",
+      "nom_scientifique": "Galemys pyrenaicus",
+      "categorie": "animal",
+      "propriete": "Trompe mobile ultra-sensible avec 40000 récepteurs tactiles pour la chasse aquatique",
+      "hybridation_possible": "Adaptation de la trompe sensorielle pour la détection chimique et électromagnétique",
+      "position_km": 25
+    },
+    {
+      "index": 3,
+      "espece": "Pique-prune",
+      "nom_scientifique": "Osmoderma eremita",
+      "categorie": "insecte",
+      "propriete": "Phéromones détectables à plus de 2km et cycle de développement de 3-4 ans dans le bois mort",
+      "hybridation_possible": "Amplification du système phéromonal pour communication longue distance inter-hybrides",
+      "position_km": 38
+    },
+    {
+      "index": 4,
+      "espece": "Drosera à feuilles rondes",
+      "nom_scientifique": "Drosera rotundifolia",
+      "categorie": "plante",
+      "propriete": "Feuilles piégeuses à gouttelettes collantes digestives pour capturer les insectes",
+      "hybridation_possible": "Développement de structures cutanées spécialisées pour l'absorption nutritionnelle externe",
+      "position_km": 51
+    },
+    {
+      "index": 5,
+      "espece": "Salamandre tachetée",
+      "nom_scientifique": "Salamandra salamandra",
+      "categorie": "animal",
+      "propriete": "Régénération complète des membres et sécrétion d'alcaloïdes toxiques par la peau",
+      "hybridation_possible": "Intégration des capacités régénératives et production de composés bioactifs défensifs",
+      "position_km": 64
+    },
+    {
+      "index": 6,
+      "espece": "Araignée napoléon",
+      "nom_scientifique": "Synema globosum",
+      "categorie": "insecte",
+      "propriete": "Mimétisme parfait sur les fleurs et capacité à changer de couleur selon le support",
+      "hybridation_possible": "Adaptation chromatique active des tissus HKDN selon l'environnement",
+      "position_km": 77
+    },
+    {
+      "index": 7,
+      "espece": "Hêtre commun",
+      "nom_scientifique": "Fagus sylvatica",
+      "categorie": "plante",
+      "propriete": "Communication racinaire mycorhizienne sur des kilomètres et longévité exceptionnelle",
+      "hybridation_possible": "Développement d'un réseau neuronal étendu par connections racinaires symbiotiques",
+      "position_km": 90
+    },
+    {
+      "index": 8,
+      "espece": "Crossope aquatique",
+      "nom_scientifique": "Neomys fodiens",
+      "categorie": "animal",
+      "propriete": "Poils hydrofuges argentés et salive venimeuse paralysante pour les proies aquatiques",
+      "hybridation_possible": "Intégration des propriétés hydrophobes et production de neurotoxines spécialisées",
+      "position_km": 103
+    },
+    {
+      "index": 9,
+      "espece": "Staphylin odorant",
+      "nom_scientifique": "Ocypus olens",
+      "categorie": "insecte",
+      "propriete": "Projection de sécrétions malodorantes à distance et mandibules puissantes",
+      "hybridation_possible": "Développement de glandes défensives chimiques projectiles intégrées",
+      "position_km": 116
+    },
+    {
+      "index": 10,
+      "espece": "Polypore amadouvier",
+      "nom_scientifique": "Fomes fomentarius",
+      "categorie": "plante",
+      "propriete": "Combustion lente sans flamme et propriétés antiseptiques et hémostatiques",
+      "hybridation_possible": "Tissus HKDN ignifugés avec propriétés cicatrisantes accélérées",
+      "position_km": 129
+    },
+    {
+      "index": 11,
+      "espece": "Lézard vivipare",
+      "nom_scientifique": "Zootoca vivipara",
+      "categorie": "animal",
+      "propriete": "Seul reptile vivipare d'Europe et résistance extrême au froid",
+      "hybridation_possible": "Adaptation reproductive interne optimisée et thermogenèse améliorée",
+      "position_km": 142
+    },
+    {
+      "index": 12,
+      "espece": "Perce-oreille des Pyrénées",
+      "nom_scientifique": "Forficula pyrenaica",
+      "categorie": "insecte",
+      "propriete": "Soins parentaux élaborés et cerques transformables en outils multifonctions",
+      "hybridation_possible": "Développement d'appendices adaptatifs modulaires pour manipulation fine",
+      "position_km": 155
+    },
+    {
+      "index": 13,
+      "espece": "Gentiane jaune",
+      "nom_scientifique": "Gentiana lutea",
+      "categorie": "plante",
+      "propriete": "Racine pivotante de 2 mètres et composés amers à propriétés digestives",
+      "hybridation_possible": "Système radiculaire HKDN profond pour extraction minérale et purification",
+      "position_km": 168
+    },
+    {
+      "index": 14,
+      "espece": "Hermine",
+      "nom_scientifique": "Mustela erminea",
+      "categorie": "animal",
+      "propriete": "Changement de pelage saisonnier complet et agressivité disproportionnée à la taille",
+      "hybridation_possible": "Adaptation pigmentaire saisonnière et amplification des réponses combatives",
+      "position_km": 181
+    },
+    {
+      "index": 15,
+      "espece": "Tipule des prairies",
+      "nom_scientifique": "Tipula paludosa",
+      "categorie": "insecte",
+      "propriete": "Vol oscillant caractéristique et pattes détachables en cas de prédation",
+      "hybridation_possible": "Capacité d'autotomie contrôlée des membres avec régénération accélérée",
+      "position_km": 195
+    }
+  ],
+  "drama": [
+    {
+      "index": 1,
+      "player": "Lev",
+      "option_a": "Tu révèles tes mains transparentes pour sauver Senna, acceptant enfin ta beauté monstrueuse",
+      "option_b": "Tu gardes tes gants et laisses ta honte compromettre le sauvetage"
+    },
+    {
+      "index": 2,
+      "player": "Senna",
+      "option_a": "Tu utilises tes dernières forces pour détoxifier l'eau et sauver un enfant hybride agonisant",
+      "option_b": "Tu conserves tes nutriments pour survivre et regardes l'enfant mourir"
+    },
+    {
+      "index": 3,
+      "player": "Kavi",
+      "option_a": "Tu avoues tes sentiments à Senna en acceptant ta nature parasitaire",
+      "option_b": "Tu gardes le silence et laisses mourir cet amour inavoué"
+    }
+  ],
+  "mutation": [
+    {
+      "index": 1,
+      "text": "Vos corps hybrides commencent à résonner entre eux, les phéromones de Kavi synchronisant les métabolismes de Lev et Senna. Qu'est-ce que cette harmonie forcée révèle sur ce que vous êtes devenus ensemble ?"
+    },
+    {
+      "index": 2,
+      "text": "Les racines de Senna s'étendent vers les vaisseaux transparents de Lev, créant un système circulatoire partagé qui pulse de lumière organique. Comment acceptez-vous cette fusion qui efface vos limites individuelles ?"
+    },
+    {
+      "index": 3,
+      "text": "La conscience distribuée de Kavi s'étend aux deux autres, créant un réseau neural hybride où vos pensées se mélangent dangereusement. Que gardez-vous encore de purement humain dans cette dissolution collective ?"
+    },
+    {
+      "index": 4,
+      "text": "Vos trois hybridations fusionnent en quelque chose de nouveau : tardigrade-fleur-essaim, une chimère vivante qui transcende vos espèces d'origine. Qu'est-ce que cette créature unie veut vraiment atteindre à Clermont ?"
+    }
+  ],
+  "arrivee": [
+    {
+      "index": 1,
+      "text": "Vous atteignez enfin les portes de Keratos à Clermont, mais vos corps transformés par le voyage ne correspondent plus aux protocoles d'admission. Comment négociez-vous votre entrée quand vous n'êtes plus les mêmes qu'au départ ?"
+    },
+    {
+      "index": 2,
+      "text": "Le laboratoire accepte de vous traiter, mais la stabilisation HKDN va figer vos mutations actuelles à vie, y compris cette harmonie nouvelle entre vous trois. Acceptez-vous de rester à jamais ces créatures fusionnées ?"
+    },
+    {
+      "index": 3,
+      "text": "Dans les couloirs aseptisés de Keratos, vous réalisez que votre voyage a créé quelque chose que la science ne peut pas comprendre : un amour hybride qui transcende les espèces. Comment protégez-vous cette beauté de leur curiosité clinique ?"
+    },
+    {
+      "index": 4,
+      "text": "Vous voilà stabilisés, sauvés, mais dehors l'eau continue de monter et d'autres hybrides fuient vers des laboratoires qui ferment un par un. Qu'allez-vous faire de cette seconde chance que le monde vous refuse ?"
+    }
+  ]
+}
