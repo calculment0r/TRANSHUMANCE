@@ -1,19 +1,5 @@
 [
   {
-    "id": "mox9a6l7loky",
-    "title": "Fréquence de Survie",
-    "contexte": "Dans Limoges devenu piège électromagnétique, quatre hybrides brisés tentent l'exode vers Bordeaux. Le signal de 7.3 kHz les torture depuis l'intérieur—Axel piégé dans ses comas conscients, Mara asphyxiée par l'air sec, Keth vidé de ses essaims incontrôlés, Vorn déchiré par ses propres fragments. Ils fuient vers les marais du Médoc, dernière promesse d'un territoire libre où survivre ensemble.",
-    "depart": "Limoges",
-    "destination": "Bordeaux",
-    "createdAt": "2026-05-08T18:36:02.767Z",
-    "participants": [
-      "Axel",
-      "Mara",
-      "Keth",
-      "Vorn"
-    ]
-  },
-  {
     "id": "mox8ezwalgvr",
     "title": "Noyés",
     "contexte": "Bayonne se noie. Le lagon stagnant a bouffé Saint-Esprit en une nuit et dans trois jours les routes du nord seront coupées. Maira a chopé un signal morse depuis Dunkerque - refuge, eau douce, cultures. Personne d'autre l'a eu. Ils ont 72 heures pour remonter vers Calais avant que l'eau les rattrape définitivement.",
