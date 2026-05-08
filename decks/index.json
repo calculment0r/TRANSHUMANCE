@@ -1,5 +1,18 @@
 [
   {
+    "id": "mox4vpc6llyf",
+    "title": "Mue",
+    "contexte": "2087. L'effondrement du barrage de Grangent a contaminé la Limagne aux nanites et aux spores toxiques. Votre convoi fuit Clermont-Ferrand vers Lille, dernier port viable du Nord. Trois hybrides liés par des secrets qui menacent leur survie collective.",
+    "depart": "Clermont-Ferrand",
+    "destination": "Lille",
+    "createdAt": "2026-05-08T16:32:48.544Z",
+    "participants": [
+      "Kess",
+      "Mael",
+      "Sylx"
+    ]
+  },
+  {
     "id": "mox4qdkjt4bn",
     "title": "Seuil d'étain",
     "contexte": "Janvier 2087. La fuite de strontium-90 de Malville empoisonne les nappes phréatiques jusqu'à Grenoble. Un convoi hybride remonte vers l'Atlantique, guidé par la rumeur d'un centre de dépollution génétique bordelais. Entre les Alpes contaminées et l'estuaire de la Gironde, sept cents kilomètres séparent trois êtres mutants de leur possible guérison. L'eau douce devient mythe, l'ADN originel devient quête.",
