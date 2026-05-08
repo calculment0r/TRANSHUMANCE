@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "mox9p38fnlfd",
+    "title": "Failles chaudes",
+    "contexte": "Bordeaux craque et brûle par en dessous, les caves du Vieux Bordeaux sont devenues un four à 60°C. Un signal radio depuis La Rochelle promet de l'eau propre et des générateurs—premier espoir en six mois. Trois hybrides liés par huit ans de survie commune partent avant que le pont de Pierre s'effondre et coupe leur seule route d'évacuation.",
+    "depart": "Bordeaux",
+    "destination": "La Rochelle",
+    "createdAt": "2026-05-08T18:47:38.292Z",
+    "participants": [
+      "Kess",
+      "Yurij",
+      "Mira"
+    ]
+  }
+]
