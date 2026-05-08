@@ -1,5 +1,19 @@
 [
   {
+    "id": "mox5ztzphv0f",
+    "title": "Spores d'Exodus",
+    "contexte": "Juillet 2087. Les digues du marais poitevin ont cédé sous la tempête Claudette, déversant les poisons de l'ancienne raffinerie dans l'estuaire. La Rochelle suffoque sous le triclorométhane. Quatre hybrides fuient vers Rouen, seul port encore ouvert dans cette géographie de la contamination. Chacun porte ses secrets organiques et ses terreurs intimes dans un convoi de fortune.",
+    "depart": "La Rochelle",
+    "destination": "Rouen",
+    "createdAt": "2026-05-08T17:04:00.808Z",
+    "participants": [
+      "Mael",
+      "Iris",
+      "Kovak",
+      "Zeph"
+    ]
+  },
+  {
     "id": "mox4vpc6llyf",
     "title": "Mue",
     "contexte": "2087. L'effondrement du barrage de Grangent a contaminé la Limagne aux nanites et aux spores toxiques. Votre convoi fuit Clermont-Ferrand vers Lille, dernier port viable du Nord. Trois hybrides liés par des secrets qui menacent leur survie collective.",
