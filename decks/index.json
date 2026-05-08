@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "moxd97le72mx",
+    "title": "Parasites",
+    "contexte": "Trois hybrides en décomposition fuient Brest où leurs corps se retournent contre eux. Kael pue la mort et bouffe des cadavres, Thys veut pondre dans les autres, Mara devient un champignon zombie. Ils ont trois semaines pour rejoindre Marseille avant de crever ou devenir complètement tarés.",
+    "depart": "Brest",
+    "destination": "Marseille",
+    "createdAt": "2026-05-08T20:27:15.812Z",
+    "participants": [
+      "Kael",
+      "Thys",
+      "Mara"
+    ]
+  }
+]
