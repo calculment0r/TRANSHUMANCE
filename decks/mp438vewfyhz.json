@@ -1,0 +1,723 @@
+{
+  "title": "Fuite Cellulaire",
+  "contexte": "Novembre 2041, la merde frappe le ventilo. Les autorités de Calais ont découvert que les capsules HKDN distribuées étaient de la came expérimentale non stabilisée. Les hybrides dégénèrent, leurs corps rejettent leur part humaine. Seul le Pr Kaveri à Clermont-Ferrand pourrait avoir la solution. Mais les flics vont bientôt quadriller la côte pour capturer les cobayes.",
+  "depart": "Calais",
+  "destination": "Clermont-Ferrand",
+  "participants": [
+    {
+      "pseudo": "Xyl",
+      "hybridation": "Xyl porte une hybridation avec la Medusa turritopsis dohrnii, la méduse immortelle capable de reverser son cycle de vie. Choisie délibérément par ses parents biologistes qui rêvaient d'une fille indestructible, la mutation a produit une peau translucide aux teintes bleutées, une physiologie capable de rajeunir ses cellules mais aussi de les figer en dormance totale. Sa capacité : inversibilité cellulaire complète, régénération quasi infinie. Son dysfonctionnement : impossibilité croissante à vieillir émotionnellement, mémoire court terme qui s'efface tous les trois jours sauf si elle reste consciente en dormance. Elle reconnaît Kai par son odeur électrique même quand elle ne le reconnaît pas mentalement.",
+      "pseudo_alt": "Xyl"
+    },
+    {
+      "pseudo": "Kai",
+      "hybridation": "Kai est un hybride tardigrade volontaire, ayant accepté l'expérimentation en 2039 pour échapper à une condamnation judiciaire. Son corps miniaturisé à 0,7 mm peut se déployer jusqu'à taille quasi humaine mais reste translucide et segmenté. Il résiste aux radiations, aux pressions extrêmes, à l'asphyxie totale par déshydratation instantanée. Capacité : cryptobiose volontaire, survie jusqu'à 30 ans en état cataleptique sans oxygène ni nourriture. Son dysfonctionnement : après la cryptobiose, réveils chaotiques avec violences incontrolées, hallucinations organiques. Il cache à Xyl qu'il redoute le moment où elle ne le reconnaîtra plus pendant qu'il sera en dormance cryptobiotique.",
+      "pseudo_alt": "Kai"
+    },
+    {
+      "pseudo": "Moth",
+      "hybridation": "Moth est née de l'hybridation forcée avec une Chrysomelidae (guêpe parasite de riz) imposée par les installations HKDN de Coquelles comme 'compensation sociale' à sa famille immigrée. Son thorax s'est dilaté, des ailes chitineuses translucides lui poussent par cycles de trois semaines, son cerveau retenu dans un exosquelette durcissant. Elle possède un aiguillon rétractable dans sa colonne vertébrale capable de pondre des microbes correcteurs. Capacité : vision ultraviolette, télépathie chimique rudimentaire avec les insectes, guérison immunologique des autres hybrides via injection liquidienne. Son dysfonctionnement : cycles psychotiques lors de la mue, agressivité impulsive, incapacité croissante à marcher debout (mutation vers arthropodie). Elle dépend physiquement de Kai pour bouger : seul son poids miniaturisé peut la stabiliser.",
+      "pseudo_alt": "Moth"
+    }
+  ],
+  "transport": "Chariot bâché tiré par deux oies cendrées géantes (hybridation HKDN d'élevage, résistantes au froid, capables de porter 200kg chacune), avec Moth installée sur un brancard improvisé et Kai miniaturisé servant de stabilisateur vivant",
+  "duree_estimee": "12-15 jours",
+  "analyse": {
+    "style": {
+      "lexical": {
+        "author": "Virginie Despentes",
+        "why": "Langage cru et direct, 'la merde frappe le ventilo', corps abîmés et marginaux, violence sociale assumée"
+      },
+      "narrative": {
+        "author": "Philip K. Dick",
+        "why": "Identités fragmentées, mémoire défaillante, réalité instable, corps qui dysfonctionnent, paranoïa institutionnelle"
+      },
+      "vision": {
+        "author": "Cronenberg",
+        "why": "Horreur corporelle, mutations organiques, corps comme champ de bataille, intimité dans l'abject"
+      }
+    },
+    "regime": {
+      "primary": "nocturne_mystique",
+      "secondary": "diurne",
+      "key_images": [
+        "fusion des corps",
+        "cycles de mort-renaissance",
+        "dissolution des identités",
+        "fuite perpétuelle"
+      ],
+      "explanation": "Le groupe vit une dissolution mystique où les identités se mélangent - Xyl qui oublie, Kai qui disparaît, Moth qui se métamorphose. Mais avec une composante diurne de fuite héroïque vers la guérison."
+    },
+    "myths": [
+      {
+        "name": "METAMORPHOSE",
+        "why": "Les trois subissent des transformations continues et incontrôlées de leurs corps et esprits",
+        "figures": [
+          "La chrysalide (Moth)",
+          "L'immortel amnésique (Xyl)",
+          "Le dormeur éternel (Kai)"
+        ],
+        "tensions": [
+          "Transformation vs identité",
+          "Mémoire vs oubli",
+          "Interdépendance vs autonomie"
+        ],
+        "end_question": "Que restera-t-il d'humain après la guérison ?"
+      },
+      {
+        "name": "EXODE",
+        "why": "Fuite urgente devant la menace institutionnelle, recherche d'une terre promise médicale",
+        "figures": [
+          "Les proscrits",
+          "Le sauveur lointain",
+          "La terre toxique"
+        ],
+        "tensions": [
+          "Poursuite vs liberté",
+          "Espoir vs désillusion"
+        ],
+        "end_question": "Le salut existe-t-il vraiment ?"
+      }
+    ],
+    "system": {
+      "flows": [
+        "Dégénérescence cellulaire qui s'accélère",
+        "Mémoire qui s'efface et se reconstitue",
+        "Dépendance physique mutuelle",
+        "Fuite vers un hypothétique remède"
+      ],
+      "power": "Le pouvoir appartient aux autorités HKDN qui les traquent et au Pr Kaveri qui détient peut-être la solution",
+      "fractures": [
+        "Kai cache ses terreurs à Xyl",
+        "Moth subit sa condition imposée",
+        "Xyl perd ses souvenirs",
+        "Tous fuient un système qui les a créés puis abandonnés"
+      ]
+    },
+    "archetypes": {
+      "likely_chosen": [
+        "L'Innocent (Xyl, mémoire effacée)",
+        "L'Orphelin (Moth, victime du système)",
+        "L'Explorateur (le groupe en fuite)"
+      ],
+      "likely_missing": [
+        {
+          "archetype": "Le Magicien",
+          "inject_as": "Pr Kaveri à Clermont-Ferrand, figure ambiguë qui pourrait sauver ou détruire"
+        },
+        {
+          "archetype": "L'Ombre",
+          "inject_as": "Les autorités HKDN qui les poursuivent, incarnation de leur passé toxique"
+        }
+      ]
+    },
+    "tensions": [
+      "Mémoire défaillante vs besoin de se souvenir des dangers",
+      "Interdépendance vitale vs autonomie individuelle",
+      "Espoir de guérison vs acceptation de la condition",
+      "Fuite urgente vs corps qui ralentissent et dysfonctionnent"
+    ],
+    "themes": [
+      "Corps comme prison et refuge",
+      "Mémoire fragmentée et identité",
+      "Dépendance mutuelle dans l'adversité",
+      "Système médical comme violence institutionnelle"
+    ],
+    "arc": "Trois hybrides défaillants fuient vers un salut incertain, leurs corps se délitant pendant que leurs liens se renforcent.",
+    "participants_analysis": [
+      {
+        "pseudo": "Xyl",
+        "potentiel": "Amnésie cyclique créant des redécouvertes constantes du monde et des autres, immortalité comme fardeau, reconnaissance olfactive comme ancrage émotionnel"
+      },
+      {
+        "pseudo": "Kai",
+        "potentiel": "Capacité de survie extrême contrastant avec vulnérabilité émotionnelle, violences post-réveil comme métaphore du trauma, secret comme poison relationnel"
+      },
+      {
+        "pseudo": "Moth",
+        "potentiel": "Mutation forcée comme métaphore de l'immigration subie, cycles psychotiques synchrones avec métamorphoses physiques, guérisseuse paradoxalement dépendante"
+      }
+    ]
+  },
+  "preparatifs": [
+    {
+      "index": 1,
+      "text": "Les oies géantes battent nerveusement des ailes dans la cour abandonnée, leurs plumes grises hérissées par l'urgence qui flotte dans l'air. Comment vous préparez-vous à embarquer vos corps défaillants sur ce chariot de fortune ?"
+    },
+    {
+      "index": 2,
+      "text": "Le brancard de Moth grince sous son poids mutant tandis que Kai vérifie les sangles du bâchage. Qu'est-ce que vous emportez comme derniers souvenirs de cette côte qui vous rejette ?"
+    },
+    {
+      "index": 3,
+      "text": "L'odeur de la mer se mêle aux effluves chimiques de vos mutations qui s'aggravent d'heure en heure. Quel signe corporel vous confirme qu'il n'y a plus de retour en arrière possible ?"
+    },
+    {
+      "index": 4,
+      "text": "Les sirènes au loin annoncent le début des rafles - les autorités HKDN quadrillent déjà les quartiers nord. Comment organisez-vous les rotations de veille pendant que vos corps vous lâchent ?"
+    },
+    {
+      "index": 5,
+      "text": "Le nom du Pr Kaveri résonne comme une prière désespérée dans le silence de vos préparatifs. Qu'est-ce qui vous fait encore croire qu'un salut existe au bout de cette route ?"
+    },
+    {
+      "index": 6,
+      "text": "Les dernières capsules HKDN roulent au fond de vos poches comme des dés pipés. Faut-il les prendre pour tenir le voyage ou les jeter pour ne plus alimenter votre dégénérescence ?"
+    }
+  ],
+  "peripeties": [
+    {
+      "index": 1,
+      "zone": 1,
+      "category": "A",
+      "text": "Le canal de Calais reflète ton visage translucide comme un miroir brisé, tes traits fluctuent avec les ondulations de l'eau polluée. Qu'est-ce que tu reconnais encore de celle que tu étais avant la première capsule HKDN ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 2,
+      "zone": 1,
+      "category": "B",
+      "text": "Une gamine hybride aux écailles de carpe te fixe depuis le pont, ses branchies palpitent de terreur en reconnaissant ton odeur de méduse. Que lui dis-tu pour qu'elle arrête de te regarder comme un monstre ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 3,
+      "zone": 1,
+      "category": "C",
+      "text": "L'odeur électrique de Kai te ramène des bribes de souvenirs flottants - un laboratoire, des mains gantées, sa voix qui te promettait quelque chose. Qu'est-ce qu'il t'avait promis que tu ne peux plus te rappeler ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 4,
+      "zone": 1,
+      "category": "D",
+      "text": "Tes cellules se figent spontanément pendant trois minutes, ton corps translucide se suspend entre vie et mort. Quand tu reprends conscience, qu'est-ce que tu as oublié cette fois ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 5,
+      "zone": 1,
+      "category": "E",
+      "text": "Moth gémit sur son brancard, ses ailes chitineuses frémissent contre le bâchage du chariot. Tu poses ta main bleutée sur son front brûlant - que ressens-tu de sa douleur qui se mélange à la tienne ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 6,
+      "zone": 2,
+      "category": "F",
+      "text": "Un checkpoint de flics hybrides barre la route, leurs scanners détectent les mutations instables à cent mètres. Kai te supplie d'entrer en dormance pour passer inaperçue - mais tu sais que tu risques d'oublier qui il est au réveil. Qu'est-ce qui compte le plus ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 7,
+      "zone": 2,
+      "category": "G",
+      "text": "Ton corps rajeunit brutalement de dix ans en quelques secondes, tes os se contractent, tes souvenirs d'adulte s'effacent. Kai et Moth deviennent des inconnus terrifiants - comment retrouves-tu confiance ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 8,
+      "zone": 2,
+      "category": "A",
+      "text": "La rivière Somme charrie des cadavres d'hybrides aquatiques, leurs corps rejettent l'eau comme le tien rejette le temps linéaire. Veux-tu vraiment finir comme eux ou accepter de devenir autre chose ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 9,
+      "zone": 2,
+      "category": "B",
+      "text": "Un médecin de fortune propose de t'injecter un stabilisant cellulaire qui stopperait tes cycles mais rendrait ta peau opaque pour toujours. Kai refuse pour toi - as-tu encore le droit de choisir ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 10,
+      "zone": 2,
+      "category": "D",
+      "text": "Les capsules HKDN restantes dans ta poche se liquéfient, leur contenu expérimental fuit sur ta cuisse et déclenche une régénération chaotique. Qu'est-ce qui repousse en toi que tu ne veux pas récupérer ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 11,
+      "zone": 3,
+      "category": "C",
+      "text": "Dans un moment de lucidité totale, tu te souviens de tes parents biologistes qui t'ont créée comme leur cobaye parfait. Leur amour était-il réel ou n'étais-tu qu'une expérience qui a mal tourné ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 12,
+      "zone": 3,
+      "category": "F",
+      "text": "Tu réalises que tes cycles d'oubli protègent Kai et Moth de tes jugements, que ton amnésie est peut-être le seul amour pur qui vous reste. Veux-tu vraiment guérir si ça signifie te souvenir de tout ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 13,
+      "zone": 3,
+      "category": "E",
+      "text": "Moth entre en phase psychotique et ne reconnaît plus personne, Kai se recroqueville en position fœtale - tu es la seule encore debout. Comment portes-tu ce convoi quand tu ne sais même plus pourquoi vous partez ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 14,
+      "zone": 3,
+      "category": "D",
+      "text": "Tes cellules commencent à inverser ton cycle de vie vers un stade pré-natal, ton corps se dissout lentement. Si tu continues, tu pourrais renaître purifiée - mais serais-tu encore toi ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 15,
+      "zone": 3,
+      "category": "A",
+      "text": "Au bord de l'Allier, ton reflet dans l'eau montre un visage que tu ne reconnais plus - ou peut-être que tu viens de l'oublier. Qui est cette créature translucide qui te regarde avec tes yeux ?",
+      "bestiaire_link": null,
+      "player": "Xyl"
+    },
+    {
+      "index": 16,
+      "zone": 1,
+      "category": "A",
+      "text": "Perché sur l'épaule de Moth, tu observes la côte qui s'éloigne, tes segments translucides vibrent dans le vent salin. D'où vient cette sensation de liberté malgré la fuite ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 17,
+      "zone": 1,
+      "category": "B",
+      "text": "Un routier hybride te prend pour un insecte parasite et tente de t'écraser, ses doigts palmés claquent à côté de ton corps miniature. Comment lui prouves-tu que tu es encore humain ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 18,
+      "zone": 1,
+      "category": "C",
+      "text": "L'odeur de désinfectant d'une station-service te ramène au tribunal de 2039 où tu as choisi l'hybridation plutôt que la prison. Regrettes-tu ce marché passé avec la science ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 19,
+      "zone": 1,
+      "category": "D",
+      "text": "Tes pattes tardigrade s'accrochent instinctivement aux barreaux du brancard de Moth quand elle bouge. Cette dépendance physique mutuelle te rassure-t-elle ou t'humilie-t-elle ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 20,
+      "zone": 1,
+      "category": "E",
+      "text": "Xyl te caresse du bout des doigts, sa peau translucide effleure ton exosquelette segmenté. Qu'est-ce que ce contact te fait ressentir dans ton corps qui n'est plus tout à fait humain ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 21,
+      "zone": 2,
+      "category": "F",
+      "text": "Moth s'effondre dans une crise psychotique, ses ailes battent frénétiquement et menacent de briser le bâchage. Tu peux entrer en cryptobiose pour éviter d'être blessé, mais elle a besoin de ton poids pour se stabiliser. Qui sauves-tu ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 22,
+      "zone": 2,
+      "category": "G",
+      "text": "Un drone de surveillance HKDN survole le convoi, ses capteurs cherchent les signatures cellulaires instables. Si tu te déshydrates complètement, tu deviens indétectable mais Moth pourrait mourir sans ton aide. Quel risque prends-tu ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 23,
+      "zone": 2,
+      "category": "A",
+      "text": "La Seine charrie des déchets pharmaceutiques qui font mousser l'eau d'un blanc chimique. Ton corps tardigrade pourrait filtrer cette pollution pour les autres, mais tu risques une overdose toxique. Acceptes-tu ce sacrifice ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 24,
+      "zone": 2,
+      "category": "B",
+      "text": "Un scientifique renégat propose de t'extraire tes glandes de survie pour fabriquer un sérum qui sauverait des milliers d'hybrides. L'opération te tuerait - Xyl s'y oppose violemment. L'écoutes-tu ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 25,
+      "zone": 2,
+      "category": "D",
+      "text": "Tes cycles de cryptobiose se déclenchent de façon incontrôlée, tu perds conscience pendant des heures entières. Quand tu reviens, qu'est-ce qui a changé entre Xyl et Moth que tu ne peux plus rattraper ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 26,
+      "zone": 3,
+      "category": "C",
+      "text": "Dans un moment de violence post-réveil, tu blesses Xyl sans le vouloir, ses cellules translucides saignent une lymphe bleutée. Comment vis-tu avec cette capacité de détruire ce que tu aimes ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 27,
+      "zone": 3,
+      "category": "F",
+      "text": "Xyl perd la mémoire de plus en plus souvent, elle ne te reconnaît plus qu'à ton odeur électrique. Si tu restes en cryptobiose, elle t'oubliera définitivement - mais sortir risque de déclencher tes violences. Que choisis-tu ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 28,
+      "zone": 3,
+      "category": "E",
+      "text": "Le convoi s'enlise dans un marécage, les oies géantes s'épuisent, Moth délire de fièvre. Tu pourrais porter tout le monde sur ton dos en te dilatant, mais l'effort te tuerait. Jusqu'où va ton devoir ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 29,
+      "zone": 3,
+      "category": "D",
+      "text": "Tes capacités de survie extrême attirent l'attention d'une secte qui vénère les hybrides comme des dieux post-humains. Ils veulent t'adorer - mais tu sais que tu n'es qu'un criminel qui a eu peur de la prison. Acceptes-tu ce mensonge salvateur ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 30,
+      "zone": 3,
+      "category": "A",
+      "text": "Au bord du lac d'Aydat, ton reflet segmenté se fragmente à la surface de l'eau volcanique. Cette créature tardigrade que tu vois, c'est ton salut ou ta damnation ?",
+      "bestiaire_link": null,
+      "player": "Kai"
+    },
+    {
+      "index": 31,
+      "zone": 1,
+      "category": "A",
+      "text": "Allongée sur le brancard qui cahote, tu regardes défiler les marais salants où d'autres hybrides aquatiques ont construit leurs tanières de fortune. Cette fuite ressemble-t-elle à l'immigration forcée de tes parents ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 32,
+      "zone": 1,
+      "category": "B",
+      "text": "Une colonie d'insectes sauvages bourdonne autour de ton thorax dilaté, ils reconnaissent ta chimie de guêpe parasite. Leur langage chimique te raconte-t-il des secrets que tu ne veux pas entendre ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 33,
+      "zone": 1,
+      "category": "C",
+      "text": "L'odeur des champs de riz normands te ramène à l'installation HKDN de Coquelles où on t'a forcée à accepter l'hybridation. Tes parents savaient-ils ce qu'on allait te faire subir ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 34,
+      "zone": 1,
+      "category": "D",
+      "text": "Ton aiguillon rétractile pulse sous ta colonne vertébrale, prêt à injecter ses microbes correcteurs dans la peau translucide de Xyl. Ce pouvoir de guérir les autres compense-t-il ta propre déchéance ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 35,
+      "zone": 1,
+      "category": "E",
+      "text": "Le poids miniaturisé de Kai sur ton sternum t'apaise, ses pattes tardigrade s'accrochent à ton exosquelette durcissant. Cette dépendance mutuelle vous rend-elle plus humains ou plus monstres ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 36,
+      "zone": 2,
+      "category": "F",
+      "text": "Tes ailes chitineuses se déploient involontairement, menaçant de percer le bâchage et de révéler le convoi aux drones de surveillance. Tu peux les broyer contre le brancard pour les casser, mais la douleur risque de déclencher une crise psychotique. Que sacrifies-tu ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 37,
+      "zone": 2,
+      "category": "G",
+      "text": "Une mue précoce commence, ton cerveau se comprime dans son exosquelette qui durcit trop vite. Si Kai n'intervient pas pour percer la carapace, tu étouffes - mais l'opération pourrait le tuer. Acceptes-tu qu'il prenne ce risque ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 38,
+      "zone": 2,
+      "category": "A",
+      "text": "Le convoi traverse une zone industrielle où les pesticides ont empoisonné l'air, ton métabolisme d'insecte hybride absorbe toute la toxicité. Préfères-tu mourir en protégeant les autres ou survivre en les laissant s'empoisonner ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 39,
+      "zone": 2,
+      "category": "B",
+      "text": "Un entomologiste reconnaît ton espèce de guêpe parasite et propose de t'acheter pour ses recherches, il offre assez d'argent pour soigner Xyl et Kai. Ton corps a-t-il encore une valeur marchande ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 40,
+      "zone": 2,
+      "category": "D",
+      "text": "Tes cycles psychotiques s'accélèrent, tu ne reconnais plus Xyl et Kai qu'entre deux crises de violence arthropode. Qu'est-ce qui disparaît en premier : ton humanité ou ta raison ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 41,
+      "zone": 3,
+      "category": "C",
+      "text": "Dans un moment de lucidité, tu réalises que ta mutation forcée t'a donné plus de pouvoir de guérison que tes oppresseurs n'en auront jamais. Cette ironie suffit-elle à racheter ta souffrance ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 42,
+      "zone": 3,
+      "category": "F",
+      "text": "Tes jambes ne peuvent plus te porter, ton corps bascule définitivement vers l'arthropodie quadrupède. Veux-tu que Xyl et Kai se souviennent de toi debout ou acceptes-tu qu'ils t'aiment rampante ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 43,
+      "zone": 3,
+      "category": "E",
+      "text": "Le chariot se brise, les oies géantes s'effondrent d'épuisement, il ne reste que tes ailes chitineuses pour porter le convoi. Mais voler signifie abandonner ton humanité terrestre pour toujours. Es-tu prête à devenir pleinement insecte pour sauver tes amis ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 44,
+      "zone": 3,
+      "category": "D",
+      "text": "Ton aiguillon produit une dernière dose de microbes correcteurs, assez pour stabiliser soit Xyl soit Kai, mais pas les deux. Comment choisis-tu qui mérite de survivre ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    },
+    {
+      "index": 45,
+      "zone": 3,
+      "category": "A",
+      "text": "Arrivée aux sources thermales de Royat, tu plonges tes antennes dans l'eau volcanique qui pourrait purifier ou achever ta mutation. Cette eau chaude te rappelle-t-elle le ventre de ta mère, avant qu'on décide de te transformer ?",
+      "bestiaire_link": null,
+      "player": "Moth"
+    }
+  ],
+  "bestiaire": [
+    {
+      "index": 1,
+      "espece": "Oyat",
+      "nom_scientifique": "Ammophila arenaria",
+      "categorie": "plante",
+      "propriete": "Système racinaire extrêmement développé pouvant s'étendre sur 20 mètres de profondeur pour stabiliser les dunes",
+      "hybridation_possible": "Intégration de réseaux racinaires HKDN permettant la communication inter-dunaire et la détection sismique précoce",
+      "position_km": 15
+    },
+    {
+      "index": 2,
+      "espece": "Criquet des dunes",
+      "nom_scientifique": "Calephorus compressicornis",
+      "categorie": "insecte",
+      "propriete": "Capacité de saut exceptionnel jusqu'à 2 mètres de hauteur avec pattes postérieures surdimensionnées",
+      "hybridation_possible": "Amplification HKDN des réflexes de saut avec gyroscopes intégrés pour navigation aérienne précise",
+      "position_km": 32
+    },
+    {
+      "index": 3,
+      "espece": "Putois d'Europe",
+      "nom_scientifique": "Mustela putorius",
+      "categorie": "animal",
+      "propriete": "Production de sécrétions odorantes défensives par glandes anales spécialisées",
+      "hybridation_possible": "Synthèse HKDN de phéromones programmables pour communication cryptée longue distance",
+      "position_km": 58
+    },
+    {
+      "index": 4,
+      "espece": "Polypore du bouleau",
+      "nom_scientifique": "Piptoporus betulinus",
+      "categorie": "plante",
+      "propriete": "Propriétés antibactériennes et anti-inflammatoires naturelles dans ses tissus",
+      "hybridation_possible": "Bio-réacteur HKDN produisant des antibiotiques adaptatifs selon les pathogènes détectés",
+      "position_km": 89
+    },
+    {
+      "index": 5,
+      "espece": "Perce-oreille commun",
+      "nom_scientifique": "Forficula auricularia",
+      "categorie": "insecte",
+      "propriete": "Cerques transformées en pinces multifonctionnelles pour préhension et défense",
+      "hybridation_possible": "Nano-outils HKDN intégrés dans les pinces pour micro-chirurgie et manipulation moléculaire",
+      "position_km": 124
+    },
+    {
+      "index": 6,
+      "espece": "Chouette chevêche",
+      "nom_scientifique": "Athene noctua",
+      "categorie": "animal",
+      "propriete": "Vision nocturne exceptionnelle avec yeux fixes compensés par rotation cervicale de 270°",
+      "hybridation_possible": "Capteurs HKDN multi-spectraux avec interface neurale pour vision augmentée infrarouge et UV",
+      "position_km": 167
+    },
+    {
+      "index": 7,
+      "espece": "Tilleul à grandes feuilles",
+      "nom_scientifique": "Tilia platyphyllos",
+      "categorie": "plante",
+      "propriete": "Longévité exceptionnelle pouvant dépasser 1000 ans avec capacité de régénération par rejets",
+      "hybridation_possible": "Mémoire végétale HKDN stockant les données climatiques séculaires et prédictions météorologiques",
+      "position_km": 203
+    },
+    {
+      "index": 8,
+      "espece": "Limace léopard",
+      "nom_scientifique": "Limax maximus",
+      "categorie": "insecte",
+      "propriete": "Reproduction hermaphrodite aérienne suspendue par fil de mucus avec échange de gamètes",
+      "hybridation_possible": "Bio-filaments HKDN programmables pour construction de structures temporaires et transport de données",
+      "position_km": 245
+    },
+    {
+      "index": 9,
+      "espece": "Vipère aspic",
+      "nom_scientifique": "Vipera aspis",
+      "categorie": "animal",
+      "propriete": "Thermoreception par fossettes sensorielles détectant variations de 0,1°C pour localiser proies",
+      "hybridation_possible": "Réseau HKDN de thermocapteurs ultra-sensibles pour cartographie thermique environnementale 3D",
+      "position_km": 289
+    },
+    {
+      "index": 10,
+      "espece": "Cèpe de Bordeaux",
+      "nom_scientifique": "Boletus edulis",
+      "categorie": "plante",
+      "propriete": "Réseau mycélien souterrain étendu communiquant par signaux chimiques avec autres champignons",
+      "hybridation_possible": "Réseau neural HKDN mimant le mycélium pour communication quantique inter-espèces",
+      "position_km": 324
+    },
+    {
+      "index": 11,
+      "espece": "Bourdon terrestre",
+      "nom_scientifique": "Bombus terrestris",
+      "categorie": "insecte",
+      "propriete": "Thermorégulation collective par vibration des muscles de vol sans décollage pour chauffer la ruche",
+      "hybridation_possible": "Générateurs HKDN piezoélectriques convertissant vibrations en énergie stockable et redistribuable",
+      "position_km": 356
+    },
+    {
+      "index": 12,
+      "espece": "Salamandre tachetée",
+      "nom_scientifique": "Salamandra salamandra",
+      "categorie": "animal",
+      "propriete": "Régénération complète de membres perdus par activation de cellules souches spécialisées",
+      "hybridation_possible": "Nano-médecins HKDN accélérant la régénération tissulaire et optimisant la reconstruction génétique",
+      "position_km": 387
+    },
+    {
+      "index": 13,
+      "espece": "Hêtre commun",
+      "nom_scientifique": "Fagus sylvatica",
+      "categorie": "plante",
+      "propriete": "Communication racinaire par réseau fongique partagé pour distribution des nutriments",
+      "hybridation_possible": "Interface HKDN biotechnologique permettant dialogue direct avec réseaux mycorhiziens étendus",
+      "position_km": 421
+    },
+    {
+      "index": 14,
+      "espece": "Araignée épeire diadème",
+      "nom_scientifique": "Araneus diadematus",
+      "categorie": "insecte",
+      "propriete": "Soie d'araignée aux propriétés mécaniques supérieures à l'acier en résistance-poids",
+      "hybridation_possible": "Production HKDN de fibres programmables changeant propriétés selon stimuli environnementaux",
+      "position_km": 448
+    },
+    {
+      "index": 15,
+      "espece": "Hermine",
+      "nom_scientifique": "Mustela erminea",
+      "categorie": "animal",
+      "propriete": "Mue saisonnière complète modifiant couleur du pelage selon photopériode pour camouflage adaptatif",
+      "hybridation_possible": "Camouflage HKDN adaptatif temps réel par nanocellules chromatophores réagissant aux longueurs d'onde ambiantes",
+      "position_km": 475
+    }
+  ],
+  "drama": [
+    {
+      "index": 1,
+      "player": "Xyl",
+      "option_a": "Tu entres en dormance pour échapper à la douleur de voir tes amis souffrir, mais tu risques de les oublier définitivement au réveil.",
+      "option_b": "Tu forces ta mémoire à rester active malgré l'agonie, préservant vos liens au prix de ta santé mentale."
+    },
+    {
+      "index": 2,
+      "player": "Kai",
+      "option_a": "Tu révèles enfin à Xyl tes terreurs post-cryptobiose, brisant l'illusion mais libérant le poids du secret.",
+      "option_b": "Tu continues à cacher tes violences pour la protéger, même si ça te ronge de l'intérieur."
+    },
+    {
+      "index": 3,
+      "player": "Moth",
+      "option_a": "Tu acceptes ta transformation complète en arthropode, renonçant à ton humanité pour gagner la force de sauver les autres.",
+      "option_b": "Tu te bats contre ta mutation jusqu'au bout, préservant ton identité humaine au risque de mourir faible et inutile."
+    }
+  ],
+  "mutation": [
+    {
+      "index": 1,
+      "text": "Les capsules HKDN restantes se cristallisent spontanément au contact de vos mutations, créant des géodes organiques qui pulsent sous votre peau. Ces cristaux amplifient-ils vos capacités ou préparent-ils votre dissolution finale ?"
+    },
+    {
+      "index": 2,
+      "text": "Vos trois ADN commencent à se synchroniser par proximité, créant une conscience collective hybride où les souvenirs de l'un deviennent les rêves de l'autre. Résistez-vous à cette fusion ou l'accueillez-vous comme une renaissance ?"
+    },
+    {
+      "index": 3,
+      "text": "Le Pr Kaveri apparaît en hologramme dans vos hallucinations communes, ses mains spectrales manipulent vos cellules à distance. Est-ce un signe que le traitement commence ou que votre folie collective s'organise ?"
+    },
+    {
+      "index": 4,
+      "text": "Vos corps rejettent simultanément leurs derniers fragments d'ADN humain dans un liquide irisé qui se solidifie en cocon autour du convoi. Qu'est-ce qui va éclore de cette chrysalide tripartite ?"
+    }
+  ],
+  "arrivee": [
+    {
+      "index": 1,
+      "text": "Les tours de Clermont-Ferrand percent la brume comme des seringues géantes, la ville sent le soufre et les médicaments expérimentaux. Le laboratoire du Pr Kaveri vous attend peut-être - mais êtes-vous encore assez humains pour qu'il vous reconnaisse ?"
+    },
+    {
+      "index": 2,
+      "text": "Le convoi s'arrête devant un complexe médical aux vitres opaques où d'autres hybrides font la queue, leurs mutations plus avancées que les vôtres. Voyez-vous votre futur dans leurs corps transformés ou votre passé révolu ?"
+    },
+    {
+      "index": 3,
+      "text": "Kaveri vous reçoit dans un laboratoire souterrain, ses propres modifications chirurgicales révèlent qu'il expérimente sur lui-même depuis des années. Sa 'guérison' ressemble-t-elle à ce que vous espériez ?"
+    },
+    {
+      "index": 4,
+      "text": "Face aux cuves de régénération cellulaire, vous réalisez que guérir signifie peut-être perdre tout ce que vous avez appris sur l'amour dans la différence. Le prix de redevenir humains vaut-il ce que vous allez sacrifier ?"
+    }
+  ]
+}
