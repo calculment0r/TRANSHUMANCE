@@ -1,5 +1,18 @@
 [
   {
+    "id": "mql1u7ub1sk1",
+    "title": "Avant le Blocus",
+    "contexte": "Montpellier 2067. Le Lez est mort, les serres du Polygone ont rendu leur dernier souffle hydroponique, et le convoi Kaiju arrive de Nîmes avec ses camions-réquisitions et ses milices de gouvernance locale. Trois hybrides prennent la route cette nuit vers Dijon, portant dans leurs corps des biologies impossibles et dans leurs poches des transmissions cryptées d'un port fluvial qui promet encore quelque chose comme un avenir. Ce n'est pas une fuite héroïque. C'est une sortie par la porte de derrière, dans le noir, avant que quelqu'un d'autre décide à leur place ce qui leur appartient encore.",
+    "depart": "Montpellier",
+    "destination": "Dijon",
+    "createdAt": "2026-06-19T14:53:51.324Z",
+    "participants": [
+      "Kael",
+      "Mox",
+      "Vera"
+    ]
+  },
+  {
     "id": "mp438vewfyhz",
     "title": "Fuite Cellulaire",
     "contexte": "Novembre 2041, la merde frappe le ventilo. Les autorités de Calais ont découvert que les capsules HKDN distribuées étaient de la came expérimentale non stabilisée. Les hybrides dégénèrent, leurs corps rejettent leur part humaine. Seul le Pr Kaveri à Clermont-Ferrand pourrait avoir la solution. Mais les flics vont bientôt quadriller la côte pour capturer les cobayes.",
