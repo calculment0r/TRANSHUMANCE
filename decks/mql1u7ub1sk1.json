@@ -1,0 +1,715 @@
+{
+  "title": "Avant le Blocus",
+  "contexte": "Montpellier 2067. Le Lez est mort, les serres du Polygone ont rendu leur dernier souffle hydroponique, et le convoi Kaiju arrive de Nîmes avec ses camions-réquisitions et ses milices de gouvernance locale. Trois hybrides prennent la route cette nuit vers Dijon, portant dans leurs corps des biologies impossibles et dans leurs poches des transmissions cryptées d'un port fluvial qui promet encore quelque chose comme un avenir. Ce n'est pas une fuite héroïque. C'est une sortie par la porte de derrière, dans le noir, avant que quelqu'un d'autre décide à leur place ce qui leur appartient encore.",
+  "depart": "Montpellier",
+  "destination": "Dijon",
+  "participants": [
+    {
+      "pseudo": "Kael",
+      "hybridation": "Hybride Méduse immortelle (Turritopsis dohrnii) - son immunité cellulaire lui permet de régénérer ses blessures mais elle est devenue sourde aux antibiotiques de synthèse. Imposée lors d'un programme de résilience militaire à 16 ans à Fort Lamy, elle a appris à maintenir son pH sanguin instable en cherchant constamment des environnements humides. Capacité : vision bioluminescente en spectre infrarouge grâce aux photophores de sa peau translucide, idéale pour naviguer sans lumière électrique. Dysfonctionnement : ses tentacules neuromusculaires se contractent involontairement sous le stress, la paralysant partiellement. Elle regarde fixement Mox quand cela arrive, cherchant inconsciemment du réconfort tactile chez le seul du groupe qui ose la toucher sans crainte."
+    },
+    {
+      "pseudo": "Mox",
+      "hybridation": "Hybride Guêpe parasite (Pimpla turionellae) - choisie délibérément par sa mère Yuki qui voyait en cet insecte un symbole de survie dans l'inéluctable. Il possède l'apparence humaine mais ses ailes vestigiales tremblent sous la peau de son dos, créant des cicatrices permanentes qui s'ouvrent lors de variations de température. Capacité : empathie neurochimique amplifiée, il détecte les phéromones de peur chez les autres et peut moduler les siens pour calmer ou motiver un groupe. Dysfonctionnement : sa mémorisation des chemins est obsessionnelle et erratique - il se souvient de trajets qu'il n'a jamais empruntés, comme si son système nerveux conservait les mémoires génétiques des hôtes que son ADN parasitaire a jadis colonisés. Mox caresse les bras de Kael en silence, transférant des micro-doses de ses phéromones apaisantes."
+    },
+    {
+      "pseudo": "Vera",
+      "hybridation": "Hybride Orchidée fantôme (Dendrophylax lindenii) - seul spécimen fongique-végétal du convoi, elle est née de l'expérience volontaire d'une botaniste qui souhaitait créer un organisme capable de survivre sans photosynthèse régulière en symbiose mycorrhizienne. Son corps est translucide, entrelacé de filaments blancs luminescents qui s'étirent depuis ses membres. Capacité : elle peut détecter et réactiver les mycéliums présents dans les sols contaminés, créant des chemins biologiques traversables où rien d'autre ne peut croître, et identifier des sources d'eau souterraine enfouies. Dysfonctionnement : son système nerveux reste partiellement dominé par les spores qu'elle produit involontairement lors de phases lunaires, la rendant hallucinée et imprévisible 3 jours par mois. Elle murmure à Kael des récits botaniques de mondes qui n'existent pas, et Kael ne sait jamais si Vera teste ses limites ou si elle revit simplement ses rêves fongiques."
+    }
+  ],
+  "transport": "Deux mules hybridées HKDN (croisement mule-chameau pour les réserves lipidiques sur longue distance sèche), chargées de bidons filtrants et de provisions compressées. Vera marche en tête quand les filaments de ses membres captent les poches de mycélium sous le bitume fissuré — elle trace la route plus sûrement qu'une carte. Mox reste au centre du convoi, calibrant les phéromones selon les humeurs du groupe. Kael ferme la marche, ses photophores de peau suffisant à baliser l'arrière dans le noir sans trahir leur position.",
+  "duree_estimee": "Le trajet Montpellier-Dijon représente environ 330 km. Avec les mules hybrides (rythme estimé à 45 km par jour sur routes dégradées, zones contaminées à contourner, arrêts nocturnes imposés par la biologie de Vera lors des phases lunaires), le convoi mettra entre 8 et 11 jours. Trois de ces nuits seront potentiellement perdues si la phase fongique de Vera coïncide avec le passage des plaines de l'Hérault, les plus exposées.",
+  "analyse": {
+    "style": {
+      "lexical": {
+        "author": "Annie Ernaux",
+        "why": "Les participants écrivent corps et biographies avec une économie sèche et précise — pas d'ornement, juste les faits qui font mal. Fort Lamy à 16 ans. La mère qui choisit la guêpe parasite comme symbole. Les cicatrices qui s'ouvrent. C'est cette façon ernausienne de poser un détail biographique nu et de le laisser résonner sans commentaire."
+      },
+      "narrative": {
+        "author": "Ursula K. Le Guin",
+        "why": "Le groupe fonctionne sur une logique de soin mutuel discret, d'interdépendances biologiques et affectives, de migrations qui ne sont pas des conquêtes. Le récit que les participants ont construit n'a pas de héros central — il a un écosystème de trois. C'est la grammaire narrative de Le Guin : le collectif comme organisme, la survie comme éthique du lien."
+      },
+      "vision": {
+        "author": "Jeff VanderMeer (Annihilation)",
+        "why": "La vision du monde ici est celle d'une nature qui a repris ses droits de manière incompréhensible et belle et dangereuse à la fois. Vera qui réactive des mycéliums dans les sols morts, Kael dont la peau émet de la lumière, Mox qui se souvient de trajets dans des corps qui ne sont plus les siens — c'est la Zone de VanderMeer : le biologique comme espace de dissolution de l'identité humaine ordinaire."
+      }
+    },
+    "regime": {
+      "primary": "nocturne_mystique",
+      "secondary": "nocturne_synthetique",
+      "key_images": [
+        "la peau translucide qui émet de la lumière dans le noir",
+        "les filaments blancs qui s'étirent vers le sol contaminé",
+        "les phéromones comme langue silencieuse entre deux corps",
+        "la mémoire génétique de trajets jamais vécus",
+        "la phase lunaire qui efface le moi et laisse parler les spores"
+      ],
+      "explanation": "Le régime dominant est nocturne mystique : le convoi part de nuit, avance dans l'obscurité, et les trois corps fonctionnent par fusion, par dissolution des frontières — Kael cherche le contact de Mox, Mox transfère ses phéromones dans la peau de Kael, Vera murmure des mondes botaniques qui n'existent que dans son réseau fongique. Il n'y a pas de maîtrise ici, pas de lumière conquérante — il y a une immersion dans le vivant opaque. Le régime secondaire nocturne synthétique affleure dans la construction du trajet lui-même : Vera qui trace les chemins biologiques, Mox qui agrège les mémoires de routes fantômes, Kael qui reçoit des transmissions d'un port lointain. Le groupe fabrique une cohérence à partir de fragments discontinus — c'est le travail de la synthèse dans l'obscurité."
+    },
+    "myths": [
+      {
+        "name": "EXODE",
+        "why": "Ils partent cette nuit, avant le blocus, sans annonce et sans retour prévu. Ce n'est pas un voyage — c'est une extraction d'urgence hors d'un territoire qui cesse de les appartenir. La structure est celle de l'Exode classique : le monde d'avant s'effondre derrière eux pendant qu'ils marchent, et la destination promise (les îles écossaises, l'évacuation) est encore abstraite, presque mythique.",
+        "figures": [
+          "Kael comme Moïse inversé — elle reçoit la transmission mais ne sait pas encore ce qui l'attend",
+          "Vera comme pilier de nuée — elle trace le chemin que les autres ne peuvent pas voir",
+          "Mox comme liant du peuple en marche, celui qui empêche la panique de se propager"
+        ],
+        "tensions": [
+          "Partir avant d'être prêts vs rester jusqu'à être réquisitionnés",
+          "La destination (Dijon, puis les îles) est-elle réelle ou une rumeur que Kael a voulu croire ?",
+          "La vitesse de la fuite contre la biologie de Vera qui impose ses propres rythmes lunaires"
+        ],
+        "end_question": "Est-ce que le port fluvial de Dijon existe vraiment, ou est-ce que Kael a suivi un signal que personne d'autre n'a vérifié ?"
+      },
+      {
+        "name": "METAMORPHOSE",
+        "why": "Les trois corps sont des métamorphoses en cours et en conflit. Aucune des hybridations n'est stable, aucune n'est choisie dans sa totalité — Kael a subi la sienne à 16 ans dans un programme militaire, Mox est le produit de la vision symbolique de sa mère, Vera est née d'une expérience scientifique qui a dépassé ses créateurs. Ils ne sont pas encore ce qu'ils vont devenir. Le voyage est l'épreuve qui fixera (ou fracturera) la métamorphose.",
+        "figures": [
+          "Kael comme chrysalide militarisée — sa transformation a été confisquée et elle n'en a jamais fini avec ça",
+          "Mox comme parasite devenu hôte — sa biologie insecte est tournée vers le service des autres, mais à quel prix pour lui ?",
+          "Vera comme organisme qui déborde ses propres bords — les spores et les filaments ne lui obéissent pas, ils la traversent"
+        ],
+        "tensions": [
+          "Le corps transformé comme identité ou comme prison",
+          "Les dysfonctionnements biologiques de chacun sont-ils des faiblesses ou les vrais pouvoirs du voyage ?",
+          "Qui contrôle la transformation — le militaire, la mère, la botaniste — et est-ce que ça peut être repris ?"
+        ],
+        "end_question": "Est-ce qu'on arrive à Dijon avec les mêmes corps qu'au départ, ou est-ce que la route les transforme une deuxième fois ?"
+      },
+      {
+        "name": "QUETE",
+        "why": "La transmission que Kael a reçue fonctionne comme le Graal de cette histoire — un signal d'un lieu intact, d'un monde encore possible au-delà des zones mortes. Mais la quête ici est triangulée : trois corps, trois biologies, trois rapports différents à l'espoir. La cohésion du groupe est elle-même l'objet de la quête autant que le port fluvial.",
+        "figures": [
+          "Le port de Dijon comme point de passage, pas de destination finale",
+          "Les îles écossaises comme horizon mythique jamais atteint dans le récit",
+          "Le groupe de trois comme figure questante collective — pas de chef, pas de suiveurs, un organisme"
+        ],
+        "tensions": [
+          "La quête individuelle de Kael (trouver le port, honorer la transmission) contre la quête collective (survivre ensemble)",
+          "Mox se souvient de chemins qu'il n'a pas empruntés — sa quête est aussi mémorielle et inconsciente",
+          "Vera cherche-t-elle vraiment Dijon ou cherche-t-elle les mycéliums vivants sur la route ?"
+        ],
+        "end_question": "Qu'est-ce qui se passe si le port existe mais n'a de place que pour un seul d'entre eux ?"
+      }
+    ],
+    "system": {
+      "flows": [
+        "Flux de soin biologique : Mox vers Kael (phéromones apaisantes, contact tactile), Kael vers le groupe (bioluminescence, navigation nocturne), Vera vers le sol (détection mycélienne, identification des eaux souterraines) — le groupe fonctionne comme un organisme distribué où chaque corps compense les angles morts des autres",
+        "Flux d'information : Kael détient la transmission et l'accès à Dijon, mais Vera détient la connaissance du terrain traversé et Mox détient la lecture émotionnelle du groupe — le savoir est fragmenté et non centralisé",
+        "Flux de mémoire : Mox transporte des mémoires génétiques de routes fantômes qui pourraient raccourcir ou perdre le convoi — information à haute valeur et haute risque",
+        "Flux de vulnérabilité : chaque dysfonctionnement biologique crée une fenêtre d'exposition collective — les contractures de Kael, les cicatrices ouvertes de Mox en changement de température, les phases hallucinatoires de Vera sont des horloges biologiques que le convoi doit intégrer comme contraintes de navigation"
+      ],
+      "power": "Il n'y a pas de chef déclaré. Le pouvoir réel circule selon les moments : Kael porte la légitimité de la destination (elle a reçu le signal), Vera porte le pouvoir du terrain (sans elle le groupe avance à l'aveugle sur sols contaminés), Mox porte le pouvoir de la cohésion affective (sans lui le groupe se désintègre sous la pression). Ce triangle est stable tant que les trois fonctions sont actives — il devient fragile dès qu'un dysfonctionnement biologique met un des trois hors circuit.",
+      "fractures": [
+        "La fracture de confiance autour de la transmission de Kael — personne n'a vérifié le signal de Dijon indépendamment, et si Kael l'a cru parce qu'elle avait besoin de le croire, pas parce qu'il était fiable ?",
+        "La fracture du temps biologique — les cycles de Vera ne s'accordent pas avec l'urgence du blocus, et à un moment le groupe devra choisir entre attendre qu'elle revienne à elle ou continuer sans elle",
+        "La fracture du passé de Mox — ses mémoires génétiques de routes non vécues sont une ressource non vérifiable : il peut guider le groupe sur un chemin qui était praticable pour un hôte insecte il y a trois générations et ne l'est plus",
+        "La fracture du contact entre Kael et Mox — leur lien de soin mutuel est le centre émotionnel du convoi, mais il est non dit, physique, précaire. S'il se rompt sous la pression, Kael perd son ancrage en cas de contracture et Mox perd la preuve que ses phéromones servent à quelque chose d'autre que manipuler"
+      ]
+    },
+    "archetypes": {
+      "likely_chosen": [
+        "La Guérisseuse/Le Soignant (Mox — empathie neurochimique, contact apaisant, régulation du groupe)",
+        "L'Arpenteure/La Guide (Vera — connaissance du terrain invisible, traçage de chemins biologiques)",
+        "La Sentinelle (Kael — navigation nocturne, ferme la marche, porte l'information de destination)",
+        "L'Orpheline (Kael encore — transformation imposée à 16 ans, corps militarisé sans consentement, cherche un réconfort qu'elle ne sait pas demander)"
+      ],
+      "likely_missing": [
+        {
+          "archetype": "Le Trickster",
+          "inject_as": "Aucun des trois ne ment, ne détourne les règles, ne joue avec les codes — le convoi est sérieux, trop sérieux. Injecter un moment trickster via les mémoires erratiques de Mox : une route fantôme qu'il propose avec une certitude absolue et qui mène à quelque chose d'inattendu, d'absurde, de potentiellement salvateur ou catastrophique. Le trickster ici c'est l'ADN parasite lui-même, pas Mox — laisser l'insecte jouer un tour au navigateur."
+        },
+        {
+          "archetype": "Le Juge/La Loi",
+          "inject_as": "Personne dans ce groupe ne pose de règles collectives explicites — ils fonctionnent par ajustement affectif et biologique mais sans contrat. La fracture viendra quand une décision impossible se posera (partir sans Vera pendant sa phase fongique ? partager la transmission avec d'autres convois en route ?). Injecter cet archétype via une confrontation externe : un autre groupe de migrants qui demande à joindre le convoi et force les trois à énoncer leurs critères — ce qu'ils n'ont jamais eu à faire."
+        },
+        {
+          "archetype": "L'Ombre",
+          "inject_as": "Les trois hybridations portent chacune une origine de violence ou de dépossession (le programme militaire, la vision maternelle imposée, l'expérience scientifique dépassée) mais personne ne l'a encore nommé comme tel dans le groupe. L'Ombre est là, dans les corps, mais non intégrée. La route devrait forcer ce moment : une nuit où Kael, paralysée par une contracture, dit enfin à voix haute ce qu'elle pense du programme de Fort Lamy."
+        }
+      ]
+    }
+  },
+  "preparatifs": [
+    {
+      "index": 1,
+      "text": "Avant de partir, chacun pose sur la table ce qu'il emporte — pas les provisions, pas les bidons filtrants. Ce qui n'a pas de poids mais qu'on ne peut pas laisser aux Docks de Lattes pour que le convoi Kaiju le réquisitionne à son tour. Qu'est-ce que tu mets dans ta poche cette nuit qui n'appartient qu'à toi ?"
+    },
+    {
+      "index": 2,
+      "text": "Les mules hybrides sont chargées. Vera a déjà posé ses mains sur le bitume du parking et senti quelque chose — elle n'a pas dit quoi. Vous regardez les camions de Nîmes qui n'arrivent pas encore mais que vous entendez presque. Qu'est-ce que chacun de vous fait de ces vingt dernières minutes à Montpellier ?"
+    },
+    {
+      "index": 3,
+      "text": "Il y a un mot pour ce que vous faites cette nuit — pas 'fuite', vous avez décidé de ne pas utiliser ce mot. Vous en avez choisi un autre, ou peut-être vous n'avez rien choisi du tout et vous marchez sans le nommer. Quel est ce mot, ou pourquoi est-ce qu'il n'existe pas encore ?"
+    },
+    {
+      "index": 4,
+      "text": "Les transmissions cryptées que Kael a reçues — tout le monde les a lues, ou personne, ou seulement certains. Vous n'avez pas eu cette conversation explicitement. Avant de partir, vous devez décider ce que vous faites de cette information : est-ce qu'elle appartient au groupe ou est-ce qu'elle reste dans les mains de celle qui l'a reçue ?"
+    },
+    {
+      "index": 5,
+      "text": "Vera mesure mentalement les phases lunaires. Dans quatre jours, elle sera dans son cycle fongique — les spores, les hallucinations, les trois jours perdus. Elle ne l'a peut-être pas dit à voix haute, ou elle l'a dit et personne n'a répondu. Comment vous l'avez intégré dans votre trajet, ou est-ce que vous avez préféré ne pas le faire ?"
+    },
+    {
+      "index": 6,
+      "text": "Kael ferme la marche et ses photophores s'allument une première fois dans le noir de la ruelle. C'est la première image de vous trois en mouvement. Le convoi existe maintenant. Qu'est-ce que vous vous dites — ou ne vous dites pas — en prenant la première rue vers le nord ?"
+    }
+  ],
+  "peripeties": [
+    {
+      "index": 1,
+      "zone": 1,
+      "category": "C",
+      "text": "Fort Lamy, 16 ans. Tu n'as pas choisi la méduse — on t'a dit que tu l'avais acceptée, que tu avais signé, que ta signature comptait. Tu te souviens du formulaire mais tu ne te souviens plus de ta main qui tient le stylo. Est-ce que tu cherches à récupérer ce souvenir ou est-ce que tu as décidé que ce trou-là pouvait rester vide ?",
+      "bestiaire_link": "Turritopsis dohrnii",
+      "player": "Kael"
+    },
+    {
+      "index": 2,
+      "zone": 1,
+      "category": "A",
+      "text": "Le Lez est à ta droite, mort, une ligne de sel et de boue grise sous la lune. Tu l'as connu autrement — ou quelqu'un te l'a décrit autrement, et tu ne sais plus très bien si c'est un souvenir à toi. Qu'est-ce que tu fais de cette rivière qui n'est plus une rivière, en passant devant cette nuit ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 3,
+      "zone": 1,
+      "category": "B",
+      "text": "Mox est derrière toi dans le convoi. Tu sais quand ses phéromones changent — tu n'as jamais vraiment nommé cette perception, tu l'as juste intégrée comme une constante, comme la température de l'air. Ce soir il émet quelque chose que tu n'identifies pas encore. Est-ce que tu lui poses la question ou est-ce que tu laisses faire ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 4,
+      "zone": 1,
+      "category": "D",
+      "text": "Tes photophores s'allument sans que tu le décides, au rythme de ta respiration. Dans le noir des faubourgs nord de Montpellier, tu es la seule lumière du convoi — une lumière que tu ne contrôles pas entièrement et qui dit exactement où tu es. Qu'est-ce que ça fait d'être à la fois la lanterne et celle qui ferme la marche ?",
+      "bestiaire_link": "Turritopsis dohrnii",
+      "player": "Kael"
+    },
+    {
+      "index": 5,
+      "zone": 1,
+      "category": "E",
+      "text": "Les mules hybrides ont un rythme. Vera trace, Mox ajuste, toi tu balises l'arrière. C'est un organisme qui fonctionne depuis quelques heures et qui fonctionne bien — trop bien peut-être, comme si vous aviez déjà fait ce trajet. D'où vient ce sentiment que ton corps connaît déjà cette marche ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 6,
+      "zone": 2,
+      "category": "F",
+      "text": "Vers Lunel, sur la N113, un autre groupe vous repère — cinq personnes, pas hybrides, qui demandent à joindre le convoi vers le nord. Ils ont de l'eau. Vous n'avez pas de règles pour ça parce que vous n'avez jamais eu à en énoncer. Est-ce que tu prends la décision ou est-ce que tu attends que quelqu'un d'autre le fasse ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 7,
+      "zone": 2,
+      "category": "G",
+      "text": "Une contracture. Les tentacules neuromusculaires se serrent dans ta nuque et le long de ton bras droit, sans signal préalable. Tu es à l'arrière du convoi, dans le noir, et Mox est à vingt mètres devant. Est-ce que tu appelles ou est-ce que tu attends que ça passe seule, comme d'habitude ?",
+      "bestiaire_link": "Turritopsis dohrnii",
+      "player": "Kael"
+    },
+    {
+      "index": 8,
+      "zone": 2,
+      "category": "A",
+      "text": "Les plaines de l'Hérault, troisième nuit. Sol blanc de sels minéraux, aucune ombre, aucun couvert. Tes photophores sont une trahison ici — ils brillent trop et la milice de gouvernance locale patrouille ces routes depuis le blocus annoncé. Tu ne peux pas les éteindre complètement. Qu'est-ce que tu fais de ton propre corps qui vous expose ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 9,
+      "zone": 2,
+      "category": "D",
+      "text": "Ton immunité cellulaire régénère, mais elle ne régénère pas de la même façon depuis Montpellier — tu le sens dans la texture de ta peau, quelque chose qui se reconfigure. La méduse en toi répond à ce trajet comme à un stress environnemental, et tu ne sais pas encore ce qu'elle va décider de devenir. Est-ce que tu surveilles ça ou est-ce que tu regardes ailleurs ?",
+      "bestiaire_link": "Turritopsis dohrnii",
+      "player": "Kael"
+    },
+    {
+      "index": 10,
+      "zone": 2,
+      "category": "B",
+      "text": "Vera, pendant sa phase fongique, te murmure à l'oreille des récits de jardins souterrains qui existent quelque part sous les Cévennes. Sa voix est précise, ses détails sont cohérents. Tu ne sais toujours pas si elle délire ou si elle voit quelque chose que toi tu ne peux pas voir. Est-ce que tu l'écoutes comme une information ou comme un symptôme ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Kael"
+    },
+    {
+      "index": 11,
+      "zone": 3,
+      "category": "C",
+      "text": "Une nuit, paralysée par une contracture, Mox à côté de toi, tu dis à voix haute ce que tu penses du programme de Fort Lamy. Pas en réponse à une question — juste parce que le silence et la douleur font ça parfois. Qu'est-ce que tu entends dans ta propre voix en le disant pour la première fois ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 12,
+      "zone": 3,
+      "category": "F",
+      "text": "La transmission de Dijon — tu l'as crue parce qu'elle était là au bon moment, ou tu l'as crue parce que tu en avais besoin. Ce n'est pas la même chose. Quelqu'un dans le convoi finit par te poser la question directement, et pour la première fois tu n'as pas de réponse préparée. Qu'est-ce qui se passe dans ta gorge à ce moment-là ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 13,
+      "zone": 3,
+      "category": "A",
+      "text": "La Saône, première eau vivante depuis Montpellier. Tes photophores réagissent à l'humidité comme à une langue maternelle retrouvée — ton pH sanguin se stabilise pour la première fois depuis huit jours. Est-ce que cette rivière te dit quelque chose sur ce que tu es devenue en route, ou est-ce que tu préfères ne pas regarder ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 14,
+      "zone": 3,
+      "category": "E",
+      "text": "Vera et Mox marchent devant toi depuis deux jours sans se retourner autant qu'avant. Pas de rupture, pas de mot — juste un ajustement du convoi qui s'est fait sans toi. Tu fermes toujours la marche mais quelque chose a changé dans la géographie affective du groupe. D'où ça vient, et est-ce que tu veux le savoir ?",
+      "bestiaire_link": null,
+      "player": "Kael"
+    },
+    {
+      "index": 15,
+      "zone": 3,
+      "category": "D",
+      "text": "La régénération cellulaire a produit quelque chose de nouveau sur ton avant-bras gauche — une texture différente, pas une cicatrice, quelque chose que tu n'as pas de mot pour nommer. La méduse a répondu à la route à sa façon. Est-ce que ce corps qui se transforme sans te consulter est encore le tien, ou est-ce qu'il est en train de devenir autre chose ?",
+      "bestiaire_link": "Turritopsis dohrnii",
+      "player": "Kael"
+    },
+    {
+      "index": 16,
+      "zone": 1,
+      "category": "C",
+      "text": "Ta mère Yuki a choisi la guêpe parasite pour toi — tu t'es demandé combien de fois si elle t'a choisi, toi, autant qu'elle a choisi le symbole. C'est une question que tu portes dans ton dos avec les ailes vestigiales, et ce soir en marchant vers le nord tu la portes à nouveau. Est-ce que ce départ ressemble à quelque chose qu'elle aurait voulu pour toi, ou est-ce que tu fais exactement ce qu'elle n'avait pas prévu ?",
+      "bestiaire_link": "Pimpla turionellae",
+      "player": "Mox"
+    },
+    {
+      "index": 17,
+      "zone": 1,
+      "category": "B",
+      "text": "Kael est devant toi dans le noir et ses photophores baliseront l'arrière jusqu'à l'aube. Tu calibres tes phéromones depuis deux heures sans qu'elle te le demande — c'est un soin que tu lui fais sans contrat et sans retour garanti. Est-ce que tu sais pourquoi tu le fais, ou est-ce que c'est la biologie qui décide à ta place ?",
+      "bestiaire_link": null,
+      "player": "Mox"
+    },
+    {
+      "index": 18,
+      "zone": 1,
+      "category": "D",
+      "text": "Tes ailes vestigiales frémissent sous la peau du dos quand la température chute — les cicatrices s'ouvrent lentement, pas assez pour saigner mais assez pour brûler. C'est une vieille douleur, tu l'as inventoriée depuis longtemps. Est-ce que cette nuit elle te dit quelque chose de différent, ou est-ce qu'elle est juste là comme elle a toujours été là ?",
+      "bestiaire_link": "Pimpla turionellae",
+      "player": "Mox"
+    },
+    {
+      "index": 19,
+      "zone": 1,
+      "category": "A",
+      "text": "Les garrigues au nord de Montpellier, première heure de marche. Tu sens sous tes pieds une géologie que tu reconnais sans l'avoir traversée — la mémoire génétique qui s'active sur le calcaire fissuré, une route d'hôte insecte vieille de trois générations. Est-ce que tu la suis ou est-ce que tu attends de vérifier qu'elle existe encore ?",
+      "bestiaire_link": null,
+      "player": "Mox"
+    },
+    {
+      "index": 20,
+      "zone": 1,
+      "category": "E",
+      "text": "Le groupe fonctionne. Vera trace, Kael balise, toi tu lis les humeurs du convoi comme un instrument. Ce soir les émotions du groupe sont superposées — la peur de Kael, la concentration minérale de Vera, et quelque chose en toi que tu n'arrives pas à identifier parce que ça ne vient pas des autres. D'où vient cet affect-là, celui qui t'appartient vraiment ?",
+      "bestiaire_link": null,
+      "player": "Mox"
+    },
+    {
+      "index": 21,
+      "zone": 2,
+      "category": "G",
+      "text": "Vers Clermont-l'Hérault, la mémoire génétique te propose un raccourci — un chemin d'hôte insecte à travers des vergers abandonnés qui couperait huit kilomètres. Tu le proposes avec une certitude que tu ne contrôles pas totalement. Est-ce que tu la dis telle quelle ou est-ce que tu la traduis en doute avant de l'énoncer ?",
+      "bestiaire_link": "Pimpla turionellae",
+      "player": "Mox"
+    },
+    {
+      "index": 22,
+      "zone": 2,
+      "category": "F",
+      "text": "Le groupe de cinq qui demande à rejoindre le convoi — tu lis leurs phéromones avant que quiconque parle. Tu sais qu'il y a de la peur, de l'épuisement, et autre chose que tu n'arrives pas à cataloguer. Tu as une information que les autres n'ont pas. Est-ce que tu la partages ou est-ce que tu laisses le groupe décider sans ce filtre-là ?",
+      "bestiaire_link": null,
+      "player": "Mox"
+    },
+    {
+      "index": 23,
+      "zone": 2,
+      "category": "A",
+      "text": "Quatrième nuit, variation de température brutale entre la plaine et le premier relief des Cévennes. Les cicatrices s'ouvrent pour de bon cette fois. Tu continues à marcher parce que le convoi continue, mais tu perds du fluide et tu recalibres tes phéromones en même temps — deux corps en simultané. Jusqu'où tu peux tenir les deux en parallèle ?",
+      "bestiaire_link": null,
+      "player": "Mox"
+    },
+    {
+      "index": 24,
+      "zone": 2,
+      "category": "B",
+      "text": "Vera entre dans sa phase fongique. Ses spores modifient la chimie de l'air autour d'elle et tes récepteurs phéromonaux les enregistrent comme un signal d'espèce inconnue. Tu ne peux pas la lire de la même façon pendant ces trois jours. Est-ce que tu lui dis que tu es aveugle à elle en ce moment, ou est-ce que tu gères sans ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Mox"
+    },
+    {
+      "index": 25,
+      "zone": 2,
+      "category": "D",
+      "text": "La mémoire génétique s'emballe — trois routes superposées sur la même zone du Massif central, trois hôtes différents, trois trajectoires qui ne coïncident pas. Tu ne sais plus laquelle est praticable pour un convoi humain et tu dois quand même proposer quelque chose. Comment tu choisis quand l'information que tu portes se contredit elle-même ?",
+      "bestiaire_link": "Pimpla turionellae",
+      "player": "Mox"
+    },
+    {
+      "index": 26,
+      "zone": 3,
+      "category": "C",
+      "text": "Il y a un trajet dans ta mémoire génétique qui se répète depuis le départ — un hôte insecte qui a fait exactement cette route, Montpellier vers le nord, et qui ne l'a pas finie. Tu ne sais pas pourquoi il s'est arrêté. La mémoire s'efface à un point précis du trajet, comme une page arrachée. Est-ce que tu veux savoir ce qui l'a arrêté, ou est-ce que tu préfères ne pas le savoir avant d'y être ?",
+      "bestiaire_link": "Pimpla turionellae",
+      "player": "Mox"
+    },
+    {
+      "index": 27,
+      "zone": 3,
+      "category": "B",
+      "text": "Kael te dit enfin ce qu'elle pense du programme de Fort Lamy. Elle ne te demande rien — elle pose juste les mots dans l'air, dans le noir, pendant que tu lui caresses le bras. Tes phéromones apaisantes se déclenchent automatiquement et tu te demandes si c'est ce qu'elle a besoin de toi ou si c'est tout ce que tu sais faire. Qu'est-ce que tu lui donnes cette nuit qui ne soit pas chimique ?",
+      "bestiaire_link": null,
+      "player": "Mox"
+    },
+    {
+      "index": 28,
+      "zone": 3,
+      "category": "F",
+      "text": "Le port de Dijon existe peut-être — et peut-être qu'il n'a de place que pour un seul. Kael a reçu la transmission, Vera connaît le terrain, toi tu tiens le groupe entier. Si l'évacuation est limitée, est-ce que ta fonction de lien te désigne comme celui qui reste pour que les autres partent, ou est-ce que cette logique-là tu refuses de la suivre ?",
+      "bestiaire_link": null,
+      "player": "Mox"
+    },
+    {
+      "index": 29,
+      "zone": 3,
+      "category": "A",
+      "text": "La Saône. L'eau vivante active quelque chose dans ta biologie insecte que tu n'attendais pas — pas la mémoire génétique cette fois, quelque chose de plus immédiat, une réponse de ton propre corps à l'eau courante. Tu t'arrêtes au bord sans savoir pourquoi. Qu'est-ce que cette rivière te demande, à toi spécifiquement ?",
+      "bestiaire_link": null,
+      "player": "Mox"
+    },
+    {
+      "index": 30,
+      "zone": 3,
+      "category": "E",
+      "text": "À deux jours de Dijon, le convoi s'est reconfiguré sans décision explicite — quelque chose a changé dans la géographie du groupe, une distance qui s'est ajustée. Tu le sens dans les phéromones de chacun, dans les espacements à la marche. Est-ce que c'est une maturation du groupe ou une fissure que tu n'as pas su réparer, et comment tu fais la différence ?",
+      "bestiaire_link": null,
+      "player": "Mox"
+    },
+    {
+      "index": 31,
+      "zone": 1,
+      "category": "C",
+      "text": "Tu es née de l'expérience d'une botaniste qui voulait créer quelque chose qui survive — pas toi spécifiquement, un organisme. Tu connais la différence et tu vis avec depuis toujours. Ce soir en marchant vers le nord, est-ce que cette distinction te pèse ou est-ce qu'elle est devenue juste un fait, comme la couleur de l'air ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Vera"
+    },
+    {
+      "index": 32,
+      "zone": 1,
+      "category": "A",
+      "text": "Tes filaments descendent vers le bitume fissuré de la N113 et tu sens les mycéliums morts en dessous — des réseaux qui ont été là, qui ne sont plus là, qui laissent quand même une empreinte chimique que tu peux lire. Est-ce que tu traces la route sur ce qui reste ou est-ce que tu cherches autre chose ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Vera"
+    },
+    {
+      "index": 33,
+      "zone": 1,
+      "category": "B",
+      "text": "Kael ferme la marche derrière toi. Tu ne la vois pas mais tu la sens — ses photophores modifient légèrement la température de l'air dans ton dos, et tes filaments enregistrent ce rayonnement infrarouge comme une présence. Est-ce que tu lui accordes de la confiance parce qu'elle est là, ou est-ce que la confiance ça se construit autrement pour toi ?",
+      "bestiaire_link": null,
+      "player": "Vera"
+    },
+    {
+      "index": 34,
+      "zone": 1,
+      "category": "E",
+      "text": "Les mules hybrides suivent exactement là où tu poses les pieds — elles ont appris ton rythme depuis Montpellier. Tu marches en tête et tu traces sans carte, sans instrument, juste la biologie. Est-ce que tu sais où tu vas ou est-ce que tu suis quelque chose que tu n'as pas encore nommé ?",
+      "bestiaire_link": null,
+      "player": "Vera"
+    },
+    {
+      "index": 35,
+      "zone": 1,
+      "category": "D",
+      "text": "Tes spores se produisent en faible quantité cette nuit — pas la phase fongique, juste la biologie quotidienne. Tu les sens dans l'air autour de toi comme une atmosphère personnelle. Est-ce que tu penses à ce qu'elles font aux autres ou est-ce que c'est une question que tu as appris à ne pas te poser ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Vera"
+    },
+    {
+      "index": 36,
+      "zone": 2,
+      "category": "G",
+      "text": "Les plaines de l'Hérault, sol blanc, et tu sens sous tes pieds une nappe phréatique contaminée aux métaux lourds qui monte. Tes filaments te le disent clairement — ne pas camper ici, pas cette nuit. Mais le groupe est épuisé et il fait nuit noire et personne d'autre que toi ne peut lire ce sol. Est-ce que tu les fais continuer sans explication ou est-ce que tu leur expliques ce que tu perçois ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Vera"
+    },
+    {
+      "index": 37,
+      "zone": 2,
+      "category": "D",
+      "text": "La phase lunaire commence au cinquième jour, plus tôt que prévu. Tu sens les spores qui s'épaississent dans tes poumons avant que le reste arrive. Tu as peut-être deux heures avant que le monde commence à se dissoudre. Est-ce que tu préviens le groupe maintenant ou est-ce que tu utilises ces deux heures pour avancer encore ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Vera"
+    },
+    {
+      "index": 38,
+      "zone": 2,
+      "category": "A",
+      "text": "Pendant ta phase fongique, tes filaments trouvent une source d'eau souterraine — propre, potable, un aquifère intact à trois mètres sous une zone industrielle abandonnée. L'information est là, claire dans ton réseau, mais tu es en train de délirer. Est-ce que cette perception-là est réelle ou est-ce que tu ne peux plus faire la différence pendant ces trois jours ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Vera"
+    },
+    {
+      "index": 39,
+      "zone": 2,
+      "category": "B",
+      "text": "Tu murmures à Kael des jardins qui existent sous les Cévennes. Tu sais que tu les vois — pour toi ils sont réels avec la précision de la biologie, pas de l'imagination. Mais tu sais aussi que Kael ne peut pas vérifier. Est-ce que tu lui demandes de te croire ou est-ce que tu gardes ça pour toi jusqu'à ce que tu puisses montrer ?",
+      "bestiaire_link": null,
+      "player": "Vera"
+    },
+    {
+      "index": 40,
+      "zone": 2,
+      "category": "F",
+      "text": "Le groupe de cinq migrants veut joindre le convoi. Tu es en phase fongique partielle — tes spores dans l'air autour de toi sont plus denses. Tu ne peux pas prédire comment elles affecteront des organismes non hybrides sur plusieurs jours de marche commune. Est-ce que tu dis ça clairement ou est-ce que tu les laisses décider sans cette information ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Vera"
+    },
+    {
+      "index": 41,
+      "zone": 3,
+      "category": "A",
+      "text": "Les premiers mycéliums vivants depuis Montpellier — tu les trouves dans un sous-bois de chênes pubescents à la limite nord du Massif central. Tes filaments s'y connectent et pour quelques minutes tu es dans un réseau plus grand que toi, un réseau qui a survécu. Est-ce que tu restes là ou est-ce que tu coupes la connexion et tu continues ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Vera"
+    },
+    {
+      "index": 42,
+      "zone": 3,
+      "category": "C",
+      "text": "La botaniste qui t'a créée — tu ne la connais pas, elle n'est pas ta mère, elle t'a voulu sans te vouloir toi. Pendant la phase fongique tu la vois parfois dans tes hallucinations, pas clairement, juste une silhouette avec des instruments. Est-ce que tu lui poses une question cette fois, ou est-ce que tu détournes les yeux comme d'habitude ?",
+      "bestiaire_link": null,
+      "player": "Vera"
+    },
+    {
+      "index": 43,
+      "zone": 3,
+      "category": "E",
+      "text": "Le convoi dépend de toi pour avancer sur sols contaminés. Sans toi il est aveugle. Tu l'as intégré comme une fonction, pas comme un pouvoir — mais ce sont deux choses différentes, et la route t'a forcée à voir la différence. Est-ce que tu veux ce pouvoir-là ou est-ce que tu voudrais pouvoir ne pas l'avoir ?",
+      "bestiaire_link": null,
+      "player": "Vera"
+    },
+    {
+      "index": 44,
+      "zone": 3,
+      "category": "B",
+      "text": "Mox ne peut pas te lire pendant ta phase fongique — tes spores brouillent ses récepteurs et il te l'a dit enfin, à voix basse, entre deux jours de marche. Il est aveugle à toi pendant ces trois jours. Est-ce que ça change quelque chose dans la façon dont tu vis ces phases, ou est-ce que ça reste la même solitude qu'avant ?",
+      "bestiaire_link": null,
+      "player": "Vera"
+    },
+    {
+      "index": 45,
+      "zone": 3,
+      "category": "F",
+      "text": "La Saône et ses mycéliums riverains — ton réseau fongique te montre que tu pourrais rester ici, t'intégrer à cet écosystème, ne pas aller plus loin. Ce n'est pas une hallucination. C'est une offre biologique réelle. Est-ce que Dijon et les îles écossaises valent plus que ça, et à qui appartient cette décision — à toi ou au convoi ?",
+      "bestiaire_link": "Dendrophylax lindenii",
+      "player": "Vera"
+    }
+  ],
+  "bestiaire": [
+    {
+      "index": 1,
+      "espece": "Chêne kermès",
+      "nom_scientifique": "Quercus coccifera",
+      "categorie": "plante",
+      "propriete": "Arbuste méditerranéen à feuilles persistantes coriaces et épineuses, capable de resprouter après incendie grâce à sa souche lignotuberculeuse",
+      "hybridation_possible": "Exosquelette dermique régénératif inspiré du lignotuber : tissu hybride capable de reconstituer une couche protectrice après brûlure ou abrasion sévère",
+      "position_km": 30
+    },
+    {
+      "index": 2,
+      "espece": "Scorpion languedocien",
+      "nom_scientifique": "Buthus occitanus",
+      "categorie": "insecte",
+      "propriete": "Seul scorpion venimeux de France, fluorescent sous UV, capable de ralentir son métabolisme de 97% en période de sécheresse",
+      "hybridation_possible": "Module métabolique de dormance extrême : glande sous-cutanée HKDN permettant une cryptobiose partielle sur 72h en conditions de stress thermique ou hydrique",
+      "position_km": 55
+    },
+    {
+      "index": 3,
+      "espece": "Ophrys abeille",
+      "nom_scientifique": "Ophrys apifera",
+      "categorie": "plante",
+      "propriete": "Orchidée terrestre mimant morphologiquement et chimiquement l'abdomen d'une abeille femelle pour induire la pseudocopulation chez les mâles pollinisateurs",
+      "hybridation_possible": "Synthèse de leurres phéromonaux artificiels : glande HKDN sécrétant des cocktails moléculaires modulables pour influencer le comportement olfactif d'autres organismes",
+      "position_km": 85
+    },
+    {
+      "index": 4,
+      "espece": "Pique-prune",
+      "nom_scientifique": "Osmoderma eremita",
+      "categorie": "insecte",
+      "propriete": "Coléoptère saproxylique vivant exclusivement dans les cavités des vieux chênes, sécrétant une phéromone à odeur de cuir utilisée pour l'attraction sexuelle sur plusieurs centaines de mètres",
+      "hybridation_possible": "Système de communication chimique longue portée : organe HKDN de diffusion phéromonale directionnelle, utilisable comme balise olfactive persistante dans un environnement dégradé",
+      "position_km": 115
+    },
+    {
+      "index": 5,
+      "espece": "Genévrier oxycèdre",
+      "nom_scientifique": "Juniperus oxycedrus",
+      "categorie": "plante",
+      "propriete": "Conifère des garrigues produisant une huile essentielle aux propriétés antifongiques et insectifuges puissantes, ses baies rouges sont consommées par les grives pour la dispersion des graines",
+      "hybridation_possible": "Couche épidermique imprégnée en continu d'un cocktail antifongique et antiparasitaire dérivé du cédrène, réduisant la colonisation bactérienne des interfaces HKDN",
+      "position_km": 145
+    },
+    {
+      "index": 6,
+      "espece": "Couleuvre de Montpellier",
+      "nom_scientifique": "Malpolon monspessulanus",
+      "categorie": "animal",
+      "propriete": "Plus grand serpent de France métropolitaine, opisthoglyphe à venin neurotoxique faible, capable de redresser le tiers antérieur du corps et d'aplatir le cou en posture de défense intimidante",
+      "hybridation_possible": "Colonne cervicale HKDN à vertèbres modulaires : architecture rachidienne capable d'amplification posturale et d'absorption des chocs latéraux par déformation contrôlée réversible",
+      "position_km": 170
+    },
+    {
+      "index": 7,
+      "espece": "Moule perlière d'eau douce",
+      "nom_scientifique": "Margaritifera margaritifera",
+      "categorie": "animal",
+      "propriete": "Bivalve d'eau douce pouvant vivre plus de 130 ans, bioindicateur de la qualité des eaux vives, capable de filtrer jusqu'à 50 litres d'eau par jour et de séquencer sa croissance selon la température",
+      "hybridation_possible": "Filtre rénal HKDN biomimétique à nacre vivante : membrane épuratrice interne capable d'adsorber métaux lourds et micropolluants organiques avec régulation autonome du débit de filtration",
+      "position_km": 210
+    },
+    {
+      "index": 8,
+      "espece": "Ajonc de Provence",
+      "nom_scientifique": "Ulex parviflorus",
+      "categorie": "plante",
+      "propriete": "Arbuste épineux fixateur d'azote atmosphérique via symbiose racinaire avec Frankia, colonisateur pionnier des sols calcaires dégradés, brûlant à très haute température en cas d'incendie",
+      "hybridation_possible": "Nodules racinaires HKDN symbiotiques transplantables : organes de fixation autonome de l'azote gazeux, greffables sur tissu musculaire pour réduire les besoins en apports protéiques exogènes",
+      "position_km": 245
+    },
+    {
+      "index": 9,
+      "espece": "Desman des Pyrénées",
+      "nom_scientifique": "Galemys pyrenaicus",
+      "categorie": "animal",
+      "propriete": "Mammifère semi-aquatique au museau préhensile cartilagineux richement innervé, capable de détecter des proies par électroréception dans les torrents montagnards, espèce relique tertiaire",
+      "hybridation_possible": "Appendice facial HKDN électrosensoriel : prolongement nasal cartilagineux synthétique doté de récepteurs ampullaires permettant la détection de champs électriques faibles en milieu liquide ou humide",
+      "position_km": 285
+    },
+    {
+      "index": 10,
+      "espece": "Criquet rhodanien",
+      "nom_scientifique": "Prionotropis rhodanica",
+      "categorie": "insecte",
+      "propriete": "Orthoptère endémique strictement localisé à la plaine rhodanienne, espèce brachyptère incapable de voler, survie liée aux pelouses steppiques à brachypode rameux",
+      "hybridation_possible": "Interface locomotrice HKDN à members résilients : articulations tibio-fémorales à ressorts biologiques restituant 78% de l'énergie de compression, inspirées du mécanisme fémoral des sauteurs brachyptères",
+      "position_km": 315
+    },
+    {
+      "index": 11,
+      "espece": "Cincle plongeur",
+      "nom_scientifique": "Cinclus cinclus",
+      "categorie": "animal",
+      "propriete": "Passereau unique capable de marcher sous l'eau en s'aidant du courant, plongeant jusqu'à 60 secondes grâce à une hémoglobine à haute affinité pour l'oxygène et un clignement de membrane nictitante opaque",
+      "hybridation_possible": "Module respiratoire HKDN à hémoglobine recombinante haute affinité : enrichissement du pool érythrocytaire permettant une apnée fonctionnelle prolongée et une tolérance accrue à l'hypoxie d'altitude",
+      "position_km": 355
+    },
+    {
+      "index": 12,
+      "espece": "Trèfle souterrain",
+      "nom_scientifique": "Trifolium subterraneum",
+      "categorie": "plante",
+      "propriete": "Plante annuelle à géocarpe facultatif : après pollinisation, elle enterre activement ses gousses dans le sol grâce à des pédoncules fructifères géotropes pour les protéger de la dessiccation estivale",
+      "hybridation_possible": "Système de stockage HKDN à enfouissement actif : poches sous-dermiques contractiles à géotropisme biomimétique permettant de sceller et d'isoler thermiquement des réserves métaboliques en période critique",
+      "position_km": 390
+    },
+    {
+      "index": 13,
+      "espece": "Lucane cerf-volant",
+      "nom_scientifique": "Lucanus cervus",
+      "categorie": "insecte",
+      "propriete": "Plus grand coléoptère d'Europe, les mandibules hypertrophiées du mâle sont des structures osmorégulatrices et de combat, la larve vit 5 à 7 ans dans le bois mort en décomposition avant une métamorphose unique",
+      "hybridation_possible": "Mandibules HKDN multifonctionnelles à croissance différée : prothèses crânio-faciales à développement programmé, débloquées par signal hormonal, combinant outil, capteur vibratoire et interface de prise directe",
+      "position_km": 430
+    },
+    {
+      "index": 14,
+      "espece": "Chevêchette d'Europe",
+      "nom_scientifique": "Glaucidium passerinum",
+      "categorie": "animal",
+      "propriete": "Plus petit rapace nocturne d'Europe, capable de stocker des proies congelées en cavités arboricoles pour anticiper les périodes de famine hivernale, vision diurne et nocturne fonctionnelles simultanément",
+      "hybridation_possible": "Cortex préfrontal HKDN à mémoire spatiale tridimensionnelle augmentée : cartographie mnésique volumétrique des ressources cachées avec encodage thermique différentiel pour anticiper les pénuries logistiques",
+      "position_km": 475
+    },
+    {
+      "index": 15,
+      "espece": "Pulmonaire des forêts",
+      "nom_scientifique": "Pulmonaria obscura",
+      "categorie": "plante",
+      "propriete": "Plante de sous-bois à hétérostylie stricte dont les fleurs changent de rose à violet lors de la pollinisation par modification du pH vacuolaire, indicatrice des forêts anciennes à humus doux",
+      "hybridation_possible": "Peau HKDN pH-chromatique à anthocyanes recombinantes : tégument biosynthétique changeant de couleur de façon réversible en réponse à des variations du pH interstitiel, lisible comme signal physiologique en temps réel",
+      "position_km": 510
+    }
+  ],
+  "drama": [
+    {
+      "index": 1,
+      "player": "Kael",
+      "option_a": "La contracture t'immobilise complètement à la sortie de la plaine de l'Hérault. Mox est là. Dans la douleur et dans le noir tu lui dis enfin ce que tu n'as jamais dit à voix haute — pas tout, juste Fort Lamy, juste les seize ans, juste la signature. Il n'y a pas de réponse attendue. Tu veux juste que quelqu'un l'entende une fois. Est-ce que lâcher ce poids-là sur la route le laisse derrière toi ou est-ce que tu le reprends en te remettant à marcher ?",
+      "option_b": "La transmission de Dijon grésille et se fragmente à deux jours de l'arrivée. Tu ne peux plus en extraire les coordonnées du port — il reste un signal, une direction, mais plus rien de précis. Tu sais que tu as peut-être mené le groupe sur une certitude qui était une conviction. Est-ce que tu le dis au groupe maintenant, ou est-ce que tu avances encore sur ce qui reste du signal en espérant que ça suffit ?"
+    },
+    {
+      "index": 2,
+      "player": "Mox",
+      "option_a": "La mémoire génétique s'arrête net au même endroit depuis deux jours — un point précis sur la route, quelque part entre Mâcon et Tournus, là où l'hôte insecte s'est arrêté il y a trois générations. Tu arrives à cet endroit et tu reconnais le paysage comme si tu l'avais vu. Est-ce que tu t'arrêtes pour comprendre ce qui s'est passé là, sachant que ça retarde le convoi, ou est-ce que tu passes sans regarder ?",
+      "option_b": "Kael te dit enfin Fort Lamy à voix haute et tes phéromones apaisantes se déclenchent automatiquement. Elle l'a senti, elle le sait, et elle te demande de les arrêter — elle veut ressentir ça sans être chimiquement stabilisée. C'est la première fois que quelqu'un te demande de ne pas soigner. Est-ce que tu peux faire ça ?"
+    },
+    {
+      "index": 3,
+      "player": "Vera",
+      "option_a": "Au huitième jour, tes filaments trouvent quelque chose sous la banlieue sud de Dijon — un réseau mycélien vivant, actif, connecté à plusieurs points de la ville. Tu pourrais l'utiliser pour localiser le port fluvial depuis l'intérieur du réseau biologique, sans entrer en contact avec personne. Mais te connecter ici, c'est aussi te rendre visible à tout ce que le réseau touche. Est-ce que tu t'y connectes pour le groupe ou est-ce que vous cherchez le port à l'aveugle ?",
+      "option_b": "La phase fongique revient une deuxième fois, hors cycle, déclenchée par le stress du terrain. Tu sens que ça arrive et tu as peut-être une heure. Le convoi est à quinze kilomètres de Dijon. Vera en phase fongique au seuil de la destination — est-ce que tu dis stop et tu imposes l'arrêt, ou est-ce que tu avances en sachant que tu vas perdre le contrôle en route ?"
+    }
+  ],
+  "mutation": [
+    {
+      "index": 1,
+      "text": "Vous avez marché huit jours dans les mêmes corps et ce ne sont plus tout à fait les mêmes corps. La régénération de Kael a produit quelque chose de nouveau. Les cicatrices de Mox ont une texture différente depuis la Saône. Les filaments de Vera ont mémorisé chaque sol traversé et ils en portent la trace. Vous regardez vos mains — les vôtres, celles des autres. Qu'est-ce que vous voyez que vous ne saviez pas voir avant de partir ?"
+    },
+    {
+      "index": 2,
+      "text": "Le convoi Kaiju a réquisitionné les Docks de Lattes il y a six jours — vous l'avez appris par fragments, par des signaux captés dans le Massif central. Ce qui vous appartenait à Montpellier n'existe plus comme propriété. Est-ce que cette dépossession vous allège ou est-ce qu'elle creuse quelque chose que vous n'aviez pas prévu de perdre ?"
+    },
+    {
+      "index": 3,
+      "text": "Il y a eu un moment sur la route où le groupe aurait pu se fracturer et ne l'a pas fait. Vous savez lequel. Vous ne l'avez peut-être pas nommé au moment où il s'est passé. Est-ce que vous voulez le nommer maintenant, à quelques kilomètres de Dijon, ou est-ce que certaines choses tiennent précisément parce qu'on ne les nomme pas ?"
+    },
+    {
+      "index": 4,
+      "text": "Les mules hybrides ont mémorisé le trajet dans leurs corps — les lipides consumés, les sols portés dans leurs sabots, les rythmes imposés par Vera. Elles sont différentes d'avant le départ, comme vous. Est-ce que vous leur devez quelque chose pour ce qu'elles ont porté, et si oui, comment est-ce qu'on rend ça à un animal qui n'a pas demandé à partir non plus ?"
+    }
+  ],
+  "arrivee": [
+    {
+      "index": 1,
+      "text": "Dijon depuis la hauteur de la D996, première heure de l'aube. Le canal de Bourgogne est là, visible, une ligne d'eau réelle dans la lumière grise. Les photophores de Kael s'éteignent pour la première fois depuis Montpellier — l'aube les efface. Vera pose ses mains sur le sol et sent quelque chose qu'elle n'a pas senti depuis longtemps. Mox calibre l'air et lit trois états émotionnels superposés qui sont les vôtres. Qu'est-ce que vous faites de cette minute avant d'entrer dans la ville ?"
+    },
+    {
+      "index": 2,
+      "text": "Le port fluvial existe. Il est plus petit que ce que la transmission laissait entendre, plus abîmé, et il y a d'autres convois qui attendent déjà. La promesse des îles écossaises est réelle mais la capacité d'évacuation est limitée. Vous n'êtes pas les seuls à être arrivés avec une raison d'y être. Comment est-ce que vous vous présentez à ceux qui tiennent ce port, et avec quelle histoire ?"
+    },
+    {
+      "index": 3,
+      "text": "Il y a une décision à prendre à Dijon qui n'est pas encore prise et que la route n'a pas pu prendre à votre place. Vous le savez tous les trois. Elle concerne ce qui vient après — pas l'évacuation, pas le transport, mais ce que vous êtes les uns pour les autres une fois que la fonction de convoi n'existe plus. Qu'est-ce que vous vous devez, maintenant que vous n'avez plus besoin de vous pour survivre de la même façon ?"
+    },
+    {
+      "index": 4,
+      "text": "Les îles écossaises sont encore un horizon, pas une destination atteinte. Dijon est une étape, un seuil, pas une fin. Vous êtes arrivés à quelque chose mais ce quelque chose n'est pas encore nommable. Est-ce que vous avez besoin de le nommer pour continuer, ou est-ce que vous repartez avec le même silence que celui avec lequel vous avez quitté Montpellier — et est-ce que ce silence a changé de sens ?"
+    }
+  ]
+}
